@@ -59,7 +59,6 @@ slm_tupi/
 │   └── utils_nlp.py
 │
 ├── data/                      # datasets
-├── models/                    # modelo após SFT/adapters LoRA
 ├── docs/
 │   └── report/
 │       └── Relatorio_Final.md # relatório com resumo do projeto
