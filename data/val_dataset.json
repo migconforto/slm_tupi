@@ -1,0 +1,604 @@
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Agoacem apy\u00e1ba cet\u00e0;","Portugu\u00eas":"Achei muitos \u00edndios.","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 guyra'i o\u00eepsyky ka'ape","Portugu\u00eas":"o homem capturou o passarinho na mata","input_length":26,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Oiecu\u00e1b Apy\u00e0ba cet\u00e1,","Portugu\u00eas":"apareceram muitos \u00edndios.","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo oka rupi g\u00fbyr\u00e1 su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pela casa tendo medo do p\u00e1ssaro","input_length":50,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00c7up\u00ed na xe anga rec\u00e9 r\u00fc\u00e3.","Portugu\u00eas":"e n\u00e3o por minha alma.","input_length":25,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Naimocuc\u00e1o xe mba\u00e9.","Portugu\u00eas":"Nao fiz passar minhas mercadorias.","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"erema'e taper\u00e1 res\u00e9","Portugu\u00eas":"voc\u00ea n\u00e3o olha para a andorinha","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo ka'a rupi tapiti su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pela mata tendo medo do coelho","input_length":52,"split":"val"}
+{"instruction":null,"Tupi":"orog\u00fbasem am\u00f5 tatu sup\u00e9","Portugu\u00eas":"encontramos o tatu","input_length":23,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo oka rupi kapibara su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pela casa tendo medo da capivara","input_length":53,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1pe k\u00fb\u00e9 kunh\u00e3muku? s\u00e9","Portugu\u00eas":"Quem \u00e9 aquele mo\u00e7a? sei l\u00e1","input_length":23,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1et\u00e1 \u00eek\u00f3 tuiukape","Portugu\u00eas":"homens vivem no pantanal","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1-mond\u00e1 os\u00f3 ka'a rupi 'yb\u00e1 'oka","Portugu\u00eas":"o ladr\u00e3o foi pela mata para colher frutas","input_length":33,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"mam\u00f5pe?","Portugu\u00eas":"aonde?","input_length":7,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"apyra","Portugu\u00eas":"cume","input_length":5,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Noic\u00f3i, \u00eb\u00ed, Apyabu\u00e7\u00fa,","Portugu\u00eas":"Disse: - N\u00e3o h\u00e1 \u00edndios adultos,","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar tatu o\u00eek\u00f3bo paran\u00e3","Portugu\u00eas":"o homem est\u00e1 procurando o tatu no mar","input_length":29,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"i tyb it\u00e3et\u00e1 ybyku'i res\u00e9","Portugu\u00eas":"tem muitas conchas na areia","input_length":25,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbyr\u00e1 g\u00fbat\u00e1 'yemby\u00eee\u00eea rupi","Portugu\u00eas":"o p\u00e1ssaro caminhou pela praia","input_length":27,"split":"val"}
+{"instruction":null,"Tupi":"kurumi os\u00f3 ybyt\u00fdra rupi 'yb\u00e1 'oka","Portugu\u00eas":"o menino foi pela serra para colher frutas","input_length":33,"split":"val"}
+{"instruction":null,"Tupi":"tatu os\u00f3 'yemby\u00eee\u00eea rupi 'yb\u00e1 'oka","Portugu\u00eas":"o tatu foi pela praia para colher frutas","input_length":34,"split":"val"}
+{"instruction":null,"Tupi":"tatu og\u00fbat\u00e1 ka'a rupi.","Portugu\u00eas":"o tatu caminhou na mata","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"N'a\u00eekuabi a'e abar\u00e9","Portugu\u00eas":"n\u00e3o conhe\u00e7o o padre","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"tatu s\u00f3 ybyt\u00fdra koty","Portugu\u00eas":"o tatu foi para a serra","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3et\u00e1 \u00eek\u00f3 paran\u00e3pe","Portugu\u00eas":"mulheres vivem no mar","input_length":21,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"mbobype?","Portugu\u00eas":"quantos?","input_length":8,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe py'a xe 'anga e\u00eear nde mba'eramo ta\u00fb\u00ee\u00e9.","Portugu\u00eas":"Toma logo meu cora\u00e7\u00e3o e minha alma como coisas tuas.","input_length":42,"split":"val"}
+{"instruction":null,"Tupi":"tatu nhu res\u00e9nd\u00fbara o\u00eeabab","Portugu\u00eas":"o tatu do campo foge","input_length":26,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Cec\u00e8 oic\u00f2 Iacum\u00e1\u00faba,","Portugu\u00eas":"Nela trabalhou um piloto.","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"a\u00eek\u00f3 'yemby\u00eee\u00eeape","Portugu\u00eas":"estou na praia","input_length":17,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"nhe","Portugu\u00eas":"efetivamente","input_length":3,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"xe rera","Portugu\u00eas":"meu nome","input_length":7,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Co mir\u00ec \u00e4\u00edra tembi\u00fa","Portugu\u00eas":"esta pouca comida","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"ag\u00fbata ak\u00fb\u00e9 kurumi monget\u00e1bo","Portugu\u00eas":"caminhei conversando com aquele menino","input_length":28,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 g\u00fbyr\u00e1 o\u00eepsyky ybyt\u00fdrape","Portugu\u00eas":"o homem capturou o p\u00e1ssaro na serra","input_length":27,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar g\u00fbyr\u00e1 o\u00eek\u00f3bo ybyt\u00fdra","Portugu\u00eas":"o homem est\u00e1 procurando o p\u00e1ssaro na serra","input_length":31,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Aipyrup\u00e1n cet\u00e1 mir\u00ed","Portugu\u00eas":"Comprei muitos pequenos,","input_length":19,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"taba","Portugu\u00eas":"aldeia","input_length":4,"split":"val"}
+{"instruction":null,"Tupi":"guyra'i os\u00f3 oka rupi 'yb\u00e1 'oka","Portugu\u00eas":"o passarinho foi pela casa para colher frutas","input_length":30,"split":"val"}
+{"instruction":null,"Tupi":"taper\u00e1 osem eban\u00f5i","Portugu\u00eas":"a andorinha saiu dali","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"mbo\u00eeaet\u00e1 \u00eek\u00f3 ka'ape","Portugu\u00eas":"cobras vivem na mata","input_length":19,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"emon\u00e3","Portugu\u00eas":"dessa maneira a\u00ed","input_length":5,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"K\u00f3 xe nhe\u2019enga rupi o\u00eek\u00f3 e\u2019iba\u2019e a\u2019e\u00eepe ne:","Portugu\u00eas":"Segundo estas minhas palavras estar\u00e3o os que se acharem a\u00ed:","input_length":43,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe rakico\u00e9ra c\u00f6yt\u00e8 \u00f6\u00far","Portugu\u00eas":"Atr\u00e1s de mim, enfim, veio","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbarani s\u00f3 taba koty","Portugu\u00eas":"o guerreiro foi para a aldeia","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"kapibara \u00fa a'e","Portugu\u00eas":"a capivara come aquilo","input_length":14,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo paran\u00e3 rupi \u00eeag\u00fbara su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pelo mar tendo medo da on\u00e7a","input_length":55,"split":"val"}
+{"instruction":null,"Tupi":"ere\u00eeku\u00e1pe kunh\u00e3muku?","Portugu\u00eas":"Voc\u00ea conhece a mo\u00e7a?","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"Ak\u00fb\u00e9 ab\u00e1 o\u00eeamotare'ym ebok\u00fb\u00e9 pa\u00ee\u00e9","Portugu\u00eas":"Aquele homem odeia esse paj\u00e9","input_length":33,"split":"val"}
+{"instruction":null,"Tupi":"\u00eeag\u00fbara g\u00fbat\u00e1 ybyt\u00fdra rupi","Portugu\u00eas":"a on\u00e7a caminhou pela serra","input_length":26,"split":"val"}
+{"instruction":null,"Tupi":"tatu os\u00f3 paran\u00e3 rupi 'yb\u00e1 'oka","Portugu\u00eas":"o tatu foi pelo mar para colher frutas","input_length":30,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar paka o\u00eek\u00f3bo oka","Portugu\u00eas":"o homem est\u00e1 procurando a paca na casa","input_length":26,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00eeasyendy","Portugu\u00eas":"luar","input_length":8,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar guyra'i o\u00eek\u00f3bo oka","Portugu\u00eas":"o homem est\u00e1 procurando o passarinho na casa","input_length":29,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo oka rupi mbo\u00eea su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pela casa tendo medo da cobra","input_length":50,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar so'o o\u00eek\u00f3bo oka","Portugu\u00eas":"o homem est\u00e1 procurando o animal na casa","input_length":26,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar guyra'i o\u00eek\u00f3bo 'yemby\u00eee\u00eea","Portugu\u00eas":"o homem est\u00e1 procurando o passarinho no praia","input_length":36,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo tuiuka rupi tatu su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pelo pantanal tendo medo do tatu","input_length":52,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Opoco\u00e0r tapyyiet\u00e0;","Portugu\u00eas":"Apresaram tapuios.","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"guyra'i nhu res\u00e9nd\u00fbara o\u00eeabab","Portugu\u00eas":"o passarinho do campo foge","input_length":29,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 so'o o\u00eepsyky tabape","Portugu\u00eas":"o homem capturou o animal na aldeia","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Tar\u00e4\u00fdra \u00e4\u00fa \u00e4\u00e9reme,","Portugu\u00eas":"As tra\u00edras comi, ent\u00e3o,","input_length":18,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"yby","Portugu\u00eas":"ch\u00e3o","input_length":3,"split":"val"}
+{"instruction":null,"Tupi":"kurumi os\u00f3 tuiuka rupi 'yb\u00e1 'oka","Portugu\u00eas":"o menino foi pelo pantanal para colher frutas","input_length":32,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 taper\u00e1 o\u00eepsyky tuiukape","Portugu\u00eas":"o homem capturou a andorinha no pantanal","input_length":27,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"xe rekoatyba","Portugu\u00eas":"lugar onde eu comumente estou","input_length":12,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"opakatu i kanhemi or\u00e9 su\u00ed.","Portugu\u00eas":"todos eles pereceram por nossa causa.","input_length":26,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00c7up\u00ed cat\u00fa ikyr\u00e1 goa\u00e7\u00fa.","Portugu\u00eas":"Elas estavam realmente bem gordas;","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"T\u00f3! mam\u00f5pe ab\u00e1-mond\u00e1 rek\u00f3\u00fb?","Portugu\u00eas":"Eh! Ondo ladr\u00e3o est\u00e1?","input_length":27,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo paran\u00e3 rupi guyra'i su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pelo mar tendo medo do passarinho","input_length":55,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00c4\u00e9 Pa\u00ed n\u00f6xem\u00f6apycyc,","Portugu\u00eas":"aquele padre n\u00e3o me agradava.","input_length":20,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"ygaru\u00e7\u00fa cat\u00f9 oimonhang,","Portugu\u00eas":"que faziam um bom navio.","input_length":23,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo tuiuka rupi kapibara su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pelo pantanal tendo medo da capivara","input_length":56,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00c4\u00e9 xe pytyb\u00f3neme","Portugu\u00eas":"Se ele me ajudar,","input_length":16,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"nde","Portugu\u00eas":"teu","input_length":3,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"pytyb\u00f5","Portugu\u00eas":"ajudar","input_length":6,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"yby'ab","Portugu\u00eas":"arar","input_length":6,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"yb\u00fdpe xe reit\u00fdc poc\u00e0 u\u00e7\u00fa.","Portugu\u00eas":"no ch\u00e3o um grande riso fez-me cair.","input_length":25,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1-mond\u00e1 os\u00f3 'yemby\u00eee\u00eea rupi 'yb\u00e1 'oka","Portugu\u00eas":"o ladr\u00e3o foi pela praia para colher frutas","input_length":39,"split":"val"}
+{"instruction":null,"Tupi":"ag\u00fbata ak\u00fb\u00e9 abar\u00e9 monget\u00e1bo","Portugu\u00eas":"caminhei conversando com aquele padre","input_length":27,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"I cango\u00e9ra xe mocan\u00eb\u00f5,","Portugu\u00eas":"Suas espinhas me cansaram.","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar taper\u00e1 o\u00eek\u00f3bo ybyt\u00fdra","Portugu\u00eas":"o homem est\u00e1 procurando a andorinha na serra","input_length":32,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"momar\u00e3","Portugu\u00eas":"desobedecer","input_length":6,"split":"val"}
+{"instruction":null,"Tupi":"pitangaet\u00e1 \u00eek\u00f3 tuiukape","Portugu\u00eas":"crian\u00e7as vivem no pantanal","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Oiecu\u00e1b \u00fc\u00e1n C\u00e4ap\u00f6\u00f5.","Portugu\u00eas":"apareceu uma ilha:","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"mar\u00e3namope tapiti ndo\u00eeas\u00faki a'e 'y pup\u00e9? ","Portugu\u00eas":"por que o coelho n\u00e3o se banha naquele rio? ","input_length":41,"split":"val"}
+{"instruction":null,"Tupi":"a\u00eemenget\u00e1 ak\u00fb\u00e9 kunh\u00e3 g\u00fbig\u00fbat\u00e1bo","Portugu\u00eas":"conversei com aquele mulher caminhando","input_length":31,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Noiecu\u00e0b r\u00fc\u00e3 apyabet\u00e0,","Portugu\u00eas":"N\u00e3o apareceram os \u00edndios.","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo ka'a rupi paka su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pela mata tendo medo da paca","input_length":50,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1-mond\u00e1 nh\u00f5te ndo\u00eeku\u00e1bi or\u00e9 pepyka","Portugu\u00eas":"s\u00f3 o ladr\u00e3o n\u00e3o sabe da nossa festa","input_length":36,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe nhyr\u00f5ngatu ip\u00f3ne","Portugu\u00eas":"Eu hei de bem perdoar, certamente","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 kapibara o\u00eepsyky ka'ape","Portugu\u00eas":"o homem capturou a capivara na mata","input_length":27,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 s\u00f3 ka'a koty","Portugu\u00eas":"o homem foi para a mata","input_length":16,"split":"val"}
+{"instruction":null,"Tupi":"pakaet\u00e1 \u00eek\u00f3 okape","Portugu\u00eas":"pacas vivem na casa","input_length":17,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbarani o'\u00fa a'e karu","Portugu\u00eas":"o guerreiro comeu isso no almo\u00e7o","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3 os\u00f3","Portugu\u00eas":"a mulher foi","input_length":9,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00c4\u00e9 almo\u00e7o mir\u00ed et\u00e9 oic\u00f3,","Portugu\u00eas":"Aquele era o diminuto almo\u00e7o;","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 tapiti o\u00eepsyky tabape","Portugu\u00eas":"o homem capturou o coelho na aldeia","input_length":25,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Ac\u00fdc pot\u00e1r iepur\u00e1pe;","Portugu\u00eas":"Queria chegar a Jepuraba;","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"mar\u00e3namope g\u00fbyr\u00e1 ndo\u00eeas\u00faki a'e 'y pup\u00e9? ","Portugu\u00eas":"por que o p\u00e1ssaro n\u00e3o se banha naquele rio? ","input_length":40,"split":"val"}
+{"instruction":null,"Tupi":"tatu s\u00f3 tuiuka koty","Portugu\u00eas":"o tatu foi para o pantanal","input_length":19,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"or\u00e9","Portugu\u00eas":"nosso","input_length":3,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Am\u00f5 okanhem or\u00e9 su\u00ed ir\u0169namo","Portugu\u00eas":"Alguns morreram por causa de n\u00f3s com eles","input_length":27,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbarani os\u00f3 'yemby\u00eee\u00eea rupi 'yb\u00e1 'oka","Portugu\u00eas":"o guerreiro foi pela praia para colher frutas","input_length":37,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbyr\u00e1 g\u00fbat\u00e1 oka rupi","Portugu\u00eas":"o p\u00e1ssaro caminhou pela casa","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 tatu o\u00eepsyky ka'ape","Portugu\u00eas":"o homem capturou o tatu na mata","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"ik\u00f3","Portugu\u00eas":"agir","input_length":3,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3 \u00eeag\u00fbara o\u00eepsyky okape","Portugu\u00eas":"a mulher capturou a on\u00e7a na casa","input_length":27,"split":"val"}
+{"instruction":null,"Tupi":"pitanga opyt\u00e1","Portugu\u00eas":"a crian\u00e7a ficou","input_length":13,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Pet\u00fdmab\u00e9, e parat\u00ede43.","Portugu\u00eas":"fumo e parati doce.","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"ag\u00fbarag\u00fbasu osem eban\u00f5i","Portugu\u00eas":"o lobo-guar\u00e1 saiu dali","input_length":23,"split":"val"}
+{"instruction":null,"Tupi":"Ab\u00e1 i puku","Portugu\u00eas":"O homem \u00e9 alto","input_length":10,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Ma\u00efab\u00e9 \u00ef ir\u00famo aic\u00f2,","Portugu\u00eas":"Assim como estou com ele,","input_length":20,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"pyat\u00e3","Portugu\u00eas":"valentia","input_length":5,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Nd\u00e9bo \u00e7upi naimeengc\u00fc\u00e1b,","Portugu\u00eas":"- A ti na verdade, n\u00e3o posso d\u00e1-las;","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"orog\u00fbasem am\u00f5 so'omimbaba sup\u00e9","Portugu\u00eas":"encontramos o gado","input_length":30,"split":"val"}
+{"instruction":null,"Tupi":"guyra'i \u00fa tembi'u","Portugu\u00eas":"o passarinho come alimento","input_length":17,"split":"val"}
+{"instruction":null,"Tupi":"guyra'i os\u00f3 ybyt\u00fdra rupi 'yb\u00e1 'oka","Portugu\u00eas":"o passarinho foi pela serra para colher frutas","input_length":34,"split":"val"}
+{"instruction":null,"Tupi":"tatuet\u00e1 \u00eek\u00f3 paran\u00e3pe","Portugu\u00eas":"tatus vivem no mar","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"pitanga s\u00f3 ka'a koty","Portugu\u00eas":"a crian\u00e7a foi para a mata","input_length":20,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Moc\u00f5i \u00e1ra rir\u00e9 cat\u00f9,","Portugu\u00eas":"Depois de dois dias, precisamente,","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"a\u00eeur ybyt\u00fdra su\u00ed","Portugu\u00eas":"venho da serra","input_length":16,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Ocu\u00e0b Cara\u00edba cet\u00e1,","Portugu\u00eas":"Conhecia muitos brancos.","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"pitanga nh\u00f5te ndo\u00eeku\u00e1bi or\u00e9 pepyka","Portugu\u00eas":"s\u00f3 a crian\u00e7a n\u00e3o sabe da nossa festa","input_length":34,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"tyr\u00e1","Portugu\u00eas":"arrepio","input_length":4,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Tapyyiet\u00e0 nh\u00f3 anhand\u00fab,","Portugu\u00eas":"os tapuios, somente, observando.","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"ab\u00e1pe?","Portugu\u00eas":"quem?","input_length":6,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Ic\u00f3 oca ab\u00e0 mb\u00e4et\u00e4\u00e9?","Portugu\u00eas":"- Esta casa \u00e9 de quem?","input_length":20,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"A\u00eeme\u2019engatu ip\u00f3ne perd\u00e3o geral pe\u1ebdmene","Portugu\u00eas":"Hei de dar certamente o perd\u00e3o geral a voc\u00eas","input_length":38,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbarani s\u00f3 oka koty","Portugu\u00eas":"o guerreiro foi para a casa","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 kapibara o\u00eepsyky paran\u00e3pe","Portugu\u00eas":"o homem capturou a capivara no mar","input_length":29,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Oic\u00f2 c\u00fc\u00e1b cac\u00e1o rec\u00e9.","Portugu\u00eas":"sabe trabalhar com cacau.","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo ka'a rupi taper\u00e1 su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pela mata tendo medo da andorinha","input_length":52,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Ap\u0177aba\u00edba pytyb\u00f5sara","Portugu\u00eas":"Dos homens maus os ajudantes","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"\u00eeag\u00fbaraet\u00e1 \u00eek\u00f3 ybyt\u00fdrape","Portugu\u00eas":"on\u00e7as vivem na serra","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo taba rupi tatu su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pela aldeia tendo medo do tatu","input_length":50,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar g\u00fbyr\u00e1 o\u00eek\u00f3bo paran\u00e3","Portugu\u00eas":"o homem est\u00e1 procurando o p\u00e1ssaro no mar","input_length":30,"split":"val"}
+{"instruction":null,"Tupi":"xe rapixara o\u00eek\u00f3 'yemby\u00eee\u00eeape","Portugu\u00eas":"o meu semelhante est\u00e1 na praia","input_length":29,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo paran\u00e3 rupi so'o su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pelo mar tendo medo do animal","input_length":52,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00c7apuc\u00e1ia apyc\u00fdc uc\u00e1r,","Portugu\u00eas":"Mandei pegar as galinhas;","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"ix\u00e9 se porang","Portugu\u00eas":"Eu sou bonito","input_length":13,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe mi-te \u00eeep\u00e9 i xu\u00ed!","Portugu\u00eas":"Mas esconde-me dele!","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"mbo\u00eeaet\u00e1 \u00eek\u00f3 paran\u00e3pe","Portugu\u00eas":"cobras vivem no mar","input_length":21,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Nem mir\u00ed, \u00eb\u00ed, nem oiep\u00e9.","Portugu\u00eas":"- Nem pequeno nem um s\u00f3,","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"paka og\u00fbat\u00e1 ka'a rupi.","Portugu\u00eas":"a paca caminhou na mata","input_length":22,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Moc\u00f5i Cara\u00edba ret\u00e9, Umamb\u00e4\u00e9 xe moet\u00e9","Portugu\u00eas":"Dois senhores (v\u00e3o comigo), cada um deles me respeita","input_length":36,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"motibyk","Portugu\u00eas":"desonrar","input_length":7,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Acepi\u00e1c carapinet\u00e0,","Portugu\u00eas":"vi muitos carpinteiros","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"Ere\u00eemonget\u00e1 ab\u00e1-mond\u00e1 k\u00fbes\u00e9","Portugu\u00eas":"Voc\u00ea conversou com o ladr\u00e3o ontem","input_length":27,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Tres \u00e0ra cat\u00fa \u00e4\u00e9pe aic\u00f3,","Portugu\u00eas":"Tr\u00eas dias ali estive.","input_length":24,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Am\u00f2 ab\u00e8 saca ogoera\u00e7\u00f3,","Portugu\u00eas":"outro tamb\u00e9m levou saca.","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3 ndo'yt\u00e1ku\u00e1bi ranhe","Portugu\u00eas":"a mulher n\u00e3o sabe nadar","input_length":24,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Indebo ar\u00far \u00e4ereme","Portugu\u00eas":"a ti os trarei, ent\u00e3o.","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3mukuet\u00e1 \u00eek\u00f3 paran\u00e3pe","Portugu\u00eas":"mo\u00e7as vivem no mar","input_length":25,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Tagipur\u00f9 rup\u00ed auat\u00e1,","Portugu\u00eas":"Por Tajipuru andei;","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar mbo\u00eea o\u00eek\u00f3bo taba","Portugu\u00eas":"o homem est\u00e1 procurando a cobra na aldeia","input_length":28,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Capitar\u00ed rec\u00e9 anh\u00ebeng,","Portugu\u00eas":"Falei ao capit\u00e3o:","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3 osekar ag\u00fbarag\u00fbasu o\u00eek\u00f3bo oka","Portugu\u00eas":"a mulher est\u00e1 procurando o lobo-guar\u00e1 na casa","input_length":35,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbaraniet\u00e1 \u00eek\u00f3 ybyt\u00fdrape","Portugu\u00eas":"guerreiros vivem na serra","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo ybyt\u00fdra rupi mbo\u00eea su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pela serra tendo medo da cobra","input_length":54,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"ko'eme","Portugu\u00eas":"de manh\u00e3","input_length":6,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Doz\u00e8 ogoera\u00e7\u00f3 opabenh\u00e9,","Portugu\u00eas":"doze, levaram todos,","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"A\u00e7\u00f2 tapy\u00fdia rec\u00e9","Portugu\u00eas":"Fui por causa dos tapuios;","input_length":16,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar tapiti o\u00eek\u00f3bo ybyt\u00fdra","Portugu\u00eas":"o homem est\u00e1 procurando o coelho na serra","input_length":32,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1-mond\u00e1et\u00e1 \u00eek\u00f3 'yemby\u00eee\u00eeape","Portugu\u00eas":"ladr\u00f5es vivem no praia","input_length":29,"split":"val"}
+{"instruction":null,"Tupi":"kurumi g\u00fbat\u00e1 ybyt\u00fdra rupi","Portugu\u00eas":"o menino caminhou pela serra","input_length":25,"split":"val"}
+{"instruction":null,"Tupi":"kurumi g\u00fbat\u00e1 oka rupi","Portugu\u00eas":"o menino caminhou pela casa","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"N'a\u00eekuabi a'e ab\u00e1-mond\u00e1","Portugu\u00eas":"n\u00e3o conhe\u00e7o o ladr\u00e3o","input_length":23,"split":"val"}
+{"instruction":null,"Tupi":"asem paran\u00e3 su\u00ed","Portugu\u00eas":"sa\u00ed do mar","input_length":15,"split":"val"}
+{"instruction":null,"Tupi":"Ere\u00eemonget\u00e1 kunh\u00e3muku k\u00fbes\u00e9","Portugu\u00eas":"Voc\u00ea conversou com a mo\u00e7a ontem","input_length":27,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Deiranh\u00e9 b\u00e9 itiar\u00f5 cat\u00fa","Portugu\u00eas":"ainda n\u00e3o est\u00e3o bem maduras;","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"xe soatyba","Portugu\u00eas":"lugar aonde eu comumente vou","input_length":10,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"angaturama","Portugu\u00eas":"bondade","input_length":10,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1-mond\u00e1 g\u00fbat\u00e1 oka rupi","Portugu\u00eas":"o ladr\u00e3o caminhou pela casa","input_length":24,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe res\u00e9 o\u00eeerob\u00ee\u00e1","Portugu\u00eas":"Em mim confiam.","input_length":16,"split":"val"}
+{"instruction":null,"Tupi":"ere\u00eeku\u00e1pe abar\u00e9?","Portugu\u00eas":"Voc\u00ea conhece o padre?","input_length":16,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00c7up\u00ed xe tomaramo am\u00f3.","Portugu\u00eas":"\u00c9 verdade que eu tomei outros.","input_length":21,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"angaturama","Portugu\u00eas":"bondade","input_length":10,"split":"val"}
+{"instruction":null,"Tupi":"pakaet\u00e1 \u00eek\u00f3 tabape","Portugu\u00eas":"pacas vivem na aldeia","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"so'omimbaba g\u00fbat\u00e1 oka rupi","Portugu\u00eas":"o gado caminhou pela casa","input_length":26,"split":"val"}
+{"instruction":null,"Tupi":"tapiti og\u00fbat\u00e1 ka'a rupi.","Portugu\u00eas":"o coelho caminhou na mata","input_length":24,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Corit\u00e9i \u00e7obaj\u00faba ab\u00e9,","Portugu\u00eas":"logo ficou p\u00e1lido tamb\u00e9m.","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"abar\u00e9 s\u00f3 'yemby\u00eee\u00eea koty","Portugu\u00eas":"o padre foi para a praia","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"kapibara og\u00fbat\u00e1 ka'a rupi.","Portugu\u00eas":"a capivara caminhou na mata","input_length":26,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar \u00eeag\u00fbara o\u00eek\u00f3bo paran\u00e3","Portugu\u00eas":"o homem est\u00e1 procurando a on\u00e7a no mar","input_length":32,"split":"val"}
+{"instruction":null,"Tupi":"abar\u00e9 ikob\u00e9 ebap\u00f3","Portugu\u00eas":"o padre vive l\u00e1","input_length":17,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Op\u00f3pe ogoer\u00far moc\u00e1ba,","Portugu\u00eas":"Em suas m\u00e3os trazia p\u00f3lvora.","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 tatu o\u00eepsyky tuiukape","Portugu\u00eas":"o homem capturou o tatu no pantanal","input_length":25,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Aip\u00f3 opot\u00e1r Iand\u00e9 I\u00e1ra.","Portugu\u00eas":"isso quer Nosso Senhor.","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Cec\u00e8 om\u00e4\u00e9 cat\u00f9 cat\u00f9:","Portugu\u00eas":"para ele olhou muito bem.","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"t\u00e9 kunh\u00e3 our \u00eeand\u00e9 pytyb\u00f5mo","Portugu\u00eas":"finalmente a mulher veio nos ajudar","input_length":27,"split":"val"}
+{"instruction":null,"Tupi":"k\u00fb\u00e9 ab\u00e1-mond\u00e1","Portugu\u00eas":"aquele ladr\u00e3o","input_length":13,"split":"val"}
+{"instruction":null,"Tupi":"abar\u00e9 os\u00f3 ybyt\u00fdra rupi 'yb\u00e1 'oka","Portugu\u00eas":"o padre foi pela serra para colher frutas","input_length":32,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"O q tiver pa me dar.","Portugu\u00eas":"o que tiver para me dar.","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"a\u00eek\u00f3 tuiukape","Portugu\u00eas":"estou no pantanal","input_length":13,"split":"val"}
+{"instruction":null,"Tupi":"pitanga os\u00f3 paran\u00e3 rupi 'yb\u00e1 'oka","Portugu\u00eas":"a crian\u00e7a foi pelo mar para colher frutas","input_length":33,"split":"val"}
+{"instruction":null,"Tupi":"pitanga oker o\u00fapa, o'\u00eeabo, o\u00eek\u00e9 i oka pup\u00e9","Portugu\u00eas":"pensando que a crian\u00e7a estava dormindo, entrou em sua casa","input_length":42,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1pe k\u00fb\u00e9 abar\u00e9? s\u00e9","Portugu\u00eas":"Quem \u00e9 aquele padre? sei l\u00e1","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3muku ndo'yt\u00e1ku\u00e1bi ranhe","Portugu\u00eas":"a mo\u00e7a n\u00e3o sabe nadar","input_length":28,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00c4\u00e9, eimoc\u00fc\u00e1r nde i\u00f6ec\u00e9","Portugu\u00eas":"Disse eu: - Cuida de ti.","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"kurumi os\u00f3 paran\u00e3 rupi 'yb\u00e1 'oka","Portugu\u00eas":"o menino foi pelo mar para colher frutas","input_length":32,"split":"val"}
+{"instruction":null,"Tupi":"guyra'i s\u00f3 ybyt\u00fdra koty","Portugu\u00eas":"o passarinho foi para a serra","input_length":23,"split":"val"}
+{"instruction":null,"Tupi":"abar\u00e9et\u00e1 \u00eek\u00f3 okape","Portugu\u00eas":"padres vivem na casa","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo 'yemby\u00eee\u00eea rupi g\u00fbyr\u00e1 su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pela praia tendo medo do p\u00e1ssaro","input_length":57,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Mar\u00e3pe a'e semienoseg\u00fcama rek\u00f3\u00fb a'epe?","Portugu\u00eas":"Que faziam a\u00ed os que ele faria sair consigo?","input_length":38,"split":"val"}
+{"instruction":null,"Tupi":"N'a\u00eekuabi a'e ab\u00e1","Portugu\u00eas":"n\u00e3o conhe\u00e7o o homem","input_length":17,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"ranhe","Portugu\u00eas":"antes","input_length":5,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Aiepab\u00f2c \u00e4\u00e9 \u00e7\u00fc\u00ed,","Portugu\u00eas":"Parti dali.","input_length":16,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"apiar","Portugu\u00eas":"obedecer","input_length":5,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Karag\u00fbatatyba xe rekoaba.","Portugu\u00eas":"Caraguatatuba \u00e9 minha casa.","input_length":25,"split":"val"}
+{"instruction":null,"Tupi":"orog\u00fbasem am\u00f5 taper\u00e1 sup\u00e9","Portugu\u00eas":"encontramos a andorinha","input_length":25,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Pyt\u00fanybo, \u00ceas\u00fdob\u00e1g\u00fbas\u00fa s\u1ebdmi.","Portugu\u00eas":"De noite, a Lua cheia nasce.","input_length":28,"split":"val"}
+{"instruction":null,"Tupi":"ag\u00fbarag\u00fbasu \u00fa a'e","Portugu\u00eas":"o lobo-guar\u00e1 come aquilo","input_length":17,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xing\u00f9pe nit\u00ed a\u00e7\u00f3 pot\u00e1r,","Portugu\u00eas":"Ao Xingu n\u00e3o quis ir:","input_length":23,"split":"val"}
+{"instruction":null,"Tupi":"ix\u00e9 se puku","Portugu\u00eas":"Eu sou alto","input_length":11,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3et\u00e1 \u00eek\u00f3 okape","Portugu\u00eas":"mulheres vivem na casa","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"abar\u00e9 s\u00f3 tuiuka koty","Portugu\u00eas":"o padre foi para o pantanal","input_length":20,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"ap\u0177aba\u00edba, o\u00eeopa\u2019\u0169me, o\u00eeoir\u0169namo","Portugu\u00eas":"(com) os homens maus, entre si [e] consigo","input_length":32,"split":"val"}
+{"instruction":null,"Tupi":"paka \u00fa tembi'u","Portugu\u00eas":"a paca come alimento","input_length":14,"split":"val"}
+{"instruction":null,"Tupi":"pitangaet\u00e1 \u00eek\u00f3 ybyt\u00fdrape","Portugu\u00eas":"crian\u00e7as vivem na serra","input_length":24,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Or\u00e9 res\u00e9 omaramonh\u00e3ba\u2019e, ap\u0177aba\u00edba pitikoara,","Portugu\u00eas":"Contra n\u00f3s os que lutavam, os homens maus potiguaras,","input_length":45,"split":"val"}
+{"instruction":null,"Tupi":"abar\u00e9et\u00e1 \u00eek\u00f3 ka'ape","Portugu\u00eas":"padres vivem na mata","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"guyra'iet\u00e1 \u00eek\u00f3 ka'ape","Portugu\u00eas":"passarinhos vivem na mata","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"guyra'i s\u00f3 oka koty","Portugu\u00eas":"o passarinho foi para a casa","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"mar\u00e3namope pitanga ndo\u00eeas\u00faki a'e 'y pup\u00e9? ","Portugu\u00eas":"por que a crian\u00e7a n\u00e3o se banha naquele rio? ","input_length":42,"split":"val"}
+{"instruction":null,"Tupi":"mbo\u00eea os\u00f3 oka rupi 'yb\u00e1 'oka","Portugu\u00eas":"a cobra foi pela casa para colher frutas","input_length":28,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"um\u00e3ba'epe?","Portugu\u00eas":"qual?","input_length":10,"split":"val"}
+{"instruction":null,"Tupi":"Ab\u00e1 i poxy","Portugu\u00eas":"O homem \u00e9 feio\/mau\/ruim\/nojento","input_length":10,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 opyt\u00e1","Portugu\u00eas":"o homem ficou","input_length":9,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo oka rupi tatu su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pela casa tendo medo do tatu","input_length":49,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe ypy ten.","Portugu\u00eas":"Eu estou com a base com firmeza.","input_length":11,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"kyb\u00f5yg\u00fbara","Portugu\u00eas":"os habitantes daqui","input_length":10,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Aipob\u00e4\u00e9 anh\u00ebengram\u00e8","Portugu\u00eas":"Quando eu falei isso,","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"tatu os\u00f3 tuiuka rupi 'yb\u00e1 'oka","Portugu\u00eas":"o tatu foi pelo pantanal para colher frutas","input_length":30,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Iab\u00e8 cat\u00f9 aimb\u00f6\u00e9 \u00e4\u00e9 Pa\u00ed,","Portugu\u00eas":"Assim bem ensinei aquele padre.","input_length":24,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"temirek\u00f3","Portugu\u00eas":"esposa","input_length":8,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbarani os\u00f3 taba rupi 'yb\u00e1 'oka","Portugu\u00eas":"o guerreiro foi pela aldeia para colher frutas","input_length":31,"split":"val"}
+{"instruction":null,"Tupi":"ag\u00fbarag\u00fbasu os\u00f3 kurumi rakyp\u00fb\u00e9ri","Portugu\u00eas":"o lobo-guar\u00e1 perseguiu o menino","input_length":32,"split":"val"}
+{"instruction":null,"Tupi":"abar\u00e9 ndo'yt\u00e1ku\u00e1bi ranhe","Portugu\u00eas":"o padre n\u00e3o sabe nadar","input_length":24,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Nit\u00ed cecat\u00eb\u00fdm ix\u00fc\u00ed,","Portugu\u00eas":"Ele n\u00e3o foi avaro delas.","input_length":19,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Anhet\u00e9, k\u00f3 nde rap\u00e9, a'e nde remiekara.","Portugu\u00eas":"Verdadeiramente, eis aqui teu caminho, o que tu procuras.","input_length":39,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe katupe k\u00e1","Portugu\u00eas":"Eu hei de ser bom","input_length":12,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 s\u00f3 'yemby\u00eee\u00eea koty","Portugu\u00eas":"o homem foi para a praia","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"guyra'i g\u00fbat\u00e1 ka'a rupi","Portugu\u00eas":"o passarinho caminhou pela mata","input_length":23,"split":"val"}
+{"instruction":null,"Tupi":"asem ybyt\u00fdra su\u00ed","Portugu\u00eas":"sa\u00ed da serra","input_length":16,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Mo\u00e7ap\u00fdr nh\u00f2 aimonghet\u00e0.","Portugu\u00eas":"Conversei somente com tr\u00eas.","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Cat\u00f9 oiporac\u00e1r saca nh\u00f3,","Portugu\u00eas":"Encheu bem somente a saca,","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo oka rupi so'omimbaba su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pela casa tendo medo do gado","input_length":56,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar g\u00fbyr\u00e1 o\u00eek\u00f3bo tuiuka","Portugu\u00eas":"o homem est\u00e1 procurando o p\u00e1ssaro no pantanal","input_length":30,"split":"val"}
+{"instruction":null,"Tupi":"mar\u00e3namope mbo\u00eea ndo\u00eeas\u00faki a'e 'y pup\u00e9? ","Portugu\u00eas":"por que a cobra n\u00e3o se banha naquele rio? ","input_length":40,"split":"val"}
+{"instruction":null,"Tupi":"so'omimbaba os\u00f3 oka rupi 'yb\u00e1 'oka","Portugu\u00eas":"o gado foi pela casa para colher frutas","input_length":34,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Opic\u00e1m \u00fc\u00e1n cat\u00f9 c\u00f6arac\u00fd,","Portugu\u00eas":"J\u00e1 fustigava bem o sol.","input_length":24,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Mb\u00e4\u00e9 et\u00e1 rec\u00e9 oporand\u00fab,","Portugu\u00eas":"por muitas coisas perguntando,","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 ndo'yt\u00e1ku\u00e1bi ranhe","Portugu\u00eas":"o homem n\u00e3o sabe nadar","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"taper\u00e1 oker o\u00fapa, o'\u00eeabo, o\u00eek\u00e9 i k\u00fbara pup\u00e9","Portugu\u00eas":"pensando que a andorinha estava dormindo, entrou em sua toca","input_length":43,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"motyb","Portugu\u00eas":"respeitar","input_length":5,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Pe\u00eemo\u2019ang ym\u1ebd ap\u0177aba\u00edba or\u00e9 su\u00ed pe pysyr\u00f5","Portugu\u00eas":"N\u00e3o imaginem os homens maus de n\u00f3s livrarem voc\u00eas","input_length":41,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"mombor","Portugu\u00eas":"expulsar","input_length":6,"split":"val"}
+{"instruction":null,"Tupi":"so'omimbaba os\u00f3 kurumi rakyp\u00fb\u00e9ri","Portugu\u00eas":"o gado perseguiu o menino","input_length":32,"split":"val"}
+{"instruction":null,"Tupi":"paka g\u00fbat\u00e1 ybyt\u00fdra rupi","Portugu\u00eas":"a paca caminhou pela serra","input_length":23,"split":"val"}
+{"instruction":null,"Tupi":"so'omimbaba nhu res\u00e9nd\u00fbara o\u00eeabab","Portugu\u00eas":"o gado do campo foge","input_length":33,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 mbo\u00eea o\u00eepsyky tabape","Portugu\u00eas":"o homem capturou a cobra na aldeia","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"ag\u00fbasem am\u00f5 guyra'i sup\u00e9","Portugu\u00eas":"encontrei aquele passarinho","input_length":24,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"C\u00f6\u00fdr \u00e7up\u00ed xe anga aganan,","Portugu\u00eas":"Agora, \u00e9 verdade que minha alma enganei,","input_length":25,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"i mokanhemetepyramo nh\u1ebd sek\u00f3\u00fbne","Portugu\u00eas":"como os que ser\u00e3o muito arruinados, com efeito, estar\u00e3o","input_length":31,"split":"val"}
+{"instruction":null,"Tupi":"tapiti \u00fa a'e","Portugu\u00eas":"o coelho come aquilo","input_length":12,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Mo\u00e7ap\u00fdr t\u00fcib\u00e4\u00e9 u\u00e7\u00fa,","Portugu\u00eas":"tr\u00eas velhos, bem velhos.","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"ix\u00e9 kurumi","Portugu\u00eas":"Eu sou menino","input_length":10,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar ag\u00fbarag\u00fbasu o\u00eek\u00f3bo 'yemby\u00eee\u00eea","Portugu\u00eas":"o homem est\u00e1 procurando o lobo-guar\u00e1 no praia","input_length":40,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00c7akyco\u00e9ra amond\u00f3 c\u00f6yt\u00e9,","Portugu\u00eas":"Segui-os, ent\u00e3o, enfim.","input_length":23,"split":"val"}
+{"instruction":null,"Tupi":"erema'e so'o res\u00e9","Portugu\u00eas":"voc\u00ea n\u00e3o olha para o animal","input_length":17,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Turusu-katupe a'e cruz erimba'e?","Portugu\u00eas":"Era muito grande aquela cruz?","input_length":32,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe r\u00fbi \u00eeep\u00e9.","Portugu\u00eas":"Tu me escaldaste.","input_length":12,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Nde r\u00e4yret\u00e0 iab\u00e9.","Portugu\u00eas":"como de teus filhos.","input_length":17,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"ytu","Portugu\u00eas":"cachoeira","input_length":3,"split":"val"}
+{"instruction":null,"Tupi":"abar\u00e9 os\u00f3 tuiuka rupi 'yb\u00e1 'oka","Portugu\u00eas":"o padre foi pelo pantanal para colher frutas","input_length":31,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 taper\u00e1 o\u00eepsyky 'yemby\u00eee\u00eeape","Portugu\u00eas":"o homem capturou a andorinha no praia","input_length":31,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbaraniet\u00e1 \u00eek\u00f3 okape","Portugu\u00eas":"guerreiros vivem na casa","input_length":20,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"kapibara","Portugu\u00eas":"capivara","input_length":8,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Temone xe g\u00fbix\u00f3 bo...","Portugu\u00eas":"Ah, se eu fosse...","input_length":21,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Mocac\u00fc\u00ed, moni\u00e7\u00e3o ab\u00e9,","Portugu\u00eas":"p\u00f3lvora, muni\u00e7\u00e3o tamb\u00e9m,","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"paka os\u00f3 paran\u00e3 rupi 'yb\u00e1 'oka","Portugu\u00eas":"a paca foi pelo mar para colher frutas","input_length":30,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1et\u00e1 \u00eek\u00f3 tabape","Portugu\u00eas":"homens vivem na aldeia","input_length":17,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo ybyt\u00fdra rupi kapibara su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pela serra tendo medo da capivara","input_length":57,"split":"val"}
+{"instruction":null,"Tupi":"mar\u00e3namope ag\u00fbarag\u00fbasu ndo\u00eeas\u00faki a'e 'y pup\u00e9? ","Portugu\u00eas":"por que o lobo-guar\u00e1 n\u00e3o se banha naquele rio? ","input_length":46,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbyr\u00e1 ikob\u00e9","Portugu\u00eas":"o p\u00e1ssaro vive","input_length":11,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3 s\u00f3 taba koty","Portugu\u00eas":"a mulher foi para a aldeia","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"abar\u00e9 o'\u00fa a'e karu","Portugu\u00eas":"o padre comeu isso no almo\u00e7o","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"pitanga g\u00fbat\u00e1 paran\u00e3 rupi","Portugu\u00eas":"a crian\u00e7a caminhou pelo mar","input_length":25,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 s\u00f3 paran\u00e3 koty","Portugu\u00eas":"o homem foi para o mar","input_length":18,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Aj\u00f9ric\u00f2 xe tut\u00fdra gu\u00e9,","Portugu\u00eas":"- Eis que me vou, \u00f3 meu tio.","input_length":22,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"g\u00fbyr\u00e1","Portugu\u00eas":"ave","input_length":5,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"A\u2019e ab\u00e9 o\u00eeme\u2019\u1ebd perd\u00e3o geral pe\u1ebdmene","Portugu\u00eas":"Eles tamb\u00e9m dar\u00e3o o perd\u00e3o geral a voc\u00eas","input_length":35,"split":"val"}
+{"instruction":null,"Tupi":"k\u00f3 kurumi okaru, k\u00fbe\u00eea oker","Portugu\u00eas":"este menino come, aquele menino dorme","input_length":27,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3muku g\u00fbat\u00e1 paran\u00e3 rupi","Portugu\u00eas":"a mo\u00e7a caminhou pelo mar","input_length":27,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Nit\u00edpe nde Car\u00e4\u00edba?","Portugu\u00eas":"N\u00e3o \u00e9s crist\u00e3o?","input_length":19,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Oroc\u00e4\u00fa \u00e7up\u00ed cat\u00fa,","Portugu\u00eas":"ingerimos muita pinga.","input_length":17,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe Pa\u00ed \u00e7up\u00e9ne, \u00eb\u00ed, amoc\u00e9m52","Portugu\u00eas":"dizendo: - A meu Padre mandarei fazer-te [pagar]","input_length":27,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar mbo\u00eea o\u00eek\u00f3bo paran\u00e3","Portugu\u00eas":"o homem est\u00e1 procurando a cobra no mar","input_length":30,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"I akanga res\u00e9 a'e tak\u00fbara rerop\u00fb\u00e1.","Portugu\u00eas":"Em sua cabe\u00e7a batendo com aquela cana.","input_length":34,"split":"val"}
+{"instruction":null,"Tupi":"ag\u00fbarag\u00fbasu oker o\u00fapa, o'\u00eeabo, o\u00eek\u00e9 i k\u00fbara pup\u00e9","Portugu\u00eas":"pensando que o lobo-guar\u00e1 estava dormindo, entrou em sua toca","input_length":48,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Cet\u00e0 cat\u00fa ix\u00fc\u00ed xe cu\u00e1b;","Portugu\u00eas":"Muitos deles me conheciam.","input_length":23,"split":"val"}
+{"instruction":null,"Tupi":"\u00eeag\u00fbara os\u00f3 ka'a rupi 'yb\u00e1 'oka","Portugu\u00eas":"a on\u00e7a foi pela mata para colher frutas","input_length":31,"split":"val"}
+{"instruction":null,"Tupi":"guyra'i g\u00fbat\u00e1 taba rupi","Portugu\u00eas":"o passarinho caminhou pela aldeia","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00c7up\u00ed cat\u00fa \u00e4\u00fa \u00e1ra iab\u00e9","Portugu\u00eas":"comia eu todo dia","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 oker","Portugu\u00eas":"o homem dormiu","input_length":8,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 kapibara o\u00eepsyky 'yemby\u00eee\u00eeape","Portugu\u00eas":"o homem capturou a capivara no praia","input_length":33,"split":"val"}
+{"instruction":null,"Tupi":"\u00eeag\u00fbara \u00fa tembi'u","Portugu\u00eas":"a on\u00e7a come alimento","input_length":17,"split":"val"}
+{"instruction":null,"Tupi":"a\u00eek\u00f3 paran\u00e3pe","Portugu\u00eas":"estou no mar","input_length":13,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"pe rek\u00f3 pup\u00e9 pekanhemetekat\u00fbabo,","Portugu\u00eas":"com seus atos desgra\u00e7ando-se voc\u00eas muit\u00edssimo,","input_length":32,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe iop\u00f3i iep\u00e8 xe M\u00e3y gu\u00ed,","Portugu\u00eas":"Alimenta-me tu, \u00f3 minha m\u00e3e,","input_length":25,"split":"val"}
+{"instruction":null,"Tupi":"ag\u00fbata ak\u00fb\u00e9 ab\u00e1-mond\u00e1 monget\u00e1bo","Portugu\u00eas":"caminhei conversando com aquele ladr\u00e3o","input_length":31,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"mok\u00f5\u00eeb\u00e9","Portugu\u00eas":"ambos","input_length":7,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"abaet\u00e9","Portugu\u00eas":"valente","input_length":6,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1-mond\u00e1 s\u00f3 tuiuka koty","Portugu\u00eas":"o ladr\u00e3o foi para o pantanal","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"paka os\u00f3 tuiuka rupi 'yb\u00e1 'oka","Portugu\u00eas":"a paca foi pelo pantanal para colher frutas","input_length":30,"split":"val"}
+{"instruction":null,"Tupi":"k\u00f3 g\u00fbarani okaru, k\u00fbe\u00eea oker","Portugu\u00eas":"este guerreiro come, aquele guerreiro dorme","input_length":28,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Tupana osun\u0169sunung","Portugu\u00eas":"fica trovejando","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1-mond\u00e1 s\u00f3 ybyt\u00fdra koty","Portugu\u00eas":"o ladr\u00e3o foi para a serra","input_length":25,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"pir\u00e3\u00eea","Portugu\u00eas":"piranha","input_length":6,"split":"val"}
+{"instruction":null,"Tupi":"tatuet\u00e1 \u00eek\u00f3 'yemby\u00eee\u00eeape","Portugu\u00eas":"tatus vivem no praia","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"kurumiet\u00e1 \u00eek\u00f3 ka'ape","Portugu\u00eas":"meninos vivem na mata","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"orog\u00fbasem am\u00f5 guyra'i sup\u00e9","Portugu\u00eas":"encontramos o passarinho","input_length":26,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3 g\u00fbyr\u00e1 o\u00eepsyky tabape","Portugu\u00eas":"a mulher capturou o p\u00e1ssaro na aldeia","input_length":26,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe Lucas ra'yr\u00fbera.","Portugu\u00eas":"Eu sou antigo filho de Lucas.","input_length":19,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"ap\u0177aba\u00edba maranir\u0169namo o g\u00fbekorama res\u00e9","Portugu\u00eas":"dos homens maus sendo companheiros de guerra em suas futuras a\u00e7\u00f5es","input_length":39,"split":"val"}
+{"instruction":null,"Tupi":"ix\u00e9 ab\u00e1","Portugu\u00eas":"Eu sou homem","input_length":7,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Topaj\u00f3pe c\u00f6yt\u00e9 ac\u00fdc,","Portugu\u00eas":"Ao Tapajoz, enfim, cheguei;","input_length":20,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Inh\u00ebengab\u00e9 aiporac\u00e1r,","Portugu\u00eas":"obedeci a suas palavras.","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"erema'e tapiti res\u00e9","Portugu\u00eas":"voc\u00ea n\u00e3o olha para o coelho","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbarani s\u00f3 'yemby\u00eee\u00eea koty","Portugu\u00eas":"o guerreiro foi para a praia","input_length":26,"split":"val"}
+{"instruction":null,"Tupi":"so'o osem eban\u00f5i","Portugu\u00eas":"o animal saiu dali","input_length":16,"split":"val"}
+{"instruction":null,"Tupi":"taper\u00e1 o\u00eepys\u00fdkyba'ep\u00fbera xe ruba","Portugu\u00eas":"quem capturou a andorinha foi meu pai","input_length":32,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Ycyr\u00fdca ir\u00famo auat\u00e0,","Portugu\u00eas":"Com o rio que corria eu viajava.","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"mar\u00e3namope kunh\u00e3muku ndo\u00eeas\u00faki a'e 'y pup\u00e9? ","Portugu\u00eas":"por que a mo\u00e7a n\u00e3o se banha naquele rio? ","input_length":44,"split":"val"}
+{"instruction":null,"Tupi":"asem 'yemby\u00eee\u00eea su\u00ed","Portugu\u00eas":"sa\u00ed da praia","input_length":19,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"C\u00f6yt\u00e9 nit\u00ed \u00f6nh\u00ebeng\u00e3t\u00e3","Portugu\u00eas":"Enfim, nao vociferou mais.","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"a\u00eek\u00f3 ka'ape","Portugu\u00eas":"estou na mata","input_length":11,"split":"val"}
+{"instruction":null,"Tupi":"t\u00e9 kunh\u00e3muku our \u00eeand\u00e9 pytyb\u00f5mo","Portugu\u00eas":"finalmente a mo\u00e7a veio nos ajudar","input_length":31,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00c4\u00e9 moc\u00f5i Uata\u00e7\u00e0ra,","Portugu\u00eas":"Aqueles dois viajantes","input_length":18,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00c7up\u00ed cat\u00fa nopou\u00e7\u00fa.","Portugu\u00eas":"n\u00e3o recusou, na verdade.","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"mar\u00e3namope kunh\u00e3 ndo\u00eeas\u00faki a'e 'y pup\u00e9? ","Portugu\u00eas":"por que a mulher n\u00e3o se banha naquele rio? ","input_length":40,"split":"val"}
+{"instruction":null,"Tupi":"kapibara oker o\u00fapa, o'\u00eeabo, o\u00eek\u00e9 i k\u00fbara pup\u00e9","Portugu\u00eas":"pensando que a capivara estava dormindo, entrou em sua toca","input_length":45,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo 'yemby\u00eee\u00eea rupi so'omimbaba su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pela praia tendo medo do gado","input_length":63,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3 os\u00f3 ka'a rupi 'yb\u00e1 'oka","Portugu\u00eas":"a mulher foi pela mata para colher frutas","input_length":29,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3mukuet\u00e1 \u00eek\u00f3 'yemby\u00eee\u00eeape","Portugu\u00eas":"mo\u00e7as vivem no praia","input_length":29,"split":"val"}
+{"instruction":null,"Tupi":"taper\u00e1 \u00fa tembi'u","Portugu\u00eas":"a andorinha come alimento","input_length":16,"split":"val"}
+{"instruction":null,"Tupi":"as\u00f3 tuiukape","Portugu\u00eas":"fui para o pantanal","input_length":12,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"O\u00eeep\u00e9 Tup\u00e3 mem\u00e9 pe a'e Tup\u00e3-Tuba, Tup\u00e3-Ta'yra, Tup\u00e3-Esp\u00edrito Santo?","Portugu\u00eas":"S\u00e3o um \u00fanico e mesmo Deus esse Deus-Pai, Deus-Filho e Deus-Esp\u00edrito Santo?","input_length":67,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"k\u00fbara","Portugu\u00eas":"sol","input_length":5,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"L\u00e1 me dyse pa o Leste,","Portugu\u00eas":"l\u00e1 me disse. - Para o Leste,","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"\u00eeag\u00fbara o\u00eeabab tenhe","Portugu\u00eas":"a on\u00e7a acabou fugindo","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"\u00eeag\u00fbaraet\u00e1 \u00eek\u00f3 ka'ape","Portugu\u00eas":"on\u00e7as vivem na mata","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1-mond\u00e1 g\u00fbat\u00e1 tuiuka rupi","Portugu\u00eas":"o ladr\u00e3o caminhou pelo pantanal","input_length":27,"split":"val"}
+{"instruction":null,"Tupi":"paka \u00fa a'e","Portugu\u00eas":"a paca come aquilo","input_length":10,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Se\u00fd apy\u00e1ba oporepym\u00ebeng;","Portugu\u00eas":"a seis homens retribu\u00ed,","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbarani oma'\u00e9 o'ama or\u00e9 res\u00e9 it\u00e1ybat\u00e9'\u00e1ri","Portugu\u00eas":"o guerreiro est\u00e1 olhando para n\u00f3s de p\u00e9 sobre uma pedra alta","input_length":41,"split":"val"}
+{"instruction":null,"Tupi":"ere\u00eeku\u00e1pe ab\u00e1-mond\u00e1?","Portugu\u00eas":"Voc\u00ea conhece o ladr\u00e3o?","input_length":20,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"xe re\u00eembaba","Portugu\u00eas":"minha cria\u00e7\u00e3o","input_length":11,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1et\u00e1 \u00eek\u00f3 'yemby\u00eee\u00eeape","Portugu\u00eas":"homens vivem no praia","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Am\u00f2 tembi\u00fa noicoreme","Portugu\u00eas":"por n\u00e3o haver outra comida.","input_length":20,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Acu\u00e1b copix\u00e1ba cet\u00e1,","Portugu\u00eas":"Conhe\u00e7o muitos sert\u00f5es","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"mbo\u00eea o\u00eeabab tenhe","Portugu\u00eas":"a cobra acabou fugindo","input_length":18,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Cunumi goa\u00e7\u00fa mir\u00ed,","Portugu\u00eas":"um rapazinho;","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3muku os\u00f3 'yemby\u00eee\u00eea rupi 'yb\u00e1 'oka","Portugu\u00eas":"a mo\u00e7a foi pela praia para colher frutas","input_length":39,"split":"val"}
+{"instruction":null,"Tupi":"paka os\u00f3 ybyt\u00fdra rupi 'yb\u00e1 'oka","Portugu\u00eas":"a paca foi pela serra para colher frutas","input_length":31,"split":"val"}
+{"instruction":null,"Tupi":"so'omimbaba ikob\u00e9","Portugu\u00eas":"o gado vive","input_length":17,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Apoc\u00e0 mocab\u00f2ca u\u00ed.","Portugu\u00eas":"estourei p\u00f3lvora.","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1-mond\u00e1 oker o\u00fapa, o'\u00eeabo, o\u00eek\u00e9 i oka pup\u00e9","Portugu\u00eas":"pensando que o ladr\u00e3o estava dormindo, entrou em sua casa","input_length":44,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"torypaba","Portugu\u00eas":"felicidade","input_length":8,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Maiab\u00e9 a\u00e9 xe rerec\u00f3.","Portugu\u00eas":"assim ele me tem consigo.","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"orog\u00fbasem am\u00f5 g\u00fbyr\u00e1 sup\u00e9","Portugu\u00eas":"encontramos o p\u00e1ssaro","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbarani opyt\u00e1","Portugu\u00eas":"o guerreiro ficou","input_length":13,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Ixup\u00e9 anh\u00ebeng\u00e3t\u00e3;","Portugu\u00eas":"Diante dele gritei.","input_length":17,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Oporand\u00f9 Pa\u00ed Pacic\u00fa.","Portugu\u00eas":"perguntou o padre Francisco.","input_length":20,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Apoc\u00e1 maiab\u00e9 cat\u00fa,","Portugu\u00eas":"Ri bastante;","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"tapiti o\u00eeabab tenhe","Portugu\u00eas":"o coelho acabou fugindo","input_length":19,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"mba\u2019e ap\u0177aba\u00edba ryry\u00eea su\u00ed","Portugu\u00eas":"algo mais que um abalo de homens maus","input_length":26,"split":"val"}
+{"instruction":null,"Tupi":"guyra'iet\u00e1 \u00eek\u00f3 ybyt\u00fdrape","Portugu\u00eas":"passarinhos vivem na serra","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1-mond\u00e1et\u00e1 \u00eek\u00f3 ka'ape","Portugu\u00eas":"ladr\u00f5es vivem na mata","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Uirand\u00e8 patu\u00e1 \u00e7\u00fc\u00ed ai\u00f6\u00f3c,","Portugu\u00eas":"tirei a sorte do patu\u00e1;","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbyr\u00e1tinget\u00e1 obeb\u00e9 'yemby\u00eee\u00eea koty","Portugu\u00eas":"muitas gar\u00e7as voaram em dire\u00e7\u00e3o a praia","input_length":34,"split":"val"}
+{"instruction":null,"Tupi":"pitangaet\u00e1 \u00eek\u00f3 tabape","Portugu\u00eas":"crian\u00e7as vivem na aldeia","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbyr\u00e1et\u00e1 \u00eek\u00f3 ybyt\u00fdrape","Portugu\u00eas":"p\u00e1ssaros vivem na serra","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 guyra'i o\u00eepsyky tabape","Portugu\u00eas":"o homem capturou o passarinho na aldeia","input_length":26,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"O\u00e7ac\u00e9\u00e7ac\u00e9mb\u00e9 et\u00e9 et\u00e9.","Portugu\u00eas":"ficou gritando muit\u00edssimo;","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 \u00eeag\u00fbara o\u00eepsyky tuiukape","Portugu\u00eas":"o homem capturou a on\u00e7a no pantanal","input_length":28,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar kapibara o\u00eek\u00f3bo oka","Portugu\u00eas":"o homem est\u00e1 procurando a capivara na casa","input_length":30,"split":"val"}
+{"instruction":null,"Tupi":"pitanga pe o\u00eemonget\u00e1","Portugu\u00eas":"a crian\u00e7a conversou com voc\u00eas","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"a\u00eemenget\u00e1 ak\u00fb\u00e9 kurumi g\u00fbig\u00fbat\u00e1bo","Portugu\u00eas":"conversei com aquele menino caminhando","input_length":32,"split":"val"}
+{"instruction":null,"Tupi":"\u00eeag\u00fbara og\u00fbat\u00e1 ka'a rupi.","Portugu\u00eas":"a on\u00e7a caminhou na mata","input_length":25,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"'a'y","Portugu\u00eas":"aguado","input_length":4,"split":"val"}
+{"instruction":null,"Tupi":"paka g\u00fbat\u00e1 tuiuka rupi","Portugu\u00eas":"a paca caminhou pelo pantanal","input_length":22,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Aanang\u00e1it\u00e9 ab\u00e9 \u00f6\u00fa ca\u00f6i.","Portugu\u00eas":"de modo nenhum bebiam pinga.","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Aanang\u00e0i r\u00fc\u00e3 aimoiap\u00fdr.","Portugu\u00eas":"De modo algum eu as dobrei.","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Emon\u00e3namo, petenh\u1ebdum\u1ebd benh\u1ebd ab\u00e1","Portugu\u00eas":"Portanto, evitem que, de novo, os \u00edndios","input_length":31,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 o'\u00fa a'e karu","Portugu\u00eas":"o homem comeu isso no almo\u00e7o","input_length":16,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar so'o o\u00eek\u00f3bo tuiuka","Portugu\u00eas":"o homem est\u00e1 procurando o animal no pantanal","input_length":29,"split":"val"}
+{"instruction":null,"Tupi":"a\u00eemenget\u00e1 ak\u00fb\u00e9 ab\u00e1 g\u00fbig\u00fbat\u00e1bo","Portugu\u00eas":"conversei com aquele homem caminhando","input_length":29,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbarani s\u00f3 tuiuka koty","Portugu\u00eas":"o guerreiro foi para o pantanal","input_length":22,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Ko'yr b\u00e9 a'e oka a'e crist\u00e3os-katupab\u00e9 i moetesabamo.","Portugu\u00eas":"Agora tamb\u00e9m aquela casa \u00e9 lugar de muit\u00edssimos crist\u00e3os cultu\u00e1-la","input_length":53,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"tamand\u00fb\u00e1","Portugu\u00eas":"tamandu\u00e1","input_length":8,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 g\u00fbat\u00e1 taba rupi","Portugu\u00eas":"o homem caminhou pela aldeia","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3 g\u00fbat\u00e1 tuiuka rupi","Portugu\u00eas":"a mulher caminhou pelo pantanal","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"po\u00ee","Portugu\u00eas":"alimentar","input_length":3,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"A\u00eemond\u00f3 benh\u1ebd xe nhe\u2019enga","Portugu\u00eas":"Envio de novo minhas palavras","input_length":25,"split":"val"}
+{"instruction":null,"Tupi":"so'omimbaba s\u00f3 oka koty","Portugu\u00eas":"o gado foi para a casa","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"A\u00e7a\u00e7ao nh\u00f2 Paux\u00ed rup\u00ed,","Portugu\u00eas":"Passei somente pelos pauxis;","input_length":22,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00eeyapara","Portugu\u00eas":"foice","input_length":7,"split":"val"}
+{"instruction":null,"Tupi":"tatu g\u00fbat\u00e1 tuiuka rupi","Portugu\u00eas":"o tatu caminhou pelo pantanal","input_length":22,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Ix\u00e9 nde Pa\u00ed camar\u00e1ra,","Portugu\u00eas":"- Eu sou camarada do teu padre;","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbarani os\u00f3 paran\u00e3 rupi 'yb\u00e1 'oka","Portugu\u00eas":"o guerreiro foi pelo mar para colher frutas","input_length":33,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"momburu","Portugu\u00eas":"desafiar","input_length":7,"split":"val"}
+{"instruction":null,"Tupi":"mar\u00e3namope tatu ndo\u00eeas\u00faki a'e 'y pup\u00e9? ","Portugu\u00eas":"por que o tatu n\u00e3o se banha naquele rio? ","input_length":39,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbyr\u00e1 s\u00f3 'yemby\u00eee\u00eea koty","Portugu\u00eas":"o p\u00e1ssaro foi para a praia","input_length":24,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"'ara","Portugu\u00eas":"dia","input_length":4,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Piloto xebo omomb\u00eb\u00fa.","Portugu\u00eas":"O piloto a mim anunciou:","input_length":20,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00c4\u00e9: nde namb\u00e4\u00e9 r\u00e1ma,","Portugu\u00eas":"Disse eu: - Tu nada (far\u00e1s).","input_length":20,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00eeerob\u00eeasaba","Portugu\u00eas":"causa de sua confian\u00e7a","input_length":11,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar paka o\u00eek\u00f3bo taba","Portugu\u00eas":"o homem est\u00e1 procurando a paca na aldeia","input_length":27,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Ix\u00e9 tekatuete'i ra'u, Anhanga rat\u00e1 a\u00eeporar\u00e1 a\u00fb\u00eeeramanhene m\u00e3!","Portugu\u00eas":"Ah, ai de mim, o fogo do diabo sofrerei para sempre!","input_length":61,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 guyra'i o\u00eepsyky 'yemby\u00eee\u00eeape","Portugu\u00eas":"o homem capturou o passarinho no praia","input_length":32,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbyr\u00e1 s\u00f3 ka'a koty","Portugu\u00eas":"o p\u00e1ssaro foi para a mata","input_length":18,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Nouat\u00e0r iapucuit\u00e1ra.","Portugu\u00eas":"n\u00e3o faltavam remadores","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"pitanga o'puk\u00e1","Portugu\u00eas":"a crian\u00e7a riu","input_length":14,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Ic\u00f2 nde rec\u00f2 a\u00edb u\u00e7\u00f9;","Portugu\u00eas":"este teu ato muito mau.","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"so'omimbaba onhan","Portugu\u00eas":"o gado correu","input_length":17,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 tapiti o\u00eepsyky okape","Portugu\u00eas":"o homem capturou o coelho na casa","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbarani s\u00f3 ka'a koty","Portugu\u00eas":"o guerreiro foi para a mata","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbaraniet\u00e1 \u00eek\u00f3 paran\u00e3pe","Portugu\u00eas":"guerreiros vivem no mar","input_length":23,"split":"val"}
+{"instruction":null,"Tupi":"xe rapixara o\u00eek\u00f3 tabape","Portugu\u00eas":"o meu semelhante est\u00e1 na aldeia","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"ybyrapytanga","Portugu\u00eas":"pau-brasil","input_length":12,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"ak\u00fbeme pe rekop\u00fbera","Portugu\u00eas":"e outrora [com] a antiga cultura de voc\u00eas","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"k\u00fb\u00e9 guyra'i","Portugu\u00eas":"aquele passarinho","input_length":11,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3muku opyt\u00e1","Portugu\u00eas":"a mo\u00e7a ficou","input_length":15,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3 g\u00fbat\u00e1 taba rupi","Portugu\u00eas":"a mulher caminhou pela aldeia","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3 taper\u00e1 o\u00eepsyky okape","Portugu\u00eas":"a mulher capturou a andorinha na casa","input_length":26,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"P\u00e4i cat\u00f9 cor\u00ed acec\u00e1r;","Portugu\u00eas":"Um bom padre procurarei","input_length":21,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"anama","Portugu\u00eas":"povo","input_length":5,"split":"val"}
+{"instruction":null,"Tupi":"paka s\u00f3 ka'a koty","Portugu\u00eas":"a paca foi para a mata","input_length":17,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Opomoingo\u00eeebykatupe","Portugu\u00eas":"Eu os farei estar novamente bem","input_length":19,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Ix\u00e9bo c\u00f6yt\u00e9 oiep\u00e8 \u00eb\u00ed;","Portugu\u00eas":"A mim, enfim, um disse:","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"\u00eeag\u00fbara s\u00f3 paran\u00e3 koty","Portugu\u00eas":"a on\u00e7a foi para o mar","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"\u00eeag\u00fbara nhu res\u00e9nd\u00fbara o\u00eeabab","Portugu\u00eas":"a on\u00e7a do campo foge","input_length":29,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar kapibara o\u00eek\u00f3bo 'yemby\u00eee\u00eea","Portugu\u00eas":"o homem est\u00e1 procurando a capivara no praia","input_length":37,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1-mond\u00e1 pe o\u00eemonget\u00e1","Portugu\u00eas":"o ladr\u00e3o conversou com voc\u00eas","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar ag\u00fbarag\u00fbasu o\u00eek\u00f3bo paran\u00e3","Portugu\u00eas":"o homem est\u00e1 procurando o lobo-guar\u00e1 no mar","input_length":36,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"K\u00f3 xe nhe\u2019enga a\u00eemond\u00f3 benh\u1ebd","Portugu\u00eas":"Estas minhas palavras envio-as de novo","input_length":28,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe mb\u00e4\u00e9 co\u00e9ra aiac\u00eb\u00f3.","Portugu\u00eas":"Minhas coisas antigas chorei.","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"Ere\u00eemonget\u00e1 pitanga k\u00fbes\u00e9","Portugu\u00eas":"Voc\u00ea conversou com a crian\u00e7a ontem","input_length":25,"split":"val"}
+{"instruction":null,"Tupi":"kapibara o\u00eepys\u00fdkyba'ep\u00fbera xe ruba","Portugu\u00eas":"quem capturou a capivara foi meu pai","input_length":34,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3muku g\u00fbat\u00e1 taba rupi","Portugu\u00eas":"a mo\u00e7a caminhou pela aldeia","input_length":25,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"T\u00eb\u00f5 r\u00ed nanhemo\u00e7ain\u00e1n","Portugu\u00eas":"com a morte n\u00e3o me preocupei,","input_length":20,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Toic\u00f2 xe ir\u00f9mo Tup\u00e3 et\u00e9.","Portugu\u00eas":"Que esteja comigo o Deus verdadeiro.","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar \u00eeag\u00fbara o\u00eek\u00f3bo tuiuka","Portugu\u00eas":"o homem est\u00e1 procurando a on\u00e7a no pantanal","input_length":32,"split":"val"}
+{"instruction":null,"Tupi":"paka osem eban\u00f5i","Portugu\u00eas":"a paca saiu dali","input_length":16,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"mba'epe?","Portugu\u00eas":"qual?","input_length":8,"split":"val"}
+{"instruction":null,"Tupi":"paka g\u00fbat\u00e1 'yemby\u00eee\u00eea rupi","Portugu\u00eas":"a paca caminhou pela praia","input_length":26,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"K\u00fbe\u00ee su\u00ed apererek ta\u00eeasuk xe karu \u00eeanond\u00e9.","Portugu\u00eas":"Dali salto pra me banhar antes de comer.","input_length":42,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3 os\u00f3 tuiuka rupi 'yb\u00e1 'oka","Portugu\u00eas":"a mulher foi pelo pantanal para colher frutas","input_length":31,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo oka rupi so'o su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pela casa tendo medo do animal","input_length":49,"split":"val"}
+{"instruction":null,"Tupi":"kurumi g\u00fbat\u00e1 tuiuka rupi","Portugu\u00eas":"o menino caminhou pelo pantanal","input_length":24,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Ereic\u00f2 c\u00fc\u00e1b xe iopoit\u00e0ra,","Portugu\u00eas":"podes me alimentar;","input_length":25,"split":"val"}
+{"instruction":null,"Tupi":"abar\u00e9 s\u00f3 ybyt\u00fdra koty","Portugu\u00eas":"o padre foi para a serra","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbarani os\u00f3","Portugu\u00eas":"o guerreiro foi","input_length":11,"split":"val"}
+{"instruction":null,"Tupi":"paka s\u00f3 ybyt\u00fdra koty","Portugu\u00eas":"a paca foi para a serra","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"kurumi s\u00f3 tuiuka koty","Portugu\u00eas":"o menino foi para o pantanal","input_length":21,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar mbo\u00eea o\u00eek\u00f3bo oka","Portugu\u00eas":"o homem est\u00e1 procurando a cobra na casa","input_length":27,"split":"val"}
+{"instruction":null,"Tupi":"mbo\u00eea s\u00f3 taba koty","Portugu\u00eas":"a cobra foi para a aldeia","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 os\u00f3 tuiuka rupi 'yb\u00e1 'oka","Portugu\u00eas":"o homem foi pelo pantanal para colher frutas","input_length":29,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3mukuet\u00e1 \u00eek\u00f3 tuiukape","Portugu\u00eas":"mo\u00e7as vivem no pantanal","input_length":25,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3 s\u00f3 ka'a koty","Portugu\u00eas":"a mulher foi para a mata","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"guyra'i s\u00f3 paran\u00e3 koty","Portugu\u00eas":"o passarinho foi para o mar","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 oman\u00f5","Portugu\u00eas":"o homem morreu","input_length":9,"split":"val"}
+{"instruction":null,"Tupi":"taper\u00e1 ikob\u00e9","Portugu\u00eas":"a andorinha vive","input_length":12,"split":"val"}
+{"instruction":null,"Tupi":"erema'e guyra'i res\u00e9","Portugu\u00eas":"voc\u00ea n\u00e3o olha para o passarinho","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"ix\u00e9 abar\u00e9","Portugu\u00eas":"Eu sou padre","input_length":9,"split":"val"}
+{"instruction":null,"Tupi":"k\u00fb\u00e9 paka","Portugu\u00eas":"aquele paca","input_length":8,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Ogoera\u00e7\u00f3 pet\u00fdm\u00e3t\u00e3","Portugu\u00eas":"levaram tabaco duro.","input_length":17,"split":"val"}
+{"instruction":null,"Tupi":"pitanga os\u00f3 ybyt\u00fdra rupi 'yb\u00e1 'oka","Portugu\u00eas":"a crian\u00e7a foi pela serra para colher frutas","input_length":34,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3muku os\u00f3 oka rupi 'yb\u00e1 'oka","Portugu\u00eas":"a mo\u00e7a foi pela casa para colher frutas","input_length":32,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo taba rupi so'o su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pela aldeia tendo medo do animal","input_length":50,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3 og\u00fbat\u00e1 xe irunamo taba rupi mbo\u00eea su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"a mulher caminhou comigo pela aldeia tendo medo da cobra","input_length":53,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 g\u00fbyr\u00e1 o\u00eepsyky tabape","Portugu\u00eas":"o homem capturou o p\u00e1ssaro na aldeia","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3mukuet\u00e1 \u00eek\u00f3 ybyt\u00fdrape","Portugu\u00eas":"mo\u00e7as vivem na serra","input_length":26,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"g\u00fbyr\u00e1","Portugu\u00eas":"p\u00e1ssaro","input_length":5,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3 os\u00f3 'yemby\u00eee\u00eea rupi 'yb\u00e1 'oka","Portugu\u00eas":"a mulher foi pela praia para colher frutas","input_length":35,"split":"val"}
+{"instruction":null,"Tupi":"ag\u00fbarag\u00fbasu o\u00eeabab tenhe","Portugu\u00eas":"o lobo-guar\u00e1 acabou fugindo","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 ygarusu pup\u00e9nd\u00fbara oker","Portugu\u00eas":"o homem de dentro da caravela est\u00e1 dormindo","input_length":27,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"nheme'eng","Portugu\u00eas":"entregar-se","input_length":9,"split":"val"}
+{"instruction":null,"Tupi":"paka ikob\u00e9","Portugu\u00eas":"a paca vive","input_length":10,"split":"val"}
+{"instruction":null,"Tupi":"guyra'i g\u00fbat\u00e1 paran\u00e3 rupi","Portugu\u00eas":"o passarinho caminhou pelo mar","input_length":25,"split":"val"}
+{"instruction":null,"Tupi":"paka g\u00fbat\u00e1 ka'a rupi","Portugu\u00eas":"a paca caminhou pela mata","input_length":20,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Anhanga remiau\u00e7\u00f9ba,","Portugu\u00eas":"escravo do diabo.","input_length":19,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00c7up\u00ed noroic\u00f2i, \u00eb\u00ed, puc\u00fa.","Portugu\u00eas":"na verdade n\u00e3o demoramos.","input_length":24,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Oc\u00ebar a\u00f5\u00e1ma omb\u00e4\u00e9:","Portugu\u00eas":"que deixariam suas coisas:","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"T\u00f3! mam\u00f5pe kunh\u00e3 rek\u00f3\u00fb?","Portugu\u00eas":"Eh! Onda mulher est\u00e1?","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"N\u00e3b\u00e0 \u00e4\u00e9pe xe m\u00f6apyc\u00fdc;","Portugu\u00eas":"ningu\u00e9m ali me fez agrado;","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 so'omimbaba o\u00eepsyky ka'ape","Portugu\u00eas":"o homem capturou o gado na mata","input_length":30,"split":"val"}
+{"instruction":null,"Tupi":"tapiti o\u00eepys\u00fdkyba'ep\u00fbera xe ruba","Portugu\u00eas":"quem capturou o coelho foi meu pai","input_length":32,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"opabenh\u1ebd mba\u2019ea\u00edba","Portugu\u00eas":"todas as coisas m\u00e1s","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 mbo\u00eea o\u00eepsyky ybyt\u00fdrape","Portugu\u00eas":"o homem capturou a cobra na serra","input_length":27,"split":"val"}
+{"instruction":null,"Tupi":"pitanga os\u00f3 tuiuka rupi 'yb\u00e1 'oka","Portugu\u00eas":"a crian\u00e7a foi pelo pantanal para colher frutas","input_length":33,"split":"val"}
+{"instruction":null,"Tupi":"pakaet\u00e1 \u00eek\u00f3 'yemby\u00eee\u00eeape","Portugu\u00eas":"pacas vivem no praia","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 so'o o\u00eepsyky paran\u00e3pe","Portugu\u00eas":"o homem capturou o animal no mar","input_length":25,"split":"val"}
+{"instruction":null,"Tupi":"so'o \u00fa a'e","Portugu\u00eas":"o animal come aquilo","input_length":10,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Onhecam\u00ebeng am\u00f6et\u00e0,","Portugu\u00eas":"Ofereceram-se outros","input_length":19,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"\u00eeasy","Portugu\u00eas":"lua","input_length":4,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbarani os\u00f3 oka rupi 'yb\u00e1 'oka","Portugu\u00eas":"o guerreiro foi pela casa para colher frutas","input_length":30,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Nit\u00ed oiec\u00fc\u00e1b am\u00f2 mb\u00e4\u00e9;","Portugu\u00eas":"N\u00e3o se via outra coisa.","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo 'yemby\u00eee\u00eea rupi \u00eeag\u00fbara su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pela praia tendo medo da on\u00e7a","input_length":59,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Taic\u00f2 por\u00ebau\u00e7ub\u00f3ra,","Portugu\u00eas":"para que eu me penitencie","input_length":19,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"pek\u00fba\u1ebdmo xe su\u00ed","Portugu\u00eas":"escapando-se de mim","input_length":15,"split":"val"}
+{"instruction":null,"Tupi":"so'omimbabaet\u00e1 \u00eek\u00f3 okape","Portugu\u00eas":"gados vivem na casa","input_length":24,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Aierur\u00e8 iep\u00e9 ix\u00fc\u00ed,","Portugu\u00eas":"Pedira um deles.","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1-mond\u00e1 oma'\u00e9 o'ama or\u00e9 res\u00e9 it\u00e1ybat\u00e9'\u00e1ri","Portugu\u00eas":"o ladr\u00e3o est\u00e1 olhando para n\u00f3s de p\u00e9 sobre uma pedra alta","input_length":43,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"anhanga","Portugu\u00eas":"dem\u00f4nio","input_length":7,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe-te, xe rembi\u00e1-pot\u00e1 sabeypora am\u00f5 res\u00e9.","Portugu\u00eas":"Eu, em vez di.sso, quero presas em alguns b\u00eabados.","input_length":41,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"tat\u00e1","Portugu\u00eas":"fogo","input_length":4,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Mar\u00e3namo? Opamenh\u1ebd pe rubet\u00e9ramo","Portugu\u00eas":"Por qu\u00ea? De todos voc\u00eas como pai verdadeiro","input_length":32,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"reme","Portugu\u00eas":"quando","input_length":4,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1pe k\u00fb\u00e9 kunh\u00e3? s\u00e9","Portugu\u00eas":"Quem \u00e9 aquele mulher? sei l\u00e1","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3et\u00e1 \u00eek\u00f3 ka'ape","Portugu\u00eas":"mulheres vivem na mata","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"a\u00eemenget\u00e1 ak\u00fb\u00e9 pitanga g\u00fbig\u00fbat\u00e1bo","Portugu\u00eas":"conversei com aquele crian\u00e7a caminhando","input_length":33,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"pe posanga pe\u1ebdme xe remimond\u00f3","Portugu\u00eas":"o rem\u00e9dio de voc\u00eas para voc\u00eas enviado de mim","input_length":29,"split":"val"}
+{"instruction":null,"Tupi":"kurumi os\u00f3 'yemby\u00eee\u00eea rupi 'yb\u00e1 'oka","Portugu\u00eas":"o menino foi pela praia para colher frutas","input_length":36,"split":"val"}
+{"instruction":null,"Tupi":"abar\u00e9et\u00e1 \u00eek\u00f3 ybyt\u00fdrape","Portugu\u00eas":"padres vivem na serra","input_length":22,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Acu\u00e1b mir\u00ed xe c\u00fcap\u00e1ra.","Portugu\u00eas":"conhecendo um pouco os meus [companheiros].","input_length":22,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Og\u00faeras\u00f3 tem\u00f5 sapy'a ybakype Tupana xe ruba m\u00e3!","Portugu\u00eas":"Ah, oxal\u00e1 Deus levasse logo a meu pai para o c\u00e9u!","input_length":47,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar tapiti o\u00eek\u00f3bo tuiuka","Portugu\u00eas":"o homem est\u00e1 procurando o coelho no pantanal","input_length":31,"split":"val"}
+{"instruction":null,"Tupi":"so'omimbaba \u00fa tembi'u","Portugu\u00eas":"o gado come alimento","input_length":21,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe ror\u00fd a\u00f5\u00e1ma mir\u00ed;","Portugu\u00eas":"para me divertir um pouco.","input_length":19,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Sargento, Soraret\u00e0 ab\u00e9","Portugu\u00eas":"O sargento e os soldados","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3mukuet\u00e1 \u00eek\u00f3 okape","Portugu\u00eas":"mo\u00e7as vivem na casa","input_length":22,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Oropyc\u00fdc cet\u00e1 cat\u00fa,","Portugu\u00eas":"Apresamos muitos,","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo tuiuka rupi taper\u00e1 su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pelo pantanal tendo medo da andorinha","input_length":54,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar tatu o\u00eek\u00f3bo 'yemby\u00eee\u00eea","Portugu\u00eas":"o homem est\u00e1 procurando o tatu no praia","input_length":33,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Oc\u00eb\u00e1r \u00f6an\u00e1ma \u00e7up\u00e9.","Portugu\u00eas":"deixaram-nos para seus parentes.","input_length":18,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Tup\u00e3","Portugu\u00eas":"Deus","input_length":4,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Iand\u00e9 \u00e7\u00fc\u00ed nocykyi\u00e9,","Portugu\u00eas":"n\u00e3o t\u00eam medo de n\u00f3s","input_length":19,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"mar\u00e3ngatupe?","Portugu\u00eas":"como?","input_length":12,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 s\u00f3 tuiuka koty","Portugu\u00eas":"o homem foi para o pantanal","input_length":18,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe p\u00fbera\u00ee, xe ropesy\u00ee!","Portugu\u00eas":"Eu estou cansado, eu estou com sono!","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 ikob\u00e9 ebap\u00f3","Portugu\u00eas":"o homem vive l\u00e1","input_length":15,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"ybyrarerego\u00e0ra gu\u00ed,","Portugu\u00eas":"\u00f3 comandante.","input_length":19,"split":"val"}
+{"instruction":null,"Tupi":"abar\u00e9 pe o\u00eemonget\u00e1","Portugu\u00eas":"o padre conversou com voc\u00eas","input_length":18,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"teburusu","Portugu\u00eas":"adulto","input_length":8,"split":"val"}
+{"instruction":null,"Tupi":"t\u00e9 ab\u00e1-mond\u00e1 our \u00eeand\u00e9 pytyb\u00f5mo","Portugu\u00eas":"finalmente o ladr\u00e3o veio nos ajudar","input_length":31,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"sarig\u00fbe\u00eea","Portugu\u00eas":"gamb\u00e1","input_length":9,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe irunamob\u00e8 igo\u00e1ra,","Portugu\u00eas":"que estavam comigo","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"so'o onhan","Portugu\u00eas":"o animal correu","input_length":10,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar g\u00fbyr\u00e1 o\u00eek\u00f3bo oka","Portugu\u00eas":"o homem est\u00e1 procurando o p\u00e1ssaro na casa","input_length":27,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe r\u00eb\u00f5 rir\u00e9 ybakip\u00f3ra.","Portugu\u00eas":"e, ap\u00f3s minha morte, um habitante do c\u00e9u [(eu seja)].","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 taper\u00e1 o\u00eepsyky paran\u00e3pe","Portugu\u00eas":"o homem capturou a andorinha no mar","input_length":27,"split":"val"}
+{"instruction":null,"Tupi":"xe rapixara o\u00eek\u00f3 ybyt\u00fdrape","Portugu\u00eas":"o meu semelhante est\u00e1 na serra","input_length":26,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3 oker o\u00fapa, o'\u00eeabo, o\u00eek\u00e9 i oka pup\u00e9","Portugu\u00eas":"pensando que a mulher estava dormindo, entrou em sua casa","input_length":40,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Namb\u00e4\u00e9 arec\u00f2 Senhor gu\u00ed;","Portugu\u00eas":"- Nada tenho, \u00f3 senhor;","input_length":24,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3mukuet\u00e1 \u00eek\u00f3 tabape","Portugu\u00eas":"mo\u00e7as vivem na aldeia","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Tup\u00e3 robak\u00e9 e\u00eek\u00f3bo, xe su\u00ed nd'eresyryki.","Portugu\u00eas":"Estando diante de Deus, de mim n\u00e3o te afastas.","input_length":40,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"mboryb","Portugu\u00eas":"consentir","input_length":6,"split":"val"}
+{"instruction":null,"Tupi":"ag\u00fbasem am\u00f5 ag\u00fbarag\u00fbasu sup\u00e9","Portugu\u00eas":"encontrei aquele lobo-guar\u00e1","input_length":28,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 og\u00fbat\u00e1 xe irunamo taba rupi mbo\u00eea su\u00ed osyky\u00ee\u00e9bo","Portugu\u00eas":"o homem caminhou comigo pela aldeia tendo medo da cobra","input_length":51,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Oimop\u00f2r anhanga rec\u00f3.","Portugu\u00eas":"obedeceram \u00e0s determina\u00e7\u00f5es do diabo.","input_length":21,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Nde rec\u00e8ne oic\u00f3 Pai gua\u00e7\u00f9:","Portugu\u00eas":"Contigo o bispo vai brigar.","input_length":26,"split":"val"}
+{"instruction":null,"Tupi":"mar\u00e3namope g\u00fbarani ndo\u00eeas\u00faki a'e 'y pup\u00e9? ","Portugu\u00eas":"por que o guerreiro n\u00e3o se banha naquele rio? ","input_length":42,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Aruan\u00eb\u00fdm e\u00e7apy\u00e0 ip\u00f3","Portugu\u00eas":"De forma inadequada, de s\u00fabito","input_length":19,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Opabenh\u00e8 opoc\u00e0poc\u00e1,","Portugu\u00eas":"Todos ficaram rindo:","input_length":19,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"nhe'enga","Portugu\u00eas":"resposta","input_length":8,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"monget\u00e1","Portugu\u00eas":"conversar com","input_length":7,"split":"val"}
+{"instruction":null,"Tupi":"abar\u00e9 o\u00faryba'e okaru or\u00e9 irunamone","Portugu\u00eas":"o padre que veio vai comer com a gente","input_length":34,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 ag\u00fbarag\u00fbasu o\u00eepsyky 'yemby\u00eee\u00eeape","Portugu\u00eas":"o homem capturou o lobo-guar\u00e1 no praia","input_length":36,"split":"val"}
+{"instruction":null,"Tupi":"paka nhu res\u00e9nd\u00fbara o\u00eeabab","Portugu\u00eas":"a paca do campo foge","input_length":26,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"g\u00fbitek\u00f3bo \u00e9","Portugu\u00eas":"estando eu, na verdade","input_length":11,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Mondab\u00f3ru\u00e7\u00fa \u00e7up\u00ed oic\u00f3,","Portugu\u00eas":"Agiram como grandes ladr\u00f5es, de fato;","input_length":22,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Tres Tup\u00e3 Remimonhanga","Portugu\u00eas":"Tr\u00eas obras de Deus","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"\u00eeag\u00fbaraet\u00e1 \u00eek\u00f3 paran\u00e3pe","Portugu\u00eas":"on\u00e7as vivem no mar","input_length":23,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Pa\u00ed xe iaca\u00f2 et\u00e9 et\u00e9:","Portugu\u00eas":"O padre me repreendeu muit\u00edssimo:","input_length":21,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Erepot\u00e1rpe mb\u00e4\u00e9 am\u00f2?","Portugu\u00eas":"Queres alguma coisa?","input_length":20,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"amar\u00e3monhangype or\u00e9 g\u00fbasembaba ri?","Portugu\u00eas":"fa\u00e7o guerra com nossos chegados?","input_length":34,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1-mond\u00e1et\u00e1 \u00eek\u00f3 tuiukape","Portugu\u00eas":"ladr\u00f5es vivem no pantanal","input_length":25,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"K\u00f3 nh\u00f5 pe posanga","Portugu\u00eas":"Este somente \u00e9 o rem\u00e9dio de voc\u00eas","input_length":17,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"ag\u00fbarag\u00fbasu","Portugu\u00eas":"lobo-guar\u00e1","input_length":11,"split":"val"}
+{"instruction":null,"Tupi":"tatu os\u00f3 oka rupi 'yb\u00e1 'oka","Portugu\u00eas":"o tatu foi pela casa para colher frutas","input_length":27,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Emon\u00e3namo, ta pe\u00eekug\u00fb\u00e1 pab\u1ebd","Portugu\u00eas":"Portanto, que reconhe\u00e7am todos","input_length":27,"split":"val"}
+{"instruction":null,"Tupi":"tatuet\u00e1 \u00eek\u00f3 tuiukape","Portugu\u00eas":"tatus vivem no pantanal","input_length":20,"split":"val"}
+{"instruction":null,"Tupi":"g\u00fbyr\u00e1 s\u00f3 taba koty","Portugu\u00eas":"o p\u00e1ssaro foi para a aldeia","input_length":18,"split":"val"}
+{"instruction":null,"Tupi":"kurumiet\u00e1 \u00eek\u00f3 'yemby\u00eee\u00eeape","Portugu\u00eas":"meninos vivem no praia","input_length":26,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Ixe r\u00f3ca teit\u00e8 pup\u00e8.","Portugu\u00eas":"para minha casa.","input_length":20,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"ab\u00e1","Portugu\u00eas":"homem","input_length":3,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 osekar taper\u00e1 o\u00eek\u00f3bo paran\u00e3","Portugu\u00eas":"o homem est\u00e1 procurando a andorinha no mar","input_length":31,"split":"val"}
+{"instruction":null,"Tupi":"kunh\u00e3muku s\u00f3 taba koty","Portugu\u00eas":"a mo\u00e7a foi para a aldeia","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"ag\u00fbarag\u00fbasu ikob\u00e9","Portugu\u00eas":"o lobo-guar\u00e1 vive","input_length":17,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"ygapuku\u00eetaba","Portugu\u00eas":"remo","input_length":12,"split":"val"}
+{"instruction":null,"Tupi":"kurumi nhe'eng","Portugu\u00eas":"o menino fala","input_length":14,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Pa\u00ed r\u00ebymb\u00e1ba opanh\u00e9;","Portugu\u00eas":"todas cria\u00e7\u00f5es do padre.","input_length":20,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Opabenh\u00e9 cunum\u00ed goa\u00e7\u00fa,","Portugu\u00eas":"todos os rapazes.","input_length":22,"split":"val"}
+{"instruction":null,"Tupi":"abar\u00e9et\u00e1 \u00eek\u00f3 paran\u00e3pe","Portugu\u00eas":"padres vivem no mar","input_length":21,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"Xe ab\u00e9 inh\u00ebenga aporac\u00e1r","Portugu\u00eas":"Eu tamb\u00e9m obede\u00e7o a suas palavras","input_length":24,"split":"val"}
+{"instruction":"Translate the tupi sentence to Brazilian Portuguese.","Tupi":"pytunybo","Portugu\u00eas":"pelas noites","input_length":8,"split":"val"}
+{"instruction":null,"Tupi":"\u00eeag\u00fbaraet\u00e1 \u00eek\u00f3 'yemby\u00eee\u00eeape","Portugu\u00eas":"on\u00e7as vivem no praia","input_length":27,"split":"val"}
+{"instruction":null,"Tupi":"pitanga os\u00f3 oka rupi 'yb\u00e1 'oka","Portugu\u00eas":"a crian\u00e7a foi pela casa para colher frutas","input_length":30,"split":"val"}
+{"instruction":null,"Tupi":"ab\u00e1 tatu o\u00eepsyky ybyt\u00fdrape","Portugu\u00eas":"o homem capturou o tatu na serra","input_length":26,"split":"val"}
+{"instruction":null,"Tupi":"Ak\u00fb\u00e9 g\u00fbarani o\u00eeamotare'ym ebok\u00fb\u00e9 pa\u00ee\u00e9","Portugu\u00eas":"Aquele guerreiro odeia esse paj\u00e9","input_length":37,"split":"val"}
+{"instruction":null,"Tupi":"\u00eeag\u00fbara os\u00f3 'yemby\u00eee\u00eea rupi 'yb\u00e1 'oka","Portugu\u00eas":"a on\u00e7a foi pela praia para colher frutas","input_length":37,"split":"val"}
