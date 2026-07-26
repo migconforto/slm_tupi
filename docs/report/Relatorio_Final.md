@@ -3,8 +3,11 @@
 **Título:** Tradução Automática de Tupi Antigo para Português Brasileiro com *Small Language Models* e *Fine-Tuning* Eficiente (LoRA/PEFT)
 
 **Autor:** Miguel Conforto
+
 **Curso/Programa:** Mestrado — PUC
+
 **Repositório:** migconforto/slm_tupi
+
 **Data:** julho de 2026
 
 ---
