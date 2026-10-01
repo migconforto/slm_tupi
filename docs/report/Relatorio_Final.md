@@ -9,17 +9,6 @@
 **Repositório:** migconforto/slm_tupi
 
 **Data:** julho de 2026 (atualizado em outubro de 2026 com os resultados da avaliação)
-
-> **Nota de conciliação (remover na versão final).** Os números de dados e de treinamento
-> das Seções 3 e 5.1 (2.012 pares; 1.408 exemplos de treino e 604 de validação; 4.224
-> passos; `checkpoint-4224`; posto LoRA `r` = 256) diferem dos reportados na dissertação
-> (802 + 1.200 = 2.002 pares; 1.401 de treino e 601 de teste; 4.203 passos; `r` = 128).
-> Em particular, os ≈ 239,5 M de parâmetros treináveis informados na Seção 3.2
-> correspondem exatamente a `r` = 128 no Qwen2.5-3B (1.870.848 × `r` = 239.468.544), e
-> não a `r` = 256 (≈ 479 M). As métricas da Seção 5 seguem a dissertação (conjunto de
-> teste de 601 sentenças). Confirmar quais valores correspondem à execução descrita e
-> uniformizar o texto.
-
 ---
 
 ## Resumo
