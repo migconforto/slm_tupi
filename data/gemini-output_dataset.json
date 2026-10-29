@@ -1,0 +1,5049 @@
+[
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ereîkuápe Karagûatatyba?",
+    "output": "Você conhece Caraguatatuba?",
+    "output_gemini": "Sabe por onde fica o Caraguatatiba?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "A'epe, asé e'ikatu Paranã pu rendupa",
+    "output": "Lá, podemos ouvir o som do Mar",
+    "output_gemini": "Ali, costumamos ouvir o som do mar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe gûatáreme Paranã koty",
+    "output": "Quando vou para a praia",
+    "output_gemini": "Em minha caminhada para o lado do mar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "i tyb itãetá ybyku'i resé",
+    "output": "tem muitas conchas na areia",
+    "output_gemini": "há muitas pedras sobre a areia"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Amõ itáybaté ‘árybo ixé agûapyk, 'ypa'ũporanga repîaka.",
+    "output": "Sobre alguma pedra eu sento pra olhar a Ilhabela.",
+    "output_gemini": "Sobre algum rochedo eu me sento, para ver a ilha bonita."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Kûeî suí apererek taîasuk xe karu îanondé.",
+    "output": "Dali salto pra me banhar antes de comer.",
+    "output_gemini": "De manhã, antes do meu almoço, eu salto (na água)."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe ambyasýramo, a'ekatu tembi'ué gûaba:",
+    "output": "Quando estou com fome, posso comer comidas gostosas:",
+    "output_gemini": "Quando estou triste, o alimento é bom:"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "piráka'ẽ aîpĩ akaîu rypûera.",
+    "output": "peixe assado, mandioca e suco de caju.",
+    "output_gemini": "peixe seco e castanha de caju velha."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "A'eriré, amõ inaîá gûýri aputu'u.",
+    "output": "Depois disso, descanso debaixo de uma palmeira.",
+    "output_gemini": "Depois, descanso debaixo de algum ingazeiro."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Karuka pukuî",
+    "output": "Ao longo da tarde",
+    "output_gemini": "Tarde comprida"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ybytyra koty agûatá",
+    "output": "vou para a Serra",
+    "output_gemini": "caminho para o lado da montanha"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "So'oetá asepîak xe rapépe: akuti îaku gûariba.",
+    "output": "Vejo muitos animais no meu caminho: cotia, jacu, macacos.",
+    "output_gemini": "Vejo muitos animais em meu caminho: cutia, jacu e bugio."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Kûarasy reîké îanondé",
+    "output": "Antes do pôr-do Sol",
+    "output_gemini": "Antes de o sol entrar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tupana osunũsunung",
+    "output": "fica trovejando",
+    "output_gemini": "Deus troveja"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe moapysykatu i nhe'enga.",
+    "output": "Gosto muito do barulho do trovão.",
+    "output_gemini": "Sua fala me alegra muito."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "A'e ri, ama'ẽ ybaka resé Tupãberaba repîápotá.",
+    "output": "Por isso, olho pro céu pra ver os relâmpagos.",
+    "output_gemini": "Depois disso, olho para o céu para ver o relâmpago de Deus."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Pytúnybo, Îasýobágûasú sẽmi.",
+    "output": "De noite, a Lua cheia nasce.",
+    "output_gemini": "À noite, a Lua grande sai."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aúb xe inĩme taker.",
+    "output": "Eu deito na minha rede para dormir.",
+    "output_gemini": "Gosto de dormir em minha rede."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ixé kó tetamygûara;",
+    "output": "Eu sou daqui.",
+    "output_gemini": "Eu sou morador desta terra;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Karagûatatyba xe rekoaba.",
+    "output": "Caraguatatuba é minha casa.",
+    "output_gemini": "Caraguatatiba é a minha morada."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Kyre'ymbaba ogûatá erimba'e ka'a koty oka'amondópotábo.",
+    "output": "Um dia, um guerreiro foi andar para a mata querendo caçar.",
+    "output_gemini": "O preguiçoso caminha sempre pela floresta querendo roubar."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Sygûasu bé ogûatá ka'a rupi.",
+    "output": "Um veado também caminhava na mata.",
+    "output_gemini": "A tamanduá-bandeira também caminha pela mata."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Apŷaba osepîak a'e i membyra rerekó.",
+    "output": "O homem viu que ele cuidava de seu filhote.",
+    "output_gemini": "O homem vê que ela está com o seu filho."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Apŷaba ndonhangerekóî sygûasu membyra.",
+    "output": "O homem não se preocupou com o filhote do veado.",
+    "output_gemini": "O homem não cuida do filho da tamanduá-bandeira."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Emonãnamo, kyre'ymbaba sygûasu momosẽmi.",
+    "output": "Então, o guerreiro seguiu o veado.",
+    "output_gemini": "Assim, o preguiçoso afasta a tamanduá-bandeira."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Apŷaba i membyra pysykiré, a’e sygûasu ybõû.",
+    "output": "Depois de capturar sua cria, o homem flechou o veado.",
+    "output_gemini": "O homem pegou o filho dela, e a tamanduá-bandeira o feriu."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Sembîara nda sygûasu ruã erimba’e.",
+    "output": "Sua presa não foi o veado.",
+    "output_gemini": "A presa não era a tamanduá-bandeira, era o homem."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "A’ete, a'e abá sy.",
+    "output": "Bem, foi a mãe do homem.",
+    "output_gemini": "Na verdade, ela era a mãe de alguém."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Té nipó, ta pe ma'endûar aîpó nhe'enga resé:",
+    "output": "Então, lembrem bem destas palavras:",
+    "output_gemini": "Até talvez, para que vocês se lembrem daquela fala:"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "peîuká umẽ so'o o membyra rerekóreme.",
+    "output": "não matem animais que estão cuidando de filhotes.",
+    "output_gemini": "não matem o animal quando ele estiver com o seu filho."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "A’ete pŷaba o sy oîuká nhẽ.",
+    "output": "Mas o homem acabou matando sua mãe.",
+    "output_gemini": "Na verdade, o homem matou a sua mãe."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "peîuká umẽ so'o o membyra rerekóreme",
+    "output": "não matem animais que estão cuidando de filhotes",
+    "output_gemini": "não matem o animal quando ele estiver com o seu filho"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aîmondó benhẽ xe nhe’enga",
+    "output": "Envio de novo minhas palavras",
+    "output_gemini": "Envio logo a minha fala"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "opamenhẽ peẽme, xe ra’yretá.",
+    "output": "a todos vocês, meus filhos.",
+    "output_gemini": "a todos vocês, meus filhos."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "gûitekóbo é",
+    "output": "estando eu, na verdade",
+    "output_gemini": "vivendo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pe rekokatu kanhema suí",
+    "output": "para a não perda da salvação de vocês",
+    "output_gemini": "a boa vida de vocês longe da perdição"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "N’i katuî nhẽ kó nhandé retama pupé nhẽ;",
+    "output": "Não é bom, com efeito, isto em nossa terra;",
+    "output_gemini": "Não é nada bom dentro de nossa terra;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pe rekó pupé pekanhemetekatûabo,",
+    "output": "com seus atos desgraçando-se vocês muitíssimo,",
+    "output_gemini": "em seu modo de vida, vocês estão se perdendo muito,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "xe suí, cristão-ramo pe rekó pupé.",
+    "output": "longe de mim, como cristãos na condição de vocês.",
+    "output_gemini": "longe de mim, no modo de vida de vocês como cristãos."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Kó xe nhe’enga aîmondó benhẽ",
+    "output": "Estas minhas palavras envio-as de novo",
+    "output_gemini": "Esta minha fala eu envio logo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tekoaíba suí pe pysyrõagûama resé",
+    "output": "do pecado para o futuro livramento de vocês",
+    "output_gemini": "para a salvação de vocês do mal"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Emonãnamo, ta peîkugûá pabẽ",
+    "output": "Portanto, que reconheçam todos",
+    "output_gemini": "Assim, para que todos saibam"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pe posanga peẽme xe remimondó",
+    "output": "o remédio de vocês para vocês enviado de mim",
+    "output_gemini": "o remédio de vocês que eu enviei"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aîkó niã ixé",
+    "output": "Estou eu, com efeito,",
+    "output_gemini": "Eis que eu estou"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "peẽme opamenhẽ ma’e monhangagûama resé.",
+    "output": "a vocês todas as coisas para fazer futuramente.",
+    "output_gemini": "para fazer todas as coisas para vocês."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Sasyeté ã",
+    "output": "É muito dolorosa, isso é",
+    "output_gemini": "Sinto muita dor agora"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ixébe ma’eaíba pe remimonhangûera resé kó marana,",
+    "output": "para mim por causa das coisas más, as feitas no passado por vocês, esta guerra",
+    "output_gemini": "por causa do mal que vocês fizeram nesta guerra,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pe raûsubare’yma.",
+    "output": "de vocês não me compadecendo.",
+    "output_gemini": "a falta de amor de vocês."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Marãnamo, kó yby poretéramo pe rekóreme,",
+    "output": "Por quê, desta terra como habitantes verdadeiros se vocês estão,",
+    "output_gemini": "Por que, sendo moradores desta terra,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "amarãmonhangype oré gûasembaba ri?",
+    "output": "faço guerra com nossos chegados?",
+    "output_gemini": "guerreiam contra o nosso lugar de encontro?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Na saûsubarypyramo ruã sekóû?",
+    "output": "Não como aqueles de quem se compadece estão eles?",
+    "output_gemini": "Ele não era o primeiro a ser amado?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ma’ẽtepe é mokõî ygûã maramonhangápe?",
+    "output": "Ora, duas vezes já em luta?",
+    "output_gemini": "Por que existem dois motivos de guerra?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oré resé omaramonhãba’e, apŷabaíba pitikoara,",
+    "output": "Contra nós os que lutavam, os homens maus potiguaras,",
+    "output_gemini": "Quem guerreia contra nós, o homem mau pitiguara,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "kanhẽmbabi Serinha’ẽme.",
+    "output": "pereceram todos em Serinhaém.",
+    "output_gemini": "perdeu-se em Serinhaém."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Apŷabaíba pytybõsara",
+    "output": "Dos homens maus os ajudantes",
+    "output_gemini": "O ajudante do homem mau"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "opakatu i kanhemi",
+    "output": "todos eles pereceram",
+    "output_gemini": "todos eles se perderam"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "kûesé akỹ maramonhangápe.",
+    "output": "ontem, lamentavelmente, na batalha.",
+    "output_gemini": "ontem na guerra sangrenta."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Apŷabaíba irũnamo o a’o resé omaramonhãba’epûera,",
+    "output": "Com os homens maus para sua própria desonra os que lutaram,",
+    "output_gemini": "O homem mau junto com o que guerreou por causa de sua roupa,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "opakatu i kanhemi oré suí.",
+    "output": "todos eles pereceram por nossa causa.",
+    "output_gemini": "todos eles se perderam de nós."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "N’onheme’engi îeí ãgûa supé quartel.",
+    "output": "Não se deu hoje para eles quartel.",
+    "output_gemini": "Não se deu logo o quartel para ele."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Marãnamo, kó yby poretéramo",
+    "output": "Por quê, desta terra como habitantes verdadeiros",
+    "output_gemini": "Por que, sendo morador desta terra,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ãgûa rekóreme?",
+    "output": "se eles estão?",
+    "output_gemini": "no modo de vida de profissional?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Peîkugûa katu karaíba",
+    "output": "conhecem bem os portugueses",
+    "output_gemini": "Conheçam bem o capitão"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Marãnamo? Opamenhẽ pe rubetéramo",
+    "output": "Por quê? De todos vocês como pai verdadeiro",
+    "output_gemini": "Por quê? Sendo todos o pai de vocês"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pe rekomonhangaba aîmondó benhẽ peẽme.",
+    "output": "determinações a vocês mando novamente a vocês.",
+    "output_gemini": "o modo de vida de vocês eu envio logo para vocês."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "opabenhẽ mba’eaíba",
+    "output": "todas as coisas más",
+    "output_gemini": "todo o mal"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pe remimonhanga resé, opabẽ culpa seîtykite",
+    "output": "obra de vocês toda a culpa a lançaram fora, porém",
+    "output_gemini": "por causa do que vocês fizeram, toda a culpa será lançada fora"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "a’ereme, koba’e suí pe pysyrõagûama resé.",
+    "output": "então, dela para o futuro livramento de vocês.",
+    "output_gemini": "então, para a salvação de vocês disso."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Kó ixé pe rekorama",
+    "output": "Eis que eu, de vocês o futuro proceder",
+    "output_gemini": "Esta é a futura vida de vocês"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pe remimonhangûama",
+    "output": "as futuras ações de vocês",
+    "output_gemini": "o que vocês devem fazer"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pe rekomonhangaba",
+    "output": "as determinações a vocês",
+    "output_gemini": "o modo de vida de vocês"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aîmondó benhẽ peẽme",
+    "output": "mando-as de novo a vocês",
+    "output_gemini": "envio logo para vocês"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ta peîmoabaíb ymẽ",
+    "output": "para que não façam difíceis",
+    "output_gemini": "para que vocês não se cansem"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "apŷabaíba, oîopa’ũme, oîoirũnamo",
+    "output": "(com) os homens maus, entre si [e] consigo",
+    "output_gemini": "o homem mau, entre si, uns com os outros"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pe rerekoaíme",
+    "output": "a vocês no caso de maus tratos",
+    "output_gemini": "no maltrato de vocês"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "I xuí pe semagûama",
+    "output": "Deles a futura saída de vocês",
+    "output_gemini": "A saída de vocês dele"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mba’e apŷabaíba ryryîa suí",
+    "output": "algo mais que um abalo de homens maus",
+    "output_gemini": "por causa da multidão de homens maus"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "peîeangune",
+    "output": "terão medo",
+    "output_gemini": "vocês se livrarão"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Okanhemetá ‘ybama, apŷabaíba",
+    "output": "Perecerão muitos comandantes, homens ruins",
+    "output_gemini": "Vão se perder os potiguaras, os homens maus"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "oré suí",
+    "output": "por nossa causa",
+    "output_gemini": "de nós"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Kûesé orogûar benhẽ 4 tubixaba, opabenhẽ i nhanama",
+    "output": "Ontem prendemos mais quatro chefes e toda a sua gente",
+    "output_gemini": "Ontem trouxemos logo 4 chefes, toda a gente deles"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "îerobîasaba",
+    "output": "causa de sua confiança",
+    "output_gemini": "confiança"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "4 cento i boîá",
+    "output": "Quatrocentos subordinados deles",
+    "output_gemini": "400 são os seus seguidores"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "oîopytera rupi orogûar",
+    "output": "pela metade capturamos",
+    "output_gemini": "pelo meio deles trouxemos"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Amõ okanhem oré suí irũnamo",
+    "output": "Alguns morreram por causa de nós com eles",
+    "output_gemini": "Algum se perdeu de nós junto"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Okanhẽ capitão André de Souza Bioby",
+    "output": "Pereceu o capitão André de Souza Biobi",
+    "output_gemini": "Perdeu-se o capitão André de Souza Bioby"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "opamenhẽ i boîaeté abé",
+    "output": "todos os seus melhores subordinados também",
+    "output_gemini": "e todos os seus seguidores principais também"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Peîmo’ang ymẽ, tuîxamonhangápe oré gûasembaba supé",
+    "output": "Não imaginem, ao fazerem chefes aos nossos chegados",
+    "output_gemini": "Não pensem que, na arrogância, para o nosso lugar de encontro"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "quartel nheme’enga.",
+    "output": "quartel ser dado.",
+    "output_gemini": "a entrega do quartel."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Peîmo’ang ymẽ apŷabaíba oré suí pe pysyrõ",
+    "output": "Não imaginem os homens maus de nós livrarem vocês",
+    "output_gemini": "Não pensem que os homens maus salvarão vocês de nós"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "I xupé nhõ ã quartel nheme’engi",
+    "output": "A eles, somente, esse quartel se dá",
+    "output_gemini": "Só para ele não se deu o quartel"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Marãnamo, sobaîygûaramo",
+    "output": "Por quê, como habitantes de outras bandas",
+    "output_gemini": "Por que, sendo inimigo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "sekóreme?",
+    "output": "se eles estão?",
+    "output_gemini": "no seu modo de vida?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Emonãnamo, petenhẽumẽ benhẽ abá",
+    "output": "Portanto, evitem que, de novo, os índios",
+    "output_gemini": "Assim, que ninguém se entregue logo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "onhemomotabenhẽmo",
+    "output": "sejam atraídos ainda mais",
+    "output_gemini": "querendo se mostrar logo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "apŷabaíba maranirũnamo o gûekorama resé",
+    "output": "dos homens maus sendo companheiros de guerra em suas futuras ações",
+    "output_gemini": "ao inimigo dos homens maus por causa do que lhe vai acontecer"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Naîpotarangaî benhẽî pe kanhema",
+    "output": "Não quero mais, de modo algum, a ruína de vocês",
+    "output_gemini": "Não quero de modo algum a perdição de vocês"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Emonãnamo, opamenhẽ peîor xe ropenhana",
+    "output": "Portanto, todos venham me encontrar",
+    "output_gemini": "Assim, venham todos ao meu encontro"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ixébe peîkŷabo",
+    "output": "junto a mim recolhendo-se vocês",
+    "output_gemini": "para que eu os veja"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe nhyrõngatu ipóne",
+    "output": "Eu hei de bem perdoar, certamente",
+    "output_gemini": "Eu perdoarei bem, certamente"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "peẽmene opabenhẽ mba’eaíba",
+    "output": "a vocês todas as coisas más,",
+    "output_gemini": "a todos vocês por causa de todo o mal"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pe remimonhangûera reséne",
+    "output": "obra passada de vocês",
+    "output_gemini": "que vocês fizeram"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Kó nhõ pe posanga",
+    "output": "Este somente é o remédio de vocês",
+    "output_gemini": "Só este é o remédio de vocês"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Emonãnamo, pepu’ã sesé, i xuí pesema",
+    "output": "Portanto, fiquem contra eles, deles se afastando",
+    "output_gemini": "Assim, levantem-se sobre ele, saiam dele"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Emonã pe rekóreme, xe rorybeténe",
+    "output": "Se assim for o proceder de vocês, eu hei de ficar muito feliz",
+    "output_gemini": "Neste modo de vida de vocês, eu ficarei muito feliz"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Opomoingoîebykatupe",
+    "output": "[Eu] os farei estar novamente bem",
+    "output_gemini": "Ele fará todos vocês voltarem bem"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "akûeme pe rekopûera",
+    "output": "e outrora [com] a antiga cultura de vocês",
+    "output_gemini": "a antiga vida de vocês"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "rupikatune",
+    "output": "bem de acordo",
+    "output_gemini": "por meio dela"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Kó xe nhe’enga rupi oîkó e’iba’e a’eîpe ne:",
+    "output": "Segundo estas minhas palavras estarão os que se acharem aí:",
+    "output_gemini": "Aquele que não viver segundo esta minha fala:"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "i mokanhemetepyramo nhẽ sekóûne",
+    "output": "como os que serão muito arruinados, com efeito, estarão",
+    "output_gemini": "ele estará certamente sendo aquele que deve ser destruído"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Mamõ monẽ i xóû xe suí oîegûasema",
+    "output": "Para longe deveriam ir de mim para fugir",
+    "output_gemini": "Para onde ele irá fugindo de mim?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "T’oîmoang ymẽ abá emonã oîkoba’e",
+    "output": "Que não o finjam os índios que assim fizerem",
+    "output_gemini": "Que ninguém que vive assim pense"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Kó marana akûeme akỹ",
+    "output": "Esta guerra há tempos, ai!",
+    "output_gemini": "Esta guerra é antiga e sangrenta"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "amõ armada rekopûera îabé;",
+    "output": "é um pouco como o antigo estado da armada;",
+    "output_gemini": "como a vida de alguma armada;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "sekó akûeîba’e rekó",
+    "output": "sua condição é a condição daquela",
+    "output_gemini": "era a vida daquela gente"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ixé aé aîkugûá tekó",
+    "output": "Eu mesmo reconheço o fato",
+    "output_gemini": "Eu mesmo conheço a vida"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Peteymẽ peîeagûabo",
+    "output": "Guardem-se de se desonrarem",
+    "output_gemini": "Não se livrem"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pekûaẽmo xe suí",
+    "output": "escapando-se de mim",
+    "output_gemini": "encontrando-se comigo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aîme’engatu ipóne perdão geral peẽmene",
+    "output": "Hei de dar certamente o perdão geral a vocês",
+    "output_gemini": "Darei bem, certamente, o perdão geral para todos vocês"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe remimotaramo peîkóne",
+    "output": "Como aqueles que eu desejo estarão.",
+    "output_gemini": "Vocês viverão segundo o meu desejo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Opamenhẽ morubixabetá abá oîerureté peẽme",
+    "output": "Todos os chefes índios pedem muito a vocês",
+    "output_gemini": "Todos os chefes também pedem muito para vocês"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pe ruragûama resé",
+    "output": "pela vinda futura de vocês",
+    "output_gemini": "para a vinda de vocês"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "A’e abé oîme’ẽ perdão geral peẽmene",
+    "output": "Eles também darão o perdão geral a vocês",
+    "output_gemini": "Ele também deu o perdão geral para todos vocês"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "og ubixaba",
+    "output": "de seu próprio chefe",
+    "output_gemini": "o rei"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ogû ekomonhangaba rupi",
+    "output": "segundo as ordens a eles",
+    "output_gemini": "conforme o seu decreto"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "kó yby",
+    "output": "esta terra",
+    "output_gemini": "esta terra"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Peîerobîar ixé resé",
+    "output": "Confiem em mim",
+    "output_gemini": "Confiem em mim"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Na karaíba ruã ixé",
+    "output": "Não um homem branco eu",
+    "output_gemini": "Eu não sou capitão"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ixé copixápe catú aimõgatyrõ ygaruçú",
+    "output": "Eu, nos sertões, conserto navios",
+    "output_gemini": "Eu na roça bem limpo o navio"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aèbé Apyabetà oçopár",
+    "output": "quando os índios deixam de seguir seu [caminho].",
+    "output_gemini": "Também muita gente se juntou"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé abé coytè oiporacár",
+    "output": "Eles também, afinal, os abarrotam",
+    "output_gemini": "Ele também já mandou trabalhar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Mojú cotý auatàuatá",
+    "output": "Para Moju eu viajava",
+    "output_gemini": "Para o lado do Moju andei muito"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe tutýra còpe apytá",
+    "output": "ficando na roça de meu tio",
+    "output_gemini": "Fiquei na roça de meu tio"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oporandùb aé ixébo",
+    "output": "Perguntou ele a mim",
+    "output_gemini": "Ele perguntou para mim"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Maiabépe nde pyà indébo?",
+    "output": "Qual é tua intenção?",
+    "output_gemini": "Como está o teu coração para ti?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Umamepe catú ereçó?",
+    "output": "Para onde vais?",
+    "output_gemini": "Para onde, afinal, tu vais?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Abápe abé nde irùmo oçó?",
+    "output": "Quem vai contigo?",
+    "output_gemini": "Com quem também tu vais?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Iepuxàpe",
+    "output": "Para Iepuxaba",
+    "output_gemini": "Para o Iepuxá"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tapyýietà recoçàpe",
+    "output": "aldeamento de muitos tapuias",
+    "output_gemini": "Para a habitação de muitos tapuias"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Mocõi Caraíba reté, Umambaé xe moeté",
+    "output": "Dois senhores (vão comigo), cada um deles me respeita",
+    "output_gemini": "Dois capitães verdadeiros, Umambaé me honrou"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ixe irúnamo oço potár",
+    "output": "comigo querem ir",
+    "output_gemini": "Ele quer ir junto comigo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe abé inheenga aporacár",
+    "output": "Eu também obedeço a suas palavras",
+    "output_gemini": "Eu também mandei perguntar pela fala dele"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé xe Tutýra teité oinongucár cetà miapè",
+    "output": "Ai, aquele meu tio mandou colocar muitos paes",
+    "output_gemini": "Aquele meu tio mesmo mandou pôr muito pão"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Meza pocame ocameeng",
+    "output": "os ofereceu na mesa enfeitada",
+    "output_gemini": "Na mesa logo apareceu"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "eí ixébo: tiambaèú",
+    "output": "Disse-me: Vamos comer",
+    "output_gemini": "Disse para mim: vamos comer"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Co mirì aíra tembiú",
+    "output": "esta pouca comida",
+    "output_gemini": "Este pouco de comida"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Mojù çupí i poreauçub",
+    "output": "Moju, na verdade, é pobre.",
+    "output_gemini": "Certamente o Moju é de se amar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aipò recè aé noçauçùb",
+    "output": "Por causa disso, ele não a aprecia",
+    "output_gemini": "Por isso ele não o amava"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Comandaí, tacacá abé",
+    "output": "Feijões e tacacás",
+    "output_gemini": "Feijão, tacacá também"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çupí catú aú ára iabé",
+    "output": "comia eu todo dia",
+    "output_gemini": "Certamente é bom comer nesta hora"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Arecò tres taraýra",
+    "output": "Tenho três traíras",
+    "output_gemini": "Tenho três filhos"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Cobè catú eté, aé ixupé",
+    "output": "Muito bem, disse eu a ele",
+    "output_gemini": "Certamente isto é bom, disse eu a ele"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Icatù pyrý ereù nde",
+    "output": "é melhor que tu as comas",
+    "output_gemini": "É muito bom tu comeres"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ixe çocé nde tuibaè",
+    "output": "tu és mais velho que eu",
+    "output_gemini": "Eu sou mais velho do que tu"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tembiù recè ereicotemè",
+    "output": "precisas de comida",
+    "output_gemini": "Por causa da comida tu passas necessidade"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Mocõi çupiá, eí, arecó",
+    "output": "Tenho dois ovos, disse ele",
+    "output_gemini": "Tenho dois ovos, disse ele"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé bé aú ára iabiõ",
+    "output": "isso eu como cada dia",
+    "output_gemini": "Ele também comeu nesta mesma hora"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé çupi xe moapycýc",
+    "output": "Ele, na verdade, me consolou",
+    "output_gemini": "Ele certamente me alegrou"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe righè ipýpe catù ocýc",
+    "output": "chegando bem ao fundo da minha barriga",
+    "output_gemini": "Em meu estômago logo entrou"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "",
+    "output": "",
+    "output_gemini": ""
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Taraýra aú aéreme,",
+    "output": "As traíras comi, então,",
+    "output_gemini": "Quando ele comeu os filhos"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Amò tembiú noicoreme",
+    "output": "por não haver outra comida.",
+    "output_gemini": "Quando não havia outra comida"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "I cangoéra xe mocaneõ,",
+    "output": "Suas espinhas me cansaram.",
+    "output_gemini": "Os ossos dele me cansaram,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çupí Sam Braz xe pycyrõ.",
+    "output": "Na verdade, Sao Brás me livrou (delas).",
+    "output_gemini": "Certamente Sam Braz me salvou."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Mirí caoi tatà oroú,",
+    "output": "Um pouco de aguardente bebemos,",
+    "output_gemini": "Bebemos um pouco de vinho,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Orocaú çupí catú,",
+    "output": "ingerimos muita pinga.",
+    "output_gemini": "Certamente bebemos bem,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nití ocanhem xe çuí ára,",
+    "output": "Não perdi o juízo,",
+    "output_gemini": "Nada se perdeu de mim no dia,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Acuáb mirí xe cuapára.",
+    "output": "conhecendo um pouco os meus [companheiros].",
+    "output_gemini": "Conheci o meu mestre."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Anhenong kyçàba pupé,",
+    "output": "Deitei-me na rede,",
+    "output_gemini": "Deitei-me na rede,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Akér coemramèbé,",
+    "output": "dormi durante toda a manhã.",
+    "output_gemini": "Dormi até o amanhecer,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Opicám uán catù coaracý,",
+    "output": "Já fustigava bem o sol.",
+    "output_gemini": "O sol já brilhava bem,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Apàc coyté; xe abé ambyacý.",
+    "output": "Acordei, afinal; e eu tinha fome.",
+    "output_gemini": "Acordei já; eu também me entristeci."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ixé Tutýra tuibaé,",
+    "output": "Meu velho tio",
+    "output_gemini": "Meu tio é velho,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ixe irúnamo oiemboé,",
+    "output": "comigo aprendeu:",
+    "output_gemini": "Ele estuda junto comigo,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Sta Cruz çupí oromonhang,",
+    "output": "fizemos o sinal da Santa Cruz;",
+    "output_gemini": "Certamente fizemos a Santa Cruz,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Padre Nosso abé oroçaang.",
+    "output": "rezamos também o Padre Nosso.",
+    "output_gemini": "Também ensaiamos o Padre Nosso."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tacacà oroú aé rirè,",
+    "output": "Tacacá tomamos depois disso.",
+    "output_gemini": "Depois ele bebeu tacacá,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nití oiecuáb amò mbaé;",
+    "output": "Não se via outra coisa.",
+    "output_gemini": "Não se conheceu outra coisa;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé almoço mirí eté oicó,",
+    "output": "Aquele era o diminuto almoço;",
+    "output_gemini": "Aquele foi o seu pequeno almoço,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aanangái ruã aé aroirõ.",
+    "output": "de modo nenhum o enjeitei.",
+    "output_gemini": "Não o desprezei de modo algum."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aiepabòc potar coytè;",
+    "output": "Queria partir, afinal:",
+    "output_gemini": "Quero me despedir já;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ajùricò xe tutýra gué,",
+    "output": "- Eis que me vou, ó meu tio.",
+    "output_gemini": "Vim buscar o meu tio,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Erepotárpe mbaé amò?",
+    "output": "Queres alguma coisa?",
+    "output_gemini": "Tu queres alguma coisa?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nde nheenga rupí aicò.",
+    "output": "Estou às tuas ordens.",
+    "output_gemini": "Vivo conforme a tua palavra."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ecoai, eí, xe anama guí,",
+    "output": "- Vai, ó meu amigo,",
+    "output_gemini": "Faze, disse ele, da minha gente,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Erùr oiepè cunumí,",
+    "output": "traze um rapaz,",
+    "output_gemini": "Traze um rapaz,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oiepè abè cunhà mucu,",
+    "output": "uma moça também.",
+    "output_gemini": "Também uma moça,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Acepymeegne catú.",
+    "output": "Eu te pagarei bem.",
+    "output_gemini": "Eu os receberei bem."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aéreme, auiebéte, aé,",
+    "output": "Então eu disse: Muito bem!",
+    "output_gemini": "Então, muito obrigado,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Toicò xe irùmo Tupã eté.",
+    "output": "Que esteja comigo o Deus verdadeiro.",
+    "output_gemini": "Que eles fiquem junto comigo como se fossem Deus."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé xe pytybóneme",
+    "output": "Se ele me ajudar,",
+    "output_gemini": "Com a ajuda dele"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Indebo arúr aereme",
+    "output": "a ti os trarei, então.",
+    "output_gemini": "Trouxe para ti então"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Y gàruçù pupè aár uán,",
+    "output": "Dentro do navio embarquei.",
+    "output_gemini": "No navio já embarcaram,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Apyabetà onhemoçainán;",
+    "output": "Os índios fizeram provisões,",
+    "output_gemini": "Muitas pessoas se apressaram;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oiapucuitàba opycýc,",
+    "output": "pegaram os seus remos.",
+    "output_gemini": "Pegaram os remos,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Coritéi Camutápe acýc.",
+    "output": "Logo cheguei a Camutá.",
+    "output_gemini": "Logo cheguei a Camutá."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aépe cuápára çuí,",
+    "output": "Ali dos conhecidos",
+    "output_gemini": "Lá, longe do mestre,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aiár cetá mbaé mirí,",
+    "output": "tomei muitas pequenas coisas,",
+    "output_gemini": "Peguei muitas coisinhas,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Traçados, mocabas abé,",
+    "output": "traçados e armas de fogo.",
+    "output_gemini": "Facões, também espingardas,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aipobaé xe moabaeté.",
+    "output": "Isso me deu coragem.",
+    "output_gemini": "Essas coisas me engrandeceram."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Mocõi ára riré catù,",
+    "output": "Depois de dois dias, precisamente,",
+    "output_gemini": "Depois de dois dias,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Acepiác coyté Araticù;",
+    "output": "vi, enfim, Araticu.",
+    "output_gemini": "Vi então o Araticu;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Açó çapyà Pai robaké",
+    "output": "Fui logo para diante do padre;",
+    "output_gemini": "Fui de repente à presença do Padre"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ameeng papéra ixupé.",
+    "output": "dei um papel a ele.",
+    "output_gemini": "Dei-lhe o papel."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Opauán eí Apyabetà;",
+    "output": "Disse ele: - Acabaram-se os índios.",
+    "output_gemini": "Toda a gente disse \"acabou\";"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ixupé anheengãtã;",
+    "output": "Diante dele gritei.",
+    "output_gemini": "Falei-lhe com firmeza;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Acepiac, eí Pai cori,",
+    "output": "Disse o padre: - Verei hoje",
+    "output_gemini": "Vi, disse ele, do Padre agora,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Cunumi goaçú mirí,",
+    "output": "um rapazinho;",
+    "output_gemini": "O rapaz é grande e pequeno,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ipýri carúcme açò,",
+    "output": "de tarde vou para junto dele.",
+    "output_gemini": "Fui ter com ele à tarde,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Paí iebýr papéra opyçó;",
+    "output": "O padre novamente o papel estendeu;",
+    "output_gemini": "O Padre pegou de volta o papel;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Cecè omaé catù catù:",
+    "output": "para ele olhou muito bem.",
+    "output_gemini": "Olhou para ele com muita atenção:"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Noicói, eí, Apyabuçú,",
+    "output": "Disse: - Não há índios adultos,",
+    "output_gemini": "Disse ele: o homem grande não vive"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ybyrareregoàra guí,",
+    "output": "ó comandante.",
+    "output_gemini": "longe do mestre,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ecenõi Pacicú miri:",
+    "output": "Chama o pequeno Francisco.",
+    "output_gemini": "Chama o pequeno Pacicu:"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Icò cunumí, eí, icatubé,",
+    "output": "Disse ele: - Esse menino é melhor;",
+    "output_gemini": "Vive o rapaz, disse ele, melhor ainda,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oicò cuáb cacáo recé.",
+    "output": "sabe trabalhar com cacau.",
+    "output_gemini": "Ele sabe lidar com o cacau."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Auiebéte ixupé anheeng,",
+    "output": "Disse-lhe: - Muito bem,",
+    "output_gemini": "Falei muito obrigado para ele,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Icò pitùba ereimeeng,",
+    "output": "eis que me deste alento.",
+    "output_gemini": "Deste o que é de se amar,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aipyà monghetà coyté,",
+    "output": "Pensei, afinal:",
+    "output_gemini": "Meu coração já pensa,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Agoacem corí abá reté.",
+    "output": "Encontrarei bons homens.",
+    "output_gemini": "Encontrei logo o homem verdadeiro."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oicò ygarupàpe catú",
+    "output": "Havia no navio",
+    "output_gemini": "Ficou bem no porto"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Mocõi ygàra puçaçù,",
+    "output": "dois barcos novos.",
+    "output_gemini": "Duas canoas novas,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oiepé xe irúmo araçó,",
+    "output": "Um comigo levei;",
+    "output_gemini": "Levei uma junto comigo,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tupã recé aceár amó.",
+    "output": "por Deus deixei o outro.",
+    "output_gemini": "Achei outra por causa de Deus."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Açò copixába rupí,",
+    "output": "Fui pelo sertão",
+    "output_gemini": "Fui pelo caminho da roça,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aicò goaràma apyábarí,",
+    "output": "para buscar índios.",
+    "output_gemini": "Fiquei como o homem que deve ser,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Agoacem apyába cetà;",
+    "output": "Achei muitos índios.",
+    "output_gemini": "Encontrei muitos homens;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Moçapýr nhò aimonghetà.",
+    "output": "Conversei somente com três.",
+    "output_gemini": "Só com três eu conversei."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ameeng cetà mbaé ixupé,",
+    "output": "Dei muitas coisas a eles.",
+    "output_gemini": "Dei muitas coisas para ele,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ygárpe oár moçapýrbé;",
+    "output": "Na canoa embarcaram os três;",
+    "output_gemini": "Três também entraram na canoa;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aiepabóc coyté i xuí,",
+    "output": "parti, enfim, dali.",
+    "output_gemini": "Despedi-me então dele,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oroçó oré rapé rupí.",
+    "output": "Fomos pelo nosso caminho.",
+    "output_gemini": "Fomos pelo nosso caminho."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Araçò Guavicurú igoàra",
+    "output": "Levei uns que moravam em Guavicuru,",
+    "output_gemini": "Levo o habitante do Guavicurú"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Mocõi apyàba cuapàra,",
+    "output": "conhecidos de dois índios.",
+    "output_gemini": "Dois homens peritos,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Cecè aierobiár etè etè",
+    "output": "Neles confiava muitíssimo:",
+    "output_gemini": "Neles confio muito"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Míra pycycára reté.",
+    "output": "verdadeiros apresadores de gente.",
+    "output_gemini": "Verdadeiros capturadores de gente."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Paí róca robaké catú",
+    "output": "Bem diante da casa do padre",
+    "output_gemini": "Mesmo diante da casa do Padre"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Acepiác parreiral uçù,",
+    "output": "vi um grande parreiral;",
+    "output_gemini": "Vi um grande parreiral,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Uuas ogoerecó cetá,",
+    "output": "muitas uvas tinha.",
+    "output_gemini": "Tinha muitas uvas,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Maiaué catú aé itauá.",
+    "output": "Estavam bem roxas.",
+    "output_gemini": "Certamente a cor delas é muito variada."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Paí çuí çupí aieruré,",
+    "output": "Pedi ao padre por elas.",
+    "output_gemini": "Pedi uvas ao Padre,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "eí, nití aé itauà eté,",
+    "output": "Disse ele: Elas não estão bem roxas;",
+    "output_gemini": "Ele disse: a cor delas não é nada boa,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Deiranhé bé itiarõ catú",
+    "output": "ainda não estão bem maduras;",
+    "output_gemini": "Ainda não estão nada maduras"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Deiranhèbé cee catu.",
+    "output": "ainda não estão bem doces.",
+    "output_gemini": "Ainda não estão nada doces."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Amondò pyçajeramè",
+    "output": "Fiz ir, de madrugada,",
+    "output_gemini": "Enviei os que tinham rede nova"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Apyába balaio pupé,",
+    "output": "um índio com um balaio;",
+    "output_gemini": "Os homens dentro do balaio,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Amò abè saca ogoeraçó,",
+    "output": "outro também levou saca.",
+    "output_gemini": "Algum também levou a sacola,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Catù oiporacár saca nhó,",
+    "output": "Encheu bem somente a saca,",
+    "output_gemini": "Levou bem apenas a sacola,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aépe cecóreme amò Pai,",
+    "output": "por estar ali outro padre.",
+    "output_gemini": "Lá, algum Padre na presença dele,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nití cecateým ixuí,",
+    "output": "Ele não foi avaro delas.",
+    "output_gemini": "Não teve ciúmes dele,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oiepè nhó moacáruçù,",
+    "output": "Um só renque",
+    "output_gemini": "Apenas um mestre,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çupí catú nopouçú.",
+    "output": "não recusou, na verdade.",
+    "output_gemini": "Certamente ele não é grande."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Pai çuí uvas noieruré",
+    "output": "Não pediu as uvas ao padre.",
+    "output_gemini": "Não pediu uvas ao Padre"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Moacára recè iabareté,",
+    "output": "Nos renques o padre",
+    "output_gemini": "Por causa do mestre terrível,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oimondò mamalúceté",
+    "output": "mandou um mameluco",
+    "output_gemini": "Ele mandou o verdadeiro mameluco"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oipoòi çuér opabenhé.",
+    "output": "colher todas.",
+    "output_gemini": "Ele odiou todos eles."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé rirè opocápocà,",
+    "output": "Depois disso ficou rindo.",
+    "output_gemini": "Depois ele riu muito,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ocuàb Caraíba cetá,",
+    "output": "Conhecia muitos brancos.",
+    "output_gemini": "Conheceu muitos cristãos,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Iabáeté cecò aíba mirí",
+    "output": "Foi terrível seu pequeno mau ato;",
+    "output_gemini": "Sua vida má é pequena e terrível"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Noti, nem mirí, nem mirí",
+    "output": "não se envergonhava nem um pouquinho.",
+    "output_gemini": "Não, nem um pouquinho, nem um pouquinho"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Arucaxápe nití acýc,",
+    "output": "A Arucaxaba nao cheguei;",
+    "output_gemini": "Não cheguei ao Arucaxá,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé Paí noxemoapycyc,",
+    "output": "aquele padre não me agradava.",
+    "output_gemini": "Aquele Padre não me alegrou,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ixuíigoàra araçó abé,",
+    "output": "Levei moradores dela, também;",
+    "output_gemini": "Também levei os seus habitantes,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Moçapýr catú apyábeté.",
+    "output": "três índios, exatamente.",
+    "output_gemini": "Certamente três homens verdadeiros."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tagipurù rupí auatá,",
+    "output": "Por Tajipuru andei;",
+    "output_gemini": "Andei pelo Tagipurú,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oiecuáb Apyàba cetá,",
+    "output": "apareceram muitos índios.",
+    "output_gemini": "Conheceram-se muitos homens,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ixébo coyté oiepè eí;",
+    "output": "A mim, enfim, um disse:",
+    "output_gemini": "Então um disse para mim;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Taçó ndé irùmo Sor guí.",
+    "output": "- Hei de ir contigo, ó senhor.",
+    "output_gemini": "Que eu vá contigo de Sor."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ixé rorý catù cecé,",
+    "output": "Eu fiquei muito feliz por isso.",
+    "output_gemini": "Eu me alegrei muito com ele,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Amoapycýc opabenhé:",
+    "output": "Agradei a todos;",
+    "output_gemini": "Alegrei a todos eles:"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Seý apyába oporepymeeng;",
+    "output": "a seis homens retribuí,",
+    "output_gemini": "Muitos homens deram a recompensa;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Cetà mbaé ixupé ameeng.",
+    "output": "muitas coisas dando a eles.",
+    "output_gemini": "Dei muitas coisas para ele."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe renõi agoéra baé,",
+    "output": "O que me chamou",
+    "output_gemini": "Eu era o que o chamava,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Corí, eí, ajúr Senhor gué,",
+    "output": "disse: - Venho logo, ó senhor.",
+    "output_gemini": "Logo, disse ele, vim do Senhor,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Taraçò ranhé cò mbaé",
+    "output": "Hei de levar primeiro estas coisas",
+    "output_gemini": "Que leve primeiro esta coisa"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ixe róca teitè pupè.",
+    "output": "para minha casa.",
+    "output_gemini": "Dentro da sua própria casa."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Iabè onheeng opabenhé,",
+    "output": "Assim, falaram todos os",
+    "output_gemini": "Todos eles falaram assim,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ocear aõáma ombaé:",
+    "output": "que deixariam suas coisas:",
+    "output_gemini": "Ele achou que eles seriam inimigos:"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oreiebýr eçapyà catù",
+    "output": "- Voltamos logo;",
+    "output_gemini": "Vejam se voltam bem de repente"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çupí noroicòi, eí, pucú.",
+    "output": "na verdade não demoramos.",
+    "output_gemini": "Certamente não ficamos muito tempo, disseram eles."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Noiecuàb ruã apyabetà,",
+    "output": "Não apareceram os índios.",
+    "output_gemini": "Não se conheceram muitas pessoas,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Açarõ, açarõ ára cetá,",
+    "output": "Esperei, esperei muitos dias;",
+    "output_gemini": "Esperei, esperei muitos dias,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çupí catù açarõ tenhé,",
+    "output": "na verdade esperei em vão.",
+    "output_gemini": "Certamente esperei em vão,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oiemoçarái xe recé.",
+    "output": "Brincaram comigo.",
+    "output_gemini": "Zombaram de mim."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe pyaibeté aéreme,",
+    "output": "Eu fiquei muito irado, então,",
+    "output_gemini": "Meu coração ficou muito mal então,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Apyába noiebýreme;",
+    "output": "por os índios não terem voltado.",
+    "output_gemini": "Quando o homem não voltou;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Mondabóruçú çupí oicó,",
+    "output": "Agiram como grandes ladrões, de fato;",
+    "output_gemini": "Certamente ele viveu como um grande ladrão,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oimopòr anhanga recó.",
+    "output": "obedeceram às determinações do diabo.",
+    "output_gemini": "Fez as vezes de um espírito mau."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Cunhã poxí membýretà,",
+    "output": "Os filhos de uma mulher ruim",
+    "output_gemini": "Muitos filhos da mulher má,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Noçauçub Caraíbetá",
+    "output": "não gostam dos brancos;",
+    "output_gemini": "Eles não amam muitos cristãos"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Iandé çuí nocykyié,",
+    "output": "não têm medo de nós",
+    "output_gemini": "Não tiveram medo de nós,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nití abé iandé moetè.",
+    "output": "nem nos respeitam.",
+    "output_gemini": "Também não nos honraram."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Gurupápe acýc coyté,",
+    "output": "A Gurupá cheguei, enfim,",
+    "output_gemini": "Cheguei então a Gurupá,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Açó Capitam robaké:",
+    "output": "indo diante do capitão,",
+    "output_gemini": "Fui à presença do Capitão:"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mbaé etá recé oporandúb,",
+    "output": "por muitas coisas perguntando,",
+    "output_gemini": "Ele perguntou sobre muitas coisas,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tapyyietà nhó anhandúb,",
+    "output": "os tapuios, somente, observando.",
+    "output_gemini": "Só ouvi falar de muitos tapuias,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Sargento, Soraretà abé",
+    "output": "O sargento e os soldados",
+    "output_gemini": "Sargento, muitos soldados também"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Fumo xe çuí oieruré;",
+    "output": "pediram-me fumo.",
+    "output_gemini": "pediram fumo a mim;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aé: cosinha pupé oicò,",
+    "output": "Disse: - Na cozinha está;",
+    "output_gemini": "Ele: está dentro da cozinha,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Icatù ixuí peraçò.",
+    "output": "é bom, levai dele.",
+    "output_gemini": "Podem levá-lo dele."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Opabenhè opocàpocá,",
+    "output": "Todos ficaram rindo:",
+    "output_gemini": "Todos riram muito,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ogoeraçó petýmãtã",
+    "output": "levaram tabaco duro.",
+    "output_gemini": "Levaram o fumo forte"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oiepé nhó xe moeté,",
+    "output": "Um somente me agradeceu:",
+    "output_gemini": "Apenas um me honrou,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oimeeng ixébo piráem28.",
+    "output": "deu-me peixe salgado.",
+    "output_gemini": "Ele me deu peixe seco."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tucuretà tápe nacýc;",
+    "output": "À aldeia de Tucuretá não cheguei.",
+    "output_gemini": "Cheguei à aldeia de muitos Tucurus;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Copixàba rupí apycýc,",
+    "output": "Pelo sertão apanhei",
+    "output_gemini": "Fui pelo caminho da roça,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çupí catù quatro apyába",
+    "output": "quatro índios,",
+    "output_gemini": "Certamente quatro homens"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Opacatù kyrymbába.",
+    "output": "todos valentes.",
+    "output_gemini": "Todos valentes."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xingùpe nití açó potár,",
+    "output": "Ao Xingu não quis ir:",
+    "output_gemini": "Não quis ir para o Xingu,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Cetà catú apyába apapár,",
+    "output": "contava muitos índios;",
+    "output_gemini": "Contei muitos homens,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Naimopucú potár ára,",
+    "output": "não queria estender o dia;",
+    "output_gemini": "Não quis demorar os dias,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nouatàr iapucuitára.",
+    "output": "não faltavam remadores",
+    "output_gemini": "Os remadores não andaram."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Gurupatýpe açó çupí,",
+    "output": "A Gurupatuba fui, na verdade,",
+    "output_gemini": "Fui certamente para Gurupaty,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe rorý aõáma mirí;",
+    "output": "para me divertir um pouco.",
+    "output_gemini": "Minha alegria será pequena;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tres Tupã Remimonhanga",
+    "output": "Três obras de Deus",
+    "output_gemini": "Três criaturas de Deus"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe çuí opotár poçanga.",
+    "output": "de mim quiseram uns enfeites.",
+    "output_gemini": "quiseram o remédio de mim."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé mocõi Uataçàra,",
+    "output": "Aqueles dois viajantes",
+    "output_gemini": "Aqueles dois viajantes,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe irunamobè igoára,",
+    "output": "que estavam comigo",
+    "output_gemini": "Habitantes que ainda estavam comigo,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oimeeng poçanga cetá",
+    "output": "deram(-lhes) muitas miçangas.",
+    "output_gemini": "Deram muitos remédios"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ixé abé anhemopurãtã,",
+    "output": "Eu também me deleitei a valer.",
+    "output_gemini": "Eu também me fortaleci,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tres àra catú aépe aicó,",
+    "output": "Três dias ali estive.",
+    "output_gemini": "Fiquei lá certamente três dias,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Mocõi ruão peça aipyçó,",
+    "output": "Duas peças de Ruão estendi",
+    "output_gemini": "Recebi duas peças de algodão,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "De bertanha bé moçapýr,",
+    "output": "e três de Bretanha.",
+    "output_gemini": "Mais três de bertanha,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aanangài ruã aimoiapýr.",
+    "output": "De modo algum eu as dobrei.",
+    "output_gemini": "Não as gastei de modo algum."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Cavados de primavéra abé",
+    "output": "Cávados de primavera também,",
+    "output_gemini": "Também doze enxadas de primavera"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Dozè ogoeraçó opabenhé,",
+    "output": "doze, levaram todos,",
+    "output_gemini": "levaram todos eles,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Fitta çuí varas cetá,",
+    "output": "muitas varas de fita.",
+    "output_gemini": "Muitas varas de fita,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Napapàr cuáb caoi tatà.",
+    "output": "Não saberia calcular a aguardente.",
+    "output_gemini": "Não soube contar o vinho."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Apytà poreauçúba,",
+    "output": "Fiquei miserável,",
+    "output_gemini": "Fiquei miserável,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Anhanga remiauçùba,",
+    "output": "escravo do diabo.",
+    "output_gemini": "O que o espírito mau amava,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Iabé catú xe rerecò,",
+    "output": "Bem assim me trataram;",
+    "output_gemini": "Ele me tratava exatamente assim,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Cetá mbaé aé ogoeraçó.",
+    "output": "muitas coisas elas levaram.",
+    "output_gemini": "Ele levou muitas coisas para lá."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Anhemombeú uán cecé,",
+    "output": "Já me confessei a respeito disso.",
+    "output_gemini": "Já me confessei sobre isso,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Paí xe iacaò eté eté:",
+    "output": "O padre me repreendeu muitíssimo:",
+    "output_gemini": "O Padre me repreendeu muito:"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ereimboacýpe catú?",
+    "output": "Arrependeste-te bem?",
+    "output_gemini": "Tu te arrependes deveras?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oporandù Paí Pacicú.",
+    "output": "perguntou o padre Francisco.",
+    "output_gemini": "Perguntou o Padre Pacicu."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aimboacý etè Paí guí,",
+    "output": "- Arrependi-me muito, ó padre;",
+    "output_gemini": "Arrependo-me muito do Padre,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Naicòi Tupã recó rupí",
+    "output": "não agi conforme a lei de Deus.",
+    "output_gemini": "Não vivi conforme a lei de Deus"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xebo aé Tupã monhyrõ,",
+    "output": "A mim ele apaziguou a Deus.",
+    "output_gemini": "Para mim Deus perdoou,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe mbaé coéra aiaceó.",
+    "output": "Minhas coisas antigas chorei.",
+    "output_gemini": "Chorei as minhas coisas passadas."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aceár Gurupatúba,",
+    "output": "Deixei Gurupatuba",
+    "output_gemini": "Lembrei-me de Gurupatuba,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Umáme naicó pitúba,",
+    "output": "para onde não estou manchado.",
+    "output_gemini": "Onde não vivi à noite,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Amò ára pupè aèpe açò,",
+    "output": "Um outro dia ali fui;",
+    "output_gemini": "Fui lá em algum dia,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xébo coyté Tupã nhyrõ.",
+    "output": "a mim, enfim, a paz de Deus.",
+    "output_gemini": "Para mim então Deus perdoou."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Amondòc ucár muncúba,",
+    "output": "Mandei cortar uma monguba.",
+    "output_gemini": "Mandei cortar as mucubas,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Cecè oicò Iacumáúba,",
+    "output": "Nela trabalhou um piloto.",
+    "output_gemini": "Nelas vivem os Iacumáubas,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Omonhang cem pocoaçába,",
+    "output": "Fez cem talhos.",
+    "output_gemini": "Fizeram cem varapaus,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çupí ocýc cò papaçàba.",
+    "output": "Na verdade, bastou esse número.",
+    "output_gemini": "Certamente chegou a esta contagem."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Topajópe coyté acýc,",
+    "output": "Ao Tapajoz, enfim, cheguei;",
+    "output_gemini": "Cheguei então ao Tapajós,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nãbà aépe xe moapycýc;",
+    "output": "ninguém ali me fez agrado;",
+    "output_gemini": "Nãbà me alegrou lá;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Icatú pyrý curabé,",
+    "output": "era melhor um curabi",
+    "output_gemini": "Melhor ainda mais do que antes,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Naimocucáo xe mbaé.",
+    "output": "Nao fiz passar minhas mercadorias.",
+    "output_gemini": "Não ensinei a minha coisa."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Pyçaieramé oiepé oúr,",
+    "output": "De madrugada veio um,",
+    "output_gemini": "Um veio na rede nova,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Cuias oguerúr moçapýr,",
+    "output": "e trouxe três cuias.",
+    "output_gemini": "Trouxe três cuias,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Caoi ameeng ixupé,",
+    "output": "Dei pinga a ele.",
+    "output_gemini": "Dei-lhe vinho,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé, eimocuár nde ioecé",
+    "output": "Disse eu: - Cuida de ti.",
+    "output_gemini": "Aquele, fez saber a tua dor"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe pýri oúr soraretá,",
+    "output": "A mim vieram soldados;",
+    "output_gemini": "Os soldados vieram a mim,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oieruré mbaé cetá,",
+    "output": "pediram muitas coisas:",
+    "output_gemini": "Pediram muitas coisas,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Mocacuí, monição abé,",
+    "output": "pólvora, munição também,",
+    "output_gemini": "Aguardente, também munição,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Petýmabé, e paratíe43.",
+    "output": "fumo e parati doce.",
+    "output_gemini": "Mais fumo, e pratos."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Pecepiác coýr carúc uán,",
+    "output": "Vede agora que entardeceu.",
+    "output_gemini": "Vejam que já é tarde agora,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "(Iabé soraretà aganan)",
+    "output": "Assim enganei os soldados:",
+    "output_gemini": "(Assim os soldados correram)"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Uirandè patuá çuí aioóc,",
+    "output": "tirei a sorte do patuá;",
+    "output_gemini": "Tirei as varas do cesto,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Pyçaieramè aiepabóc.",
+    "output": "de madrugada parti.",
+    "output_gemini": "Despedi-me na rede nova."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Açaçao nhò Pauxí rupí,",
+    "output": "Passei somente pelos pauxis;",
+    "output_gemini": "Apenas sofri pelo Pauxis,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nambaé apotár i xuí;",
+    "output": "nada quis deles.",
+    "output_gemini": "Não quis nada dele;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Acýc potár iepurápe;",
+    "output": "Queria chegar a Jepuraba;",
+    "output_gemini": "Quis chegar ao Iepurá;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Apytà mirí çaracàpe.",
+    "output": "fiquei um pouco em Saracaba;",
+    "output_gemini": "Fiquei um pouco no Saracá."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Abacaxípe abé aiepotár;",
+    "output": "a Abacaxi também aportei.",
+    "output_gemini": "Também no Abacaxi quis chegar;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ygàra aépe aiporacár:",
+    "output": "A canoa ali enchi;",
+    "output_gemini": "Trabalhei na canoa lá:"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Cinco apyàba catú araçó,",
+    "output": "cinco bons índios levei",
+    "output_gemini": "Levei cinco homens,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Paí nhemíma rupí nhó.",
+    "output": "escondido do padre.",
+    "output_gemini": "Apenas pelo caminho escondido do Padre."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aierurè iepé ixuí,",
+    "output": "Pedira um deles.",
+    "output_gemini": "Pedi um a ele,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çupí catù catuçába rupí;",
+    "output": "A bem da verdade,",
+    "output_gemini": "Certamente conforme a habilidade;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé opocà nhó xe recé,",
+    "output": "ele só riu de mim.",
+    "output_gemini": "Aquele apenas riu de mim,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nem mirí, eí, nem oiepé.",
+    "output": "- Nem pequeno nem um só,",
+    "output_gemini": "Nem um pouco, disse ele, nem um."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Lá me dyse pa o Leste,",
+    "output": "lá me disse. - Para o Leste,",
+    "output_gemini": "Disse-me para ir para o Leste,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ia que yso mesmo quizeste,",
+    "output": "já que isso mesmo quiseste",
+    "output_gemini": "Já que isso mesmo quiseste,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oiepé nhó capitari",
+    "output": "Só um capitari",
+    "output_gemini": "Apenas um capitari"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oguerùr ixébo icunumí;",
+    "output": "trouxe-me um menino seu.",
+    "output_gemini": "trouxe o seu rapaz para mim;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Coyté amaé çóca recè,",
+    "output": "Enfim, olhei para sua casa:",
+    "output_gemini": "Olhou então para a sua casa,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çupí catú xe nde mboé.",
+    "output": "- Na verdade eu te ensino;",
+    "output_gemini": "Certamente tu me ensinaste."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Corí xébo erecepymeeng:",
+    "output": "hoje a mim pagarás.",
+    "output_gemini": "Agora tu me recompensaste:"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Piloto aéreme onheeng:",
+    "output": "O piloto, então, disse:",
+    "output_gemini": "O piloto falou então:"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mbaé ripe nde pyaíba?",
+    "output": "Por que estás irado?",
+    "output_gemini": "Por causa de que coisa o teu coração está mau?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nitípe nde Caraíba?",
+    "output": "Não és cristão?",
+    "output_gemini": "Tu não és cristão?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Acuáb copixába cetá,",
+    "output": "Conheço muitos sertões",
+    "output_gemini": "Conheci muitas roças,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çupí aépe oicò apyábetà;",
+    "output": "onde há muitos índios.",
+    "output_gemini": "Certamente muitos homens moravam lá;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tiaraçò apyàba aé çuí,",
+    "output": "Levemos índios dali.",
+    "output_gemini": "Não levemos o homem de lá,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Paí topycyrõ nde çuí.",
+    "output": "O padre os livre de ti.",
+    "output_gemini": "Que o Padre te salve."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Copixába rupí auatà,",
+    "output": "Andei pelo sertão;",
+    "output_gemini": "Andei pelo caminho da roça,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Acepiác carapinetà,",
+    "output": "vi muitos carpinteiros",
+    "output_gemini": "Vi os carpinteiros,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ygaruçú catù oimonhang,",
+    "output": "que faziam um bom navio.",
+    "output_gemini": "eles faziam bem o navio,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Caoi aéreme oçaang.",
+    "output": "Pinga então provaram;",
+    "output_gemini": "eles beberam vinho então."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe çuí nití oiabàb,",
+    "output": "de mim não fugiram.",
+    "output_gemini": "Ninguém fugiu de mim,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Cetà catú ixuí xe cuáb;",
+    "output": "Muitos deles me conheciam.",
+    "output_gemini": "Conheci muito mais deles;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Cinco nhó xe irùmo araçó,",
+    "output": "Cinco somente comigo levei",
+    "output_gemini": "Levei apenas cinco junto comigo,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Amò ygára recé toicò.",
+    "output": "para trabalharem noutro barco.",
+    "output_gemini": "Que fiquem por causa de alguma canoa."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe rakicoéra coytè oúr",
+    "output": "Atrás de mim, enfim, veio",
+    "output_gemini": "O que vem depois de mim vem agora"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Mamalùco Paí omboúr;",
+    "output": "um mameluco; trouxe o padre.",
+    "output_gemini": "O Padre mandou o mameluco;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé onhemoabaeté,",
+    "output": "Ele se irritou;",
+    "output_gemini": "Aquele se engrandeceu,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oçacéçacémbé eté eté.",
+    "output": "ficou gritando muitíssimo;",
+    "output_gemini": "Gritou muito, muito mesmo."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe iacaó maiabé catú;",
+    "output": "brigou muito comigo.",
+    "output_gemini": "Como é a minha repreensão;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé: ecekendáo nde jurù:",
+    "output": "Disse eu: - Fecha tua boca.",
+    "output_gemini": "Ele: fecha a tua boca:"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Onhecameeng amoetà,",
+    "output": "Ofereceram-se outros",
+    "output_gemini": "Mandou aparecer outros,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Coyté nití onheengãtã",
+    "output": "Enfim, nao vociferou mais.",
+    "output_gemini": "Agora ele não falou com firmeza"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Orobàc ucár ygàra,",
+    "output": "Mandamos mudar a direçao do barco.",
+    "output_gemini": "Mandaram virar a canoa,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nhynhynguár i pyà piàra;",
+    "output": "Confrangidas estavam as defesas de seu [coração];",
+    "output_gemini": "O roncador procurador do seu coração;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Coritéi çobajúba abé,",
+    "output": "logo ficou pálido também.",
+    "output_gemini": "Logo também o inimigo,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çupí catù aé ocykyié.",
+    "output": "Na verdade, ele tinha medo.",
+    "output_gemini": "Certamente ele teve muito medo lá."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Piloto xebo omombeú.",
+    "output": "O piloto a mim anunciou:",
+    "output_gemini": "O piloto contou para mim."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Iqué recòi oca catú,",
+    "output": "Aqui está uma boa casa.",
+    "output_gemini": "A casa estava bem aqui,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Amaé aereme cecé,",
+    "output": "Olhei, então, para ele",
+    "output_gemini": "Olhou para ela então,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çupí, aé, nití nde poité.",
+    "output": "e disse: - Mas não te convidaram para [comer].",
+    "output_gemini": "Certamente, ele, não é o teu porto."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Eçapyá acem ygára çuí,",
+    "output": "Imediatamente saí da canoa;",
+    "output_gemini": "De repente saí da canoa,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Açó coyté aé oca rupí,",
+    "output": "fui, enfim, através daquela casa.",
+    "output_gemini": "Fui então pelo caminho da casa dele,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aporandù goaimí çupé;",
+    "output": "Perguntei a uma velha:",
+    "output_gemini": "Perguntei à velha;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Icó oca abà mbaetaé?",
+    "output": "Esta casa é de quem?",
+    "output_gemini": "De quem é esta casa?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe Paí copixába róca,",
+    "output": "- É a casa da roça do meu padre.",
+    "output_gemini": "Casa da roça do meu Padre,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé xe poreauçubóca,",
+    "output": "Ele é o que se compadece de mim,",
+    "output_gemini": "Lá ele me tratou com piedade,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "eí goaimí: aicotemé,",
+    "output": "disse a velha. - Preciso",
+    "output_gemini": "Disse a velha: eu passo necessidade,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Copixàba oimeeng mbaé",
+    "output": "de um roçado que dê mantimentos.",
+    "output_gemini": "A roça deu coisas"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe iopói iepè xe Mãy guí,",
+    "output": "Alimenta-me tu, ó minha mãe,",
+    "output_gemini": "Eu dei um presente da minha Mãe,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Auiebète cepý rupí,",
+    "output": "ó sim, por remissão (dos teus pecados).",
+    "output_gemini": "Muito obrigado pelo preço,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çupí catú xe ambyacý,",
+    "output": "É muita a minha fome;",
+    "output_gemini": "Certamente me entristeci,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé recè ajúr iqué cotý.",
+    "output": "por isso eu vim para cá.",
+    "output_gemini": "Por causa disso vim para este lado."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nambaé arecò Senhor guí;",
+    "output": "- Nada tenho, ó senhor;",
+    "output_gemini": "Não tenho nada do Senhor;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Iabé eí ixebo goaimí;",
+    "output": "assim me disse a velha.",
+    "output_gemini": "Assim disse a velha para ele;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nitípe çapucáia?, aé;",
+    "output": "Nem uma galinha? eu disse.",
+    "output_gemini": "Não há galinhas?, ele;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nouatàr iqué amò mbaé.",
+    "output": "Não falta nada aqui.",
+    "output_gemini": "Não andam por aqui outras coisas."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çapucáia cetà oicouè;",
+    "output": "Há muitas galinhas,",
+    "output_gemini": "Existem muitas galinhas;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Paí reymbába opanhé;",
+    "output": "todas criações do padre.",
+    "output_gemini": "As criaturas do Padre fugiram;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ndébo çupi naimeengcuáb,",
+    "output": "- A ti na verdade, não posso dá-las;",
+    "output_gemini": "Certamente não soube dar para ti,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe rí tenhé nde putupáb.",
+    "output": "comigo não te abasteces.",
+    "output_gemini": "Certamente a tua admiração é por minha causa."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ixé nde Paí camarára,",
+    "output": "- Eu sou camarada do teu padre;",
+    "output_gemini": "Eu sou o companheiro do teu Padre,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nde Paí abé xe rauçupára;",
+    "output": "teu padre é também meu amigo;",
+    "output_gemini": "O teu Padre também é o que me ama;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ereicò cuáb xe iopoitàra,",
+    "output": "podes me alimentar;",
+    "output_gemini": "Tu soubeste ser a que me dá presentes,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aipó opotár Iandé Iára.",
+    "output": "isso quer Nosso Senhor.",
+    "output_gemini": "Nosso Senhor quer isso."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Noicói coyté goaimí poxí",
+    "output": "Não agiu, enfim, a velha má",
+    "output_gemini": "A velha má não viveu agora"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe nheénga catù rupí:",
+    "output": "segundo minhas boas palavras.",
+    "output_gemini": "conforme a minha boa fala:"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çapucáia apycýc ucár,",
+    "output": "Mandei pegar as galinhas;",
+    "output_gemini": "Mandou pegar as galinhas,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Quatro panacù aporacár.",
+    "output": "enchi quatro panacus.",
+    "output_gemini": "Trabalhei em quatro cestos."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Goaimí coyté oçacéçacem;",
+    "output": "A velha, então, ficou gritando,",
+    "output_gemini": "Goaimí agora gritou;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe Paí çupéne, eí, amocém52",
+    "output": "dizendo: - A meu Padre mandarei fazer-te [pagar]",
+    "output_gemini": "Eu contarei ao meu Padre, disse ela,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Icò nde recò aíb uçù;",
+    "output": "este teu ato muito mau.",
+    "output_gemini": "Esta tua vida é muito má;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nde recène oicó Pai guaçù:",
+    "output": "Contigo o bispo vai brigar.",
+    "output_gemini": "O Padre grande está por tua causa:"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé: nde nambaé ráma,",
+    "output": "Disse eu: - Tu nada (farás).",
+    "output_gemini": "Ele: tu não és nada,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe remiauçúba rama,",
+    "output": "Como minha escrava",
+    "output_gemini": "Tu serás o que eu amo,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Icatubé xe nde reraçó,",
+    "output": "eu posso te levar;",
+    "output_gemini": "Melhor ainda eu te levar,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ixe copixápne ereicò.",
+    "output": "nos meus roçados estarás.",
+    "output_gemini": "Tu viverás na minha roça."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aipobaé anheengramè",
+    "output": "Quando eu falei isso,",
+    "output_gemini": "Quando falei essas coisas"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Goaimí oiabáiabáb eté,",
+    "output": "a velha desatou a fugir.",
+    "output_gemini": "A velha fugiu muito,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Apocá maiabé catú,",
+    "output": "Ri bastante;",
+    "output_gemini": "Riu muito mais ainda,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ybýpe xe reitýc pocà uçú.",
+    "output": "no chão um grande riso fez-me cair.",
+    "output_gemini": "um grande riso me derrubou no chão."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aiepabòc aé çuí,",
+    "output": "Parti dali.",
+    "output_gemini": "Despedi-me dela,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Pai reymbába aú pe rupí,",
+    "output": "As criações do padre comi pelo caminho.",
+    "output_gemini": "Pelo caminho comi as criaturas do Padre,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çupí catú ikyrá goaçú.",
+    "output": "Elas estavam realmente bem gordas;",
+    "output_gemini": "certamente eram muito gordas."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé abé turuturuçú.",
+    "output": "elas também estavam bem grandes.",
+    "output_gemini": "Aquele também era muito grande."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Iabé ixébo ocepymeeng,",
+    "output": "Assim me pagaram.",
+    "output_gemini": "Assim ele me recompensou,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Capitarí recé anheeng,",
+    "output": "Falei ao capitão:",
+    "output_gemini": "Falei sobre o Capitari,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Iabè catù aimboé aé Paí,",
+    "output": "Assim bem ensinei aquele padre.",
+    "output_gemini": "Assim certamente ensinei aquele Padre,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Coýr tonheeng xe rí",
+    "output": "Agora hão de falar de mim",
+    "output_gemini": "Que agora fale de mim"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Morobixába, Ovidor abé,",
+    "output": "o Governador, o Ouvidor também.",
+    "output_gemini": "O Governador, o Ouvidor também,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aanangài oicò xe recè,",
+    "output": "Não me interessa de modo algum.",
+    "output_gemini": "Ele não viveu por minha causa,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Paì cupè anhemombeú uàn,",
+    "output": "Ao padre já me confessei.",
+    "output_gemini": "Já me confessei com o Padre,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Morandùba coyté opauan.",
+    "output": "As notícias afinal se acabaram.",
+    "output_gemini": "A história acabou toda agora."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tupã çupí turuçú eté,",
+    "output": "Deus é, de fato, muito grande.",
+    "output_gemini": "Deus certamente é muito grande,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Inhyrõ opabenhé cupé,",
+    "output": "Ele perdoa a todos",
+    "output_gemini": "Ele perdoa a todos,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Auiebetè angaipáb uçú,",
+    "output": "um grande pecado;",
+    "output_gemini": "Muito obrigado pelo grande pecado,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ixuí Tupã turuçú.",
+    "output": "Deus é maior que ele.",
+    "output_gemini": "Dele Deus é grande."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tupã morauçubár uçú,",
+    "output": "Deus é muito compassivo.",
+    "output_gemini": "Deus é o grande amador,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Iandé rauçúb çupí catú,",
+    "output": "Ele nos ama de verdade;",
+    "output_gemini": "Ele nos ama certamente,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Opotar nhó iaimboacý,",
+    "output": "quer somente que nos arrependamos.",
+    "output_gemini": "Só quer que nos arrependamos,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aipobaé nití çacý.",
+    "output": "Isso não é difícil.",
+    "output_gemini": "Isso não é doloroso."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Iepuràpe acýc coytè,",
+    "output": "A Jepurá cheguei, enfim.",
+    "output_gemini": "Cheguei então ao Iepurá,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Açò tapyýia recé",
+    "output": "Fui por causa dos tapuios;",
+    "output_gemini": "Fui ter com os tapuias"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Y garupápe aiepotár,",
+    "output": "cheguei ao porto;",
+    "output_gemini": "Cheguei ao porto,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tubixába acenõi ucár.",
+    "output": "mandei chamar o tuxaua.",
+    "output_gemini": "Mandei chamar o Chefe."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "oúr júri rubixába,",
+    "output": "Veio o chefe dos iuris.",
+    "output_gemini": "O chefe veio logo,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Opópe ogoerúr mocába,",
+    "output": "Em suas mãos trazia pólvora.",
+    "output_gemini": "Trouxe a espingarda na mão,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "i irúnamo aiecotýár vel",
+    "output": "Com ele me aliei;",
+    "output_gemini": "Eu me aliei junto com ele"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Inheengabé aiporacár,",
+    "output": "obedeci a suas palavras.",
+    "output_gemini": "Trabalhei também na fala dele,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aipyrupán cetá mirí",
+    "output": "Comprei muitos pequenos,",
+    "output_gemini": "Peguei muitos pequenos"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Cunhàmucú etá, e Cunumí,",
+    "output": "muitas moças e meninos.",
+    "output_gemini": "muitas moças e rapazes,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oropycýc cetá catú,",
+    "output": "Apresamos muitos,",
+    "output_gemini": "Pegamos muitos,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Opabenhé cunumí goaçú,",
+    "output": "todos os rapazes.",
+    "output_gemini": "Todos os rapazes grandes,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Coritéité aiepabóc,",
+    "output": "Logo parti.",
+    "output_gemini": "Despedi-me agorinha mesmo,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Paranà rupí aiparabóc,",
+    "output": "Pelo rio escolhi",
+    "output_gemini": "Trabalhei pelo mar,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Moçapýr tuibaé uçú,",
+    "output": "três velhos, bem velhos.",
+    "output_gemini": "Três velhos grandes,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çupí ocepiác pytún uçú.",
+    "output": "De fato enxergam na escuridão",
+    "output_gemini": "Certamente viram a grande noite."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Moçapýr bé goaimí reté",
+    "output": "Três velhas também.",
+    "output_gemini": "Mandei agorinha três velhas"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çakycoéra amondó coyté,",
+    "output": "Segui-os, então, enfim.",
+    "output_gemini": "Atrás de mim,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aanangài oú cuáb oí,",
+    "output": "De modo nenhum podiam comer farinha;",
+    "output_gemini": "Não sei se ele vem desprezado,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aanangáité abé oú caoi.",
+    "output": "de modo nenhum bebiam pinga.",
+    "output_gemini": "Aquele também vem desprezado com vinho."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ycyrýca irúmo auatà,",
+    "output": "Com o rio que corria eu viajava.",
+    "output_gemini": "Andei com a correnteza,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Pauxípe aanangài apytá,",
+    "output": "Nos pauxis não fiquei de modo algum.",
+    "output_gemini": "Fiquei desprezado no Pauxis,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ypytera rupí oroçó,",
+    "output": "Fomos pelo meio do rio;",
+    "output_gemini": "Fomos pelo meio,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oiecuáb uán ka'a-pa'u.",
+    "output": "apareceu uma ilha:",
+    "output_gemini": "O ilha já se conheceu."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Gurupà ka'a-pa'u aé",
+    "output": "era a ilha de Gurupá.",
+    "output_gemini": "Aquele é o ilha de Gurupá"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Mirí nhó ixuí acykyié,",
+    "output": "Tive um pouco de medo dela.",
+    "output_gemini": "Tive apenas um pouco de medo dele,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oroçò ka'a-pa'u rupí,",
+    "output": "Fomos pela ilha;",
+    "output_gemini": "Fomos pelo ilha,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Apocà mocabòca uí.",
+    "output": "estourei pólvora.",
+    "output_gemini": "Rimos um pouco com a espingarda."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe copixápe catú acýc,",
+    "output": "Cheguei à minha roça;",
+    "output_gemini": "Cheguei certamente à minha roça,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tapyyietà amoapycýc,",
+    "output": "matei a fome dos tapuios",
+    "output_gemini": "Alegrei os tapuias,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe irunamogoàra çupé,",
+    "output": "e aos que moram comigo",
+    "output_gemini": "Para os meus companheiros,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aimeeng quatro tuiba'é,",
+    "output": "dei os quatro velhos.",
+    "output_gemini": "Dei quatro velhos,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nãbà xe çuí oipycyrõ,",
+    "output": "Ninguém os libertou de mim.",
+    "output_gemini": "Nãbà me salvou,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Cecé nãbá xe mocaneõ,",
+    "output": "Ninguém me perturbou por causa deles.",
+    "output_gemini": "Por causa dele Nãbà me cansou,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Coecenheým xe cópe oicó,",
+    "output": "Antigamente estavam em minha roça.",
+    "output_gemini": "Ficou na minha roça sem amanhecer,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çupí xe tomaramo amó.",
+    "output": "É verdade que eu tomei outros.",
+    "output_gemini": "Certamente para ser meu sogro algum."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Anhemombeu uan cecé",
+    "output": "Já me confessei disso.",
+    "output_gemini": "Já me confessei sobre isso"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Eimeeng umé abá çupé,",
+    "output": "- Não os dês a ninguém,",
+    "output_gemini": "Não o dês de modo algum a alguém,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "eí Paí: eimocuár abé cecé,",
+    "output": "disse o Padre: Cuida também deles",
+    "output_gemini": "Disse o Padre: faze-o saber também sobre isso,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Nde rayretà iabé.",
+    "output": "como de teus filhos.",
+    "output_gemini": "Como os teus filhos."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aé; cobé catù eté eté.",
+    "output": "Disse eu: - Eis que tudo está muito bem.",
+    "output_gemini": "Ele; certamente isto é muito bom."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ah Tupa ocuáb aipobaé!",
+    "output": "Ah, Deus sabe disso!",
+    "output_gemini": "Ah Deus conhece isso!"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Maiabé i irúmo aicò,",
+    "output": "Assim como estou com ele,",
+    "output_gemini": "Como vivo junto com ele,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Maiabé aé xe rerecó.",
+    "output": "assim ele me tem consigo."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Coýr çupí xe anga aganan,",
+    "output": "Agora, é verdade que minha alma enganei,",
+    "output_gemini": "Agora certamente a minha alma correu,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Teõ rí nanhemoçainán",
+    "output": "com a morte não me preocupei,",
+    "output_gemini": "Não me apressei por causa da morte"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Co ára mbaé rí aiporará,",
+    "output": "pelas coisas deste mundo eu sofri",
+    "output_gemini": "Sofro por causa das coisas deste dia,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Çupí na xe anga recé ruã.",
+    "output": "e não por minha alma.",
+    "output_gemini": "Certamente não é por causa da minha alma."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aruaneým eçapyà ipó",
+    "output": "De forma inadequada, de súbito",
+    "output_gemini": "Talvez de repente"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe pýri ourne xe reõ;",
+    "output": "a mim virá minha morte.",
+    "output_gemini": "a minha morte venha a mim;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mbaépe aéreme agoacem?",
+    "output": "Que, entao, hei de encontrar?",
+    "output_gemini": "Para onde então eu irei?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mbaé pabe ocanhem",
+    "output": "Todas as coisas desaparecem.",
+    "output_gemini": "O que de tudo se perderá"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aipyà monghetà potár,",
+    "output": "Quero meditar.",
+    "output_gemini": "Quero pensar,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Pai catù corí acecár;",
+    "output": "Um bom padre procurarei",
+    "output_gemini": "Procurei logo o bom Padre;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Taicò poreauçubóra,",
+    "output": "para que eu me penitencie",
+    "output_gemini": "Que eu seja miserável,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe reõ riré ybakipóra.",
+    "output": "e, após minha morte, um habitante do céu [(eu seja)].",
+    "output_gemini": "Depois da minha morte serei habitante do céu."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Coritéi i có ára oçaçáo,",
+    "output": "Logo este mundo passa,",
+    "output_gemini": "Este dia passou logo,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Amò recobé nití opáb,",
+    "output": "a vida do outro não acaba.",
+    "output_gemini": "Alguma vida não acabou,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Quatro nhó tapyýia recé,",
+    "output": "Por causa de somente quatro tapuios",
+    "output_gemini": "Só por causa de quatro tapuias,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Acanhemne auieramanhè!",
+    "output": "hei de me perder para sempre!",
+    "output_gemini": "Eu me perderia para sempre!"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe cuapàra agoéra omanó,",
+    "output": "Meus antigos conhecidos morreram.",
+    "output_gemini": "Aquele meu mestre morreu,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Umámepe i angoéra oçó?",
+    "output": "Para onde suas almas foram?",
+    "output_gemini": "Para onde será que a alma dele foi?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aé tapyyíetà oipocoár abé,",
+    "output": "Eles apresaram tapuios também;",
+    "output_gemini": "Aquele também amarrou muitos tapuias,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oceár oanáma çupé.",
+    "output": "deixaram-nos para seus parentes.",
+    "output_gemini": "Procurou por sua gente."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe anáma ambyra cetá",
+    "output": "Meus parentes, muitos sao defuntos.",
+    "output_gemini": "Muitos da minha gente são defuntos"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Opocoàr tapyyietà;",
+    "output": "Apresaram tapuios.",
+    "output_gemini": "Muitos tapuias os amarraram;"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mbaépe coýr ogoacem?",
+    "output": "Que encontram agora?",
+    "output_gemini": "Para onde eles foram agora?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "I angoéra ipò ocanhem.",
+    "output": "Suas almas certamente se perderam.",
+    "output_gemini": "A alma dele talvez se perdeu."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Opacatú icò ára mbaé,",
+    "output": "Todos os bens deste mundo,",
+    "output_gemini": "Tudo é coisa deste dia,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mbaé rámape opabenhé?",
+    "output": "para que todos eles?",
+    "output_gemini": "Para que servirá tudo?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ocanhem ramé xe angoéra,",
+    "output": "Se minh'alma se perde,",
+    "output_gemini": "Quando a minha alma se perder,"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ocanhem abé xe mbaé coéra.",
+    "output": "desaparece também o que foi meu.",
+    "output_gemini": "As minhas coisas passadas também se perderão."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mogûeîyb",
+    "output": "abaixar",
+    "output_gemini": "abaixar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "iubé",
+    "output": "jazer acordado",
+    "output_gemini": "amarelo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pak",
+    "output": "acordar",
+    "output_gemini": "acordar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "teburusu",
+    "output": "adulto",
+    "output_gemini": "barrigudo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mo'ang",
+    "output": "abrigar",
+    "output_gemini": "pensar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "nupã",
+    "output": "açoitar",
+    "output_gemini": "bater"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ko'yté",
+    "output": "afinal",
+    "output_gemini": "agora"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ikó",
+    "output": "agir",
+    "output_gemini": "viver"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "'a'y",
+    "output": "aguado",
+    "output_gemini": "semente"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pytybõ",
+    "output": "ajudar",
+    "output_gemini": "ajudar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "taba",
+    "output": "aldeia",
+    "output_gemini": "aldeia"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "îekotyara",
+    "output": "aliado",
+    "output_gemini": "companheiro"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "poî",
+    "output": "alimentar",
+    "output_gemini": "alimentar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "oirandé",
+    "output": "amanhã",
+    "output_gemini": "amanhã"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mokõîbé",
+    "output": "ambos",
+    "output_gemini": "ambos"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pytun",
+    "output": "anoitecer",
+    "output_gemini": "noite"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ranhe",
+    "output": "antes",
+    "output_gemini": "antes"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "e'ymebé",
+    "output": "antes de",
+    "output_gemini": "ainda não"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mamõpe?",
+    "output": "aonde?",
+    "output_gemini": "onde?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "sãi",
+    "output": "apenas",
+    "output_gemini": "dente"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "îepé",
+    "output": "apesar (de)",
+    "output_gemini": "um"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "iké",
+    "output": "aqui",
+    "output_gemini": "aqui"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "kybõygûara",
+    "output": "os habitantes daqui",
+    "output_gemini": "morador de Caraguatatiba"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "yby'ab",
+    "output": "arar",
+    "output_gemini": "nuvem"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ybyrapara",
+    "output": "arco",
+    "output_gemini": "arco"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "îy'yba",
+    "output": "arco-íris",
+    "output_gemini": "braço"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "nhemoatyrá",
+    "output": "arrepiar-se",
+    "output_gemini": "preparar-se"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ybyrá",
+    "output": "árvore",
+    "output_gemini": "madeira"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tyrá",
+    "output": "arrepio",
+    "output_gemini": "companheiro"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mixyra",
+    "output": "assado",
+    "output_gemini": "assado"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "upibé",
+    "output": "assim que",
+    "output_gemini": "também"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "nã",
+    "output": "assim",
+    "output_gemini": "assim"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "emonã",
+    "output": "dessa maneira aí",
+    "output_gemini": "assim"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "epenhan",
+    "output": "atacar",
+    "output_gemini": "vigiar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pakoba",
+    "output": "banana",
+    "output_gemini": "banana"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "gûyrá",
+    "output": "ave",
+    "output_gemini": "pássaro"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aryia",
+    "output": "avó",
+    "output_gemini": "avó"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "takûara",
+    "output": "bambu",
+    "output_gemini": "taquara"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ygara",
+    "output": "barco",
+    "output_gemini": "canoa"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "moiasuk",
+    "output": "banhar",
+    "output_gemini": "dar banho"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "porang",
+    "output": "belo",
+    "output_gemini": "bonito"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tapi'irusu",
+    "output": "boi",
+    "output_gemini": "cavalo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "angaturama",
+    "output": "bondade",
+    "output_gemini": "paraíso"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "amykyra",
+    "output": "broto",
+    "output_gemini": "neto"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "angaturam",
+    "output": "bom",
+    "output_gemini": "felicidade"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "angaturama",
+    "output": "bondade",
+    "output_gemini": "paraíso"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "akanga",
+    "output": "cabeça",
+    "output_gemini": "cabeça"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "îeporakasaba",
+    "output": "caçada",
+    "output_gemini": "trabalho"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ytu",
+    "output": "cachoeira",
+    "output_gemini": "cachoeira"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "morubixaba",
+    "output": "cacique",
+    "output_gemini": "chefe"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "akaiá",
+    "output": "cajá",
+    "output_gemini": "cajá"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "takuba",
+    "output": "calor",
+    "output_gemini": "takuba"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "kapibara",
+    "output": "capivara",
+    "output_gemini": "capivara"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "so'o",
+    "output": "carne de caça",
+    "output_gemini": "animal"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mendara",
+    "output": "casado",
+    "output_gemini": "casamento"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ybykoî",
+    "output": "cavar",
+    "output_gemini": "roça"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "esapy'a",
+    "output": "cedo",
+    "output_gemini": "de repente"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ybaka",
+    "output": "céu",
+    "output_gemini": "céu"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tataendy",
+    "output": "chama",
+    "output_gemini": "chama"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "yby",
+    "output": "chão",
+    "output_gemini": "terra"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "kyr",
+    "output": "chover",
+    "output_gemini": "verde"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "îase'o",
+    "output": "chorar",
+    "output_gemini": "chorar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "amana",
+    "output": "chuva",
+    "output_gemini": "chuva"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tabusu",
+    "output": "cidade",
+    "output_gemini": "cidade"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "marã îabépe?",
+    "output": "como?",
+    "output_gemini": "como?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "marãngatupe?",
+    "output": "como?",
+    "output_gemini": "por que?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "itãetá",
+    "output": "conchas",
+    "output_gemini": "muitas pedras"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "itã",
+    "output": "concha",
+    "output_gemini": "pedra"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "moryb",
+    "output": "consentir",
+    "output_gemini": "alegre"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mboryb",
+    "output": "consentir",
+    "output_gemini": "alegrar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mongetá",
+    "output": "conversar com",
+    "output_gemini": "conversar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "karaíba",
+    "output": "cristão",
+    "output_gemini": "senhor"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "apyra",
+    "output": "cume",
+    "output_gemini": "ponta"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pyr",
+    "output": "cru",
+    "output_gemini": "calcanhar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ebanõi",
+    "output": "daí",
+    "output_gemini": "chamar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pîar",
+    "output": "defender",
+    "output_gemini": "procurar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "anhanga",
+    "output": "demônio",
+    "output_gemini": "diabo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "puku",
+    "output": "demoradamente",
+    "output_gemini": "longo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "riré",
+    "output": "depois",
+    "output_gemini": "depois"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "a'e riré",
+    "output": "depois disso",
+    "output_gemini": "depois disso"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "moaûié",
+    "output": "derrotar",
+    "output_gemini": "agradecer"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "momburu",
+    "output": "desafiar",
+    "output_gemini": "empurrar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "kanhem",
+    "output": "desaparecer",
+    "output_gemini": "perder-se"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "abé",
+    "output": "desde",
+    "output_gemini": "também"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "apakuî",
+    "output": "desmanchar-se",
+    "output_gemini": "apakuî"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "momarã",
+    "output": "desobedecer",
+    "output_gemini": "danificar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "motibyk",
+    "output": "desonrar",
+    "output_gemini": "enterrar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "eroyrõ",
+    "output": "desprezar",
+    "output_gemini": "desprezar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "aíba",
+    "output": "desprezível",
+    "output_gemini": "mau"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tupã",
+    "output": "Deus",
+    "output_gemini": "Deus"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "'ara",
+    "output": "dia",
+    "output_gemini": "dia"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "me'eng",
+    "output": "doar",
+    "output_gemini": "dar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "akasanga",
+    "output": "dúvida",
+    "output_gemini": "akasanga"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "nhe",
+    "output": "efetivamente",
+    "output_gemini": "mesmo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ybaté",
+    "output": "elevado",
+    "output_gemini": "alto"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "moanhan",
+    "output": "empurrar",
+    "output_gemini": "apressar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "îegûak",
+    "output": "enfeitar-se",
+    "output_gemini": "enfeitar-se"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ko'yté",
+    "output": "enfim",
+    "output_gemini": "agora"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "irõ",
+    "output": "enfim",
+    "output_gemini": "companheiro"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "moaby",
+    "output": "enganar",
+    "output_gemini": "cansar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tekomemûã",
+    "output": "engano",
+    "output_gemini": "vício"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "nhemongyrá",
+    "output": "engordar",
+    "output_gemini": "engordar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "nheme'eng",
+    "output": "entregar-se",
+    "output_gemini": "entregar-se"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "me'eng",
+    "output": "entregar",
+    "output_gemini": "dar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "syra",
+    "output": "enxada",
+    "output_gemini": "pai"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "îerobîasaba",
+    "output": "esperança",
+    "output_gemini": "confiança"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "temirekó",
+    "output": "esposa",
+    "output_gemini": "esposa"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mena",
+    "output": "esposo",
+    "output_gemini": "marido"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "îasytatá",
+    "output": "estrela",
+    "output_gemini": "estrela"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mombor",
+    "output": "expulsar",
+    "output_gemini": "lançar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "kysé",
+    "output": "faca",
+    "output_gemini": "faca"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "posanga",
+    "output": "feitiço",
+    "output_gemini": "remédio"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "toryba",
+    "output": "felicidade",
+    "output_gemini": "alegria"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "torypaba",
+    "output": "felicidade",
+    "output_gemini": "paraíso"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tataupaba",
+    "output": "fogão",
+    "output_gemini": "inferno"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "îyapara",
+    "output": "foice",
+    "output_gemini": "arco"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "'ybá",
+    "output": "fruta",
+    "output_gemini": "fruta"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tatá",
+    "output": "fogo",
+    "output_gemini": "fogo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "marãmotara",
+    "output": "fúria",
+    "output_gemini": "odiar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "so'omimbaba",
+    "output": "gado",
+    "output_gemini": "animal doméstico"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "sarigûeîa",
+    "output": "gambá",
+    "output_gemini": "gambá"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "gûarini",
+    "output": "guerreiro",
+    "output_gemini": "guerra"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tekoara",
+    "output": "habitante",
+    "output_gemini": "morador"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "abá",
+    "output": "homem",
+    "output_gemini": "homem"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tupãoka",
+    "output": "igreja",
+    "output_gemini": "igreja"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "anhanga ratá",
+    "output": "inferno",
+    "output_gemini": "inferno"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ypy",
+    "output": "início",
+    "output_gemini": "início"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ypyrunga",
+    "output": "início",
+    "output_gemini": "começo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tupiara",
+    "output": "inimigo de uma nação indígena",
+    "output_gemini": "tupiara"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "kybyra",
+    "output": "irmão",
+    "output_gemini": "irmã"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "îakaré",
+    "output": "jacaré",
+    "output_gemini": "jacaré"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "îyboîa",
+    "output": "jiboia",
+    "output_gemini": "jiboia"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mimbuku",
+    "output": "lança",
+    "output_gemini": "minhoca"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ityk",
+    "output": "lançar",
+    "output_gemini": "lançar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ma'enduasaba",
+    "output": "lembrança",
+    "output_gemini": "memória"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "agûaragûasu",
+    "output": "lobo-guará",
+    "output_gemini": "lobo-guará"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "puku",
+    "output": "longo",
+    "output_gemini": "longo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "îasy",
+    "output": "lua",
+    "output_gemini": "lua"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "îasyendy",
+    "output": "luar",
+    "output_gemini": "luar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "marãtekó",
+    "output": "luta",
+    "output_gemini": "guerra"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "marãmonhang",
+    "output": "lutar",
+    "output_gemini": "guerrear"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mandi'oka",
+    "output": "mandioca",
+    "output_gemini": "mandioca"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ko'ema",
+    "output": "manhã",
+    "output_gemini": "manhã"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ko'eme",
+    "output": "de manhã",
+    "output_gemini": "de manhã"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "paranã",
+    "output": "mar",
+    "output_gemini": "mar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "murukuiá",
+    "output": "maracujá",
+    "output_gemini": "maracujá"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "îuká",
+    "output": "matar",
+    "output_gemini": "matar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "kunhãmuku",
+    "output": "moça",
+    "output_gemini": "moça"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ybytyra",
+    "output": "montanha",
+    "output_gemini": "montanha"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "eté",
+    "output": "muito",
+    "output_gemini": "verdadeiro"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "etá",
+    "output": "muitos",
+    "output_gemini": "muitos"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "kunhã",
+    "output": "mulher",
+    "output_gemini": "mulher"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ygarusu",
+    "output": "navio",
+    "output_gemini": "navio"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pytuna",
+    "output": "noite",
+    "output_gemini": "noite"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pytunybo",
+    "output": "pelas noites",
+    "output_gemini": "à noite"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "oré",
+    "output": "nosso",
+    "output_gemini": "nós"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ybatinga",
+    "output": "nuvem",
+    "output_gemini": "nuvem"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "apiar",
+    "output": "obedecer",
+    "output_gemini": "apiar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "paranãgûasu",
+    "output": "oceano",
+    "output_gemini": "oceano"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "amotare'yma",
+    "output": "ódio",
+    "output_gemini": "inimigo"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mamõpe?",
+    "output": "onde?",
+    "output_gemini": "onde?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tekomonhangaba",
+    "output": "ordem",
+    "output_gemini": "lei"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "porerobîare'yma",
+    "output": "orgulho",
+    "output_gemini": "infiel"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "paka",
+    "output": "paca",
+    "output_gemini": "paca"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "abaré",
+    "output": "padre",
+    "output_gemini": "padre"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "paîé",
+    "output": "pajé",
+    "output_gemini": "pajé"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "gûyrá",
+    "output": "pássaro",
+    "output_gemini": "pássaro"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "gûyra'i",
+    "output": "passarinho",
+    "output_gemini": "passarinho"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "karûaba",
+    "output": "pasto",
+    "output_gemini": "pasto"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ybyrapytanga",
+    "output": "pau-brasil",
+    "output_gemini": "pau-brasil"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "itá",
+    "output": "pedra",
+    "output_gemini": "pedra"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "itakurubi",
+    "output": "pedregulho",
+    "output_gemini": "pedregulho"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pirá",
+    "output": "peixe",
+    "output_gemini": "peixe"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "poranduba",
+    "output": "pergunta",
+    "output_gemini": "notícia"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "nhyrõ",
+    "output": "perdoar",
+    "output_gemini": "perdoar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pirãîa",
+    "output": "piranha",
+    "output_gemini": "piranha"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "emonãnamo",
+    "output": "portanto",
+    "output_gemini": "então"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "erekó",
+    "output": "possuir",
+    "output_gemini": "ter"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "anama",
+    "output": "povo",
+    "output_gemini": "parente"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "marãpe?",
+    "output": "qual?",
+    "output_gemini": "por quê?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mba'epe?",
+    "output": "qual?",
+    "output_gemini": "o quê?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "umãba'epe?",
+    "output": "qual?",
+    "output_gemini": "quem?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tetiruã",
+    "output": "qualquer",
+    "output_gemini": "nada"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "reme",
+    "output": "quando",
+    "output_gemini": "quando"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "moirãpe?",
+    "output": "quando?",
+    "output_gemini": "quando?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "nãbo?",
+    "output": "quanto?",
+    "output_gemini": "como?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mobype?",
+    "output": "quanto?",
+    "output_gemini": "onde?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mbobype?",
+    "output": "quantos?",
+    "output_gemini": "quanto?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mba'epe?",
+    "output": "que coisa?",
+    "output_gemini": "o quê?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "marãpe?",
+    "output": "que coisa?",
+    "output_gemini": "por quê?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mba'e-mba'epe?",
+    "output": "quais coisas?",
+    "output_gemini": "quais coisas?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mba'e pupépe?",
+    "output": "com quê?",
+    "output_gemini": "em quê?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mba'e suípe?",
+    "output": "de quê?",
+    "output_gemini": "de quê?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mba'e resépe?",
+    "output": "por quê?",
+    "output_gemini": "por causa de quê?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "abápe?",
+    "output": "quem?",
+    "output_gemini": "quem?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tupãberaba",
+    "output": "raio",
+    "output_gemini": "relâmpago"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "amãberaba",
+    "output": "relâmpago",
+    "output_gemini": "relâmpago"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ygapukuîtaba",
+    "output": "remo",
+    "output_gemini": "ygapukuîtaba"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "motyb",
+    "output": "respeitar",
+    "output_gemini": "enterrar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "moabaeté",
+    "output": "respeitar",
+    "output_gemini": "engrandecer"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "nhe'enga",
+    "output": "resposta",
+    "output_gemini": "fala"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "'y",
+    "output": "rio",
+    "output_gemini": "água"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "îy",
+    "output": "rio",
+    "output_gemini": "machado"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "kó",
+    "output": "roça",
+    "output_gemini": "este"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "sabîá",
+    "output": "sabia",
+    "output_gemini": "sabiá"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "sem",
+    "output": "sair",
+    "output_gemini": "sair"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pysyrõ",
+    "output": "salvar",
+    "output_gemini": "salvar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tepîaka'uba",
+    "output": "saudades",
+    "output_gemini": "tepîaka'uba"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "kûara",
+    "output": "sol",
+    "output_gemini": "sol"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "posaûsub",
+    "output": "sonhar",
+    "output_gemini": "amar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "nipó",
+    "output": "talvez",
+    "output_gemini": "talvez"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tamandûá",
+    "output": "tamanduá",
+    "output_gemini": "tamanduá"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "nde",
+    "output": "teu",
+    "output_gemini": "tu"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mbo'ir",
+    "output": "tirar",
+    "output_gemini": "partir"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "marãtekoara",
+    "output": "trabalhador",
+    "output_gemini": "guerreiro"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "porabyky",
+    "output": "trabalhar",
+    "output_gemini": "trabalhar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tupãsununga",
+    "output": "trovão",
+    "output_gemini": "trovão"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "abaeté",
+    "output": "valente",
+    "output_gemini": "terrível"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pyatã",
+    "output": "valentia",
+    "output_gemini": "firmeza"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "ybytu",
+    "output": "vento",
+    "output_gemini": "vento"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pyranga",
+    "output": "vermelho",
+    "output_gemini": "vermelho"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "pe",
+    "output": "vosso"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mari",
+    "output": "zangado"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "temimotara",
+    "output": "vontade"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "gûatá",
+    "output": "andar"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Abá serã xe fabé?",
+    "output": "Quem será como eu?",
+    "output_gemini": "Quem será como eu?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe katupe ká",
+    "output": "Eu hei de ser bom",
+    "output_gemini": "Eu sou bom aqui"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe pûeraî, xe ropesyî!",
+    "output": "Eu estou cansado, eu estou com sono!",
+    "output_gemini": "Eu estou velho, minhas pálpebras estão pesadas!"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe resé oîerobîá",
+    "output": "Em mim confiam.",
+    "output_gemini": "Ele confia em mim"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe mi-te îepé i xuí!",
+    "output": "Mas esconde-me dele!",
+    "output_gemini": "Eu sou um deles!"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe îuká xe îara.",
+    "output": "Meu senhor me mata.",
+    "output_gemini": "Meu senhor me matou."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe moanhe kó xe boîá",
+    "output": "Apressam-me estes meus súditos",
+    "output_gemini": "Eu apressei este meu seguidor"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe pópe arekó-katu.",
+    "output": "Em minhas mãos bem os tenho.",
+    "output_gemini": "Eu o tenho bem em minha mão."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Kó xe'akusu, xe rãnha...",
+    "output": "Eis meus chifrões, meus dentes...",
+    "output_gemini": "Este meu dente, minha gengiva..."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe iru a'e ã...",
+    "output": "Eis que ela é minha companheira...",
+    "output_gemini": "Ele é meu companheiro agora..."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "xe rera",
+    "output": "meu nome",
+    "output_gemini": "meu nome"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "xe reîmbaba",
+    "output": "minha criação",
+    "output_gemini": "minha criação"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "xe iru",
+    "output": "meu companheiro",
+    "output_gemini": "meu companheiro"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "'yupaba",
+    "output": "lugar em que jaz a água",
+    "output_gemini": "lagoa"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Pavuna",
+    "output": "vale profundo e escarpado",
+    "output_gemini": "Pavuna"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Íori anhanga mondyîa, ta xe momoxy ume.",
+    "output": "Vem para espantar o diabo, para que não me dane.",
+    "output_gemini": "Se o diabo vier, que não me faça mal."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Umãpe xe raperama?",
+    "output": "Onde está meu caminho?",
+    "output_gemini": "Onde será o meu caminho futuro?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "umã suí?",
+    "output": "de onde?",
+    "output_gemini": "de onde?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "umã suí-katu?",
+    "output": "de que lugar específico?",
+    "output_gemini": "de onde mesmo?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "umã rupi?",
+    "output": "por onde?",
+    "output_gemini": "por onde?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ema'enãngatu xe ri, xe mbo'are'ymuká.",
+    "output": "Vela bem por mim, mandando que não me façam cair.",
+    "output_gemini": "Lembra-te bem de mim, faze-me não esquecer."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe rûi îepé.",
+    "output": "Tu me escaldaste.",
+    "output_gemini": "Eu sou do mesmo sangue."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe Lucas ra'yrûera.",
+    "output": "Eu sou antigo filho de Lucas.",
+    "output_gemini": "Eu sou o filho de Lucas."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe kerambugûasu.",
+    "output": "Eu ronco muito.",
+    "output_gemini": "Eu sou um grande dorminhoco."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Korite'i Pedro xe ruba mongetáu.",
+    "output": "Agora Pedro com meu pai falou.",
+    "output_gemini": "Agorinha Pedro está conversando com meu pai."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe tupinambagúasu.",
+    "output": "Eu sou o grande tupinambá.",
+    "output_gemini": "Eu sou um grande Tupinambá."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "xe ruaía",
+    "output": "meus prisioneiros",
+    "output_gemini": "minha cauda"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe 'a-tyragûasu.",
+    "output": "Eu tenho cabelos muito arrepiados.",
+    "output_gemini": "Eu sou um grande seguidor."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "tyrá",
+    "output": "arrepio",
+    "output_gemini": "companheiro"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "xe soatyba",
+    "output": "lugar aonde eu comumente vou",
+    "output_gemini": "minha gente"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "xe rekoatyba",
+    "output": "lugar onde eu comumente estou",
+    "output_gemini": "minha morada"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Soryb, xe îabé, xe ruba tupinakyía.",
+    "output": "Está alegre, como eu, meu pai tupiniquim.",
+    "output_gemini": "Meu pai tupiniquim é alegre como eu."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ogúerasó temõ sapy'a ybakype Tupana xe ruba mã!",
+    "output": "Ah, oxalá Deus levasse logo a meu pai para o céu!",
+    "output_gemini": "Que Deus leve meu pai de repente para o céu!"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Arekó Tupã xe iopupé.",
+    "output": "Tenho a Deus dentro de mim.",
+    "output_gemini": "Tenho Deus em meu interior."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe timbeb.",
+    "output": "Eu estou obeso.",
+    "output_gemini": "Eu sou de nariz chato."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Te'yîpe meme nhe ixé aporombo'e.",
+    "output": "Sempre eu ensinei publicamente as pessoas.",
+    "output_gemini": "Eu ensino sempre a todos."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tera'ute xe gúixóbo!",
+    "output": "Que bom seria se eu fosse!",
+    "output_gemini": "Que eu vá logo!"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tera'ute oú.",
+    "output": "Ah, se viesse!",
+    "output_gemini": "Que ele venha logo."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe ypy ten.",
+    "output": "Eu estou com a base com firmeza.",
+    "output_gemini": "Eu sou o primeiro."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Temone xe gûixó bo...",
+    "output": "Ah, se eu fosse...",
+    "output_gemini": "Deixe-me ir..."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe-tene asó.",
+    "output": "Mas antes eu vou.",
+    "output_gemini": "Eu certamente irei."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe tekokuabar",
+    "output": "Eu retomei o bom senso.",
+    "output_gemini": "Eu sou sábio"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Na xe tekokuabi.",
+    "output": "Eu não sei.",
+    "output_gemini": "Eu não sou sábio."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ixé tekatuete'i ra'u, Anhanga ratá aîporará aûîeramanhene mã!",
+    "output": "Ah, ai de mim, o fogo do diabo sofrerei para sempre!",
+    "output_gemini": "Se eu não fosse muito bom, sofreria o fogo do diabo para sempre!"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe-te, xe rembiá-potá sabeypora amõ resé.",
+    "output": "Eu, em vez disso, quero presas em alguns bêbados.",
+    "output_gemini": "Eu mesmo, meu desejo é por outra pessoa."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Asó-tepe ixé?",
+    "output": "Fui eu, pois?",
+    "output_gemini": "Será que eu irei?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Té ixé gûixóbo",
+    "output": "Eis que eu vou.",
+    "output_gemini": "Até eu ir"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oîkó bé xe tayaíba.",
+    "output": "Minha coragem ainda existe.",
+    "output_gemini": "Meu inimigo ainda vive."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe py'a xe 'anga eîar nde mba'eramo taûîé.",
+    "output": "Toma logo meu coração e minha alma como coisas tuas.",
+    "output_gemini": "Que meu coração e minha alma tomem tuas coisas."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aîtapui-mongaturõ xe sy.",
+    "output": "Arrumo a choupana à minha mãe.",
+    "output_gemini": "Eu tratei bem os cativos da minha mãe."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Xe tamúîusu Aîmbiré",
+    "output": "Eu sou o grande tamoio Aimbirê.",
+    "output_gemini": "Meu grande avô Aimbiré"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tupã robaké eîkóbo, xe suí nd'eresyryki.",
+    "output": "Estando diante de Deus, de mim não te afastas.",
+    "output_gemini": "Estando diante de Deus, não te afastes de mim."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Osó ipó re'a",
+    "output": "Ele deve ter ido",
+    "output_gemini": "Ele foi talvez"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Anheté, kó nde rapé, a'e nde remiekara.",
+    "output": "Verdadeiramente, eis aqui teu caminho, o que tu procuras.",
+    "output_gemini": "Verdadeiramente, este teu caminho é o que procuras."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "A'e o mena supé 'ybá-'u-ukar-a'ubi.",
+    "output": "Ela fez seu marido comer o fruto de modo vil.",
+    "output_gemini": "Ela fez o marido comer a fruta."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Aateté a'e semimonhangûera, karaibebé amõ amõ oîemoangaîpab.",
+    "output": "Embora eles fossem obra d'Ele, alguns anjos tornaram-se maus.",
+    "output_gemini": "Na verdade, em suas obras, alguns anjos pecaram."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Tupã Espírito Santo anhe a'e tatá?",
+    "output": "Deus Espírito Santo era, na verdade, aquele fogo?",
+    "output_gemini": "O Espírito Santo de Deus é mesmo aquele fogo?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Turusu-katupe a'e cruz erimba'e?",
+    "output": "Era muito grande aquela cruz?",
+    "output_gemini": "Aquela cruz era muito grande?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Anheté kó nde rapé a'e nde remiekara.",
+    "output": "Verdadeiramente, eis aqui teu caminho, aquele que tu procuras.",
+    "output_gemini": "Verdadeiramente este teu caminho é o que procuras."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Marãpe a'e semienoseguama rekóû a'epe?",
+    "output": "Que faziam aí os que ele faria sair consigo?",
+    "output_gemini": "Como ele estava lá em sua saída?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "O'u nhepe a'e 'ybá, tegûama?",
+    "output": "Comeu aquele fruto, causa de morte?",
+    "output_gemini": "Ele comeu aquela fruta proibida?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "I akanga resé a'e takûara reropûá.",
+    "output": "Em sua cabeça batendo com aquela cana.",
+    "output_gemini": "Ele levantou a taquara sobre a cabeça dele."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "A'e aé koba'e katu me'engara re'a",
+    "output": "É ele o que dá o bem desses.",
+    "output_gemini": "Ele mesmo é quem dá estas coisas boas"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Ko'yr bé a'e oka a'e cristãos-katupabé i moetesabamo.",
+    "output": "Agora também aquela casa é lugar de muitíssimos cristãos cultuá-la",
+    "output_gemini": "Agora aquela casa é para o louvor de todos os bons cristãos."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "A'e ko'y, xe resé, ó-miri pupé ereîkó.",
+    "output": "Mas agora, por minha causa, dentro de uma casinha estás.",
+    "output_gemini": "Agora, por minha causa, tu vives em uma casa pequena."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "N'aîkuabi a'e abá",
+    "output": "Não conheço esse homem.",
+    "output_gemini": "Não conheço aquele homem"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "A'e miapepuera abaré oîmbo'i re'a.",
+    "output": "Aquele pão o padre o partiu, certamente.",
+    "output_gemini": "O padre partiu aquele pão."
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Oîepé Tupã memé pe a'e Tupã-Tuba, Tupã-Ta'yra, Tupã-Espírito Santo?",
+    "output": "São um único e mesmo Deus esse Deus-Pai, Deus-Filho e Deus-Espírito Santo?",
+    "output_gemini": "Deus Pai, Deus Filho e Deus Espírito Santo são um só Deus?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Irõ moroapirõ a'e oporomomby'ar",
+    "output": "Portanto, prantear as pessoas isso as enternece.",
+    "output_gemini": "O companheiro que engana faz os outros cansarem"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "Abápe opytá a'epe?",
+    "output": "Quem ficou ali?",
+    "output_gemini": "Quem ficou lá?"
+  },
+  {
+    "instruction": "Translate the tupi sentence to Brazilian Portuguese.",
+    "input": "mba'e-poxy",
+    "output": "coisa nojenta",
+    "output_gemini": "coisa feia"
+  }
+]

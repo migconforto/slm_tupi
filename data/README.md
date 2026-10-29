@@ -2,9 +2,8 @@
 
 | Arquivo | Descrição |
 |---|---|
-| `dataset_augmentated.json` | Conjunto de treino Tupi→Português (aumentado). Colunas `input` (Tupi) e `output` (Português). |
-| `val_dataset.json` | Conjunto de validação (gerado pelo `sft.ipynb`). |
-| `train_dataset.json` | Conjunto de treino efetivo (gerado pelo `sft.ipynb`). |
+| `dataset_augmentated.json` | Conjunto de treino Tupi→Português (aumentado) sintético. Colunas `input` (Tupi) e `output` (Português). |
+| `gemini-output_dataset.json` | Conjunto de frases históricas com as referências padrão-ouro e traduções do Gemini. |
 
 ## Formato
 
