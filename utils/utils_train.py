@@ -1,6 +1,22 @@
 import pandas as pd
 import re
 
+def pre_process(df):
+
+    # Compute input length
+    df["input_length"] = df["input"].apply(len)
+
+    # Print dataset size before cleaning
+    count_before = len(df)
+    print(f"Length of inputs before: {count_before}")
+
+    # Print dataset size after cleaning
+    count_after = len(df)
+    print(f"Length of inputs after: {count_after}")
+    print(f"Removed rows: {count_before - count_after}")
+
+    return df
+
 def create_prompt(sample, src_lng, tgt_lng, is_prefix =False, is_suffix = False, eos_rep = 1, mode="train", tokenizer=None):
 
     if tokenizer is None or tokenizer.eos_token is None:
