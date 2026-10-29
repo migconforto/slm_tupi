@@ -1,6 +1,8 @@
 import pandas as pd
 import re
 
+from utils.utils_nlp import normalize_text
+
 def pre_process(df):
 
     # Compute input length
@@ -9,6 +11,10 @@ def pre_process(df):
     # Print dataset size before cleaning
     count_before = len(df)
     print(f"Length of inputs before: {count_before}")
+
+    # Drop empty pairs and repeated Tupi sentences, so the same source can't fall in both train and test
+    df = df[(df["input"].str.strip() != "") & (df["output"].str.strip() != "")]
+    df = df[~df["input"].map(normalize_text).duplicated(keep="first")].reset_index(drop=True)
 
     # Print dataset size after cleaning
     count_after = len(df)

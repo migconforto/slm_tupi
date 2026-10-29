@@ -35,15 +35,16 @@ Linguagem Natural (PLN) devido à escassez de dados paralelos. Este projeto inve
 se um *Small Language Model* (SLM) de 3B parâmetros, ajustado com *fine-tuning*
 paramétrico-eficiente (LoRA), consegue traduzir sentenças do **Tupi Antigo** para o
 **Português brasileiro** a partir de um conjunto de dados aumentado
-(`dataset_augmentated`).
+(`dataset_sintetico_aumentado`).
 
 Componentes principais:
 
-- **SFT (treinamento):** `script/SFT.py`.
-- **Avaliação/Inferência:** `script/EVAL_SFT.py`.
-- **Utilidades:** `utils/` — pré-processamento e construção de *prompts*.
+- **Dados:** `script/build_datasets.py` — gera o conjunto de treino (rótulos do Gemini + pares sintéticos) e o conjunto histórico com as traduções humanas.
+- **SFT (treinamento):** `notebooks/sft.ipynb` (versão em script: `script/SFT.py`).
+- **Avaliação/Inferência:** `notebooks/eval_sft.ipynb` (versão em script: `script/EVAL_SFT.py`).
+- **Utilidades:** `utils/` — limpeza dos dados e construção de *prompts*.
 
-Principais resultados (detalhes em [Resultados](#resultados)):
+Principais resultados do experimento anterior às correções do pipeline (detalhes e ressalvas em [Resultados](#resultados)):
 
 - **O ajuste fino funciona.** O ChrF++ médio do aluno sobe de 12,5 para 28,8 (+131%) e o TER médio cai de 435,9% para 118,6% (−72,8%), com ganhos estatisticamente significativos nas cinco métricas. As respostas deixam de ser verborrágicas e passam a seguir o formato da tarefa.
 - **O ganho se concentra nas estruturas sintéticas.** O ChrF++ médio é 56,6 nas sentenças com estrutura de *template* e 23,5 nas históricas; nas sentenças históricas comuns à avaliação do professor (Gemini), o aluno recupera pouco menos de um terço do ChrF++ dele (12,6 contra 41,2).
@@ -62,15 +63,16 @@ slm_tupi/
 │   └── eval_sft.ipynb         # avaliação do modelo ajustado
 │
 ├── script/                    # código-fonte organizado
+│   ├── build_datasets.py      # gera os conjuntos de treino e histórico em data/
 │   ├── SFT.py                 # versão em script do treinamento SFT
 │   └── EVAL_SFT.py            # versão em script da avaliação do modelo
 │
 ├── utils/
 │   ├── __init__.py
-│   ├── utils_train.py         # pre_process e create_prompt
-│   └── utils_nlp.py
+│   ├── utils_train.py         # pre_process (limpeza) e create_prompt
+│   └── utils_nlp.py           # normalização de texto para detectar duplicatas
 │
-├── data/                      # datasets
+├── data/                      # datasets (ver data/README.md)
 ├── docs/
 │   └── report/
 │       └── Relatorio_Final.md # relatório com resumo do projeto
@@ -79,57 +81,75 @@ slm_tupi/
 
 ## Dados
 
-O conjunto de treino é um JSON com pares Tupi/Português nas colunas
-`input` (Tupi) e `output` (Português).
+Os dados ficam em `data/` (detalhes em [data/README.md](data/README.md)). O script `script/build_datasets.py` gera, a partir dos arquivos brutos, dois conjuntos de pares Tupi/Português, com as colunas `input` (Tupi) e `output` (Português):
+
+- **`dataset_sintetico_aumentado.json`: treino do SFT (1.975 pares).**
+  - **Histórico rotulado pelo professor (824 pares, ≈ 42%).** Frases extraídas de textos, cartas e obras de referência do Tupi Antigo, majoritariamente traduzidos por Eduardo Navarro (por exemplo, *A vida em Caraguatatuba* e as *Cartas dos Índios Camarões*). O alvo é a tradução gerada pelo modelo-professor (Gemini, *zero-shot*), que é o rótulo da destilação (`fonte = "gemini"`).
+  - **Sintético (1.151 pares, ≈ 58%).** Frases geradas pela combinação de um léxico com *templates* gramaticais inspirados no *Método moderno de tupi antigo*, com no máximo 100 frases por *template*. O alvo é a tradução do próprio *template* (`fonte = "sintetico"`).
+- **`dataset_historico.json`: referência humana (829 pares).** As mesmas frases históricas com a tradução humana (*gold standard*), ligadas ao conjunto de treino pelo `id`. Cinco delas não têm tradução do Gemini e por isso ficam fora do treino.
 
 Exemplo de registro:
 
 ```json
-{ "input": "kunhãmukuetá îkó ka'ape", "output": "moças vivem na mata" }
+{ "id": "sint_0001", "input": "ixé kunhã", "output": "Eu sou mulher", "fonte": "sintetico" }
 ```
 
-O `dataset_augmentated` combina dois subconjuntos complementares, num total de cerca de 2 mil pares:
-
-- **Histórico (802 pares, ≈ 40%).** Frases extraídas de textos, cartas e obras de referência do Tupi Antigo, majoritariamente traduzidos por Eduardo Navarro (por exemplo, *A vida em Caraguatatuba* e as *Cartas dos Índios Camarões*), com a grafia padronizada segundo o dicionário de Navarro. Na avaliação, a referência é a tradução humana (*gold standard*); no treino, o alvo é a tradução gerada pelo modelo-professor (Gemini, *zero-shot*), que é o rótulo da destilação.
-- **Sintético (≈ 1,2 mil pares, ≈ 60%).** Frases geradas pela combinação de um léxico com *templates* gramaticais inspirados no *Método moderno de tupi antigo*, com no máximo 100 frases por *template*. O alvo (e a referência) é a tradução do próprio *template* (*standard label*).
-
-Os pares são embaralhados (semente 42) e divididos em 70% para treino e 30% para validação (≈ 1,4 mil e ≈ 0,6 mil sentenças). A partição de 30% nunca participa da otimização e serve de conjunto de teste na avaliação.
+O script descarta pares vazios e frases em Tupi repetidas. No SFT, os pares são embaralhados (semente 13) e divididos em 70% para treino e 30% para teste (1.382 e 593 pares). A divisão é salva na pasta da execução, ao lado dos *checkpoints*, e a avaliação lê o teste dessa mesma pasta. No teste, a coluna `Referência` traz a tradução humana nas frases históricas e o rótulo do *template* nas sintéticas.
 
 ## Como treinar (SFT)
 
-O fluxo principal está em `script/SFT.py`. Parâmetros usados no experimento
-de referência:
+1. Gere os conjuntos de dados (só é preciso refazer quando os arquivos brutos mudarem):
+
+```bash
+python script/build_datasets.py
+```
+
+2. Treine pelo notebook `notebooks/sft.ipynb` ou pelo script, que usa os mesmos valores padrão:
+
+```bash
+python script/SFT.py
+```
+
+Parâmetros de referência:
 
 | Parâmetro | Valor |
 |---|---|
 | Modelo base | `Qwen/Qwen2.5-3B-Instruct` |
-| Método | LoRA (PEFT), `r = 256`, `lora_alpha = 8` |
+| Método | LoRA (PEFT), `r = 128`, `lora_alpha = 8`, sem *dropout* |
 | Módulos-alvo | `q,k,v,o_proj`, `gate,up,down_proj` |
-| Épocas | 3 |
+| Épocas | 1 |
 | Learning rate | 1e-5, *scheduler* cosseno, `warmup_ratio = 0.5` |
 | Batch (train/eval) | 1 / 1 |
 | `max_seq_length` | 128 |
-| Precisão | fp32 |
+| Precisão | fp32 (opcional: modelo base em 4 bits com `--load_in_4bit True`) |
+| Perda | só na resposta; o *prompt* e a frase em Tupi ficam mascarados |
+| Divisão | 70% treino / 30% teste, semente 13 |
 
-Via script:
+Os valores podem ser trocados por argumento (`python script/SFT.py --help`). Cada execução grava em `logs/peft_128_Tu_Po/fit_<data>_<proporção>_<dataset>/`, relativo à pasta de onde se executa (no notebook, `notebooks/logs/`):
 
-```bash
-python script/SFT.py \
-  --model_path "Qwen/Qwen2.5-3B-Instruct" \
-  --training_dataset_path "data/dataset_augmentated.json" \
-  --src_lng "Tupi" --tgt_lng "Português" \
-  --is_peft True --r 256 --num_train_epochs 3 --learning_rate 1e-5
-```
+- os *checkpoints* do adaptador LoRA;
+- os *logs* do TensorBoard;
+- a divisão usada (`train_dataset.json` e `test_dataset.json`).
 
-Os *logs* de treino (TensorBoard) e os *checkpoints* dos adaptadores LoRA serão gravados
-em `logs/` / `models/` ao executar o script.
+A perda no teste é registrada a cada 1000 passos apenas para acompanhamento: ela não é usada para escolher *checkpoint* nem número de épocas.
 
 ## Inferência
 
-`script/EVAL_SFT.py` carrega o modelo base + adaptador LoRA e gera traduções do
-conjunto de validação, salvando `predictions.csv`.
+`notebooks/eval_sft.ipynb` (ou `script/EVAL_SFT.py`) carrega o modelo base em 4 bits (NF4) com o adaptador LoRA e gera as traduções do conjunto de teste de uma execução. Basta apontar `run_dir` para a pasta da execução e `lora_path` para o *checkpoint*; o teste é lido de `run_dir/test_dataset.json`.
+
+- O *prompt* é o mesmo do treino (`utils_train.create_prompt`), e só o texto gerado é decodificado.
+- A geração é *greedy* (`do_sample=False`, `max_new_tokens = 50`); o `repetition_penalty = 1.05` do `generation_config` do Qwen continua valendo.
+- Com `use_lora = False`, o mesmo código avalia o modelo base sem ajuste (linha de base *zero-shot*), com o mesmo *prompt* e o mesmo teste.
+
+As predições são salvas em `run_dir/predictions.csv` (ou `predictions_base.csv`, na linha de base), com as colunas `Tupi`, `fonte`, `Português_esperado` (referência), `Português_gemini` (tradução do professor, só nas frases históricas) e `Português_predito`.
 
 ## Resultados
+
+> **Ressalva.** Os números desta seção são do experimento anterior às correções do pipeline: adaptador `peft_128_Tu_Po` treinado por 3 épocas, com divisão por semente 42 sobre 2.012 pares. Eles ainda não foram refeitos com o pipeline atual, que difere em:
+> - conjuntos de treino (rótulos do Gemini + sintéticos) e de referência (traduções humanas) separados em arquivos próprios;
+> - divisão com semente 13, sem frases em Tupi repetidas entre treino e teste;
+> - perda só na resposta, com o token de fim aprendido e a perda de teste registrada;
+> - *prompt* de avaliação idêntico ao do treino, geração *greedy* e modelo base em 4 bits.
 
 O experimento de referência (adaptador `peft_128_Tu_Po`, *checkpoint* final) atingiu
 `train_loss ≈ 1.27`, com `eval` a cada 1000 passos ao longo de 3 épocas. Consulte o
@@ -154,7 +174,7 @@ A perda de treino cai de ≈ 2,71 (passo 1000) para ≈ 0,66 (passo 4000), com m
 - **Referências:** tradução humana nas sentenças históricas e rótulo do *template* nas sintéticas.
 - **Métricas:** BLEU, ChrF++, TER, ROUGE-L e Jaccard, calculadas sobre predições e referências normalizadas (caixa baixa, sem pontuação nem caracteres especiais). BLEU, ROUGE-L e Jaccard estão na escala 0–1; ChrF++ e TER, em pontos percentuais. O TER mede esforço de edição (**menor é melhor**) e pode passar de 100% quando a predição é bem mais longa que a referência.
 - **Significância:** teste de postos sinalizados de Wilcoxon sobre as diferenças pareadas por sentença.
-- **Geração:** as predições do modelo ajustado vêm de `script/EVAL_SFT.py` (modelo base + adaptador LoRA em 4-bit NF4, `temperature = 0.1`, `top_p = 0.9`, `max_new_tokens = 50`, amostragem ativada) e são salvas em `predictions.csv`.
+- **Geração:** as predições do modelo ajustado vêm de `script/EVAL_SFT.py` (modelo base + adaptador LoRA, `temperature = 0.1`, `top_p = 0.9`, `max_new_tokens = 50`, amostragem ativada) e são salvas em `predictions.csv`. O código dessa versão definia um `BitsAndBytesConfig` em 4-bit NF4, mas não o aplicava ao carregar o modelo, que rodou em bf16 com parte das camadas na CPU.
 
 ### Antes e depois do ajuste fino
 

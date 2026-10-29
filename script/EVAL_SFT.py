@@ -1,5 +1,7 @@
 # ====================================================IMPORT=================================================================
 
+import os
+import sys
 import torch
 
 from transformers import (
@@ -16,10 +18,15 @@ import warnings
 
 warnings.simplefilter("ignore")
 
-# Paths
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from utils.utils_train import create_prompt
+
+# Paths: run_dir is the output_dir of the SFT run (checkpoints + the test split written by that same run)
 base_model = "Qwen/Qwen2.5-3B-Instruct"
-data_path = r"C:\Users\...\val_dataset.json"
-lora_path = r"C:\Users\...\peft-128"
+run_dir = r"C:\Users\...\logs\peft_128_Tu_Po\fit_..."
+lora_path = os.path.join(run_dir, "checkpoint-...")
+data_path = os.path.join(run_dir, "test_dataset.json")
+use_lora = True  # False: zero-shot baseline (base model without the adapter), same prompt and test set
 
 # Quantization
 bnb_config = BitsAndBytesConfig(
@@ -35,20 +42,20 @@ tokenizer = AutoTokenizer.from_pretrained(
     trust_remote_code=True
 )
 
-tokenizer.pad_token = tokenizer.eos_token
-
 # Base model
 model = AutoModelForCausalLM.from_pretrained(
     base_model,
+    quantization_config=bnb_config,
     torch_dtype="auto",
     device_map="auto"
 )
 
 # Load LoRA
-model = PeftModel.from_pretrained(
-    model,
-    lora_path
-)
+if use_lora:
+    model = PeftModel.from_pretrained(
+        model,
+        lora_path
+    )
 
 model.eval()
 
@@ -65,14 +72,8 @@ for idx, row in df.iterrows():
 
     tupi_text = row["Tupi"]
 
-    prompt = f"""<|im_start|>system
-    Você é um assistente de IA muito útil para traduções.<|im_end|>
-    <|im_start|>user
-    Traduza o seguinte texto em Tupi para Português. Não inclua informações adicionais ou conteúdo irrelevante.
-
-    {tupi_text}<|im_end|>
-    <|im_start|>assistant
-    """
+    # Same chat template as in training (ends with "<|im_start|>assistant\n")
+    prompt = create_prompt(row, src_lng="Tupi", tgt_lng="Português", mode="inference", tokenizer=tokenizer)["full_prompt"]
 
     inputs = tokenizer(
         prompt,
@@ -85,35 +86,21 @@ for idx, row in df.iterrows():
         outputs = model.generate(
             **inputs,
             max_new_tokens=50,
-            max_length=50,
-            #max_tokens=512,
-            top_p=0.9,
-            temperature=0.1,
-            do_sample=True,
-            #repetition_penalty=1.05,
-            #eos_token_id=tokenizer.eos_token_id,
-            #pad_token_id=tokenizer.eos_token_id,
+            do_sample=False,  # greedy: deterministic
+            pad_token_id=tokenizer.pad_token_id,
         )
 
-
+    # Decode only the generated tokens, not the prompt
     response = tokenizer.decode(
-        outputs[0],
+        outputs[0][inputs["input_ids"].shape[1]:],
         skip_special_tokens=True
-    )
-
-    #response = tokenizer.decode(
-    #    outputs[0][inputs["input_ids"].shape[1]:],
-    #    skip_special_tokens=True
-    #).strip()
-
-    #response = response.replace(
-    #    "Fim da tradução.",
-    #    ""
-    #).strip()
+    ).strip()
 
     predictions.append({
         "Tupi": tupi_text,
-        "Português_esperado": row["Português"],
+        "fonte": row["fonte"],
+        "Português_esperado": row["Referência"],
+        "Português_gemini": row["Português"] if row["fonte"] == "gemini" else None,
         "Português_predito": response,
     })
 
@@ -122,7 +109,7 @@ for idx, row in df.iterrows():
     print(tupi_text)
 
     print("\nESPERADO:")
-    print(row["Português"])
+    print(row["Referência"])
 
     print("\nPREDITO:")
     print(response)
@@ -130,6 +117,6 @@ for idx, row in df.iterrows():
 # Save
 pred_df = pd.DataFrame(predictions)
 pred_df.to_csv(
-    "predictions.csv",
+    os.path.join(run_dir, "predictions.csv" if use_lora else "predictions_base.csv"),
     index=False
 )

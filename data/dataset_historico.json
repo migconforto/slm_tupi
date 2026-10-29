@@ -1,0 +1,4147 @@
+[
+    {
+        "id": "hist_0000",
+        "input": "Ereîkuápe Karagûatatyba?",
+        "output": "Você conhece Caraguatatuba?"
+    },
+    {
+        "id": "hist_0001",
+        "input": "A'epe, asé e'ikatu Paranã pu rendupa",
+        "output": "Lá, podemos ouvir o som do Mar"
+    },
+    {
+        "id": "hist_0002",
+        "input": "Xe gûatáreme Paranã koty",
+        "output": "Quando vou para a praia"
+    },
+    {
+        "id": "hist_0003",
+        "input": "i tyb itãetá ybyku'i resé",
+        "output": "tem muitas conchas na areia"
+    },
+    {
+        "id": "hist_0004",
+        "input": "Amõ itáybaté ‘árybo ixé agûapyk, 'ypa'ũporanga repîaka.",
+        "output": "Sobre alguma pedra eu sento pra olhar a Ilhabela."
+    },
+    {
+        "id": "hist_0005",
+        "input": "Kûeî suí apererek taîasuk xe karu îanondé.",
+        "output": "Dali salto pra me banhar antes de comer."
+    },
+    {
+        "id": "hist_0006",
+        "input": "Xe ambyasýramo, a'ekatu tembi'ué gûaba:",
+        "output": "Quando estou com fome, posso comer comidas gostosas:"
+    },
+    {
+        "id": "hist_0007",
+        "input": "piráka'ẽ aîpĩ akaîu rypûera.",
+        "output": "peixe assado, mandioca e suco de caju."
+    },
+    {
+        "id": "hist_0008",
+        "input": "A'eriré, amõ inaîá gûýri aputu'u.",
+        "output": "Depois disso, descanso debaixo de uma palmeira."
+    },
+    {
+        "id": "hist_0009",
+        "input": "Karuka pukuî",
+        "output": "Ao longo da tarde"
+    },
+    {
+        "id": "hist_0010",
+        "input": "ybytyra koty agûatá",
+        "output": "vou para a Serra"
+    },
+    {
+        "id": "hist_0011",
+        "input": "So'oetá asepîak xe rapépe: akuti îaku gûariba.",
+        "output": "Vejo muitos animais no meu caminho: cotia, jacu, macacos."
+    },
+    {
+        "id": "hist_0012",
+        "input": "Kûarasy reîké îanondé",
+        "output": "Antes do pôr-do Sol"
+    },
+    {
+        "id": "hist_0013",
+        "input": "Tupana osunũsunung",
+        "output": "fica trovejando"
+    },
+    {
+        "id": "hist_0014",
+        "input": "Xe moapysykatu i nhe'enga.",
+        "output": "Gosto muito do barulho do trovão."
+    },
+    {
+        "id": "hist_0015",
+        "input": "A'e ri, ama'ẽ ybaka resé Tupãberaba repîápotá.",
+        "output": "Por isso, olho pro céu pra ver os relâmpagos."
+    },
+    {
+        "id": "hist_0016",
+        "input": "Pytúnybo, Îasýobágûasú sẽmi.",
+        "output": "De noite, a Lua cheia nasce."
+    },
+    {
+        "id": "hist_0017",
+        "input": "Aúb xe inĩme taker.",
+        "output": "Eu deito na minha rede para dormir."
+    },
+    {
+        "id": "hist_0018",
+        "input": "Ixé kó tetamygûara;",
+        "output": "Eu sou daqui."
+    },
+    {
+        "id": "hist_0019",
+        "input": "Karagûatatyba xe rekoaba.",
+        "output": "Caraguatatuba é minha casa."
+    },
+    {
+        "id": "hist_0020",
+        "input": "Kyre'ymbaba ogûatá erimba'e ka'a koty oka'amondópotábo.",
+        "output": "Um dia, um guerreiro foi andar para a mata querendo caçar."
+    },
+    {
+        "id": "hist_0021",
+        "input": "Sygûasu bé ogûatá ka'a rupi.",
+        "output": "Um veado também caminhava na mata."
+    },
+    {
+        "id": "hist_0022",
+        "input": "Apŷaba osepîak a'e i membyra rerekó.",
+        "output": "O homem viu que ele cuidava de seu filhote."
+    },
+    {
+        "id": "hist_0023",
+        "input": "Apŷaba ndonhangerekóî sygûasu membyra.",
+        "output": "O homem não se preocupou com o filhote do veado."
+    },
+    {
+        "id": "hist_0024",
+        "input": "Emonãnamo, kyre'ymbaba sygûasu momosẽmi.",
+        "output": "Então, o guerreiro seguiu o veado."
+    },
+    {
+        "id": "hist_0025",
+        "input": "Apŷaba i membyra pysykiré, a’e sygûasu ybõû.",
+        "output": "Depois de capturar sua cria, o homem flechou o veado."
+    },
+    {
+        "id": "hist_0026",
+        "input": "Sembîara nda sygûasu ruã erimba’e.",
+        "output": "Sua presa não foi o veado."
+    },
+    {
+        "id": "hist_0027",
+        "input": "A’ete, a'e abá sy.",
+        "output": "Bem, foi a mãe do homem."
+    },
+    {
+        "id": "hist_0028",
+        "input": "Té nipó, ta pe ma'endûar aîpó nhe'enga resé:",
+        "output": "Então, lembrem bem destas palavras:"
+    },
+    {
+        "id": "hist_0029",
+        "input": "peîuká umẽ so'o o membyra rerekóreme.",
+        "output": "não matem animais que estão cuidando de filhotes."
+    },
+    {
+        "id": "hist_0030",
+        "input": "A’ete pŷaba o sy oîuká nhẽ.",
+        "output": "Mas o homem acabou matando sua mãe."
+    },
+    {
+        "id": "hist_0031",
+        "input": "Aîmondó benhẽ xe nhe’enga",
+        "output": "Envio de novo minhas palavras"
+    },
+    {
+        "id": "hist_0032",
+        "input": "opamenhẽ peẽme, xe ra’yretá.",
+        "output": "a todos vocês, meus filhos."
+    },
+    {
+        "id": "hist_0033",
+        "input": "gûitekóbo é",
+        "output": "estando eu, na verdade"
+    },
+    {
+        "id": "hist_0034",
+        "input": "pe rekokatu kanhema suí",
+        "output": "para a não perda da salvação de vocês"
+    },
+    {
+        "id": "hist_0035",
+        "input": "N’i katuî nhẽ kó nhandé retama pupé nhẽ;",
+        "output": "Não é bom, com efeito, isto em nossa terra;"
+    },
+    {
+        "id": "hist_0036",
+        "input": "pe rekó pupé pekanhemetekatûabo,",
+        "output": "com seus atos desgraçando-se vocês muitíssimo,"
+    },
+    {
+        "id": "hist_0037",
+        "input": "xe suí, cristão-ramo pe rekó pupé.",
+        "output": "longe de mim, como cristãos na condição de vocês."
+    },
+    {
+        "id": "hist_0038",
+        "input": "Kó xe nhe’enga aîmondó benhẽ",
+        "output": "Estas minhas palavras envio-as de novo"
+    },
+    {
+        "id": "hist_0039",
+        "input": "tekoaíba suí pe pysyrõagûama resé",
+        "output": "do pecado para o futuro livramento de vocês"
+    },
+    {
+        "id": "hist_0040",
+        "input": "Emonãnamo, ta peîkugûá pabẽ",
+        "output": "Portanto, que reconheçam todos"
+    },
+    {
+        "id": "hist_0041",
+        "input": "pe posanga peẽme xe remimondó",
+        "output": "o remédio de vocês para vocês enviado de mim"
+    },
+    {
+        "id": "hist_0042",
+        "input": "Aîkó niã ixé",
+        "output": "Estou eu, com efeito,"
+    },
+    {
+        "id": "hist_0043",
+        "input": "peẽme opamenhẽ ma’e monhangagûama resé.",
+        "output": "a vocês todas as coisas para fazer futuramente."
+    },
+    {
+        "id": "hist_0044",
+        "input": "Sasyeté ã",
+        "output": "É muito dolorosa, isso é"
+    },
+    {
+        "id": "hist_0045",
+        "input": "ixébe ma’eaíba pe remimonhangûera resé kó marana,",
+        "output": "para mim por causa das coisas más, as feitas no passado por vocês, esta guerra"
+    },
+    {
+        "id": "hist_0046",
+        "input": "pe raûsubare’yma.",
+        "output": "de vocês não me compadecendo."
+    },
+    {
+        "id": "hist_0047",
+        "input": "Marãnamo, kó yby poretéramo pe rekóreme,",
+        "output": "Por quê, desta terra como habitantes verdadeiros se vocês estão,"
+    },
+    {
+        "id": "hist_0048",
+        "input": "amarãmonhangype oré gûasembaba ri?",
+        "output": "faço guerra com nossos chegados?"
+    },
+    {
+        "id": "hist_0049",
+        "input": "Na saûsubarypyramo ruã sekóû?",
+        "output": "Não como aqueles de quem se compadece estão eles?"
+    },
+    {
+        "id": "hist_0050",
+        "input": "Ma’ẽtepe é mokõî ygûã maramonhangápe?",
+        "output": "Ora, duas vezes já em luta?"
+    },
+    {
+        "id": "hist_0051",
+        "input": "Oré resé omaramonhãba’e, apŷabaíba pitikoara,",
+        "output": "Contra nós os que lutavam, os homens maus potiguaras,"
+    },
+    {
+        "id": "hist_0052",
+        "input": "kanhẽmbabi Serinha’ẽme.",
+        "output": "pereceram todos em Serinhaém."
+    },
+    {
+        "id": "hist_0053",
+        "input": "Apŷabaíba pytybõsara",
+        "output": "Dos homens maus os ajudantes"
+    },
+    {
+        "id": "hist_0054",
+        "input": "opakatu i kanhemi",
+        "output": "todos eles pereceram"
+    },
+    {
+        "id": "hist_0055",
+        "input": "kûesé akỹ maramonhangápe.",
+        "output": "ontem, lamentavelmente, na batalha."
+    },
+    {
+        "id": "hist_0056",
+        "input": "Apŷabaíba irũnamo o a’o resé omaramonhãba’epûera,",
+        "output": "Com os homens maus para sua própria desonra os que lutaram,"
+    },
+    {
+        "id": "hist_0057",
+        "input": "opakatu i kanhemi oré suí.",
+        "output": "todos eles pereceram por nossa causa."
+    },
+    {
+        "id": "hist_0058",
+        "input": "N’onheme’engi îeí ãgûa supé quartel.",
+        "output": "Não se deu hoje para eles quartel."
+    },
+    {
+        "id": "hist_0059",
+        "input": "Marãnamo, kó yby poretéramo",
+        "output": "Por quê, desta terra como habitantes verdadeiros"
+    },
+    {
+        "id": "hist_0060",
+        "input": "ãgûa rekóreme?",
+        "output": "se eles estão?"
+    },
+    {
+        "id": "hist_0061",
+        "input": "Peîkugûa katu karaíba",
+        "output": "conhecem bem os portugueses"
+    },
+    {
+        "id": "hist_0062",
+        "input": "Marãnamo? Opamenhẽ pe rubetéramo",
+        "output": "Por quê? De todos vocês como pai verdadeiro"
+    },
+    {
+        "id": "hist_0063",
+        "input": "pe rekomonhangaba aîmondó benhẽ peẽme.",
+        "output": "determinações a vocês mando novamente a vocês."
+    },
+    {
+        "id": "hist_0064",
+        "input": "opabenhẽ mba’eaíba",
+        "output": "todas as coisas más"
+    },
+    {
+        "id": "hist_0065",
+        "input": "pe remimonhanga resé, opabẽ culpa seîtykite",
+        "output": "obra de vocês toda a culpa a lançaram fora, porém"
+    },
+    {
+        "id": "hist_0066",
+        "input": "a’ereme, koba’e suí pe pysyrõagûama resé.",
+        "output": "então, dela para o futuro livramento de vocês."
+    },
+    {
+        "id": "hist_0067",
+        "input": "Kó ixé pe rekorama",
+        "output": "Eis que eu, de vocês o futuro proceder"
+    },
+    {
+        "id": "hist_0068",
+        "input": "pe remimonhangûama",
+        "output": "as futuras ações de vocês"
+    },
+    {
+        "id": "hist_0069",
+        "input": "pe rekomonhangaba",
+        "output": "as determinações a vocês"
+    },
+    {
+        "id": "hist_0070",
+        "input": "aîmondó benhẽ peẽme",
+        "output": "mando-as de novo a vocês"
+    },
+    {
+        "id": "hist_0071",
+        "input": "ta peîmoabaíb ymẽ",
+        "output": "para que não façam difíceis"
+    },
+    {
+        "id": "hist_0072",
+        "input": "apŷabaíba, oîopa’ũme, oîoirũnamo",
+        "output": "(com) os homens maus, entre si [e] consigo"
+    },
+    {
+        "id": "hist_0073",
+        "input": "pe rerekoaíme",
+        "output": "a vocês no caso de maus tratos"
+    },
+    {
+        "id": "hist_0074",
+        "input": "I xuí pe semagûama",
+        "output": "Deles a futura saída de vocês"
+    },
+    {
+        "id": "hist_0075",
+        "input": "mba’e apŷabaíba ryryîa suí",
+        "output": "algo mais que um abalo de homens maus"
+    },
+    {
+        "id": "hist_0076",
+        "input": "peîeangune",
+        "output": "terão medo"
+    },
+    {
+        "id": "hist_0077",
+        "input": "Okanhemetá ‘ybama, apŷabaíba",
+        "output": "Perecerão muitos comandantes, homens ruins"
+    },
+    {
+        "id": "hist_0078",
+        "input": "oré suí",
+        "output": "por nossa causa"
+    },
+    {
+        "id": "hist_0079",
+        "input": "Kûesé orogûar benhẽ 4 tubixaba, opabenhẽ i nhanama",
+        "output": "Ontem prendemos mais quatro chefes e toda a sua gente"
+    },
+    {
+        "id": "hist_0080",
+        "input": "îerobîasaba",
+        "output": "causa de sua confiança"
+    },
+    {
+        "id": "hist_0081",
+        "input": "4 cento i boîá",
+        "output": "Quatrocentos subordinados deles"
+    },
+    {
+        "id": "hist_0082",
+        "input": "oîopytera rupi orogûar",
+        "output": "pela metade capturamos"
+    },
+    {
+        "id": "hist_0083",
+        "input": "Amõ okanhem oré suí irũnamo",
+        "output": "Alguns morreram por causa de nós com eles"
+    },
+    {
+        "id": "hist_0084",
+        "input": "Okanhẽ capitão André de Souza Bioby",
+        "output": "Pereceu o capitão André de Souza Biobi"
+    },
+    {
+        "id": "hist_0085",
+        "input": "opamenhẽ i boîaeté abé",
+        "output": "todos os seus melhores subordinados também"
+    },
+    {
+        "id": "hist_0086",
+        "input": "Peîmo’ang ymẽ, tuîxamonhangápe oré gûasembaba supé",
+        "output": "Não imaginem, ao fazerem chefes aos nossos chegados"
+    },
+    {
+        "id": "hist_0087",
+        "input": "quartel nheme’enga.",
+        "output": "quartel ser dado."
+    },
+    {
+        "id": "hist_0088",
+        "input": "Peîmo’ang ymẽ apŷabaíba oré suí pe pysyrõ",
+        "output": "Não imaginem os homens maus de nós livrarem vocês"
+    },
+    {
+        "id": "hist_0089",
+        "input": "I xupé nhõ ã quartel nheme’engi",
+        "output": "A eles, somente, esse quartel se dá"
+    },
+    {
+        "id": "hist_0090",
+        "input": "Marãnamo, sobaîygûaramo",
+        "output": "Por quê, como habitantes de outras bandas"
+    },
+    {
+        "id": "hist_0091",
+        "input": "sekóreme?",
+        "output": "se eles estão?"
+    },
+    {
+        "id": "hist_0092",
+        "input": "Emonãnamo, petenhẽumẽ benhẽ abá",
+        "output": "Portanto, evitem que, de novo, os índios"
+    },
+    {
+        "id": "hist_0093",
+        "input": "onhemomotabenhẽmo",
+        "output": "sejam atraídos ainda mais"
+    },
+    {
+        "id": "hist_0094",
+        "input": "apŷabaíba maranirũnamo o gûekorama resé",
+        "output": "dos homens maus sendo companheiros de guerra em suas futuras ações"
+    },
+    {
+        "id": "hist_0095",
+        "input": "Naîpotarangaî benhẽî pe kanhema",
+        "output": "Não quero mais, de modo algum, a ruína de vocês"
+    },
+    {
+        "id": "hist_0096",
+        "input": "Emonãnamo, opamenhẽ peîor xe ropenhana",
+        "output": "Portanto, todos venham me encontrar"
+    },
+    {
+        "id": "hist_0097",
+        "input": "ixébe peîkŷabo",
+        "output": "junto a mim recolhendo-se vocês"
+    },
+    {
+        "id": "hist_0098",
+        "input": "Xe nhyrõngatu ipóne",
+        "output": "Eu hei de bem perdoar, certamente"
+    },
+    {
+        "id": "hist_0099",
+        "input": "peẽmene opabenhẽ mba’eaíba",
+        "output": "a vocês todas as coisas más,"
+    },
+    {
+        "id": "hist_0100",
+        "input": "pe remimonhangûera reséne",
+        "output": "obra passada de vocês"
+    },
+    {
+        "id": "hist_0101",
+        "input": "Kó nhõ pe posanga",
+        "output": "Este somente é o remédio de vocês"
+    },
+    {
+        "id": "hist_0102",
+        "input": "Emonãnamo, pepu’ã sesé, i xuí pesema",
+        "output": "Portanto, fiquem contra eles, deles se afastando"
+    },
+    {
+        "id": "hist_0103",
+        "input": "Emonã pe rekóreme, xe rorybeténe",
+        "output": "Se assim for o proceder de vocês, eu hei de ficar muito feliz"
+    },
+    {
+        "id": "hist_0104",
+        "input": "Opomoingoîebykatupe",
+        "output": "[Eu] os farei estar novamente bem"
+    },
+    {
+        "id": "hist_0105",
+        "input": "akûeme pe rekopûera",
+        "output": "e outrora [com] a antiga cultura de vocês"
+    },
+    {
+        "id": "hist_0106",
+        "input": "rupikatune",
+        "output": "bem de acordo"
+    },
+    {
+        "id": "hist_0107",
+        "input": "Kó xe nhe’enga rupi oîkó e’iba’e a’eîpe ne:",
+        "output": "Segundo estas minhas palavras estarão os que se acharem aí:"
+    },
+    {
+        "id": "hist_0108",
+        "input": "i mokanhemetepyramo nhẽ sekóûne",
+        "output": "como os que serão muito arruinados, com efeito, estarão"
+    },
+    {
+        "id": "hist_0109",
+        "input": "Mamõ monẽ i xóû xe suí oîegûasema",
+        "output": "Para longe deveriam ir de mim para fugir"
+    },
+    {
+        "id": "hist_0110",
+        "input": "T’oîmoang ymẽ abá emonã oîkoba’e",
+        "output": "Que não o finjam os índios que assim fizerem"
+    },
+    {
+        "id": "hist_0111",
+        "input": "Kó marana akûeme akỹ",
+        "output": "Esta guerra há tempos, ai!"
+    },
+    {
+        "id": "hist_0112",
+        "input": "amõ armada rekopûera îabé;",
+        "output": "é um pouco como o antigo estado da armada;"
+    },
+    {
+        "id": "hist_0113",
+        "input": "sekó akûeîba’e rekó",
+        "output": "sua condição é a condição daquela"
+    },
+    {
+        "id": "hist_0114",
+        "input": "Ixé aé aîkugûá tekó",
+        "output": "Eu mesmo reconheço o fato"
+    },
+    {
+        "id": "hist_0115",
+        "input": "Peteymẽ peîeagûabo",
+        "output": "Guardem-se de se desonrarem"
+    },
+    {
+        "id": "hist_0116",
+        "input": "pekûaẽmo xe suí",
+        "output": "escapando-se de mim"
+    },
+    {
+        "id": "hist_0117",
+        "input": "Aîme’engatu ipóne perdão geral peẽmene",
+        "output": "Hei de dar certamente o perdão geral a vocês"
+    },
+    {
+        "id": "hist_0118",
+        "input": "Xe remimotaramo peîkóne",
+        "output": "Como aqueles que eu desejo estarão."
+    },
+    {
+        "id": "hist_0119",
+        "input": "Opamenhẽ morubixabetá abá oîerureté peẽme",
+        "output": "Todos os chefes índios pedem muito a vocês"
+    },
+    {
+        "id": "hist_0120",
+        "input": "pe ruragûama resé",
+        "output": "pela vinda futura de vocês"
+    },
+    {
+        "id": "hist_0121",
+        "input": "A’e abé oîme’ẽ perdão geral peẽmene",
+        "output": "Eles também darão o perdão geral a vocês"
+    },
+    {
+        "id": "hist_0122",
+        "input": "og ubixaba",
+        "output": "de seu próprio chefe"
+    },
+    {
+        "id": "hist_0123",
+        "input": "ogû ekomonhangaba rupi",
+        "output": "segundo as ordens a eles"
+    },
+    {
+        "id": "hist_0124",
+        "input": "kó yby",
+        "output": "esta terra"
+    },
+    {
+        "id": "hist_0125",
+        "input": "Peîerobîar ixé resé",
+        "output": "Confiem em mim"
+    },
+    {
+        "id": "hist_0126",
+        "input": "Na karaíba ruã ixé",
+        "output": "Não um homem branco eu"
+    },
+    {
+        "id": "hist_0127",
+        "input": "Ixé copixápe catú aimõgatyrõ ygaruçú",
+        "output": "Eu, nos sertões, conserto navios"
+    },
+    {
+        "id": "hist_0128",
+        "input": "aèbé Apyabetà oçopár",
+        "output": "quando os índios deixam de seguir seu [caminho]."
+    },
+    {
+        "id": "hist_0129",
+        "input": "aé abé coytè oiporacár",
+        "output": "Eles também, afinal, os abarrotam"
+    },
+    {
+        "id": "hist_0130",
+        "input": "Mojú cotý auatàuatá",
+        "output": "Para Moju eu viajava"
+    },
+    {
+        "id": "hist_0131",
+        "input": "Xe tutýra còpe apytá",
+        "output": "ficando na roça de meu tio"
+    },
+    {
+        "id": "hist_0132",
+        "input": "Oporandùb aé ixébo",
+        "output": "Perguntou ele a mim"
+    },
+    {
+        "id": "hist_0133",
+        "input": "Maiabépe nde pyà indébo?",
+        "output": "Qual é tua intenção?"
+    },
+    {
+        "id": "hist_0134",
+        "input": "Umamepe catú ereçó?",
+        "output": "Para onde vais?"
+    },
+    {
+        "id": "hist_0135",
+        "input": "Abápe abé nde irùmo oçó?",
+        "output": "Quem vai contigo?"
+    },
+    {
+        "id": "hist_0136",
+        "input": "Iepuxàpe",
+        "output": "Para Iepuxaba"
+    },
+    {
+        "id": "hist_0137",
+        "input": "Tapyýietà recoçàpe",
+        "output": "aldeamento de muitos tapuias"
+    },
+    {
+        "id": "hist_0138",
+        "input": "Mocõi Caraíba reté, Umambaé xe moeté",
+        "output": "Dois senhores (vão comigo), cada um deles me respeita"
+    },
+    {
+        "id": "hist_0139",
+        "input": "Ixe irúnamo oço potár",
+        "output": "comigo querem ir"
+    },
+    {
+        "id": "hist_0140",
+        "input": "Xe abé inheenga aporacár",
+        "output": "Eu também obedeço a suas palavras"
+    },
+    {
+        "id": "hist_0141",
+        "input": "aé xe Tutýra teité oinongucár cetà miapè",
+        "output": "Ai, aquele meu tio mandou colocar muitos paes"
+    },
+    {
+        "id": "hist_0142",
+        "input": "Meza pocame ocameeng",
+        "output": "os ofereceu na mesa enfeitada"
+    },
+    {
+        "id": "hist_0143",
+        "input": "eí ixébo: tiambaèú",
+        "output": "Disse-me: Vamos comer"
+    },
+    {
+        "id": "hist_0144",
+        "input": "Co mirì aíra tembiú",
+        "output": "esta pouca comida"
+    },
+    {
+        "id": "hist_0145",
+        "input": "Mojù çupí i poreauçub",
+        "output": "Moju, na verdade, é pobre."
+    },
+    {
+        "id": "hist_0146",
+        "input": "Aipò recè aé noçauçùb",
+        "output": "Por causa disso, ele não a aprecia"
+    },
+    {
+        "id": "hist_0147",
+        "input": "Comandaí, tacacá abé",
+        "output": "Feijões e tacacás"
+    },
+    {
+        "id": "hist_0148",
+        "input": "Çupí catú aú ára iabé",
+        "output": "comia eu todo dia"
+    },
+    {
+        "id": "hist_0149",
+        "input": "Arecò tres taraýra",
+        "output": "Tenho três traíras"
+    },
+    {
+        "id": "hist_0150",
+        "input": "Cobè catú eté, aé ixupé",
+        "output": "Muito bem, disse eu a ele"
+    },
+    {
+        "id": "hist_0151",
+        "input": "Icatù pyrý ereù nde",
+        "output": "é melhor que tu as comas"
+    },
+    {
+        "id": "hist_0152",
+        "input": "Ixe çocé nde tuibaè",
+        "output": "tu és mais velho que eu"
+    },
+    {
+        "id": "hist_0153",
+        "input": "Tembiù recè ereicotemè",
+        "output": "precisas de comida"
+    },
+    {
+        "id": "hist_0154",
+        "input": "Mocõi çupiá, eí, arecó",
+        "output": "Tenho dois ovos, disse ele"
+    },
+    {
+        "id": "hist_0155",
+        "input": "aé bé aú ára iabiõ",
+        "output": "isso eu como cada dia"
+    },
+    {
+        "id": "hist_0156",
+        "input": "aé çupi xe moapycýc",
+        "output": "Ele, na verdade, me consolou"
+    },
+    {
+        "id": "hist_0157",
+        "input": "Xe righè ipýpe catù ocýc",
+        "output": "chegando bem ao fundo da minha barriga"
+    },
+    {
+        "id": "hist_0158",
+        "input": "Taraýra aú aéreme,",
+        "output": "As traíras comi, então,"
+    },
+    {
+        "id": "hist_0159",
+        "input": "Amò tembiú noicoreme",
+        "output": "por não haver outra comida."
+    },
+    {
+        "id": "hist_0160",
+        "input": "I cangoéra xe mocaneõ,",
+        "output": "Suas espinhas me cansaram."
+    },
+    {
+        "id": "hist_0161",
+        "input": "Çupí Sam Braz xe pycyrõ.",
+        "output": "Na verdade, Sao Brás me livrou (delas)."
+    },
+    {
+        "id": "hist_0162",
+        "input": "Mirí caoi tatà oroú,",
+        "output": "Um pouco de aguardente bebemos,"
+    },
+    {
+        "id": "hist_0163",
+        "input": "Orocaú çupí catú,",
+        "output": "ingerimos muita pinga."
+    },
+    {
+        "id": "hist_0164",
+        "input": "Nití ocanhem xe çuí ára,",
+        "output": "Não perdi o juízo,"
+    },
+    {
+        "id": "hist_0165",
+        "input": "Acuáb mirí xe cuapára.",
+        "output": "conhecendo um pouco os meus [companheiros]."
+    },
+    {
+        "id": "hist_0166",
+        "input": "Anhenong kyçàba pupé,",
+        "output": "Deitei-me na rede,"
+    },
+    {
+        "id": "hist_0167",
+        "input": "Akér coemramèbé,",
+        "output": "dormi durante toda a manhã."
+    },
+    {
+        "id": "hist_0168",
+        "input": "Opicám uán catù coaracý,",
+        "output": "Já fustigava bem o sol."
+    },
+    {
+        "id": "hist_0169",
+        "input": "Apàc coyté; xe abé ambyacý.",
+        "output": "Acordei, afinal; e eu tinha fome."
+    },
+    {
+        "id": "hist_0170",
+        "input": "Ixé Tutýra tuibaé,",
+        "output": "Meu velho tio"
+    },
+    {
+        "id": "hist_0171",
+        "input": "Ixe irúnamo oiemboé,",
+        "output": "comigo aprendeu:"
+    },
+    {
+        "id": "hist_0172",
+        "input": "Sta Cruz çupí oromonhang,",
+        "output": "fizemos o sinal da Santa Cruz;"
+    },
+    {
+        "id": "hist_0173",
+        "input": "Padre Nosso abé oroçaang.",
+        "output": "rezamos também o Padre Nosso."
+    },
+    {
+        "id": "hist_0174",
+        "input": "Tacacà oroú aé rirè,",
+        "output": "Tacacá tomamos depois disso."
+    },
+    {
+        "id": "hist_0175",
+        "input": "Nití oiecuáb amò mbaé;",
+        "output": "Não se via outra coisa."
+    },
+    {
+        "id": "hist_0176",
+        "input": "aé almoço mirí eté oicó,",
+        "output": "Aquele era o diminuto almoço;"
+    },
+    {
+        "id": "hist_0177",
+        "input": "Aanangái ruã aé aroirõ.",
+        "output": "de modo nenhum o enjeitei."
+    },
+    {
+        "id": "hist_0178",
+        "input": "Aiepabòc potar coytè;",
+        "output": "Queria partir, afinal:"
+    },
+    {
+        "id": "hist_0179",
+        "input": "Ajùricò xe tutýra gué,",
+        "output": "- Eis que me vou, ó meu tio."
+    },
+    {
+        "id": "hist_0180",
+        "input": "Erepotárpe mbaé amò?",
+        "output": "Queres alguma coisa?"
+    },
+    {
+        "id": "hist_0181",
+        "input": "Nde nheenga rupí aicò.",
+        "output": "Estou às tuas ordens."
+    },
+    {
+        "id": "hist_0182",
+        "input": "Ecoai, eí, xe anama guí,",
+        "output": "- Vai, ó meu amigo,"
+    },
+    {
+        "id": "hist_0183",
+        "input": "Erùr oiepè cunumí,",
+        "output": "traze um rapaz,"
+    },
+    {
+        "id": "hist_0184",
+        "input": "Oiepè abè cunhà mucu,",
+        "output": "uma moça também."
+    },
+    {
+        "id": "hist_0185",
+        "input": "Acepymeegne catú.",
+        "output": "Eu te pagarei bem."
+    },
+    {
+        "id": "hist_0186",
+        "input": "aéreme, auiebéte, aé,",
+        "output": "Então eu disse: Muito bem!"
+    },
+    {
+        "id": "hist_0187",
+        "input": "Toicò xe irùmo Tupã eté.",
+        "output": "Que esteja comigo o Deus verdadeiro."
+    },
+    {
+        "id": "hist_0188",
+        "input": "aé xe pytybóneme",
+        "output": "Se ele me ajudar,"
+    },
+    {
+        "id": "hist_0189",
+        "input": "Indebo arúr aereme",
+        "output": "a ti os trarei, então."
+    },
+    {
+        "id": "hist_0190",
+        "input": "Y gàruçù pupè aár uán,",
+        "output": "Dentro do navio embarquei."
+    },
+    {
+        "id": "hist_0191",
+        "input": "Apyabetà onhemoçainán;",
+        "output": "Os índios fizeram provisões,"
+    },
+    {
+        "id": "hist_0192",
+        "input": "Oiapucuitàba opycýc,",
+        "output": "pegaram os seus remos."
+    },
+    {
+        "id": "hist_0193",
+        "input": "Coritéi Camutápe acýc.",
+        "output": "Logo cheguei a Camutá."
+    },
+    {
+        "id": "hist_0194",
+        "input": "aépe cuápára çuí,",
+        "output": "Ali dos conhecidos"
+    },
+    {
+        "id": "hist_0195",
+        "input": "Aiár cetá mbaé mirí,",
+        "output": "tomei muitas pequenas coisas,"
+    },
+    {
+        "id": "hist_0196",
+        "input": "Traçados, mocabas abé,",
+        "output": "traçados e armas de fogo."
+    },
+    {
+        "id": "hist_0197",
+        "input": "Aipobaé xe moabaeté.",
+        "output": "Isso me deu coragem."
+    },
+    {
+        "id": "hist_0198",
+        "input": "Mocõi ára riré catù,",
+        "output": "Depois de dois dias, precisamente,"
+    },
+    {
+        "id": "hist_0199",
+        "input": "Acepiác coyté Araticù;",
+        "output": "vi, enfim, Araticu."
+    },
+    {
+        "id": "hist_0200",
+        "input": "Açó çapyà Pai robaké",
+        "output": "Fui logo para diante do padre;"
+    },
+    {
+        "id": "hist_0201",
+        "input": "Ameeng papéra ixupé.",
+        "output": "dei um papel a ele."
+    },
+    {
+        "id": "hist_0202",
+        "input": "Opauán eí Apyabetà;",
+        "output": "Disse ele: - Acabaram-se os índios."
+    },
+    {
+        "id": "hist_0203",
+        "input": "Ixupé anheengãtã;",
+        "output": "Diante dele gritei."
+    },
+    {
+        "id": "hist_0204",
+        "input": "Acepiac, eí Pai cori,",
+        "output": "Disse o padre: - Verei hoje"
+    },
+    {
+        "id": "hist_0205",
+        "input": "Cunumi goaçú mirí,",
+        "output": "um rapazinho;"
+    },
+    {
+        "id": "hist_0206",
+        "input": "Ipýri carúcme açò,",
+        "output": "de tarde vou para junto dele."
+    },
+    {
+        "id": "hist_0207",
+        "input": "Paí iebýr papéra opyçó;",
+        "output": "O padre novamente o papel estendeu;"
+    },
+    {
+        "id": "hist_0208",
+        "input": "Cecè omaé catù catù:",
+        "output": "para ele olhou muito bem."
+    },
+    {
+        "id": "hist_0209",
+        "input": "Noicói, eí, Apyabuçú,",
+        "output": "Disse: - Não há índios adultos,"
+    },
+    {
+        "id": "hist_0210",
+        "input": "ybyrareregoàra guí,",
+        "output": "ó comandante."
+    },
+    {
+        "id": "hist_0211",
+        "input": "Ecenõi Pacicú miri:",
+        "output": "Chama o pequeno Francisco."
+    },
+    {
+        "id": "hist_0212",
+        "input": "Icò cunumí, eí, icatubé,",
+        "output": "Disse ele: - Esse menino é melhor;"
+    },
+    {
+        "id": "hist_0213",
+        "input": "Oicò cuáb cacáo recé.",
+        "output": "sabe trabalhar com cacau."
+    },
+    {
+        "id": "hist_0214",
+        "input": "Auiebéte ixupé anheeng,",
+        "output": "Disse-lhe: - Muito bem,"
+    },
+    {
+        "id": "hist_0215",
+        "input": "Icò pitùba ereimeeng,",
+        "output": "eis que me deste alento."
+    },
+    {
+        "id": "hist_0216",
+        "input": "Aipyà monghetà coyté,",
+        "output": "Pensei, afinal:"
+    },
+    {
+        "id": "hist_0217",
+        "input": "Agoacem corí abá reté.",
+        "output": "Encontrarei bons homens."
+    },
+    {
+        "id": "hist_0218",
+        "input": "Oicò ygarupàpe catú",
+        "output": "Havia no navio"
+    },
+    {
+        "id": "hist_0219",
+        "input": "Mocõi ygàra puçaçù,",
+        "output": "dois barcos novos."
+    },
+    {
+        "id": "hist_0220",
+        "input": "Oiepé xe irúmo araçó,",
+        "output": "Um comigo levei;"
+    },
+    {
+        "id": "hist_0221",
+        "input": "Tupã recé aceár amó.",
+        "output": "por Deus deixei o outro."
+    },
+    {
+        "id": "hist_0222",
+        "input": "Açò copixába rupí,",
+        "output": "Fui pelo sertão"
+    },
+    {
+        "id": "hist_0223",
+        "input": "Aicò goaràma apyábarí,",
+        "output": "para buscar índios."
+    },
+    {
+        "id": "hist_0224",
+        "input": "Agoacem apyába cetà;",
+        "output": "Achei muitos índios."
+    },
+    {
+        "id": "hist_0225",
+        "input": "Moçapýr nhò aimonghetà.",
+        "output": "Conversei somente com três."
+    },
+    {
+        "id": "hist_0226",
+        "input": "Ameeng cetà mbaé ixupé,",
+        "output": "Dei muitas coisas a eles."
+    },
+    {
+        "id": "hist_0227",
+        "input": "ygárpe oár moçapýrbé;",
+        "output": "Na canoa embarcaram os três;"
+    },
+    {
+        "id": "hist_0228",
+        "input": "Aiepabóc coyté i xuí,",
+        "output": "parti, enfim, dali."
+    },
+    {
+        "id": "hist_0229",
+        "input": "Oroçó oré rapé rupí.",
+        "output": "Fomos pelo nosso caminho."
+    },
+    {
+        "id": "hist_0230",
+        "input": "Araçò Guavicurú igoàra",
+        "output": "Levei uns que moravam em Guavicuru,"
+    },
+    {
+        "id": "hist_0231",
+        "input": "Mocõi apyàba cuapàra,",
+        "output": "conhecidos de dois índios."
+    },
+    {
+        "id": "hist_0232",
+        "input": "Cecè aierobiár etè etè",
+        "output": "Neles confiava muitíssimo:"
+    },
+    {
+        "id": "hist_0233",
+        "input": "Míra pycycára reté.",
+        "output": "verdadeiros apresadores de gente."
+    },
+    {
+        "id": "hist_0234",
+        "input": "Paí róca robaké catú",
+        "output": "Bem diante da casa do padre"
+    },
+    {
+        "id": "hist_0235",
+        "input": "Acepiác parreiral uçù,",
+        "output": "vi um grande parreiral;"
+    },
+    {
+        "id": "hist_0236",
+        "input": "Uuas ogoerecó cetá,",
+        "output": "muitas uvas tinha."
+    },
+    {
+        "id": "hist_0237",
+        "input": "Maiaué catú aé itauá.",
+        "output": "Estavam bem roxas."
+    },
+    {
+        "id": "hist_0238",
+        "input": "Paí çuí çupí aieruré,",
+        "output": "Pedi ao padre por elas."
+    },
+    {
+        "id": "hist_0239",
+        "input": "eí, nití aé itauà eté,",
+        "output": "Disse ele: Elas não estão bem roxas;"
+    },
+    {
+        "id": "hist_0240",
+        "input": "Deiranhé bé itiarõ catú",
+        "output": "ainda não estão bem maduras;"
+    },
+    {
+        "id": "hist_0241",
+        "input": "Deiranhèbé cee catu.",
+        "output": "ainda não estão bem doces."
+    },
+    {
+        "id": "hist_0242",
+        "input": "Amondò pyçajeramè",
+        "output": "Fiz ir, de madrugada,"
+    },
+    {
+        "id": "hist_0243",
+        "input": "Apyába balaio pupé,",
+        "output": "um índio com um balaio;"
+    },
+    {
+        "id": "hist_0244",
+        "input": "Amò abè saca ogoeraçó,",
+        "output": "outro também levou saca."
+    },
+    {
+        "id": "hist_0245",
+        "input": "Catù oiporacár saca nhó,",
+        "output": "Encheu bem somente a saca,"
+    },
+    {
+        "id": "hist_0246",
+        "input": "aépe cecóreme amò Pai,",
+        "output": "por estar ali outro padre."
+    },
+    {
+        "id": "hist_0247",
+        "input": "Nití cecateým ixuí,",
+        "output": "Ele não foi avaro delas."
+    },
+    {
+        "id": "hist_0248",
+        "input": "Oiepè nhó moacáruçù,",
+        "output": "Um só renque"
+    },
+    {
+        "id": "hist_0249",
+        "input": "Çupí catú nopouçú.",
+        "output": "não recusou, na verdade."
+    },
+    {
+        "id": "hist_0250",
+        "input": "Pai çuí uvas noieruré",
+        "output": "Não pediu as uvas ao padre."
+    },
+    {
+        "id": "hist_0251",
+        "input": "Moacára recè iabareté,",
+        "output": "Nos renques o padre"
+    },
+    {
+        "id": "hist_0252",
+        "input": "Oimondò mamalúceté",
+        "output": "mandou um mameluco"
+    },
+    {
+        "id": "hist_0253",
+        "input": "Oipoòi çuér opabenhé.",
+        "output": "colher todas."
+    },
+    {
+        "id": "hist_0254",
+        "input": "aé rirè opocápocà,",
+        "output": "Depois disso ficou rindo."
+    },
+    {
+        "id": "hist_0255",
+        "input": "Ocuàb Caraíba cetá,",
+        "output": "Conhecia muitos brancos."
+    },
+    {
+        "id": "hist_0256",
+        "input": "Iabáeté cecò aíba mirí",
+        "output": "Foi terrível seu pequeno mau ato;"
+    },
+    {
+        "id": "hist_0257",
+        "input": "Noti, nem mirí, nem mirí",
+        "output": "não se envergonhava nem um pouquinho."
+    },
+    {
+        "id": "hist_0258",
+        "input": "Arucaxápe nití acýc,",
+        "output": "A Arucaxaba nao cheguei;"
+    },
+    {
+        "id": "hist_0259",
+        "input": "aé Paí noxemoapycyc,",
+        "output": "aquele padre não me agradava."
+    },
+    {
+        "id": "hist_0260",
+        "input": "Ixuíigoàra araçó abé,",
+        "output": "Levei moradores dela, também;"
+    },
+    {
+        "id": "hist_0261",
+        "input": "Moçapýr catú apyábeté.",
+        "output": "três índios, exatamente."
+    },
+    {
+        "id": "hist_0262",
+        "input": "Tagipurù rupí auatá,",
+        "output": "Por Tajipuru andei;"
+    },
+    {
+        "id": "hist_0263",
+        "input": "Oiecuáb Apyàba cetá,",
+        "output": "apareceram muitos índios."
+    },
+    {
+        "id": "hist_0264",
+        "input": "Ixébo coyté oiepè eí;",
+        "output": "A mim, enfim, um disse:"
+    },
+    {
+        "id": "hist_0265",
+        "input": "Taçó ndé irùmo Sor guí.",
+        "output": "- Hei de ir contigo, ó senhor."
+    },
+    {
+        "id": "hist_0266",
+        "input": "Ixé rorý catù cecé,",
+        "output": "Eu fiquei muito feliz por isso."
+    },
+    {
+        "id": "hist_0267",
+        "input": "Amoapycýc opabenhé:",
+        "output": "Agradei a todos;"
+    },
+    {
+        "id": "hist_0268",
+        "input": "Seý apyába oporepymeeng;",
+        "output": "a seis homens retribuí,"
+    },
+    {
+        "id": "hist_0269",
+        "input": "Cetà mbaé ixupé ameeng.",
+        "output": "muitas coisas dando a eles."
+    },
+    {
+        "id": "hist_0270",
+        "input": "Xe renõi agoéra baé,",
+        "output": "O que me chamou"
+    },
+    {
+        "id": "hist_0271",
+        "input": "Corí, eí, ajúr Senhor gué,",
+        "output": "disse: - Venho logo, ó senhor."
+    },
+    {
+        "id": "hist_0272",
+        "input": "Taraçò ranhé cò mbaé",
+        "output": "Hei de levar primeiro estas coisas"
+    },
+    {
+        "id": "hist_0273",
+        "input": "Ixe róca teitè pupè.",
+        "output": "para minha casa."
+    },
+    {
+        "id": "hist_0274",
+        "input": "Iabè onheeng opabenhé,",
+        "output": "Assim, falaram todos os"
+    },
+    {
+        "id": "hist_0275",
+        "input": "Ocear aõáma ombaé:",
+        "output": "que deixariam suas coisas:"
+    },
+    {
+        "id": "hist_0276",
+        "input": "Oreiebýr eçapyà catù",
+        "output": "- Voltamos logo;"
+    },
+    {
+        "id": "hist_0277",
+        "input": "Çupí noroicòi, eí, pucú.",
+        "output": "na verdade não demoramos."
+    },
+    {
+        "id": "hist_0278",
+        "input": "Noiecuàb ruã apyabetà,",
+        "output": "Não apareceram os índios."
+    },
+    {
+        "id": "hist_0279",
+        "input": "Açarõ, açarõ ára cetá,",
+        "output": "Esperei, esperei muitos dias;"
+    },
+    {
+        "id": "hist_0280",
+        "input": "Çupí catù açarõ tenhé,",
+        "output": "na verdade esperei em vão."
+    },
+    {
+        "id": "hist_0281",
+        "input": "Oiemoçarái xe recé.",
+        "output": "Brincaram comigo."
+    },
+    {
+        "id": "hist_0282",
+        "input": "Xe pyaibeté aéreme,",
+        "output": "Eu fiquei muito irado, então,"
+    },
+    {
+        "id": "hist_0283",
+        "input": "Apyába noiebýreme;",
+        "output": "por os índios não terem voltado."
+    },
+    {
+        "id": "hist_0284",
+        "input": "Mondabóruçú çupí oicó,",
+        "output": "Agiram como grandes ladrões, de fato;"
+    },
+    {
+        "id": "hist_0285",
+        "input": "Oimopòr anhanga recó.",
+        "output": "obedeceram às determinações do diabo."
+    },
+    {
+        "id": "hist_0286",
+        "input": "Cunhã poxí membýretà,",
+        "output": "Os filhos de uma mulher ruim"
+    },
+    {
+        "id": "hist_0287",
+        "input": "Noçauçub Caraíbetá",
+        "output": "não gostam dos brancos;"
+    },
+    {
+        "id": "hist_0288",
+        "input": "Iandé çuí nocykyié,",
+        "output": "não têm medo de nós"
+    },
+    {
+        "id": "hist_0289",
+        "input": "Nití abé iandé moetè.",
+        "output": "nem nos respeitam."
+    },
+    {
+        "id": "hist_0290",
+        "input": "Gurupápe acýc coyté,",
+        "output": "A Gurupá cheguei, enfim,"
+    },
+    {
+        "id": "hist_0291",
+        "input": "Açó Capitam robaké:",
+        "output": "indo diante do capitão,"
+    },
+    {
+        "id": "hist_0292",
+        "input": "mbaé etá recé oporandúb,",
+        "output": "por muitas coisas perguntando,"
+    },
+    {
+        "id": "hist_0293",
+        "input": "Tapyyietà nhó anhandúb,",
+        "output": "os tapuios, somente, observando."
+    },
+    {
+        "id": "hist_0294",
+        "input": "Sargento, Soraretà abé",
+        "output": "O sargento e os soldados"
+    },
+    {
+        "id": "hist_0295",
+        "input": "Fumo xe çuí oieruré;",
+        "output": "pediram-me fumo."
+    },
+    {
+        "id": "hist_0296",
+        "input": "Aé: cosinha pupé oicò,",
+        "output": "Disse: - Na cozinha está;"
+    },
+    {
+        "id": "hist_0297",
+        "input": "Icatù ixuí peraçò.",
+        "output": "é bom, levai dele."
+    },
+    {
+        "id": "hist_0298",
+        "input": "Opabenhè opocàpocá,",
+        "output": "Todos ficaram rindo:"
+    },
+    {
+        "id": "hist_0299",
+        "input": "Ogoeraçó petýmãtã",
+        "output": "levaram tabaco duro."
+    },
+    {
+        "id": "hist_0300",
+        "input": "Oiepé nhó xe moeté,",
+        "output": "Um somente me agradeceu:"
+    },
+    {
+        "id": "hist_0301",
+        "input": "Oimeeng ixébo piráem28.",
+        "output": "deu-me peixe salgado."
+    },
+    {
+        "id": "hist_0302",
+        "input": "Tucuretà tápe nacýc;",
+        "output": "À aldeia de Tucuretá não cheguei."
+    },
+    {
+        "id": "hist_0303",
+        "input": "Copixàba rupí apycýc,",
+        "output": "Pelo sertão apanhei"
+    },
+    {
+        "id": "hist_0304",
+        "input": "Çupí catù quatro apyába",
+        "output": "quatro índios,"
+    },
+    {
+        "id": "hist_0305",
+        "input": "Opacatù kyrymbába.",
+        "output": "todos valentes."
+    },
+    {
+        "id": "hist_0306",
+        "input": "Xingùpe nití açó potár,",
+        "output": "Ao Xingu não quis ir:"
+    },
+    {
+        "id": "hist_0307",
+        "input": "Cetà catú apyába apapár,",
+        "output": "contava muitos índios;"
+    },
+    {
+        "id": "hist_0308",
+        "input": "Naimopucú potár ára,",
+        "output": "não queria estender o dia;"
+    },
+    {
+        "id": "hist_0309",
+        "input": "Nouatàr iapucuitára.",
+        "output": "não faltavam remadores"
+    },
+    {
+        "id": "hist_0310",
+        "input": "Gurupatýpe açó çupí,",
+        "output": "A Gurupatuba fui, na verdade,"
+    },
+    {
+        "id": "hist_0311",
+        "input": "Xe rorý aõáma mirí;",
+        "output": "para me divertir um pouco."
+    },
+    {
+        "id": "hist_0312",
+        "input": "Tres Tupã Remimonhanga",
+        "output": "Três obras de Deus"
+    },
+    {
+        "id": "hist_0313",
+        "input": "Xe çuí opotár poçanga.",
+        "output": "de mim quiseram uns enfeites."
+    },
+    {
+        "id": "hist_0314",
+        "input": "aé mocõi Uataçàra,",
+        "output": "Aqueles dois viajantes"
+    },
+    {
+        "id": "hist_0315",
+        "input": "Xe irunamobè igoára,",
+        "output": "que estavam comigo"
+    },
+    {
+        "id": "hist_0316",
+        "input": "Oimeeng poçanga cetá",
+        "output": "deram(-lhes) muitas miçangas."
+    },
+    {
+        "id": "hist_0317",
+        "input": "Ixé abé anhemopurãtã,",
+        "output": "Eu também me deleitei a valer."
+    },
+    {
+        "id": "hist_0318",
+        "input": "Tres àra catú aépe aicó,",
+        "output": "Três dias ali estive."
+    },
+    {
+        "id": "hist_0319",
+        "input": "Mocõi ruão peça aipyçó,",
+        "output": "Duas peças de Ruão estendi"
+    },
+    {
+        "id": "hist_0320",
+        "input": "De bertanha bé moçapýr,",
+        "output": "e três de Bretanha."
+    },
+    {
+        "id": "hist_0321",
+        "input": "Aanangài ruã aimoiapýr.",
+        "output": "De modo algum eu as dobrei."
+    },
+    {
+        "id": "hist_0322",
+        "input": "Cavados de primavéra abé",
+        "output": "Cávados de primavera também,"
+    },
+    {
+        "id": "hist_0323",
+        "input": "Dozè ogoeraçó opabenhé,",
+        "output": "doze, levaram todos,"
+    },
+    {
+        "id": "hist_0324",
+        "input": "Fitta çuí varas cetá,",
+        "output": "muitas varas de fita."
+    },
+    {
+        "id": "hist_0325",
+        "input": "Napapàr cuáb caoi tatà.",
+        "output": "Não saberia calcular a aguardente."
+    },
+    {
+        "id": "hist_0326",
+        "input": "Apytà poreauçúba,",
+        "output": "Fiquei miserável,"
+    },
+    {
+        "id": "hist_0327",
+        "input": "Anhanga remiauçùba,",
+        "output": "escravo do diabo."
+    },
+    {
+        "id": "hist_0328",
+        "input": "Iabé catú xe rerecò,",
+        "output": "Bem assim me trataram;"
+    },
+    {
+        "id": "hist_0329",
+        "input": "Cetá mbaé aé ogoeraçó.",
+        "output": "muitas coisas elas levaram."
+    },
+    {
+        "id": "hist_0330",
+        "input": "Anhemombeú uán cecé,",
+        "output": "Já me confessei a respeito disso."
+    },
+    {
+        "id": "hist_0331",
+        "input": "Paí xe iacaò eté eté:",
+        "output": "O padre me repreendeu muitíssimo:"
+    },
+    {
+        "id": "hist_0332",
+        "input": "Ereimboacýpe catú?",
+        "output": "Arrependeste-te bem?"
+    },
+    {
+        "id": "hist_0333",
+        "input": "Oporandù Paí Pacicú.",
+        "output": "perguntou o padre Francisco."
+    },
+    {
+        "id": "hist_0334",
+        "input": "Aimboacý etè Paí guí,",
+        "output": "- Arrependi-me muito, ó padre;"
+    },
+    {
+        "id": "hist_0335",
+        "input": "Naicòi Tupã recó rupí",
+        "output": "não agi conforme a lei de Deus."
+    },
+    {
+        "id": "hist_0336",
+        "input": "Xebo aé Tupã monhyrõ,",
+        "output": "A mim ele apaziguou a Deus."
+    },
+    {
+        "id": "hist_0337",
+        "input": "Xe mbaé coéra aiaceó.",
+        "output": "Minhas coisas antigas chorei."
+    },
+    {
+        "id": "hist_0338",
+        "input": "Aceár Gurupatúba,",
+        "output": "Deixei Gurupatuba"
+    },
+    {
+        "id": "hist_0339",
+        "input": "Umáme naicó pitúba,",
+        "output": "para onde não estou manchado."
+    },
+    {
+        "id": "hist_0340",
+        "input": "Amò ára pupè aèpe açò,",
+        "output": "Um outro dia ali fui;"
+    },
+    {
+        "id": "hist_0341",
+        "input": "Xébo coyté Tupã nhyrõ.",
+        "output": "a mim, enfim, a paz de Deus."
+    },
+    {
+        "id": "hist_0342",
+        "input": "Amondòc ucár muncúba,",
+        "output": "Mandei cortar uma monguba."
+    },
+    {
+        "id": "hist_0343",
+        "input": "Cecè oicò Iacumáúba,",
+        "output": "Nela trabalhou um piloto."
+    },
+    {
+        "id": "hist_0344",
+        "input": "Omonhang cem pocoaçába,",
+        "output": "Fez cem talhos."
+    },
+    {
+        "id": "hist_0345",
+        "input": "Çupí ocýc cò papaçàba.",
+        "output": "Na verdade, bastou esse número."
+    },
+    {
+        "id": "hist_0346",
+        "input": "Topajópe coyté acýc,",
+        "output": "Ao Tapajoz, enfim, cheguei;"
+    },
+    {
+        "id": "hist_0347",
+        "input": "Nãbà aépe xe moapycýc;",
+        "output": "ninguém ali me fez agrado;"
+    },
+    {
+        "id": "hist_0348",
+        "input": "Icatú pyrý curabé,",
+        "output": "era melhor um curabi"
+    },
+    {
+        "id": "hist_0349",
+        "input": "Naimocucáo xe mbaé.",
+        "output": "Nao fiz passar minhas mercadorias."
+    },
+    {
+        "id": "hist_0350",
+        "input": "Pyçaieramé oiepé oúr,",
+        "output": "De madrugada veio um,"
+    },
+    {
+        "id": "hist_0351",
+        "input": "Cuias oguerúr moçapýr,",
+        "output": "e trouxe três cuias."
+    },
+    {
+        "id": "hist_0352",
+        "input": "Caoi ameeng ixupé,",
+        "output": "Dei pinga a ele."
+    },
+    {
+        "id": "hist_0353",
+        "input": "aé, eimocuár nde ioecé",
+        "output": "Disse eu: - Cuida de ti."
+    },
+    {
+        "id": "hist_0354",
+        "input": "Xe pýri oúr soraretá,",
+        "output": "A mim vieram soldados;"
+    },
+    {
+        "id": "hist_0355",
+        "input": "Oieruré mbaé cetá,",
+        "output": "pediram muitas coisas:"
+    },
+    {
+        "id": "hist_0356",
+        "input": "Mocacuí, monição abé,",
+        "output": "pólvora, munição também,"
+    },
+    {
+        "id": "hist_0357",
+        "input": "Petýmabé, e paratíe43.",
+        "output": "fumo e parati doce."
+    },
+    {
+        "id": "hist_0358",
+        "input": "Pecepiác coýr carúc uán,",
+        "output": "Vede agora que entardeceu."
+    },
+    {
+        "id": "hist_0359",
+        "input": "(Iabé soraretà aganan)",
+        "output": "Assim enganei os soldados:"
+    },
+    {
+        "id": "hist_0360",
+        "input": "Uirandè patuá çuí aioóc,",
+        "output": "tirei a sorte do patuá;"
+    },
+    {
+        "id": "hist_0361",
+        "input": "Pyçaieramè aiepabóc.",
+        "output": "de madrugada parti."
+    },
+    {
+        "id": "hist_0362",
+        "input": "Açaçao nhò Pauxí rupí,",
+        "output": "Passei somente pelos pauxis;"
+    },
+    {
+        "id": "hist_0363",
+        "input": "Nambaé apotár i xuí;",
+        "output": "nada quis deles."
+    },
+    {
+        "id": "hist_0364",
+        "input": "Acýc potár iepurápe;",
+        "output": "Queria chegar a Jepuraba;"
+    },
+    {
+        "id": "hist_0365",
+        "input": "Apytà mirí çaracàpe.",
+        "output": "fiquei um pouco em Saracaba;"
+    },
+    {
+        "id": "hist_0366",
+        "input": "Abacaxípe abé aiepotár;",
+        "output": "a Abacaxi também aportei."
+    },
+    {
+        "id": "hist_0367",
+        "input": "ygàra aépe aiporacár:",
+        "output": "A canoa ali enchi;"
+    },
+    {
+        "id": "hist_0368",
+        "input": "Cinco apyàba catú araçó,",
+        "output": "cinco bons índios levei"
+    },
+    {
+        "id": "hist_0369",
+        "input": "Paí nhemíma rupí nhó.",
+        "output": "escondido do padre."
+    },
+    {
+        "id": "hist_0370",
+        "input": "Aierurè iepé ixuí,",
+        "output": "Pedira um deles."
+    },
+    {
+        "id": "hist_0371",
+        "input": "Çupí catù catuçába rupí;",
+        "output": "A bem da verdade,"
+    },
+    {
+        "id": "hist_0372",
+        "input": "aé opocà nhó xe recé,",
+        "output": "ele só riu de mim."
+    },
+    {
+        "id": "hist_0373",
+        "input": "Nem mirí, eí, nem oiepé.",
+        "output": "- Nem pequeno nem um só,"
+    },
+    {
+        "id": "hist_0374",
+        "input": "Lá me dyse pa o Leste,",
+        "output": "lá me disse. - Para o Leste,"
+    },
+    {
+        "id": "hist_0375",
+        "input": "Ia que yso mesmo quizeste,",
+        "output": "já que isso mesmo quiseste"
+    },
+    {
+        "id": "hist_0376",
+        "input": "Oiepé nhó capitari",
+        "output": "Só um capitari"
+    },
+    {
+        "id": "hist_0377",
+        "input": "Oguerùr ixébo icunumí;",
+        "output": "trouxe-me um menino seu."
+    },
+    {
+        "id": "hist_0378",
+        "input": "Coyté amaé çóca recè,",
+        "output": "Enfim, olhei para sua casa:"
+    },
+    {
+        "id": "hist_0379",
+        "input": "Çupí catú xe nde mboé.",
+        "output": "- Na verdade eu te ensino;"
+    },
+    {
+        "id": "hist_0380",
+        "input": "Corí xébo erecepymeeng:",
+        "output": "hoje a mim pagarás."
+    },
+    {
+        "id": "hist_0381",
+        "input": "Piloto aéreme onheeng:",
+        "output": "O piloto, então, disse:"
+    },
+    {
+        "id": "hist_0382",
+        "input": "mbaé ripe nde pyaíba?",
+        "output": "Por que estás irado?"
+    },
+    {
+        "id": "hist_0383",
+        "input": "Nitípe nde Caraíba?",
+        "output": "Não és cristão?"
+    },
+    {
+        "id": "hist_0384",
+        "input": "Acuáb copixába cetá,",
+        "output": "Conheço muitos sertões"
+    },
+    {
+        "id": "hist_0385",
+        "input": "Çupí aépe oicò apyábetà;",
+        "output": "onde há muitos índios."
+    },
+    {
+        "id": "hist_0386",
+        "input": "Tiaraçò apyàba aé çuí,",
+        "output": "Levemos índios dali."
+    },
+    {
+        "id": "hist_0387",
+        "input": "Paí topycyrõ nde çuí.",
+        "output": "O padre os livre de ti."
+    },
+    {
+        "id": "hist_0388",
+        "input": "Copixába rupí auatà,",
+        "output": "Andei pelo sertão;"
+    },
+    {
+        "id": "hist_0389",
+        "input": "Acepiác carapinetà,",
+        "output": "vi muitos carpinteiros"
+    },
+    {
+        "id": "hist_0390",
+        "input": "ygaruçú catù oimonhang,",
+        "output": "que faziam um bom navio."
+    },
+    {
+        "id": "hist_0391",
+        "input": "Caoi aéreme oçaang.",
+        "output": "Pinga então provaram;"
+    },
+    {
+        "id": "hist_0392",
+        "input": "Xe çuí nití oiabàb,",
+        "output": "de mim não fugiram."
+    },
+    {
+        "id": "hist_0393",
+        "input": "Cetà catú ixuí xe cuáb;",
+        "output": "Muitos deles me conheciam."
+    },
+    {
+        "id": "hist_0394",
+        "input": "Cinco nhó xe irùmo araçó,",
+        "output": "Cinco somente comigo levei"
+    },
+    {
+        "id": "hist_0395",
+        "input": "Amò ygára recé toicò.",
+        "output": "para trabalharem noutro barco."
+    },
+    {
+        "id": "hist_0396",
+        "input": "Xe rakicoéra coytè oúr",
+        "output": "Atrás de mim, enfim, veio"
+    },
+    {
+        "id": "hist_0397",
+        "input": "Mamalùco Paí omboúr;",
+        "output": "um mameluco; trouxe o padre."
+    },
+    {
+        "id": "hist_0398",
+        "input": "aé onhemoabaeté,",
+        "output": "Ele se irritou;"
+    },
+    {
+        "id": "hist_0399",
+        "input": "Oçacéçacémbé eté eté.",
+        "output": "ficou gritando muitíssimo;"
+    },
+    {
+        "id": "hist_0400",
+        "input": "Xe iacaó maiabé catú;",
+        "output": "brigou muito comigo."
+    },
+    {
+        "id": "hist_0401",
+        "input": "aé: ecekendáo nde jurù:",
+        "output": "Disse eu: - Fecha tua boca."
+    },
+    {
+        "id": "hist_0402",
+        "input": "Onhecameeng amoetà,",
+        "output": "Ofereceram-se outros"
+    },
+    {
+        "id": "hist_0403",
+        "input": "Coyté nití onheengãtã",
+        "output": "Enfim, nao vociferou mais."
+    },
+    {
+        "id": "hist_0404",
+        "input": "Orobàc ucár ygàra,",
+        "output": "Mandamos mudar a direçao do barco."
+    },
+    {
+        "id": "hist_0405",
+        "input": "Nhynhynguár i pyà piàra;",
+        "output": "Confrangidas estavam as defesas de seu [coração];"
+    },
+    {
+        "id": "hist_0406",
+        "input": "Coritéi çobajúba abé,",
+        "output": "logo ficou pálido também."
+    },
+    {
+        "id": "hist_0407",
+        "input": "Çupí catù aé ocykyié.",
+        "output": "Na verdade, ele tinha medo."
+    },
+    {
+        "id": "hist_0408",
+        "input": "Piloto xebo omombeú.",
+        "output": "O piloto a mim anunciou:"
+    },
+    {
+        "id": "hist_0409",
+        "input": "Iqué recòi oca catú,",
+        "output": "Aqui está uma boa casa."
+    },
+    {
+        "id": "hist_0410",
+        "input": "Amaé aereme cecé,",
+        "output": "Olhei, então, para ele"
+    },
+    {
+        "id": "hist_0411",
+        "input": "Çupí, aé, nití nde poité.",
+        "output": "e disse: - Mas não te convidaram para [comer]."
+    },
+    {
+        "id": "hist_0412",
+        "input": "Eçapyá acem ygára çuí,",
+        "output": "Imediatamente saí da canoa;"
+    },
+    {
+        "id": "hist_0413",
+        "input": "Açó coyté aé oca rupí,",
+        "output": "fui, enfim, através daquela casa."
+    },
+    {
+        "id": "hist_0414",
+        "input": "Aporandù goaimí çupé;",
+        "output": "Perguntei a uma velha:"
+    },
+    {
+        "id": "hist_0415",
+        "input": "Icó oca abà mbaetaé?",
+        "output": "Esta casa é de quem?"
+    },
+    {
+        "id": "hist_0416",
+        "input": "Xe Paí copixába róca,",
+        "output": "- É a casa da roça do meu padre."
+    },
+    {
+        "id": "hist_0417",
+        "input": "aé xe poreauçubóca,",
+        "output": "Ele é o que se compadece de mim,"
+    },
+    {
+        "id": "hist_0418",
+        "input": "eí goaimí: aicotemé,",
+        "output": "disse a velha. - Preciso"
+    },
+    {
+        "id": "hist_0419",
+        "input": "Copixàba oimeeng mbaé",
+        "output": "de um roçado que dê mantimentos."
+    },
+    {
+        "id": "hist_0420",
+        "input": "Xe iopói iepè xe Mãy guí,",
+        "output": "Alimenta-me tu, ó minha mãe,"
+    },
+    {
+        "id": "hist_0421",
+        "input": "Auiebète cepý rupí,",
+        "output": "ó sim, por remissão (dos teus pecados)."
+    },
+    {
+        "id": "hist_0422",
+        "input": "Çupí catú xe ambyacý,",
+        "output": "É muita a minha fome;"
+    },
+    {
+        "id": "hist_0423",
+        "input": "aé recè ajúr iqué cotý.",
+        "output": "por isso eu vim para cá."
+    },
+    {
+        "id": "hist_0424",
+        "input": "Nambaé arecò Senhor guí;",
+        "output": "- Nada tenho, ó senhor;"
+    },
+    {
+        "id": "hist_0425",
+        "input": "Iabé eí ixebo goaimí;",
+        "output": "assim me disse a velha."
+    },
+    {
+        "id": "hist_0426",
+        "input": "Nitípe çapucáia?, aé;",
+        "output": "Nem uma galinha? eu disse."
+    },
+    {
+        "id": "hist_0427",
+        "input": "Nouatàr iqué amò mbaé.",
+        "output": "Não falta nada aqui."
+    },
+    {
+        "id": "hist_0428",
+        "input": "Çapucáia cetà oicouè;",
+        "output": "Há muitas galinhas,"
+    },
+    {
+        "id": "hist_0429",
+        "input": "Paí reymbába opanhé;",
+        "output": "todas criações do padre."
+    },
+    {
+        "id": "hist_0430",
+        "input": "Ndébo çupi naimeengcuáb,",
+        "output": "- A ti na verdade, não posso dá-las;"
+    },
+    {
+        "id": "hist_0431",
+        "input": "Xe rí tenhé nde putupáb.",
+        "output": "comigo não te abasteces."
+    },
+    {
+        "id": "hist_0432",
+        "input": "Ixé nde Paí camarára,",
+        "output": "- Eu sou camarada do teu padre;"
+    },
+    {
+        "id": "hist_0433",
+        "input": "Nde Paí abé xe rauçupára;",
+        "output": "teu padre é também meu amigo;"
+    },
+    {
+        "id": "hist_0434",
+        "input": "Ereicò cuáb xe iopoitàra,",
+        "output": "podes me alimentar;"
+    },
+    {
+        "id": "hist_0435",
+        "input": "Aipó opotár Iandé Iára.",
+        "output": "isso quer Nosso Senhor."
+    },
+    {
+        "id": "hist_0436",
+        "input": "Noicói coyté goaimí poxí",
+        "output": "Não agiu, enfim, a velha má"
+    },
+    {
+        "id": "hist_0437",
+        "input": "Xe nheénga catù rupí:",
+        "output": "segundo minhas boas palavras."
+    },
+    {
+        "id": "hist_0438",
+        "input": "Çapucáia apycýc ucár,",
+        "output": "Mandei pegar as galinhas;"
+    },
+    {
+        "id": "hist_0439",
+        "input": "Quatro panacù aporacár.",
+        "output": "enchi quatro panacus."
+    },
+    {
+        "id": "hist_0440",
+        "input": "Goaimí coyté oçacéçacem;",
+        "output": "A velha, então, ficou gritando,"
+    },
+    {
+        "id": "hist_0441",
+        "input": "Xe Paí çupéne, eí, amocém52",
+        "output": "dizendo: - A meu Padre mandarei fazer-te [pagar]"
+    },
+    {
+        "id": "hist_0442",
+        "input": "Icò nde recò aíb uçù;",
+        "output": "este teu ato muito mau."
+    },
+    {
+        "id": "hist_0443",
+        "input": "Nde recène oicó Pai guaçù:",
+        "output": "Contigo o bispo vai brigar."
+    },
+    {
+        "id": "hist_0444",
+        "input": "aé: nde nambaé ráma,",
+        "output": "Disse eu: - Tu nada (farás)."
+    },
+    {
+        "id": "hist_0445",
+        "input": "Xe remiauçúba rama,",
+        "output": "Como minha escrava"
+    },
+    {
+        "id": "hist_0446",
+        "input": "Icatubé xe nde reraçó,",
+        "output": "eu posso te levar;"
+    },
+    {
+        "id": "hist_0447",
+        "input": "Ixe copixápne ereicò.",
+        "output": "nos meus roçados estarás."
+    },
+    {
+        "id": "hist_0448",
+        "input": "Aipobaé anheengramè",
+        "output": "Quando eu falei isso,"
+    },
+    {
+        "id": "hist_0449",
+        "input": "Goaimí oiabáiabáb eté,",
+        "output": "a velha desatou a fugir."
+    },
+    {
+        "id": "hist_0450",
+        "input": "Apocá maiabé catú,",
+        "output": "Ri bastante;"
+    },
+    {
+        "id": "hist_0451",
+        "input": "ybýpe xe reitýc pocà uçú.",
+        "output": "no chão um grande riso fez-me cair."
+    },
+    {
+        "id": "hist_0452",
+        "input": "Aiepabòc aé çuí,",
+        "output": "Parti dali."
+    },
+    {
+        "id": "hist_0453",
+        "input": "Pai reymbába aú pe rupí,",
+        "output": "As criações do padre comi pelo caminho."
+    },
+    {
+        "id": "hist_0454",
+        "input": "Çupí catú ikyrá goaçú.",
+        "output": "Elas estavam realmente bem gordas;"
+    },
+    {
+        "id": "hist_0455",
+        "input": "aé abé turuturuçú.",
+        "output": "elas também estavam bem grandes."
+    },
+    {
+        "id": "hist_0456",
+        "input": "Iabé ixébo ocepymeeng,",
+        "output": "Assim me pagaram."
+    },
+    {
+        "id": "hist_0457",
+        "input": "Capitarí recé anheeng,",
+        "output": "Falei ao capitão:"
+    },
+    {
+        "id": "hist_0458",
+        "input": "Iabè catù aimboé aé Paí,",
+        "output": "Assim bem ensinei aquele padre."
+    },
+    {
+        "id": "hist_0459",
+        "input": "Coýr tonheeng xe rí",
+        "output": "Agora hão de falar de mim"
+    },
+    {
+        "id": "hist_0460",
+        "input": "Morobixába, Ovidor abé,",
+        "output": "o Governador, o Ouvidor também."
+    },
+    {
+        "id": "hist_0461",
+        "input": "Aanangài oicò xe recè,",
+        "output": "Não me interessa de modo algum."
+    },
+    {
+        "id": "hist_0462",
+        "input": "Paì cupè anhemombeú uàn,",
+        "output": "Ao padre já me confessei."
+    },
+    {
+        "id": "hist_0463",
+        "input": "Morandùba coyté opauan.",
+        "output": "As notícias afinal se acabaram."
+    },
+    {
+        "id": "hist_0464",
+        "input": "Tupã çupí turuçú eté,",
+        "output": "Deus é, de fato, muito grande."
+    },
+    {
+        "id": "hist_0465",
+        "input": "Inhyrõ opabenhé cupé,",
+        "output": "Ele perdoa a todos"
+    },
+    {
+        "id": "hist_0466",
+        "input": "Auiebetè angaipáb uçú,",
+        "output": "um grande pecado;"
+    },
+    {
+        "id": "hist_0467",
+        "input": "Ixuí Tupã turuçú.",
+        "output": "Deus é maior que ele."
+    },
+    {
+        "id": "hist_0468",
+        "input": "Tupã morauçubár uçú,",
+        "output": "Deus é muito compassivo."
+    },
+    {
+        "id": "hist_0469",
+        "input": "Iandé rauçúb çupí catú,",
+        "output": "Ele nos ama de verdade;"
+    },
+    {
+        "id": "hist_0470",
+        "input": "Opotar nhó iaimboacý,",
+        "output": "quer somente que nos arrependamos."
+    },
+    {
+        "id": "hist_0471",
+        "input": "Aipobaé nití çacý.",
+        "output": "Isso não é difícil."
+    },
+    {
+        "id": "hist_0472",
+        "input": "Iepuràpe acýc coytè,",
+        "output": "A Jepurá cheguei, enfim."
+    },
+    {
+        "id": "hist_0473",
+        "input": "Açò tapyýia recé",
+        "output": "Fui por causa dos tapuios;"
+    },
+    {
+        "id": "hist_0474",
+        "input": "Y garupápe aiepotár,",
+        "output": "cheguei ao porto;"
+    },
+    {
+        "id": "hist_0475",
+        "input": "Tubixába acenõi ucár.",
+        "output": "mandei chamar o tuxaua."
+    },
+    {
+        "id": "hist_0476",
+        "input": "oúr júri rubixába,",
+        "output": "Veio o chefe dos iuris."
+    },
+    {
+        "id": "hist_0477",
+        "input": "Opópe ogoerúr mocába,",
+        "output": "Em suas mãos trazia pólvora."
+    },
+    {
+        "id": "hist_0478",
+        "input": "i irúnamo aiecotýár vel",
+        "output": "Com ele me aliei;"
+    },
+    {
+        "id": "hist_0479",
+        "input": "Inheengabé aiporacár,",
+        "output": "obedeci a suas palavras."
+    },
+    {
+        "id": "hist_0480",
+        "input": "Aipyrupán cetá mirí",
+        "output": "Comprei muitos pequenos,"
+    },
+    {
+        "id": "hist_0481",
+        "input": "Cunhàmucú etá, e Cunumí,",
+        "output": "muitas moças e meninos."
+    },
+    {
+        "id": "hist_0482",
+        "input": "Oropycýc cetá catú,",
+        "output": "Apresamos muitos,"
+    },
+    {
+        "id": "hist_0483",
+        "input": "Opabenhé cunumí goaçú,",
+        "output": "todos os rapazes."
+    },
+    {
+        "id": "hist_0484",
+        "input": "Coritéité aiepabóc,",
+        "output": "Logo parti."
+    },
+    {
+        "id": "hist_0485",
+        "input": "Paranà rupí aiparabóc,",
+        "output": "Pelo rio escolhi"
+    },
+    {
+        "id": "hist_0486",
+        "input": "Moçapýr tuibaé uçú,",
+        "output": "três velhos, bem velhos."
+    },
+    {
+        "id": "hist_0487",
+        "input": "Çupí ocepiác pytún uçú.",
+        "output": "De fato enxergam na escuridão"
+    },
+    {
+        "id": "hist_0488",
+        "input": "Moçapýr bé goaimí reté",
+        "output": "Três velhas também."
+    },
+    {
+        "id": "hist_0489",
+        "input": "Çakycoéra amondó coyté,",
+        "output": "Segui-os, então, enfim."
+    },
+    {
+        "id": "hist_0490",
+        "input": "Aanangài oú cuáb oí,",
+        "output": "De modo nenhum podiam comer farinha;"
+    },
+    {
+        "id": "hist_0491",
+        "input": "Aanangáité abé oú caoi.",
+        "output": "de modo nenhum bebiam pinga."
+    },
+    {
+        "id": "hist_0492",
+        "input": "Ycyrýca irúmo auatà,",
+        "output": "Com o rio que corria eu viajava."
+    },
+    {
+        "id": "hist_0493",
+        "input": "Pauxípe aanangài apytá,",
+        "output": "Nos pauxis não fiquei de modo algum."
+    },
+    {
+        "id": "hist_0494",
+        "input": "ypytera rupí oroçó,",
+        "output": "Fomos pelo meio do rio;"
+    },
+    {
+        "id": "hist_0495",
+        "input": "Oiecuáb uán ka'a-pa'u.",
+        "output": "apareceu uma ilha:"
+    },
+    {
+        "id": "hist_0496",
+        "input": "Gurupà ka'a-pa'u aé",
+        "output": "era a ilha de Gurupá."
+    },
+    {
+        "id": "hist_0497",
+        "input": "Mirí nhó ixuí acykyié,",
+        "output": "Tive um pouco de medo dela."
+    },
+    {
+        "id": "hist_0498",
+        "input": "Oroçò ka'a-pa'u rupí,",
+        "output": "Fomos pela ilha;"
+    },
+    {
+        "id": "hist_0499",
+        "input": "Apocà mocabòca uí.",
+        "output": "estourei pólvora."
+    },
+    {
+        "id": "hist_0500",
+        "input": "Xe copixápe catú acýc,",
+        "output": "Cheguei à minha roça;"
+    },
+    {
+        "id": "hist_0501",
+        "input": "Tapyyietà amoapycýc,",
+        "output": "matei a fome dos tapuios"
+    },
+    {
+        "id": "hist_0502",
+        "input": "Xe irunamogoàra çupé,",
+        "output": "e aos que moram comigo"
+    },
+    {
+        "id": "hist_0503",
+        "input": "Aimeeng quatro tuiba'é,",
+        "output": "dei os quatro velhos."
+    },
+    {
+        "id": "hist_0504",
+        "input": "Nãbà xe çuí oipycyrõ,",
+        "output": "Ninguém os libertou de mim."
+    },
+    {
+        "id": "hist_0505",
+        "input": "Cecé nãbá xe mocaneõ,",
+        "output": "Ninguém me perturbou por causa deles."
+    },
+    {
+        "id": "hist_0506",
+        "input": "Coecenheým xe cópe oicó,",
+        "output": "Antigamente estavam em minha roça."
+    },
+    {
+        "id": "hist_0507",
+        "input": "Çupí xe tomaramo amó.",
+        "output": "É verdade que eu tomei outros."
+    },
+    {
+        "id": "hist_0508",
+        "input": "Anhemombeu uan cecé",
+        "output": "Já me confessei disso."
+    },
+    {
+        "id": "hist_0509",
+        "input": "Eimeeng umé abá çupé,",
+        "output": "- Não os dês a ninguém,"
+    },
+    {
+        "id": "hist_0510",
+        "input": "eí Paí: eimocuár abé cecé,",
+        "output": "disse o Padre: Cuida também deles"
+    },
+    {
+        "id": "hist_0511",
+        "input": "Nde rayretà iabé.",
+        "output": "como de teus filhos."
+    },
+    {
+        "id": "hist_0512",
+        "input": "Aé; cobé catù eté eté.",
+        "output": "Disse eu: - Eis que tudo está muito bem."
+    },
+    {
+        "id": "hist_0513",
+        "input": "Ah Tupa ocuáb aipobaé!",
+        "output": "Ah, Deus sabe disso!"
+    },
+    {
+        "id": "hist_0514",
+        "input": "Maiabé i irúmo aicò,",
+        "output": "Assim como estou com ele,"
+    },
+    {
+        "id": "hist_0515",
+        "input": "Maiabé aé xe rerecó.",
+        "output": "assim ele me tem consigo."
+    },
+    {
+        "id": "hist_0516",
+        "input": "Coýr çupí xe anga aganan,",
+        "output": "Agora, é verdade que minha alma enganei,"
+    },
+    {
+        "id": "hist_0517",
+        "input": "Teõ rí nanhemoçainán",
+        "output": "com a morte não me preocupei,"
+    },
+    {
+        "id": "hist_0518",
+        "input": "Co ára mbaé rí aiporará,",
+        "output": "pelas coisas deste mundo eu sofri"
+    },
+    {
+        "id": "hist_0519",
+        "input": "Çupí na xe anga recé ruã.",
+        "output": "e não por minha alma."
+    },
+    {
+        "id": "hist_0520",
+        "input": "Aruaneým eçapyà ipó",
+        "output": "De forma inadequada, de súbito"
+    },
+    {
+        "id": "hist_0521",
+        "input": "Xe pýri ourne xe reõ;",
+        "output": "a mim virá minha morte."
+    },
+    {
+        "id": "hist_0522",
+        "input": "mbaépe aéreme agoacem?",
+        "output": "Que, entao, hei de encontrar?"
+    },
+    {
+        "id": "hist_0523",
+        "input": "mbaé pabe ocanhem",
+        "output": "Todas as coisas desaparecem."
+    },
+    {
+        "id": "hist_0524",
+        "input": "Aipyà monghetà potár,",
+        "output": "Quero meditar."
+    },
+    {
+        "id": "hist_0525",
+        "input": "Pai catù corí acecár;",
+        "output": "Um bom padre procurarei"
+    },
+    {
+        "id": "hist_0526",
+        "input": "Taicò poreauçubóra,",
+        "output": "para que eu me penitencie"
+    },
+    {
+        "id": "hist_0527",
+        "input": "Xe reõ riré ybakipóra.",
+        "output": "e, após minha morte, um habitante do céu [(eu seja)]."
+    },
+    {
+        "id": "hist_0528",
+        "input": "Coritéi i có ára oçaçáo,",
+        "output": "Logo este mundo passa,"
+    },
+    {
+        "id": "hist_0529",
+        "input": "Amò recobé nití opáb,",
+        "output": "a vida do outro não acaba."
+    },
+    {
+        "id": "hist_0530",
+        "input": "Quatro nhó tapyýia recé,",
+        "output": "Por causa de somente quatro tapuios"
+    },
+    {
+        "id": "hist_0531",
+        "input": "Acanhemne auieramanhè!",
+        "output": "hei de me perder para sempre!"
+    },
+    {
+        "id": "hist_0532",
+        "input": "Xe cuapàra agoéra omanó,",
+        "output": "Meus antigos conhecidos morreram."
+    },
+    {
+        "id": "hist_0533",
+        "input": "Umámepe i angoéra oçó?",
+        "output": "Para onde suas almas foram?"
+    },
+    {
+        "id": "hist_0534",
+        "input": "aé tapyyíetà oipocoár abé,",
+        "output": "Eles apresaram tapuios também;"
+    },
+    {
+        "id": "hist_0535",
+        "input": "Oceár oanáma çupé.",
+        "output": "deixaram-nos para seus parentes."
+    },
+    {
+        "id": "hist_0536",
+        "input": "Xe anáma ambyra cetá",
+        "output": "Meus parentes, muitos sao defuntos."
+    },
+    {
+        "id": "hist_0537",
+        "input": "Opocoàr tapyyietà;",
+        "output": "Apresaram tapuios."
+    },
+    {
+        "id": "hist_0538",
+        "input": "mbaépe coýr ogoacem?",
+        "output": "Que encontram agora?"
+    },
+    {
+        "id": "hist_0539",
+        "input": "I angoéra ipò ocanhem.",
+        "output": "Suas almas certamente se perderam."
+    },
+    {
+        "id": "hist_0540",
+        "input": "Opacatú icò ára mbaé,",
+        "output": "Todos os bens deste mundo,"
+    },
+    {
+        "id": "hist_0541",
+        "input": "mbaé rámape opabenhé?",
+        "output": "para que todos eles?"
+    },
+    {
+        "id": "hist_0542",
+        "input": "Ocanhem ramé xe angoéra,",
+        "output": "Se minh'alma se perde,"
+    },
+    {
+        "id": "hist_0543",
+        "input": "Ocanhem abé xe mbaé coéra.",
+        "output": "desaparece também o que foi meu."
+    },
+    {
+        "id": "hist_0544",
+        "input": "mogûeîyb",
+        "output": "abaixar"
+    },
+    {
+        "id": "hist_0545",
+        "input": "iubé",
+        "output": "jazer acordado"
+    },
+    {
+        "id": "hist_0546",
+        "input": "pak",
+        "output": "acordar"
+    },
+    {
+        "id": "hist_0547",
+        "input": "teburusu",
+        "output": "adulto"
+    },
+    {
+        "id": "hist_0548",
+        "input": "mo'ang",
+        "output": "abrigar"
+    },
+    {
+        "id": "hist_0549",
+        "input": "nupã",
+        "output": "açoitar"
+    },
+    {
+        "id": "hist_0550",
+        "input": "ko'yté",
+        "output": "afinal"
+    },
+    {
+        "id": "hist_0551",
+        "input": "ikó",
+        "output": "agir"
+    },
+    {
+        "id": "hist_0552",
+        "input": "'a'y",
+        "output": "aguado"
+    },
+    {
+        "id": "hist_0553",
+        "input": "pytybõ",
+        "output": "ajudar"
+    },
+    {
+        "id": "hist_0554",
+        "input": "taba",
+        "output": "aldeia"
+    },
+    {
+        "id": "hist_0555",
+        "input": "îekotyara",
+        "output": "aliado"
+    },
+    {
+        "id": "hist_0556",
+        "input": "poî",
+        "output": "alimentar"
+    },
+    {
+        "id": "hist_0557",
+        "input": "oirandé",
+        "output": "amanhã"
+    },
+    {
+        "id": "hist_0558",
+        "input": "mokõîbé",
+        "output": "ambos"
+    },
+    {
+        "id": "hist_0559",
+        "input": "pytun",
+        "output": "anoitecer"
+    },
+    {
+        "id": "hist_0560",
+        "input": "ranhe",
+        "output": "antes"
+    },
+    {
+        "id": "hist_0561",
+        "input": "e'ymebé",
+        "output": "antes de"
+    },
+    {
+        "id": "hist_0562",
+        "input": "mamõpe?",
+        "output": "aonde?"
+    },
+    {
+        "id": "hist_0563",
+        "input": "sãi",
+        "output": "apenas"
+    },
+    {
+        "id": "hist_0564",
+        "input": "îepé",
+        "output": "apesar (de)"
+    },
+    {
+        "id": "hist_0565",
+        "input": "iké",
+        "output": "aqui"
+    },
+    {
+        "id": "hist_0566",
+        "input": "kybõygûara",
+        "output": "os habitantes daqui"
+    },
+    {
+        "id": "hist_0567",
+        "input": "yby'ab",
+        "output": "arar"
+    },
+    {
+        "id": "hist_0568",
+        "input": "ybyrapara",
+        "output": "arco"
+    },
+    {
+        "id": "hist_0569",
+        "input": "îy'yba",
+        "output": "arco-íris"
+    },
+    {
+        "id": "hist_0570",
+        "input": "nhemoatyrá",
+        "output": "arrepiar-se"
+    },
+    {
+        "id": "hist_0571",
+        "input": "ybyrá",
+        "output": "árvore"
+    },
+    {
+        "id": "hist_0572",
+        "input": "tyrá",
+        "output": "arrepio"
+    },
+    {
+        "id": "hist_0573",
+        "input": "mixyra",
+        "output": "assado"
+    },
+    {
+        "id": "hist_0574",
+        "input": "upibé",
+        "output": "assim que"
+    },
+    {
+        "id": "hist_0575",
+        "input": "nã",
+        "output": "assim"
+    },
+    {
+        "id": "hist_0576",
+        "input": "emonã",
+        "output": "dessa maneira aí"
+    },
+    {
+        "id": "hist_0577",
+        "input": "epenhan",
+        "output": "atacar"
+    },
+    {
+        "id": "hist_0578",
+        "input": "pakoba",
+        "output": "banana"
+    },
+    {
+        "id": "hist_0579",
+        "input": "gûyrá",
+        "output": "ave"
+    },
+    {
+        "id": "hist_0580",
+        "input": "aryia",
+        "output": "avó"
+    },
+    {
+        "id": "hist_0581",
+        "input": "takûara",
+        "output": "bambu"
+    },
+    {
+        "id": "hist_0582",
+        "input": "ygara",
+        "output": "barco"
+    },
+    {
+        "id": "hist_0583",
+        "input": "moiasuk",
+        "output": "banhar"
+    },
+    {
+        "id": "hist_0584",
+        "input": "porang",
+        "output": "belo"
+    },
+    {
+        "id": "hist_0585",
+        "input": "tapi'irusu",
+        "output": "boi"
+    },
+    {
+        "id": "hist_0586",
+        "input": "angaturama",
+        "output": "bondade"
+    },
+    {
+        "id": "hist_0587",
+        "input": "amykyra",
+        "output": "broto"
+    },
+    {
+        "id": "hist_0588",
+        "input": "angaturam",
+        "output": "bom"
+    },
+    {
+        "id": "hist_0589",
+        "input": "akanga",
+        "output": "cabeça"
+    },
+    {
+        "id": "hist_0590",
+        "input": "îeporakasaba",
+        "output": "caçada"
+    },
+    {
+        "id": "hist_0591",
+        "input": "ytu",
+        "output": "cachoeira"
+    },
+    {
+        "id": "hist_0592",
+        "input": "morubixaba",
+        "output": "cacique"
+    },
+    {
+        "id": "hist_0593",
+        "input": "akaiá",
+        "output": "cajá"
+    },
+    {
+        "id": "hist_0594",
+        "input": "takuba",
+        "output": "calor"
+    },
+    {
+        "id": "hist_0595",
+        "input": "kapibara",
+        "output": "capivara"
+    },
+    {
+        "id": "hist_0596",
+        "input": "so'o",
+        "output": "carne de caça"
+    },
+    {
+        "id": "hist_0597",
+        "input": "mendara",
+        "output": "casado"
+    },
+    {
+        "id": "hist_0598",
+        "input": "ybykoî",
+        "output": "cavar"
+    },
+    {
+        "id": "hist_0599",
+        "input": "esapy'a",
+        "output": "cedo"
+    },
+    {
+        "id": "hist_0600",
+        "input": "ybaka",
+        "output": "céu"
+    },
+    {
+        "id": "hist_0601",
+        "input": "tataendy",
+        "output": "chama"
+    },
+    {
+        "id": "hist_0602",
+        "input": "yby",
+        "output": "chão"
+    },
+    {
+        "id": "hist_0603",
+        "input": "kyr",
+        "output": "chover"
+    },
+    {
+        "id": "hist_0604",
+        "input": "îase'o",
+        "output": "chorar"
+    },
+    {
+        "id": "hist_0605",
+        "input": "amana",
+        "output": "chuva"
+    },
+    {
+        "id": "hist_0606",
+        "input": "tabusu",
+        "output": "cidade"
+    },
+    {
+        "id": "hist_0607",
+        "input": "marã îabépe?",
+        "output": "como?"
+    },
+    {
+        "id": "hist_0608",
+        "input": "marãngatupe?",
+        "output": "como?"
+    },
+    {
+        "id": "hist_0609",
+        "input": "itãetá",
+        "output": "conchas"
+    },
+    {
+        "id": "hist_0610",
+        "input": "itã",
+        "output": "concha"
+    },
+    {
+        "id": "hist_0611",
+        "input": "moryb",
+        "output": "consentir"
+    },
+    {
+        "id": "hist_0612",
+        "input": "mboryb",
+        "output": "consentir"
+    },
+    {
+        "id": "hist_0613",
+        "input": "mongetá",
+        "output": "conversar com"
+    },
+    {
+        "id": "hist_0614",
+        "input": "karaíba",
+        "output": "cristão"
+    },
+    {
+        "id": "hist_0615",
+        "input": "apyra",
+        "output": "cume"
+    },
+    {
+        "id": "hist_0616",
+        "input": "pyr",
+        "output": "cru"
+    },
+    {
+        "id": "hist_0617",
+        "input": "ebanõi",
+        "output": "daí"
+    },
+    {
+        "id": "hist_0618",
+        "input": "pîar",
+        "output": "defender"
+    },
+    {
+        "id": "hist_0619",
+        "input": "anhanga",
+        "output": "demônio"
+    },
+    {
+        "id": "hist_0620",
+        "input": "puku",
+        "output": "demoradamente"
+    },
+    {
+        "id": "hist_0621",
+        "input": "riré",
+        "output": "depois"
+    },
+    {
+        "id": "hist_0622",
+        "input": "a'e riré",
+        "output": "depois disso"
+    },
+    {
+        "id": "hist_0623",
+        "input": "moaûié",
+        "output": "derrotar"
+    },
+    {
+        "id": "hist_0624",
+        "input": "momburu",
+        "output": "desafiar"
+    },
+    {
+        "id": "hist_0625",
+        "input": "kanhem",
+        "output": "desaparecer"
+    },
+    {
+        "id": "hist_0626",
+        "input": "abé",
+        "output": "desde"
+    },
+    {
+        "id": "hist_0627",
+        "input": "apakuî",
+        "output": "desmanchar-se"
+    },
+    {
+        "id": "hist_0628",
+        "input": "momarã",
+        "output": "desobedecer"
+    },
+    {
+        "id": "hist_0629",
+        "input": "motibyk",
+        "output": "desonrar"
+    },
+    {
+        "id": "hist_0630",
+        "input": "eroyrõ",
+        "output": "desprezar"
+    },
+    {
+        "id": "hist_0631",
+        "input": "aíba",
+        "output": "desprezível"
+    },
+    {
+        "id": "hist_0632",
+        "input": "Tupã",
+        "output": "Deus"
+    },
+    {
+        "id": "hist_0633",
+        "input": "'ara",
+        "output": "dia"
+    },
+    {
+        "id": "hist_0634",
+        "input": "me'eng",
+        "output": "doar"
+    },
+    {
+        "id": "hist_0635",
+        "input": "akasanga",
+        "output": "dúvida"
+    },
+    {
+        "id": "hist_0636",
+        "input": "nhe",
+        "output": "efetivamente"
+    },
+    {
+        "id": "hist_0637",
+        "input": "ybaté",
+        "output": "elevado"
+    },
+    {
+        "id": "hist_0638",
+        "input": "moanhan",
+        "output": "empurrar"
+    },
+    {
+        "id": "hist_0639",
+        "input": "îegûak",
+        "output": "enfeitar-se"
+    },
+    {
+        "id": "hist_0640",
+        "input": "irõ",
+        "output": "enfim"
+    },
+    {
+        "id": "hist_0641",
+        "input": "moaby",
+        "output": "enganar"
+    },
+    {
+        "id": "hist_0642",
+        "input": "tekomemûã",
+        "output": "engano"
+    },
+    {
+        "id": "hist_0643",
+        "input": "nhemongyrá",
+        "output": "engordar"
+    },
+    {
+        "id": "hist_0644",
+        "input": "nheme'eng",
+        "output": "entregar-se"
+    },
+    {
+        "id": "hist_0645",
+        "input": "syra",
+        "output": "enxada"
+    },
+    {
+        "id": "hist_0646",
+        "input": "temirekó",
+        "output": "esposa"
+    },
+    {
+        "id": "hist_0647",
+        "input": "mena",
+        "output": "esposo"
+    },
+    {
+        "id": "hist_0648",
+        "input": "îasytatá",
+        "output": "estrela"
+    },
+    {
+        "id": "hist_0649",
+        "input": "mombor",
+        "output": "expulsar"
+    },
+    {
+        "id": "hist_0650",
+        "input": "kysé",
+        "output": "faca"
+    },
+    {
+        "id": "hist_0651",
+        "input": "posanga",
+        "output": "feitiço"
+    },
+    {
+        "id": "hist_0652",
+        "input": "toryba",
+        "output": "felicidade"
+    },
+    {
+        "id": "hist_0653",
+        "input": "torypaba",
+        "output": "felicidade"
+    },
+    {
+        "id": "hist_0654",
+        "input": "tataupaba",
+        "output": "fogão"
+    },
+    {
+        "id": "hist_0655",
+        "input": "îyapara",
+        "output": "foice"
+    },
+    {
+        "id": "hist_0656",
+        "input": "'ybá",
+        "output": "fruta"
+    },
+    {
+        "id": "hist_0657",
+        "input": "tatá",
+        "output": "fogo"
+    },
+    {
+        "id": "hist_0658",
+        "input": "marãmotara",
+        "output": "fúria"
+    },
+    {
+        "id": "hist_0659",
+        "input": "so'omimbaba",
+        "output": "gado"
+    },
+    {
+        "id": "hist_0660",
+        "input": "sarigûeîa",
+        "output": "gambá"
+    },
+    {
+        "id": "hist_0661",
+        "input": "gûarini",
+        "output": "guerreiro"
+    },
+    {
+        "id": "hist_0662",
+        "input": "tekoara",
+        "output": "habitante"
+    },
+    {
+        "id": "hist_0663",
+        "input": "abá",
+        "output": "homem"
+    },
+    {
+        "id": "hist_0664",
+        "input": "tupãoka",
+        "output": "igreja"
+    },
+    {
+        "id": "hist_0665",
+        "input": "anhanga ratá",
+        "output": "inferno"
+    },
+    {
+        "id": "hist_0666",
+        "input": "ypy",
+        "output": "início"
+    },
+    {
+        "id": "hist_0667",
+        "input": "ypyrunga",
+        "output": "início"
+    },
+    {
+        "id": "hist_0668",
+        "input": "tupiara",
+        "output": "inimigo de uma nação indígena"
+    },
+    {
+        "id": "hist_0669",
+        "input": "kybyra",
+        "output": "irmão"
+    },
+    {
+        "id": "hist_0670",
+        "input": "îakaré",
+        "output": "jacaré"
+    },
+    {
+        "id": "hist_0671",
+        "input": "îyboîa",
+        "output": "jiboia"
+    },
+    {
+        "id": "hist_0672",
+        "input": "mimbuku",
+        "output": "lança"
+    },
+    {
+        "id": "hist_0673",
+        "input": "ityk",
+        "output": "lançar"
+    },
+    {
+        "id": "hist_0674",
+        "input": "ma'enduasaba",
+        "output": "lembrança"
+    },
+    {
+        "id": "hist_0675",
+        "input": "agûaragûasu",
+        "output": "lobo-guará"
+    },
+    {
+        "id": "hist_0676",
+        "input": "îasy",
+        "output": "lua"
+    },
+    {
+        "id": "hist_0677",
+        "input": "îasyendy",
+        "output": "luar"
+    },
+    {
+        "id": "hist_0678",
+        "input": "marãtekó",
+        "output": "luta"
+    },
+    {
+        "id": "hist_0679",
+        "input": "marãmonhang",
+        "output": "lutar"
+    },
+    {
+        "id": "hist_0680",
+        "input": "mandi'oka",
+        "output": "mandioca"
+    },
+    {
+        "id": "hist_0681",
+        "input": "ko'ema",
+        "output": "manhã"
+    },
+    {
+        "id": "hist_0682",
+        "input": "ko'eme",
+        "output": "de manhã"
+    },
+    {
+        "id": "hist_0683",
+        "input": "paranã",
+        "output": "mar"
+    },
+    {
+        "id": "hist_0684",
+        "input": "murukuiá",
+        "output": "maracujá"
+    },
+    {
+        "id": "hist_0685",
+        "input": "îuká",
+        "output": "matar"
+    },
+    {
+        "id": "hist_0686",
+        "input": "kunhãmuku",
+        "output": "moça"
+    },
+    {
+        "id": "hist_0687",
+        "input": "ybytyra",
+        "output": "montanha"
+    },
+    {
+        "id": "hist_0688",
+        "input": "eté",
+        "output": "muito"
+    },
+    {
+        "id": "hist_0689",
+        "input": "etá",
+        "output": "muitos"
+    },
+    {
+        "id": "hist_0690",
+        "input": "kunhã",
+        "output": "mulher"
+    },
+    {
+        "id": "hist_0691",
+        "input": "ygarusu",
+        "output": "navio"
+    },
+    {
+        "id": "hist_0692",
+        "input": "pytuna",
+        "output": "noite"
+    },
+    {
+        "id": "hist_0693",
+        "input": "pytunybo",
+        "output": "pelas noites"
+    },
+    {
+        "id": "hist_0694",
+        "input": "oré",
+        "output": "nosso"
+    },
+    {
+        "id": "hist_0695",
+        "input": "ybatinga",
+        "output": "nuvem"
+    },
+    {
+        "id": "hist_0696",
+        "input": "apiar",
+        "output": "obedecer"
+    },
+    {
+        "id": "hist_0697",
+        "input": "paranãgûasu",
+        "output": "oceano"
+    },
+    {
+        "id": "hist_0698",
+        "input": "amotare'yma",
+        "output": "ódio"
+    },
+    {
+        "id": "hist_0699",
+        "input": "tekomonhangaba",
+        "output": "ordem"
+    },
+    {
+        "id": "hist_0700",
+        "input": "porerobîare'yma",
+        "output": "orgulho"
+    },
+    {
+        "id": "hist_0701",
+        "input": "paka",
+        "output": "paca"
+    },
+    {
+        "id": "hist_0702",
+        "input": "abaré",
+        "output": "padre"
+    },
+    {
+        "id": "hist_0703",
+        "input": "paîé",
+        "output": "pajé"
+    },
+    {
+        "id": "hist_0704",
+        "input": "gûyra'i",
+        "output": "passarinho"
+    },
+    {
+        "id": "hist_0705",
+        "input": "karûaba",
+        "output": "pasto"
+    },
+    {
+        "id": "hist_0706",
+        "input": "ybyrapytanga",
+        "output": "pau-brasil"
+    },
+    {
+        "id": "hist_0707",
+        "input": "itá",
+        "output": "pedra"
+    },
+    {
+        "id": "hist_0708",
+        "input": "itakurubi",
+        "output": "pedregulho"
+    },
+    {
+        "id": "hist_0709",
+        "input": "pirá",
+        "output": "peixe"
+    },
+    {
+        "id": "hist_0710",
+        "input": "poranduba",
+        "output": "pergunta"
+    },
+    {
+        "id": "hist_0711",
+        "input": "nhyrõ",
+        "output": "perdoar"
+    },
+    {
+        "id": "hist_0712",
+        "input": "pirãîa",
+        "output": "piranha"
+    },
+    {
+        "id": "hist_0713",
+        "input": "emonãnamo",
+        "output": "portanto"
+    },
+    {
+        "id": "hist_0714",
+        "input": "erekó",
+        "output": "possuir"
+    },
+    {
+        "id": "hist_0715",
+        "input": "anama",
+        "output": "povo"
+    },
+    {
+        "id": "hist_0716",
+        "input": "marãpe?",
+        "output": "qual?"
+    },
+    {
+        "id": "hist_0717",
+        "input": "mba'epe?",
+        "output": "qual?"
+    },
+    {
+        "id": "hist_0718",
+        "input": "umãba'epe?",
+        "output": "qual?"
+    },
+    {
+        "id": "hist_0719",
+        "input": "tetiruã",
+        "output": "qualquer"
+    },
+    {
+        "id": "hist_0720",
+        "input": "reme",
+        "output": "quando"
+    },
+    {
+        "id": "hist_0721",
+        "input": "moirãpe?",
+        "output": "quando?"
+    },
+    {
+        "id": "hist_0722",
+        "input": "nãbo?",
+        "output": "quanto?"
+    },
+    {
+        "id": "hist_0723",
+        "input": "mobype?",
+        "output": "quanto?"
+    },
+    {
+        "id": "hist_0724",
+        "input": "mbobype?",
+        "output": "quantos?"
+    },
+    {
+        "id": "hist_0725",
+        "input": "mba'e-mba'epe?",
+        "output": "quais coisas?"
+    },
+    {
+        "id": "hist_0726",
+        "input": "mba'e pupépe?",
+        "output": "com quê?"
+    },
+    {
+        "id": "hist_0727",
+        "input": "mba'e suípe?",
+        "output": "de quê?"
+    },
+    {
+        "id": "hist_0728",
+        "input": "mba'e resépe?",
+        "output": "por quê?"
+    },
+    {
+        "id": "hist_0729",
+        "input": "abápe?",
+        "output": "quem?"
+    },
+    {
+        "id": "hist_0730",
+        "input": "tupãberaba",
+        "output": "raio"
+    },
+    {
+        "id": "hist_0731",
+        "input": "amãberaba",
+        "output": "relâmpago"
+    },
+    {
+        "id": "hist_0732",
+        "input": "ygapukuîtaba",
+        "output": "remo"
+    },
+    {
+        "id": "hist_0733",
+        "input": "motyb",
+        "output": "respeitar"
+    },
+    {
+        "id": "hist_0734",
+        "input": "moabaeté",
+        "output": "respeitar"
+    },
+    {
+        "id": "hist_0735",
+        "input": "nhe'enga",
+        "output": "resposta"
+    },
+    {
+        "id": "hist_0736",
+        "input": "'y",
+        "output": "rio"
+    },
+    {
+        "id": "hist_0737",
+        "input": "îy",
+        "output": "rio"
+    },
+    {
+        "id": "hist_0738",
+        "input": "kó",
+        "output": "roça"
+    },
+    {
+        "id": "hist_0739",
+        "input": "sabîá",
+        "output": "sabia"
+    },
+    {
+        "id": "hist_0740",
+        "input": "sem",
+        "output": "sair"
+    },
+    {
+        "id": "hist_0741",
+        "input": "pysyrõ",
+        "output": "salvar"
+    },
+    {
+        "id": "hist_0742",
+        "input": "tepîaka'uba",
+        "output": "saudades"
+    },
+    {
+        "id": "hist_0743",
+        "input": "kûara",
+        "output": "sol"
+    },
+    {
+        "id": "hist_0744",
+        "input": "posaûsub",
+        "output": "sonhar"
+    },
+    {
+        "id": "hist_0745",
+        "input": "nipó",
+        "output": "talvez"
+    },
+    {
+        "id": "hist_0746",
+        "input": "tamandûá",
+        "output": "tamanduá"
+    },
+    {
+        "id": "hist_0747",
+        "input": "nde",
+        "output": "teu"
+    },
+    {
+        "id": "hist_0748",
+        "input": "mbo'ir",
+        "output": "tirar"
+    },
+    {
+        "id": "hist_0749",
+        "input": "marãtekoara",
+        "output": "trabalhador"
+    },
+    {
+        "id": "hist_0750",
+        "input": "porabyky",
+        "output": "trabalhar"
+    },
+    {
+        "id": "hist_0751",
+        "input": "tupãsununga",
+        "output": "trovão"
+    },
+    {
+        "id": "hist_0752",
+        "input": "abaeté",
+        "output": "valente"
+    },
+    {
+        "id": "hist_0753",
+        "input": "pyatã",
+        "output": "valentia"
+    },
+    {
+        "id": "hist_0754",
+        "input": "ybytu",
+        "output": "vento"
+    },
+    {
+        "id": "hist_0755",
+        "input": "pyranga",
+        "output": "vermelho"
+    },
+    {
+        "id": "hist_0756",
+        "input": "pe",
+        "output": "vosso"
+    },
+    {
+        "id": "hist_0757",
+        "input": "mari",
+        "output": "zangado"
+    },
+    {
+        "id": "hist_0758",
+        "input": "temimotara",
+        "output": "vontade"
+    },
+    {
+        "id": "hist_0759",
+        "input": "gûatá",
+        "output": "andar"
+    },
+    {
+        "id": "hist_0760",
+        "input": "Abá serã xe fabé?",
+        "output": "Quem será como eu?"
+    },
+    {
+        "id": "hist_0761",
+        "input": "Xe katupe ká",
+        "output": "Eu hei de ser bom"
+    },
+    {
+        "id": "hist_0762",
+        "input": "Xe pûeraî, xe ropesyî!",
+        "output": "Eu estou cansado, eu estou com sono!"
+    },
+    {
+        "id": "hist_0763",
+        "input": "Xe resé oîerobîá",
+        "output": "Em mim confiam."
+    },
+    {
+        "id": "hist_0764",
+        "input": "Xe mi-te îepé i xuí!",
+        "output": "Mas esconde-me dele!"
+    },
+    {
+        "id": "hist_0765",
+        "input": "Xe îuká xe îara.",
+        "output": "Meu senhor me mata."
+    },
+    {
+        "id": "hist_0766",
+        "input": "Xe moanhe kó xe boîá",
+        "output": "Apressam-me estes meus súditos"
+    },
+    {
+        "id": "hist_0767",
+        "input": "Xe pópe arekó-katu.",
+        "output": "Em minhas mãos bem os tenho."
+    },
+    {
+        "id": "hist_0768",
+        "input": "Kó xe'akusu, xe rãnha...",
+        "output": "Eis meus chifrões, meus dentes..."
+    },
+    {
+        "id": "hist_0769",
+        "input": "Xe iru a'e ã...",
+        "output": "Eis que ela é minha companheira..."
+    },
+    {
+        "id": "hist_0770",
+        "input": "xe rera",
+        "output": "meu nome"
+    },
+    {
+        "id": "hist_0771",
+        "input": "xe reîmbaba",
+        "output": "minha criação"
+    },
+    {
+        "id": "hist_0772",
+        "input": "xe iru",
+        "output": "meu companheiro"
+    },
+    {
+        "id": "hist_0773",
+        "input": "'yupaba",
+        "output": "lugar em que jaz a água"
+    },
+    {
+        "id": "hist_0774",
+        "input": "Pavuna",
+        "output": "vale profundo e escarpado"
+    },
+    {
+        "id": "hist_0775",
+        "input": "Íori anhanga mondyîa, ta xe momoxy ume.",
+        "output": "Vem para espantar o diabo, para que não me dane."
+    },
+    {
+        "id": "hist_0776",
+        "input": "Umãpe xe raperama?",
+        "output": "Onde está meu caminho?"
+    },
+    {
+        "id": "hist_0777",
+        "input": "umã suí?",
+        "output": "de onde?"
+    },
+    {
+        "id": "hist_0778",
+        "input": "umã suí-katu?",
+        "output": "de que lugar específico?"
+    },
+    {
+        "id": "hist_0779",
+        "input": "umã rupi?",
+        "output": "por onde?"
+    },
+    {
+        "id": "hist_0780",
+        "input": "Ema'enãngatu xe ri, xe mbo'are'ymuká.",
+        "output": "Vela bem por mim, mandando que não me façam cair."
+    },
+    {
+        "id": "hist_0781",
+        "input": "Xe rûi îepé.",
+        "output": "Tu me escaldaste."
+    },
+    {
+        "id": "hist_0782",
+        "input": "Xe Lucas ra'yrûera.",
+        "output": "Eu sou antigo filho de Lucas."
+    },
+    {
+        "id": "hist_0783",
+        "input": "Xe kerambugûasu.",
+        "output": "Eu ronco muito."
+    },
+    {
+        "id": "hist_0784",
+        "input": "Korite'i Pedro xe ruba mongetáu.",
+        "output": "Agora Pedro com meu pai falou."
+    },
+    {
+        "id": "hist_0785",
+        "input": "Xe tupinambagúasu.",
+        "output": "Eu sou o grande tupinambá."
+    },
+    {
+        "id": "hist_0786",
+        "input": "xe ruaía",
+        "output": "meus prisioneiros"
+    },
+    {
+        "id": "hist_0787",
+        "input": "Xe 'a-tyragûasu.",
+        "output": "Eu tenho cabelos muito arrepiados."
+    },
+    {
+        "id": "hist_0788",
+        "input": "xe soatyba",
+        "output": "lugar aonde eu comumente vou"
+    },
+    {
+        "id": "hist_0789",
+        "input": "xe rekoatyba",
+        "output": "lugar onde eu comumente estou"
+    },
+    {
+        "id": "hist_0790",
+        "input": "Soryb, xe îabé, xe ruba tupinakyía.",
+        "output": "Está alegre, como eu, meu pai tupiniquim."
+    },
+    {
+        "id": "hist_0791",
+        "input": "Ogúerasó temõ sapy'a ybakype Tupana xe ruba mã!",
+        "output": "Ah, oxalá Deus levasse logo a meu pai para o céu!"
+    },
+    {
+        "id": "hist_0792",
+        "input": "Arekó Tupã xe iopupé.",
+        "output": "Tenho a Deus dentro de mim."
+    },
+    {
+        "id": "hist_0793",
+        "input": "Xe timbeb.",
+        "output": "Eu estou obeso."
+    },
+    {
+        "id": "hist_0794",
+        "input": "Te'yîpe meme nhe ixé aporombo'e.",
+        "output": "Sempre eu ensinei publicamente as pessoas."
+    },
+    {
+        "id": "hist_0795",
+        "input": "Tera'ute xe gúixóbo!",
+        "output": "Que bom seria se eu fosse!"
+    },
+    {
+        "id": "hist_0796",
+        "input": "Tera'ute oú.",
+        "output": "Ah, se viesse!"
+    },
+    {
+        "id": "hist_0797",
+        "input": "Xe ypy ten.",
+        "output": "Eu estou com a base com firmeza."
+    },
+    {
+        "id": "hist_0798",
+        "input": "Temone xe gûixó bo...",
+        "output": "Ah, se eu fosse..."
+    },
+    {
+        "id": "hist_0799",
+        "input": "Xe-tene asó.",
+        "output": "Mas antes eu vou."
+    },
+    {
+        "id": "hist_0800",
+        "input": "Xe tekokuabar",
+        "output": "Eu retomei o bom senso."
+    },
+    {
+        "id": "hist_0801",
+        "input": "Na xe tekokuabi.",
+        "output": "Eu não sei."
+    },
+    {
+        "id": "hist_0802",
+        "input": "Ixé tekatuete'i ra'u, Anhanga ratá aîporará aûîeramanhene mã!",
+        "output": "Ah, ai de mim, o fogo do diabo sofrerei para sempre!"
+    },
+    {
+        "id": "hist_0803",
+        "input": "Xe-te, xe rembiá-potá sabeypora amõ resé.",
+        "output": "Eu, em vez disso, quero presas em alguns bêbados."
+    },
+    {
+        "id": "hist_0804",
+        "input": "Asó-tepe ixé?",
+        "output": "Fui eu, pois?"
+    },
+    {
+        "id": "hist_0805",
+        "input": "Té ixé gûixóbo",
+        "output": "Eis que eu vou."
+    },
+    {
+        "id": "hist_0806",
+        "input": "Oîkó bé xe tayaíba.",
+        "output": "Minha coragem ainda existe."
+    },
+    {
+        "id": "hist_0807",
+        "input": "Xe py'a xe 'anga eîar nde mba'eramo taûîé.",
+        "output": "Toma logo meu coração e minha alma como coisas tuas."
+    },
+    {
+        "id": "hist_0808",
+        "input": "Aîtapui-mongaturõ xe sy.",
+        "output": "Arrumo a choupana à minha mãe."
+    },
+    {
+        "id": "hist_0809",
+        "input": "Xe tamúîusu Aîmbiré",
+        "output": "Eu sou o grande tamoio Aimbirê."
+    },
+    {
+        "id": "hist_0810",
+        "input": "Tupã robaké eîkóbo, xe suí nd'eresyryki.",
+        "output": "Estando diante de Deus, de mim não te afastas."
+    },
+    {
+        "id": "hist_0811",
+        "input": "Osó ipó re'a",
+        "output": "Ele deve ter ido"
+    },
+    {
+        "id": "hist_0812",
+        "input": "Anheté, kó nde rapé, a'e nde remiekara.",
+        "output": "Verdadeiramente, eis aqui teu caminho, o que tu procuras."
+    },
+    {
+        "id": "hist_0813",
+        "input": "A'e o mena supé 'ybá-'u-ukar-a'ubi.",
+        "output": "Ela fez seu marido comer o fruto de modo vil."
+    },
+    {
+        "id": "hist_0814",
+        "input": "Aateté a'e semimonhangûera, karaibebé amõ amõ oîemoangaîpab.",
+        "output": "Embora eles fossem obra d'Ele, alguns anjos tornaram-se maus."
+    },
+    {
+        "id": "hist_0815",
+        "input": "Tupã Espírito Santo anhe a'e tatá?",
+        "output": "Deus Espírito Santo era, na verdade, aquele fogo?"
+    },
+    {
+        "id": "hist_0816",
+        "input": "Turusu-katupe a'e cruz erimba'e?",
+        "output": "Era muito grande aquela cruz?"
+    },
+    {
+        "id": "hist_0817",
+        "input": "Marãpe a'e semienoseguama rekóû a'epe?",
+        "output": "Que faziam aí os que ele faria sair consigo?"
+    },
+    {
+        "id": "hist_0818",
+        "input": "O'u nhepe a'e 'ybá, tegûama?",
+        "output": "Comeu aquele fruto, causa de morte?"
+    },
+    {
+        "id": "hist_0819",
+        "input": "I akanga resé a'e takûara reropûá.",
+        "output": "Em sua cabeça batendo com aquela cana."
+    },
+    {
+        "id": "hist_0820",
+        "input": "A'e aé koba'e katu me'engara re'a",
+        "output": "É ele o que dá o bem desses."
+    },
+    {
+        "id": "hist_0821",
+        "input": "Ko'yr bé a'e oka a'e cristãos-katupabé i moetesabamo.",
+        "output": "Agora também aquela casa é lugar de muitíssimos cristãos cultuá-la"
+    },
+    {
+        "id": "hist_0822",
+        "input": "A'e ko'y, xe resé, ó-miri pupé ereîkó.",
+        "output": "Mas agora, por minha causa, dentro de uma casinha estás."
+    },
+    {
+        "id": "hist_0823",
+        "input": "N'aîkuabi a'e abá",
+        "output": "Não conheço esse homem."
+    },
+    {
+        "id": "hist_0824",
+        "input": "A'e miapepuera abaré oîmbo'i re'a.",
+        "output": "Aquele pão o padre o partiu, certamente."
+    },
+    {
+        "id": "hist_0825",
+        "input": "Oîepé Tupã memé pe a'e Tupã-Tuba, Tupã-Ta'yra, Tupã-Espírito Santo?",
+        "output": "São um único e mesmo Deus esse Deus-Pai, Deus-Filho e Deus-Espírito Santo?"
+    },
+    {
+        "id": "hist_0826",
+        "input": "Irõ moroapirõ a'e oporomomby'ar",
+        "output": "Portanto, prantear as pessoas isso as enternece."
+    },
+    {
+        "id": "hist_0827",
+        "input": "Abápe opytá a'epe?",
+        "output": "Quem ficou ali?"
+    },
+    {
+        "id": "hist_0828",
+        "input": "mba'e-poxy",
+        "output": "coisa nojenta"
+    }
+]
