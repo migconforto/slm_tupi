@@ -1,0 +1,8 @@
+# SFT runs: checkpoints, TensorBoard logs and the splits of each run
+logs/
+
+# Experiment spec
+/SPEC_experimentos_sft.md
+
+# Built datasets in notebooks/
+/notebooks/*_dataset.json
