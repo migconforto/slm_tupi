@@ -96,3 +96,31 @@ Portanto, as notas da planilha SEED_42 não são comparáveis, frase a frase, co
 - 1 época, 1.382 passos, `train_runtime` de 21.370 s (5 h 56 min).
 - `eval_loss = 1,997` no passo 1000, a primeira perda de validação registrada pelo pipeline.
 - Uma passada de avaliação levou **2.713 s (45 min)**, a 0,219 amostras/s sobre 593 frases. O SPEC estimava cerca de 40 min (R1.4).
+
+## 3. Auditoria de ortografia
+
+Relatório completo em `experiments/reports/orthography_audit.md`, gerado por `python -m tupi_exp.audit_orthography` sem alterar o dataset.
+
+| Achado | Históricos (824) | Sintéticos (1.151) |
+|---|---:|---:|
+| Textos fora de NFC | 0 | 0 |
+| Apóstrofo fora do padrão `'` | 33 | 0 |
+| Linhas misturando tipos de apóstrofo | 2 | 0 |
+| Espaços duplos, nas pontas ou outros brancos | 0 | 0 |
+| Letras de grafia histórica (`ä ö ü ç à è ì ò ù` e similares) | 281 | 0 |
+| Maiúscula depois da primeira palavra | 68 | 0 |
+| Tupi idêntico ao `output` (Gemini copiou a palavra) | 8 | 0 |
+| Tupi quase idêntico ao `output` | 5 | 0 |
+| Tupi que parece Português | 1 | 0 |
+| Vazios, duplicatas exatas, mesmo Tupi com referências diferentes | 0 | 0 |
+
+Foram encontrados 138 grupos de grafias variantes, como `rupi`/`rupí`, `a'e`/`aé` e `catú`/`catù`/`catu`. O ruído ortográfico está quase todo nas frases históricas, o que é coerente com a hipótese H3.
+
+A linha citada no SPEC (`Irei andando Padre meu:`) não está em `dataset_sintetico_aumentado.json`: ela só existe em `data/dataset_augmented.json` e não tem tradução do Gemini.
+
+**Decisões:**
+
+- **Aplicadas em `normalize_tupi`:** NFC, apóstrofo único, colapso de espaços e `strip`. Essa função só é usada em buscas e comparações. O texto de treino não é reescrito, porque a matriz da §6 não prevê a normalização como fator.
+- **`normalize_tupi(safe=False)`:** levanta `NotImplementedError`, porque as regras agressivas ficam só como proposta.
+- **Propostas, não aplicadas:** mapear a grafia histórica para a de Navarro, unificar hífens, unir variantes e remover a pontuação final. Exemplos na seção 9 do relatório.
+- **Métricas:** `normalize_tupi` não substitui a normalização das métricas, que não existe em código (ver 1.4).
