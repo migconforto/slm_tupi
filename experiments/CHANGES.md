@@ -124,3 +124,25 @@ A linha citada no SPEC (`Irei andando Padre meu:`) não está em `dataset_sintet
 - **`normalize_tupi(safe=False)`:** levanta `NotImplementedError`, porque as regras agressivas ficam só como proposta.
 - **Propostas, não aplicadas:** mapear a grafia histórica para a de Navarro, unificar hífens, unir variantes e remover a pontuação final. Exemplos na seção 9 do relatório.
 - **Métricas:** `normalize_tupi` não substitui a normalização das métricas, que não existe em código (ver 1.4).
+
+## 4. Estatísticas do v3 e do glossário
+
+### 4.1 `data/dataset_augmentation_v3.json` (G4)
+
+Gerado por `python -m tupi_exp.split_augment`. Relatório com 10 exemplos antes/depois em `experiments/reports/split_augment.md`.
+
+| Medida | Valor |
+|---|---:|
+| Frases históricas no treino | 574 |
+| Limiar de "longa" (percentil 75 do treino) | mais de 4 palavras |
+| Frases longas | 81 |
+| Frases particionadas | 15 |
+| Novos pares | 30 |
+| Descartados por vazamento ou duplicata | 0 |
+| Treino: v2 → v3 | 1.382 → 1.412 (+2,2%) |
+
+- A validação continua igual: mesmo hash do baseline (`86c9431b...`) e interseção zero com o treino aumentado, por asserção e por teste.
+- Das 81 frases longas, só 25 têm o mesmo número de segmentos nos dois lados, e 15 cumprem também o mínimo de 2 palavras por segmento em Tupi. A regra conservadora gera pouco dado: o `exp03` pode ser pequeno demais para mostrar efeito.
+- Para testar mais volume, existem `--percentile` e `--contiguous-windows`. Mudar o percentil para 50 (mais de 3 palavras) daria 18 frases particionadas.
+- O alinhamento é só pela contagem de segmentos, sem verificação de sentido. Vale olhar os 10 exemplos do relatório.
+- Os novos pares usam o `output` de v2, ou seja, a tradução do Gemini, e não a tradução humana. Assim o exp03 não muda o tipo de rótulo do treino (P3) nem usa as referências de avaliação.
