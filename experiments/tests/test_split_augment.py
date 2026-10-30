@@ -8,7 +8,8 @@ import pytest
 
 from tupi_exp import ROOT
 from tupi_exp.config import BASELINE_VAL_SHA256, V2_PATH, V3_PATH
-from tupi_exp.split_augment import build_v3, partition, segments, tupi_key
+from tupi_exp.normalize import tupi_key
+from tupi_exp.split_augment import build_v3, partition, segments
 from tupi_exp.splits import ids_hash, load_split, reproduce_split
 from utils.utils_train import pre_process
 

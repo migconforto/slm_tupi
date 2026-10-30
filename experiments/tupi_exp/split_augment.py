@@ -11,9 +11,8 @@ import statistics
 
 from tupi_exp import REPORTS_DIR
 from tupi_exp.config import BASELINE_VAL_SHA256, SPLIT_SEED, V2_PATH, V3_PATH
-from tupi_exp.normalize import normalize_tupi, search_tokens
+from tupi_exp.normalize import search_tokens, tupi_key
 from tupi_exp.splits import ids_hash, reproduce_split, save_split
-from utils.utils_nlp import normalize_text
 
 SEGMENT_BOUNDARY = re.compile(r"(?<=[,;:.!?])\s+")
 MIN_SEGMENT_WORDS = 2
@@ -23,11 +22,6 @@ MAX_REPORT_EXAMPLES = 10
 
 def word_count(text):
     return len(search_tokens(text))
-
-
-def tupi_key(text):
-    """normalize_tupi plus the pipeline's duplicate key, so pre_process finds nothing to drop in v3."""
-    return normalize_text(normalize_tupi(text))
 
 
 def segments(text):

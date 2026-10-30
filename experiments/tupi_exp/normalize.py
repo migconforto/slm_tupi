@@ -4,6 +4,8 @@ It complements the metrics normalization, which replaces apostrophes and hyphens
 """
 import unicodedata
 
+from utils.utils_nlp import normalize_text
+
 APOSTROPHE_VARIANTS = "’‘ʼ`´"
 _APOSTROPHE_TABLE = str.maketrans({variant: "'" for variant in APOSTROPHE_VARIANTS})
 
@@ -23,3 +25,8 @@ def search_tokens(text):
     """Words of a sentence, as used for lexicon lookups and word counts."""
     tokens = (token.strip(EDGE_PUNCTUATION) for token in normalize_tupi(text).split())
     return [token for token in tokens if token]
+
+
+def tupi_key(text):
+    """normalize_tupi plus the pipeline's duplicate key, so pre_process finds nothing to drop in new data."""
+    return normalize_text(normalize_tupi(text))

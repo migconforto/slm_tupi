@@ -13,6 +13,10 @@ SPLIT_SEED = 13
 TRAIN_SHARE = 0.7
 BASELINE_VAL_SHA256 = "86c9431b2bf3d5265f30bf166dab5b9834dfab2bbb80d05b8882f8b022a4e5f3"
 
+# Glossary of exp02 (R2.3, R2.4)
+LEXICON_MAX_TOKENS = 2
+LEXICON_MAX_ENTRIES = 8
+
 # Output spreadsheet column (section 6 of the SPEC)
 SUBCONJUNTO = {"gemini": "historico", "sintetico": "sintetico"}
 
@@ -93,7 +97,7 @@ HISTORICAL_PATH = os.path.join(DATA_DIR, "dataset_historico.json")
 
 EXPERIMENTS = {
     "exp01_hparams": Experiment("exp01_hparams", V2_PATH, "atual", 128, HP_V2),
-    "exp02_lexicon": Experiment("exp02_lexicon", V2_PATH, "glossario", 128, HP_V2),
+    "exp02_lexicon": Experiment("exp02_lexicon", V2_PATH, "glossario", 144, HP_V2),  # longest prompt: 142 tokens (R2.7)
     "exp03_split_aug": Experiment("exp03_split_aug", V3_PATH, "atual", 128, HP_V2),
 }
 

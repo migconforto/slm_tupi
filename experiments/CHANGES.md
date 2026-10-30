@@ -146,3 +146,38 @@ Gerado por `python -m tupi_exp.split_augment`. Relatório com 10 exemplos antes/
 - Para testar mais volume, existem `--percentile` e `--contiguous-windows`. Mudar o percentil para 50 (mais de 3 palavras) daria 18 frases particionadas.
 - O alinhamento é só pela contagem de segmentos, sem verificação de sentido. Vale olhar os 10 exemplos do relatório.
 - Os novos pares usam o `output` de v2, ou seja, a tradução do Gemini, e não a tradução humana. Assim o exp03 não muda o tipo de rótulo do treino (P3) nem usa as referências de avaliação.
+
+### 4.2 Glossário do `exp02` (G2)
+
+**Fonte (R2.3):** prioridade 2, derivada só do treino. Não existe dicionário no repositório (ver 1.5).
+
+| Medida | Valor |
+|---|---:|
+| Entradas | 273 (142 de um token, 131 de dois) |
+| Cópias do Tupi removidas (Gemini repetiu a palavra) | 5 |
+| Máximo de entradas usadas em um prompt | 3 (limite: 8) |
+
+| Conjunto | Exemplos | Com ao menos 1 entrada | Cobertura |
+|---|---:|---:|---:|
+| Treino, históricos (com leave-one-out) | 574 | 52 | 9% |
+| Treino, sintéticos (com leave-one-out) | 808 | 348 | 43% |
+| Validação, históricos | 250 | 20 | **8%** |
+| Validação, sintéticos | 343 | 151 | 44% |
+
+**Limitação importante.** O glossário cobre pouco justamente o grupo que a H2 quer melhorar: só 20 das 250 frases históricas de validação recebem alguma entrada. Considerei o léxico utilizável, e por isso não parei na prioridade 3 da R2.3, mas com essa cobertura o `exp02` testa a H2 de forma fraca. A busca sem diferenciar maiúsculas subiria de 20 para 25 frases, então a caixa não é o problema principal, e mantive a igualdade exata da R2.4. O ganho real viria de um dicionário curado (prioridade 1 da R2.3), que hoje não existe no repositório.
+
+**Comprimento (R2.7), com o tokenizador do Qwen:**
+
+| Prompt | Maior no treino | Maior na validação |
+|---|---:|---:|
+| Atual | 107 | 111 |
+| Com glossário | 142 | 140 |
+
+- `max_seq_length` do `exp02`: **144**, contra 128 nos outros experimentos. Nenhum exemplo é truncado.
+- **Impacto estimado:** como o notebook usa `padding="max_length"`, toda sequência passa a ter 144 tokens. Isso dá cerca de 12,5% a mais de memória de ativações e de tempo por passo em relação ao `exp01`.
+
+**Decisões de formato:**
+
+- Sem nenhuma entrada, o prompt omite só a seção de glossário e mantém `Texto em Tupi:`, para que todos os exemplos tenham a mesma estrutura.
+- A instrução atual não foi copiada: `render_prompt` chama o próprio `create_prompt` com o texto ampliado, então o prefixo é sempre igual ao do baseline.
+- Traduções do glossário perdem só a pontuação final (`,;:.`).
