@@ -97,6 +97,26 @@ Portanto, as notas da planilha SEED_42 não são comparáveis, frase a frase, co
 - `eval_loss = 1,997` no passo 1000, a primeira perda de validação registrada pelo pipeline.
 - Uma passada de avaliação levou **2.713 s (45 min)**, a 0,219 amostras/s sobre 593 frases. O SPEC estimava cerca de 40 min (R1.4).
 
+## 2. Arquivos
+
+**Criados:**
+
+- `experiments/README.md` e `experiments/CHANGES.md`
+- `experiments/tupi_exp/`: `__init__.py`, `config.py`, `normalize.py`, `audit_orthography.py`, `splits.py`, `split_augment.py`, `lexicon.py`, `dryrun.py`
+- `experiments/tests/`: `conftest.py`, `test_config.py`, `test_normalize.py`, `test_audit.py`, `test_split_augment.py`, `test_lexicon.py`, `test_dryrun.py`, `test_notebooks.py`
+- `experiments/reports/`: `orthography_audit.md`, `split_augment.md`
+- `experiments/exp01_hparams/`: `sft_exp01.ipynb`, `eval_exp01.ipynb`
+- `experiments/exp02_lexicon/`: `sft_exp02.ipynb`, `eval_exp02.ipynb`
+- `experiments/exp03_split_aug/`: `sft_exp03.ipynb`, `eval_exp03.ipynb`
+- `splits/seed13_train_ids.json` e `splits/seed13_val_ids.json`
+- `data/dataset_augmentation_v3.json`
+
+**Modificados:** nenhum arquivo existente.
+
+**Não tocados, conferidos por SHA-256 no início e no fim:** `notebooks/sft.ipynb`, `notebooks/eval_sft.ipynb`, `data/dataset_sintetico_aumentado.json`, `data/dataset_historico.json`, `data/dataset_augmented.json` e `data/gemini-output_dataset.json`.
+
+Os commits estão no branch `experimentos-sft`, um por tarefa. Nada foi enviado ao repositório remoto.
+
 ## 3. Auditoria de ortografia
 
 Relatório completo em `experiments/reports/orthography_audit.md`, gerado por `python -m tupi_exp.audit_orthography` sem alterar o dataset.
@@ -181,3 +201,98 @@ Gerado por `python -m tupi_exp.split_augment`. Relatório com 10 exemplos antes/
 - Sem nenhuma entrada, o prompt omite só a seção de glossário e mantém `Texto em Tupi:`, para que todos os exemplos tenham a mesma estrutura.
 - A instrução atual não foi copiada: `render_prompt` chama o próprio `create_prompt` com o texto ampliado, então o prefixo é sempre igual ao do baseline.
 - Traduções do glossário perdem só a pontuação final (`,;:.`).
+
+## 5. Premissas e divergências
+
+### 5.1 Divergências entre o SPEC e o código
+
+Em todas valeu a regra de precedência: seguir o código.
+
+| Tema | SPEC | Código e decisão |
+|---|---|---|
+| Nome do dataset base | `dataset_augmentation_v2.json`, `dataset_sintetico_aumentado_v2.json` | "v2" é `data/dataset_sintetico_aumentado.json`, o único arquivo com esse conteúdo |
+| Nome do dataset novo | `dataset_augmentation_v3.json` e `dataset_sintetico_aumentado_v2.json` (§7) | Usei `data/dataset_augmentation_v3.json`, o nome da R4.6 e da T3 |
+| Split | Seed 42, 1.408 / 604 | Seed 13, 1.382 / 593. Arquivos `splits/seed13_*`, não `seed42_*` |
+| Validação | 604 exemplos | 593 exemplos, iguais aos da execução real do baseline (ver 1.1 e 1.6) |
+| `seed` do `hp_v2` | 42 | **13**, porque o SPEC pretende manter o valor atual e o atual é 13. `seed` (treino) e `SPLIT_SEED` (validação) agora são separados: dá para trocar a do treino em `config.py` sem mudar a validação |
+| `r` | "128 efetivo, argumento 256" | Não há mais ambiguidade: argumento e modelo usam 128. `check_lora_model` confere isso no notebook (R1.3) |
+| Passos do `hp_v2` | `ceil(n/8) * 3`, 528 | O Trainer arredonda para baixo por época: **516** no `exp01` e no `exp02`, **528** no `exp03`. A fórmula do SPEC daria 519 e 531 |
+| Planilha de saída | Gerada pelo notebook de treino | `sft.ipynb` não gera planilha. Criei cópias de `eval_sft.ipynb` por experimento, que gravam `predictions_<experimento>.csv` com a coluna `Subconjunto` |
+| Métricas (BLEU, ChrF++ etc.) | "Código de avaliação existente" | Esse código não existe no repositório (ver 1.4). Os notebooks geram as predições, e as métricas seguem fora do projeto |
+| Estrutura de arquivos | §7 | Acréscimos: `tupi_exp/splits.py`, `reports/split_augment.md`, `eval_expNN.ipynb` e o campo `segmento_fim` no v3, necessário para as janelas contíguas |
+
+### 5.2 Decisões para você revisar
+
+1. **Avaliação durante o treino (R1.4).** Mantive `eval_steps=1000` e `logging_steps=1000`, como pede o SPEC, mas com o `hp_v2` o treino tem só 516 passos. **Do jeito que está, nenhuma avaliação e nenhum log de perda acontecem durante o treino**, e o `exp01` terminaria sem curva nenhuma. Cada passada de avaliação custa de 40 a 45 min neste hardware (0,245 amostras/s sobre 604 na execução antiga; 0,219 amostras/s sobre 593 na última, ver 1.7). Por exemplo, `eval_steps=172` daria uma avaliação por época, somando cerca de 2 h 15 min ao treino. Para mudar, edite `eval_steps` e `logging_steps` em `HP_V2`, em `tupi_exp/config.py`.
+2. **Glossário com pouca cobertura (R2.3).** Só 8% das frases históricas de validação recebem alguma entrada (ver 4.2). Um dicionário curado seria necessário para testar a H2 de verdade.
+3. **Partição com pouco volume.** O `exp03` só acrescenta 30 pares (ver 4.1).
+4. **Comparação com a planilha SEED_42.** Não é válida frase a frase, porque 380 das 604 frases estão no treino atual (ver 1.6). A comparação correta é com a execução `fit_10_29_23_27`, mas ela ainda não tem `predictions.csv`: é preciso rodar `notebooks/eval_sft.ipynb` para gerá-lo. Ela também usou 1 época, enquanto o `hp_v2` usa 3; para comparar com o mesmo número de épocas, o baseline teria de ser retreinado.
+
+### 5.3 Premissas
+
+- **Texto de treino:** nenhuma normalização reescreve o texto; `normalize_tupi` só serve para busca e comparação.
+- **Frase "longa":** estritamente acima do percentil 75 (mais de 4 palavras), a opção mais conservadora.
+- **Rótulos do v3 e do glossário:** vêm do `output` de v2. Nas frases históricas, é a tradução do Gemini, nunca a humana, para não misturar as referências de avaliação no treino.
+- **Monitoramento:** a perda durante o treino usa os rótulos de treino, e a avaliação final usa a coluna `Referência`.
+- **Tempo de treino estimado:** a 13,5 s por exemplo (medido no baseline), cerca de 15,5 h para o `exp01`, 17,5 h para o `exp02` e 16 h para o `exp03`. O `r` menor pode reduzir esses tempos. A acumulação de gradiente não reduz, porque cada exemplo continua passando pelo modelo.
+- **Precisão:** treino em fp32 e avaliação em 4 bits NF4, como no pipeline atual.
+- **Combinações:** glossário + partição não foi preparada. Para criá-la, basta um novo item em `EXPERIMENTS`, em `tupi_exp/config.py`, além do notebook correspondente.
+- **Dependências:** nenhuma nova. Os testes usam o `pytest` já instalado, que não consta no `requirements.txt`.
+
+### 5.4 Verificação final (T7)
+
+| Verificação | Resultado |
+|---|---|
+| Testes unitários | 92 passaram |
+| Dry-runs dos 3 experimentos | Passaram |
+| Hash de validação nos 3 experimentos | Igual ao baseline (`86c9431b...`) |
+| Interseção validação × treino, no v3 e no glossário | Zero |
+| Exemplos truncados no `exp02` | Zero (`max_seq_length=144`, maior prompt com 142 tokens) |
+| Smoke test dos 3 `sft_expNN.ipynb` | Passou |
+| Smoke test dos 3 `eval_expNN.ipynb` | Passou |
+| `sft.ipynb` e dataset v2 byte a byte iguais | Sim, por SHA-256 |
+| Treino completo iniciado | Nenhum |
+
+**Limites do smoke test:** usei um modelo Qwen2 minúsculo e aleatório, 1 exemplo de treino, 1 de teste e `max_steps=2`, injetados só em memória, sem alterar os notebooks. Ele valida o código, não a qualidade. O Qwen real em fp32 **não** foi carregado, para não estourar a memória com o aplicativo aberto. O Qwen real só foi testado em 4 bits, sem adaptador, em uma frase do `eval_exp02`.
+
+## 6. Comandos
+
+Testes, a partir da raiz do projeto:
+
+```bash
+python -m pytest experiments/tests -q -p no:cacheprovider
+```
+
+Dry-run dos três experimentos:
+
+```bash
+cd experiments && python -m tupi_exp.dryrun
+```
+
+Dry-run de um experimento:
+
+```bash
+cd experiments && python -m tupi_exp.dryrun --experiment exp02_lexicon
+```
+
+Auditoria de ortografia:
+
+```bash
+cd experiments && python -m tupi_exp.audit_orthography
+```
+
+Splits, v3 e relatório da partição:
+
+```bash
+cd experiments && python -m tupi_exp.split_augment
+```
+
+**Iniciar cada treino:** abra o notebook e use "Run All".
+
+| Experimento | Treino | Avaliação |
+|---|---|---|
+| `exp01_hparams` | `experiments/exp01_hparams/sft_exp01.ipynb` | `experiments/exp01_hparams/eval_exp01.ipynb` |
+| `exp02_lexicon` | `experiments/exp02_lexicon/sft_exp02.ipynb` | `experiments/exp02_lexicon/eval_exp02.ipynb` |
+| `exp03_split_aug` | `experiments/exp03_split_aug/sft_exp03.ipynb` | `experiments/exp03_split_aug/eval_exp03.ipynb` |
+
+Na avaliação, ajuste antes o `run_dir` para a pasta `logs/<experimento>/peft_64_Tu_Po/fit_...` criada pelo treino.
