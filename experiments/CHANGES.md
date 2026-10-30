@@ -1,0 +1,98 @@
+# CHANGES — Novos experimentos de SFT
+
+Relatório de execução do `SPEC_experimentos_sft.md`. Quando o SPEC e o código divergem, vale o código (regra de precedência do SPEC, §1) e a divergência fica registrada na seção 5.
+
+## 1. Respostas da T0
+
+### 1.1 Como o split é feito e como reproduzi-lo
+
+Em `notebooks/sft.ipynb`, célula `75c796c5`:
+
+1. `pd.read_json(data/dataset_sintetico_aumentado.json)` e `pre_process` (`utils/utils_train.py`), que remove vazios e duplicatas (0 linhas removidas neste arquivo).
+2. `Dataset.from_pandas` e `dataset.shuffle(seed=train_seed)`.
+3. Índice `< int(0.7 * len(dataset))` vai para treino; o resto, para teste.
+
+`train_seed` vem de `args.seed = 13` (células `b2231091` e `3b541bc3`). O resultado é **1.382 treino / 593 teste**.
+
+Reproduzi o split fora do notebook. Ele é idêntico à execução real `notebooks/logs/peft_128_Tu_Po/fit_10_29_23_27_1.0_dataset_sintetico_aumentado/`: mesmos IDs, na mesma ordem, nos dois arquivos (`train_dataset.json` e `test_dataset.json`).
+
+Hash SHA-256 da lista ordenada de IDs de teste (baseline):
+`86c9431b2bf3d5265f30bf166dab5b9834dfab2bbb80d05b8882f8b022a4e5f3`
+
+### 1.2 Como distinguir históricos de sintéticos
+
+Há forma confiável, sem heurística. Cada linha de `data/dataset_sintetico_aumentado.json` tem o campo `fonte`, gravado por `script/build_datasets.py`:
+
+| `fonte` | Prefixo do `id` | Linhas | Conteúdo |
+|---|---|---:|---|
+| `gemini` | `hist_` | 824 | Frases históricas; `output` é a tradução do Gemini |
+| `sintetico` | `sint_` | 1.151 | Pares de *template* |
+
+A tradução humana das históricas fica em `data/dataset_historico.json` (829 linhas), ligada pelo mesmo `id`.
+
+### 1.3 Hiperparâmetros reais × SPEC
+
+Valores lidos de `notebooks/sft.ipynb` (células `b2231091`, `3b541bc3`, `d41f5a46`, `30a11aef`).
+
+| Parâmetro | SPEC ("Atual") | Código | Observação |
+|---|---|---|---|
+| `r` | 128 efetivo (argumento 256) | **128** | Sem ambiguidade: argumento e modelo instanciado coincidem (239.468.544 parâmetros treináveis, conferido na saída da célula `d41f5a46`) |
+| `lora_alpha` | 8 | 8 | |
+| `lora_dropout` | 0 | 0 | |
+| `learning_rate` | 1e-5 | 1e-5 | |
+| `lr_scheduler_type` | cosine | cosine | |
+| `warmup_ratio` | 0,5 | 0,5 | |
+| `weight_decay` | 0,01 | 0,01 | |
+| `max_grad_norm` | 0,3 | 0,3 | |
+| `num_train_epochs` | 3 (notebook: 1) | **3** no argumento | A execução `fit_10_29_23_27` rodou com 1 época (`trainer_state.json`: 1.382 passos); o notebook foi alterado para 3 depois dela |
+| `per_device_train_batch_size` | 1 | 1 | |
+| `gradient_accumulation_steps` | 1 | não definido (padrão 1) | |
+| `max_seq_length` | — | 128 (`MAX_LEN`) | |
+| Precisão / quantização | fp32 / nenhuma | fp32 / nenhuma | `load_in_4bit = False`; `fp16 = bf16 = False` |
+| `seed` | 42 | **13** | Uma única variável controla split e treino |
+| Avaliação no treino | — | `evaluation_strategy="steps"`, `eval_steps=1000` | `logging_steps=1000`; `save_strategy="epoch"` |
+| Perda | — | só na resposta | `is_train_response_only=True`, `DataCollatorForCompletionOnlyLM` |
+
+### 1.4 Código de avaliação e normalização das métricas
+
+- **Geração das predições:** `notebooks/eval_sft.ipynb` e `script/EVAL_SFT.py`. Saída em `predictions.csv`, com as colunas `Tupi`, `fonte`, `Português_esperado`, `Português_gemini` e `Português_predito`.
+- **Cálculo das métricas:** **não existe código** no repositório nem no histórico do git. A pasta `D:\Dissertacao\métricas\` só tem a planilha `avaliacao_traducoes-before_after-notas-SEED_42.xlsx` (valores fixos, sem fórmulas) e `tempo - SEED_13.txt`.
+- **Normalização:** como não há código, a regra foi inferida das colunas `*_Normalizado*` da planilha. Esta expressão reproduz 1.207 de 1.207 valores de `tupi`, 1.203 de 1.203 de `Predicao` e 1.206 de 1.207 de `Referencia`:
+
+```python
+" ".join(re.sub(r"[^\w\s]", " ", text.lower()).split())
+```
+
+Ela troca apóstrofos e hífens por espaço (`ka'ape` vira `ka ape`), ou seja, parte palavras na oclusiva glotal. A única exceção é a linha com `Referencia = "estou na praia"` e `Referencia_Normalizada = "estou prep_y praia"`, um marcador de *template* que ficou na planilha.
+
+### 1.5 Dicionário, vocabulário ou listas do gerador sintético
+
+Não existem. A busca por `dicion*`, `glossar*`, `vocab*`, `lexic*`, `template*`, `gerador*` e `generator*` não encontrou nada na árvore de arquivos nem em todo o histórico do git. O gerador de frases sintéticas não está no repositório, só o resultado dele. Por isso, a prioridade 1 da R2.3 não se aplica.
+
+### 1.6 A seed altera o split, o arquivo de dados ou a proporção?
+
+Só altera **quais** linhas vão para cada lado. Não altera a proporção nem o arquivo.
+
+| Arquivo | Linhas | Seed | Treino | Teste |
+|---|---:|---:|---:|---:|
+| `data/dataset_sintetico_aumentado.json` | 1.975 | 13 | 1.382 | 593 |
+| `data/dataset_sintetico_aumentado.json` | 1.975 | 42 | 1.382 | 593 |
+| Base antiga (commit `c94fc1e`) | 2.012 | 42 | 1.408 | 604 |
+
+Os 1.382 passos vêm do arquivo: `int(0.7 * 1975) = 1382`. A diferença para 1.408 é a base menor, não a seed. Com seed 13 e seed 42 sobre o mesmo arquivo, só 188 das 593 frases de teste coincidem.
+
+**Consequência para comparações.** A planilha SEED_42 usa a divisão antiga, que continua no git em `c94fc1e:data/val_dataset.json` (604 de 604 frases batem com a planilha). Das 604 frases dela:
+
+| Situação no pipeline atual | Frases |
+|---|---:|
+| No **treino** do split atual | 380 |
+| No teste do split atual | 146 |
+| Fora de `dataset_sintetico_aumentado.json` | 78 |
+
+Portanto, as notas da planilha SEED_42 não são comparáveis, frase a frase, com nenhum experimento novo. Reportado sem corrigir, como pede a T0.
+
+### 1.7 Dados medidos na execução `fit_10_29_23_27`
+
+- 1 época, 1.382 passos, `train_runtime` de 21.370 s (5 h 56 min).
+- `eval_loss = 1,997` no passo 1000, a primeira perda de validação registrada pelo pipeline.
+- Uma passada de avaliação levou **2.713 s (45 min)**, a 0,219 amostras/s sobre 593 frases. O SPEC estimava cerca de 40 min (R1.4).
