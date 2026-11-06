@@ -145,12 +145,6 @@ As predições são salvas em `run_dir/predictions.csv` (ou `predictions_base.cs
 
 ## Resultados
 
-> **Ressalva.** Os números desta seção são do experimento anterior às correções do pipeline: adaptador `peft_128_Tu_Po` treinado por 3 épocas, com divisão por semente 42 sobre 2.012 pares. Eles ainda não foram refeitos com o pipeline atual, que difere em:
-> - conjuntos de treino (rótulos do Gemini + sintéticos) e de referência (traduções humanas) separados em arquivos próprios;
-> - divisão com semente 13, sem frases em Tupi repetidas entre treino e teste;
-> - perda só na resposta, com o token de fim aprendido e a perda de teste registrada;
-> - *prompt* de avaliação idêntico ao do treino, geração *greedy* e modelo base em 4 bits.
-
 O experimento de referência (adaptador `peft_128_Tu_Po`, *checkpoint* final) atingiu
 `train_loss ≈ 1.27`, com `eval` a cada 1000 passos ao longo de 3 épocas. Consulte o
 [relatório final](docs/report/Relatorio_Final.md) para a análise completa da curva de
