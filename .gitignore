@@ -6,3 +6,5 @@ logs/
 
 # Built datasets in notebooks/
 /notebooks/*_dataset.json
+
+experiments/
