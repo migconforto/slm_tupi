@@ -1,17 +1,24 @@
 """Named hyperparameter profiles and experiment definitions (R1.1)."""
+import hashlib
+import json
 import math
 import os
+import re
 from dataclasses import dataclass, replace
 
-from tupi_exp import DATA_DIR
+from tupi_exp import DATA_DIR, SPLITS_DIR
 
 BASE_MODEL = "Qwen/Qwen2.5-3B-Instruct"
 TARGET_MODULES = ("q_proj", "k_proj", "v_proj", "o_proj", "gate_proj", "up_proj", "down_proj")
 
-# Split of the baseline run. Kept apart from HParams.seed: changing it changes the validation set (P6)
-SPLIT_SEED = 13
+# Seed of the experiments: change only this line. It drives both the train/validation split and the training.
+# The split and the v3 of a new seed are generated the first time the seed is used
+SEED = 99
+SPLIT_SEED = SEED
 TRAIN_SHARE = 0.7
-BASELINE_VAL_SHA256 = "86c9431b2bf3d5265f30bf166dab5b9834dfab2bbb80d05b8882f8b022a4e5f3"
+
+# Validation of the baseline runs already made, by seed. A seed outside this table has no baseline to compare with
+BASELINE_RUNS_SHA256 = {13: "86c9431b2bf3d5265f30bf166dab5b9834dfab2bbb80d05b8882f8b022a4e5f3"}
 
 # Glossary of exp02 (R2.3, R2.4)
 LEXICON_MAX_TOKENS = 2
@@ -19,6 +26,58 @@ LEXICON_MAX_ENTRIES = 8
 
 # Output spreadsheet column (section 6 of the SPEC)
 SUBCONJUNTO = {"gemini": "historico", "sintetico": "sintetico"}
+
+
+def seed_of_run(run_dir):
+    """Seed of a training run, read from the -SEED<N> suffix of its folder (the config SEED when there is none)."""
+    match = re.search(r"-SEED(\d+)$", os.path.basename(os.path.normpath(run_dir)))
+    if match:
+        return int(match.group(1))
+    print(f"{run_dir} não termina em -SEED<N>: usando a SEED do config.py ({SEED})")
+    return SEED
+
+
+def split_path(name, seed=SPLIT_SEED):
+    return os.path.join(SPLITS_DIR, f"seed{seed}_{name}_ids.json")
+
+
+def ids_hash(ids):
+    """SHA-256 of the sorted id list, so the order of the examples does not matter."""
+    return hashlib.sha256("\n".join(sorted(ids)).encode("utf-8")).hexdigest()
+
+
+def saved_val_hash(seed=SPLIT_SEED):
+    """Hash of the saved validation of a seed, or None while its split is not generated."""
+    if not os.path.exists(split_path("val", seed)):
+        return None
+    with open(split_path("val", seed), encoding="utf-8") as f:
+        return ids_hash(json.load(f))
+
+
+def ensure_seed_data(seed=SPLIT_SEED):
+    """Generates the split and the v3 of a seed the first time it is used."""
+    if all(os.path.exists(path) for path in (split_path("train", seed), split_path("val", seed), v3_path(seed))):
+        return
+    print(f"Seed {seed}: primeiro uso, gerando o split e o v3 em splits/ e data/")
+    from tupi_exp.split_augment import generate  # late import: split_augment imports this module
+
+    generate(seed)
+
+
+def __getattr__(name):
+    # Every experiment of a seed must use this validation (P6). Computed on first use (PEP 562),
+    # so that the data of a new seed already exist
+    if name == "BASELINE_VAL_SHA256":
+        ensure_seed_data()
+        globals()[name] = saved_val_hash()
+        return globals()[name]
+    raise AttributeError(f"module {__name__!r} has no attribute {name!r}")
+
+
+def require_seed_data(*paths):
+    for path in paths:
+        if not os.path.exists(path):
+            raise FileNotFoundError(f"{path} not found: generate the data of this seed with `python -m tupi_exp.split_augment`, from experiments/")
 
 
 @dataclass(frozen=True)
@@ -44,7 +103,7 @@ class HParams:
     save_strategy: str
 
 
-# Values read from notebooks/sft.ipynb; tests/test_config.py fails if they drift apart
+# Values read from notebooks/sft.ipynb, except the seed; tests/test_config.py fails if they drift apart
 BASELINE = HParams(
     name="baseline",
     r=128,
@@ -60,7 +119,7 @@ BASELINE = HParams(
     per_device_eval_batch_size=1,
     gradient_accumulation_steps=1,
     target_modules=TARGET_MODULES,
-    seed=13,
+    seed=SEED,
     evaluation_strategy="steps",
     eval_steps=1000,
     logging_steps=1000,
@@ -92,12 +151,19 @@ class Experiment:
 
 
 V2_PATH = os.path.join(DATA_DIR, "dataset_sintetico_aumentado.json")
-V3_PATH = os.path.join(DATA_DIR, "dataset_augmentation_v3.json")
 HISTORICAL_PATH = os.path.join(DATA_DIR, "dataset_historico.json")
+
+
+def v3_path(seed=SPLIT_SEED):
+    """v3 comes from the train split, so each seed has its own file: the v3 of another seed would leak validation."""
+    return os.path.join(DATA_DIR, f"dataset_augmentation_v3_seed{seed}.json")
+
+
+V3_PATH = v3_path()
 
 EXPERIMENTS = {
     "exp01_hparams": Experiment("exp01_hparams", V2_PATH, "atual", 128, HP_V2),
-    "exp02_lexicon": Experiment("exp02_lexicon", V2_PATH, "glossario", 144, HP_V2),  # longest prompt: 142 tokens (R2.7)
+    "exp02_lexicon": Experiment("exp02_lexicon", V2_PATH, "glossario", 152, HP_V2),  # longest prompt of any seed: 149 tokens (R2.7)
     "exp03_split_aug": Experiment("exp03_split_aug", V3_PATH, "atual", 128, HP_V2),
 }
 
@@ -107,7 +173,10 @@ def get_profile(name):
 
 
 def get_experiment(name):
-    return EXPERIMENTS[name]
+    experiment = EXPERIMENTS[name]
+    ensure_seed_data()
+    require_seed_data(split_path("val"), experiment.dataset_path)
+    return experiment
 
 
 def trainer_steps(n_train, hp):

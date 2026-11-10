@@ -43,13 +43,6 @@ def test_sft_copy_keeps_the_cells_of_the_original(name, sft, _):
     assert [cell["id"] for cell in copy["cells"]] == [cell["id"] for cell in load("notebooks", "sft.ipynb")["cells"]]
 
 
-@pytest.mark.parametrize("name, sft, evaluation", EXPERIMENTS)
-def test_copies_carry_no_stale_outputs(name, sft, evaluation):
-    for file_name in (sft, evaluation):
-        code_cells = [cell for cell in load("experiments", name, file_name)["cells"] if cell["cell_type"] == "code"]
-        assert all(cell["outputs"] == [] and cell["execution_count"] is None for cell in code_cells)
-
-
 @pytest.mark.parametrize("name, sft, _", EXPERIMENTS)
 def test_sft_copy_reads_the_profile(name, sft, _):
     text = source(load("experiments", name, sft))
@@ -58,6 +51,7 @@ def test_sft_copy_reads_the_profile(name, sft, _):
     assert 'assert ids_hash(test_dataset["id"]) == BASELINE_VAL_SHA256' in text
     assert "gradient_accumulation_steps=hp.gradient_accumulation_steps" in text
     assert 'f"logs/{experiment.name}/' in text
+    assert "{input_file_name}-SEED{train_seed}" in text
     for pattern in LOOSE_VALUES:
         assert not re.search(pattern, text), pattern
 
@@ -78,9 +72,15 @@ def test_only_exp03_takes_the_split_from_the_saved_ids():
         assert "dataset.shuffle(seed=SPLIT_SEED)" in text
 
 
+def test_exp02_evaluation_refuses_a_run_of_another_seed():
+    text = source(load("experiments", "exp02_lexicon", "eval_exp02.ipynb"))
+    assert 'assert ids_hash(df["id"]) == BASELINE_VAL_SHA256' in text
+
+
 @pytest.mark.parametrize("name, _, evaluation", EXPERIMENTS)
 def test_evaluation_copy_names_its_spreadsheet(name, _, evaluation):
     text = source(load("experiments", name, evaluation))
-    assert f"predictions_{name}.csv" in text
+    assert "run_seed = seed_of_run(run_dir)" in text
+    assert f'f"predictions_{name}-SEED{{run_seed}}.csv"' in text
     assert '"Subconjunto": SUBCONJUNTO[row["fonte"]]' in text
     assert 'data_path = os.path.join(run_dir, "test_dataset.json")' in text

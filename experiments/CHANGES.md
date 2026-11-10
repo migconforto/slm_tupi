@@ -104,12 +104,12 @@ Portanto, as notas da planilha SEED_42 não são comparáveis, frase a frase, co
 - `experiments/README.md` e `experiments/CHANGES.md`
 - `experiments/tupi_exp/`: `__init__.py`, `config.py`, `normalize.py`, `audit_orthography.py`, `splits.py`, `split_augment.py`, `lexicon.py`, `dryrun.py`
 - `experiments/tests/`: `conftest.py`, `test_config.py`, `test_normalize.py`, `test_audit.py`, `test_split_augment.py`, `test_lexicon.py`, `test_dryrun.py`, `test_notebooks.py`
-- `experiments/reports/`: `orthography_audit.md`, `split_augment.md`
+- `experiments/reports/`: `orthography_audit.md`, `split_augment_seed13.md`, `split_augment_seed42.md`
 - `experiments/exp01_hparams/`: `sft_exp01.ipynb`, `eval_exp01.ipynb`
 - `experiments/exp02_lexicon/`: `sft_exp02.ipynb`, `eval_exp02.ipynb`
 - `experiments/exp03_split_aug/`: `sft_exp03.ipynb`, `eval_exp03.ipynb`
-- `splits/seed13_train_ids.json` e `splits/seed13_val_ids.json`
-- `data/dataset_augmentation_v3.json`
+- `splits/seed13_*_ids.json` e `splits/seed42_*_ids.json`
+- `data/dataset_augmentation_v3_seed13.json` e `data/dataset_augmentation_v3_seed42.json`
 
 **Modificados:** nenhum arquivo existente.
 
@@ -147,9 +147,9 @@ A linha citada no SPEC (`Irei andando Padre meu:`) não está em `dataset_sintet
 
 ## 4. Estatísticas do v3 e do glossário
 
-### 4.1 `data/dataset_augmentation_v3.json` (G4)
+### 4.1 `data/dataset_augmentation_v3_seed13.json` (G4)
 
-Gerado por `python -m tupi_exp.split_augment`. Relatório com 10 exemplos antes/depois em `experiments/reports/split_augment.md`.
+Números da seed 13; os da seed 42 estão na seção 7. Gerado por `python -m tupi_exp.split_augment`. Relatório com 10 exemplos antes/depois em `experiments/reports/split_augment_seed13.md`.
 
 | Medida | Valor |
 |---|---:|
@@ -168,6 +168,8 @@ Gerado por `python -m tupi_exp.split_augment`. Relatório com 10 exemplos antes/
 - Os novos pares usam o `output` de v2, ou seja, a tradução do Gemini, e não a tradução humana. Assim o exp03 não muda o tipo de rótulo do treino (P3) nem usa as referências de avaliação.
 
 ### 4.2 Glossário do `exp02` (G2)
+
+Números da seed 13; os da seed 42 estão na seção 7.
 
 **Fonte (R2.3):** prioridade 2, derivada só do treino. Não existe dicionário no repositório (ver 1.5).
 
@@ -193,8 +195,8 @@ Gerado por `python -m tupi_exp.split_augment`. Relatório com 10 exemplos antes/
 | Atual | 107 | 111 |
 | Com glossário | 142 | 140 |
 
-- `max_seq_length` do `exp02`: **144**, contra 128 nos outros experimentos. Nenhum exemplo é truncado.
-- **Impacto estimado:** como o notebook usa `padding="max_length"`, toda sequência passa a ter 144 tokens. Isso dá cerca de 12,5% a mais de memória de ativações e de tempo por passo em relação ao `exp01`.
+- `max_seq_length` do `exp02`: **152**, contra 128 nos outros experimentos, para caber o maior prompt de qualquer semente (149 tokens, ver seção 7). Nenhum exemplo é truncado.
+- **Impacto estimado:** como o notebook usa `padding="max_length"`, toda sequência passa a ter 152 tokens. Isso dá cerca de 19% a mais de memória de ativações e de tempo por passo em relação ao `exp01`.
 
 **Decisões de formato:**
 
@@ -211,15 +213,15 @@ Em todas valeu a regra de precedência: seguir o código.
 | Tema | SPEC | Código e decisão |
 |---|---|---|
 | Nome do dataset base | `dataset_augmentation_v2.json`, `dataset_sintetico_aumentado_v2.json` | "v2" é `data/dataset_sintetico_aumentado.json`, o único arquivo com esse conteúdo |
-| Nome do dataset novo | `dataset_augmentation_v3.json` e `dataset_sintetico_aumentado_v2.json` (§7) | Usei `data/dataset_augmentation_v3.json`, o nome da R4.6 e da T3 |
+| Nome do dataset novo | `dataset_augmentation_v3.json` e `dataset_sintetico_aumentado_v2.json` (§7) | Usei `data/dataset_augmentation_v3_seed<N>.json`: o nome da R4.6 e da T3, com a semente, porque cada semente tem o seu |
 | Split | Seed 42, 1.408 / 604 | Seed 13, 1.382 / 593. Arquivos `splits/seed13_*`, não `seed42_*` |
 | Validação | 604 exemplos | 593 exemplos, iguais aos da execução real do baseline (ver 1.1 e 1.6) |
-| `seed` do `hp_v2` | 42 | **13**, porque o SPEC pretende manter o valor atual e o atual é 13. `seed` (treino) e `SPLIT_SEED` (validação) agora são separados: dá para trocar a do treino em `config.py` sem mudar a validação |
+| `seed` do `hp_v2` | 42 | Era 13 na entrega inicial. Depois, o usuário escolheu 42 para treino e split (ver seção 7) |
 | `r` | "128 efetivo, argumento 256" | Não há mais ambiguidade: argumento e modelo usam 128. `check_lora_model` confere isso no notebook (R1.3) |
 | Passos do `hp_v2` | `ceil(n/8) * 3`, 528 | O Trainer arredonda para baixo por época: **516** no `exp01` e no `exp02`, **528** no `exp03`. A fórmula do SPEC daria 519 e 531 |
 | Planilha de saída | Gerada pelo notebook de treino | `sft.ipynb` não gera planilha. Criei cópias de `eval_sft.ipynb` por experimento, que gravam `predictions_<experimento>.csv` com a coluna `Subconjunto` |
 | Métricas (BLEU, ChrF++ etc.) | "Código de avaliação existente" | Esse código não existe no repositório (ver 1.4). Os notebooks geram as predições, e as métricas seguem fora do projeto |
-| Estrutura de arquivos | §7 | Acréscimos: `tupi_exp/splits.py`, `reports/split_augment.md`, `eval_expNN.ipynb` e o campo `segmento_fim` no v3, necessário para as janelas contíguas |
+| Estrutura de arquivos | §7 | Acréscimos: `tupi_exp/splits.py`, `reports/split_augment_seed<N>.md`, `eval_expNN.ipynb` e o campo `segmento_fim` no v3, necessário para as janelas contíguas |
 
 ### 5.2 Decisões para você revisar
 
@@ -234,7 +236,7 @@ Em todas valeu a regra de precedência: seguir o código.
 - **Frase "longa":** estritamente acima do percentil 75 (mais de 4 palavras), a opção mais conservadora.
 - **Rótulos do v3 e do glossário:** vêm do `output` de v2. Nas frases históricas, é a tradução do Gemini, nunca a humana, para não misturar as referências de avaliação no treino.
 - **Monitoramento:** a perda durante o treino usa os rótulos de treino, e a avaliação final usa a coluna `Referência`.
-- **Tempo de treino estimado:** a 13,5 s por exemplo (medido no baseline), cerca de 15,5 h para o `exp01`, 17,5 h para o `exp02` e 16 h para o `exp03`. O `r` menor pode reduzir esses tempos. A acumulação de gradiente não reduz, porque cada exemplo continua passando pelo modelo.
+- **Tempo de treino estimado:** a 13,5 s por exemplo (medido no baseline), cerca de 15,5 h para o `exp01`, 18,5 h para o `exp02` e 16 h para o `exp03`. A execução real do `exp01` com seed 13 levou 14 h 29 min. O `r` menor pode reduzir esses tempos. A acumulação de gradiente não reduz, porque cada exemplo continua passando pelo modelo.
 - **Precisão:** treino em fp32 e avaliação em 4 bits NF4, como no pipeline atual.
 - **Combinações:** glossário + partição não foi preparada. Para criá-la, basta um novo item em `EXPERIMENTS`, em `tupi_exp/config.py`, além do notebook correspondente.
 - **Dependências:** nenhuma nova. Os testes usam o `pytest` já instalado, que não consta no `requirements.txt`.
@@ -247,7 +249,7 @@ Em todas valeu a regra de precedência: seguir o código.
 | Dry-runs dos 3 experimentos | Passaram |
 | Hash de validação nos 3 experimentos | Igual ao baseline (`86c9431b...`) |
 | Interseção validação × treino, no v3 e no glossário | Zero |
-| Exemplos truncados no `exp02` | Zero (`max_seq_length=144`, maior prompt com 142 tokens) |
+| Exemplos truncados no `exp02` | Zero (`max_seq_length=152`, maior prompt com 149 tokens) |
 | Smoke test dos 3 `sft_expNN.ipynb` | Passou |
 | Smoke test dos 3 `eval_expNN.ipynb` | Passou |
 | `sft.ipynb` e dataset v2 byte a byte iguais | Sim, por SHA-256 |
@@ -296,3 +298,66 @@ cd experiments && python -m tupi_exp.split_augment
 | `exp03_split_aug` | `experiments/exp03_split_aug/sft_exp03.ipynb` | `experiments/exp03_split_aug/eval_exp03.ipynb` |
 
 Na avaliação, ajuste antes o `run_dir` para a pasta `logs/<experimento>/peft_64_Tu_Po/fit_...` criada pelo treino.
+
+## 7. Troca de semente: seed 42
+
+O `exp01` parou com `AssertionError: validation differs from the baseline` depois da troca de `SPLIT_SEED` para 42, porque o hash esperado era fixo na validação da seed 13. Por decisão do usuário, a semente passou a valer para o split e para o treino, e cada semente agora tem dados próprios.
+
+**O que mudou:**
+
+- **Configuração:** `SEED`, em `tupi_exp/config.py`, é a única linha a alterar. `SPLIT_SEED` e o `seed` dos perfis vêm dela.
+- **Verificação (P6):** `BASELINE_VAL_SHA256` agora é o hash da validação salva da semente atual. Dentro de uma semente, os três experimentos continuam obrigados a usar a mesma validação. O hash da execução real da seed 13 ficou em `BASELINE_RUNS_SHA256`.
+- **Dados por semente:** `splits/seed<N>_*`, `data/dataset_augmentation_v3_seed<N>.json` e `experiments/reports/split_augment_seed<N>.md`. O arquivo da seed 13 é idêntico, byte a byte, ao antigo `data/dataset_augmentation_v3.json`.
+- **Vazamento evitado:** reaproveitar o v3 da seed 13 na seed 42 colocaria no treino 6 pares vindos de frases de validação. O dry-run agora recusa pares derivados de frases de validação.
+- **`max_seq_length` do `exp02`:** passou de 144 para **152**. Na seed 42 o maior prompt tem 149 tokens, e 3 exemplos seriam truncados. O valor de 149 é o pior caso para qualquer semente: é o limite calculado com a base inteira, e 26 sementes testadas não passaram disso.
+- **`eval_exp02`:** recusa uma execução de outra semente, porque o glossário depende do treino da semente.
+- **Testes:** removi `test_copies_carry_no_stale_outputs`, que falhava assim que um notebook era executado.
+
+**Comparação entre as seeds:**
+
+| Medida | Seed 13 | Seed 42 |
+|---|---:|---:|
+| Treino / validação | 1.382 / 593 | 1.382 / 593 |
+| Históricos / sintéticos na validação | 250 / 343 | 241 / 352 |
+| Hash da validação | `86c9431b...` | `9a3dd19d...` |
+| Frases de validação em comum entre as duas | 188 | 188 |
+| Frases históricas longas no treino | 81 | 83 |
+| Frases particionadas | 15 | 15 |
+| Novos pares no v3 | 30 | 31 |
+| Treino do `exp03` | 1.412 | 1.413 |
+| Entradas do glossário | 273 | 284 |
+| Validação histórica com glossário | 20 de 250 (8%) | 20 de 241 (8%) |
+| Validação sintética com glossário | 151 de 343 (44%) | 204 de 352 (58%) |
+| Maior prompt do `exp02` | 142 tokens | 149 tokens |
+| Execução de baseline | `fit_10_29_23_27` | Não existe |
+| Execução do `exp01` | `fit_10_30_23_04...-SEED13` | Não existe |
+
+**Consequências:**
+
+- Resultados da seed 42 não são comparáveis, frase a frase, com os da seed 13: 405 das 593 frases de validação da seed 42 estavam no treino da seed 13.
+- A seed 42 ainda não tem baseline. Para comparar, é preciso treinar `notebooks/sft.ipynb` com `seed=42`, o que levaria cerca de 18 h com 3 épocas.
+- A seed 42 não recupera a planilha SEED_42: com a base atual, só 165 das 604 frases dela caem na validação, e 361 ficam no treino.
+
+**Verificação:** 95 testes passaram com `SEED=42`. Em uma cópia temporária, testes e dry-runs passaram também com `SEED=13` e com uma semente nova (7), depois de gerar os dados dela. O smoke test dos seis notebooks passou na seed 42, com o mesmo modelo minúsculo da seção 5.4.
+
+### 7.1 Qualquer semente, sem passo manual
+
+Com `SEED = 51`, o `exp01` parou na segunda célula com `FileNotFoundError: splits\seed51_val_ids.json not found`, porque uma semente nova exigia rodar `split_augment` antes. Agora os dados de uma semente nova são gerados na primeira vez que ela é usada.
+
+- **`split_augment.generate(seed)`:** é o corpo do antigo `main()`, sem mudança de lógica. O comando de linha continua funcionando igual.
+- **`config.ensure_seed_data()`:** gera o split, o v3 e o relatório quando falta algum arquivo da semente. É chamada por `get_experiment()` e pela primeira leitura de `BASELINE_VAL_SHA256`, que passou a ser calculado sob demanda (PEP 562). Assim, o valor já está correto quando o notebook o importa.
+- **Notebooks:** nenhuma alteração.
+- **`max_seq_length` do `exp02`:** calculei o pior caso exato, testando, para cada frase, todas as combinações possíveis de entradas do glossário. O resultado é 149 tokens, então 152 vale para qualquer semente com a base atual.
+- **Testes:** um teste novo copia o projeto para uma pasta temporária, troca `SEED` para 7 e confere que os três experimentos iniciam e que os dados aparecem. O teste do nome da planilha passou a aceitar sufixos como `-SEED42`.
+
+**Verificação:** 97 testes passaram, o dry-run passou com a seed 51, e o smoke test dos seis notebooks passou com a seed 51, usando modelo minúsculo e um exemplo.
+
+### 7.2 Semente nos nomes da pasta e da planilha
+
+A pedido do usuário, a semente entra sozinha nos nomes, seguindo a convenção que ele já usava à mão (`-SEED42`).
+
+- **Treino (`sft_expNN`):** a pasta da execução termina em `-SEED<N>`, por exemplo `fit_11_04_19_39_1.0_dataset_sintetico_aumentado-SEED51`. Mudou uma linha em cada notebook (as duas variantes de `output_dir`).
+- **Avaliação (`eval_expNN`):** `run_seed = seed_of_run(run_dir)` lê a semente do sufixo da pasta avaliada, e a planilha sai como `predictions_<experimento>-SEED<N>.csv` ou `predictions_base-SEED<N>.csv`. Avaliar uma execução antiga não troca o rótulo, mesmo que a `SEED` do `config.py` já seja outra. Sem o sufixo, vale a `SEED` do `config.py`, com um aviso impresso.
+- **`eval_exp01.ipynb`:** o nome da planilha, que tinha `-SEED42` escrito à mão, passou a usar `run_seed`. O `run_dir` escolhido pelo usuário e as saídas salvas ficaram intactos.
+
+**Verificação:** 98 testes passaram, e o smoke test dos seis notebooks gerou pastas `-SEED51` e as planilhas `predictions_exp01_hparams-SEED51.csv`, `predictions_exp02_lexicon-SEED51.csv` e `predictions_exp03_split_aug-SEED51.csv`.

@@ -9,9 +9,9 @@ Novos experimentos de *fine-tuning* Tupi Antigo → Português, definidos em `SP
 | Baseline (`notebooks/sft.ipynb`, não tocar) | `dataset_sintetico_aumentado.json` (v2) | atual | atuais | — |
 | `exp01_hparams` | v2 | atual | `hp_v2` | referência dos demais |
 | `exp02_lexicon` | v2 | atual + glossário | `hp_v2` | prompt |
-| `exp03_split_aug` | `dataset_augmentation_v3.json` (treino aumentado) | atual | `hp_v2` | dados |
+| `exp03_split_aug` | `dataset_augmentation_v3_seed<N>.json` (treino aumentado) | atual | `hp_v2` | dados |
 
-Todos usam a mesma validação de 593 exemplos do baseline. Os notebooks conferem isso pelo hash dos IDs.
+Dentro de uma mesma semente, todos usam a mesma validação de 593 exemplos. Os notebooks conferem isso pelo hash dos IDs.
 
 O perfil `hp_v2` fica em `tupi_exp/config.py`. Para testar outro valor, edite só esse arquivo.
 
@@ -25,7 +25,7 @@ O perfil `hp_v2` fica em `tupi_exp/config.py`. Para testar outro valor, edite s�
 | `max_grad_norm` | 0,3 | 1,0 |
 | `gradient_accumulation_steps` | 1 | 8 |
 | `num_train_epochs` | 3 | 3 |
-| `seed` | 13 | 13 |
+| `seed` | `SEED` | `SEED` |
 
 ## Estrutura
 
@@ -44,8 +44,8 @@ experiments/
   exp01_hparams/             sft_exp01.ipynb e eval_exp01.ipynb
   exp02_lexicon/             sft_exp02.ipynb e eval_exp02.ipynb
   exp03_split_aug/           sft_exp03.ipynb e eval_exp03.ipynb
-splits/                      IDs de treino e validação
-data/dataset_augmentation_v3.json
+splits/                      IDs de treino e validação, por semente
+data/dataset_augmentation_v3_seed<N>.json
 ```
 
 ## Como rodar
@@ -76,13 +76,32 @@ Regenerar os splits, o v3 e o relatório da partição:
 cd experiments && python -m tupi_exp.split_augment
 ```
 
-**Treino:** abra `experiments/<experimento>/sft_expNN.ipynb` e use "Run All". A pasta de cada execução fica em `experiments/<experimento>/logs/`, com os *checkpoints* e o `test_dataset.json` daquela execução.
+**Treino:** abra `experiments/<experimento>/sft_expNN.ipynb` e use "Run All". A pasta de cada execução fica em `experiments/<experimento>/logs/`, com os *checkpoints* e o `test_dataset.json` daquela execução. O nome da pasta termina com a semente, como em `fit_..._dataset_sintetico_aumentado-SEED51`.
 
-**Avaliação:** em `experiments/<experimento>/eval_expNN.ipynb`, aponte `run_dir` para a pasta da execução e use "Run All". O resultado sai em `run_dir/predictions_<experimento>.csv`, com a coluna `Subconjunto` (`historico` ou `sintetico`). Com `use_lora = False`, o notebook gera a linha de base `predictions_base.csv`.
+**Avaliação:** em `experiments/<experimento>/eval_expNN.ipynb`, aponte `run_dir` para a pasta da execução e use "Run All". O resultado sai em `run_dir/predictions_<experimento>-SEED<N>.csv`, com a coluna `Subconjunto` (`historico` ou `sintetico`). Com `use_lora = False`, o notebook gera a linha de base `predictions_base-SEED<N>.csv`. A semente do nome vem do sufixo `-SEED<N>` da pasta avaliada; sem esse sufixo, vale a `SEED` do `config.py`.
+
+## Trocar a semente
+
+A semente fica em uma única linha: `SEED`, em `tupi_exp/config.py`. Ela controla a divisão treino/validação e o treino, e qualquer número inteiro funciona.
+
+Para trocar:
+
+1. Mude `SEED` em `tupi_exp/config.py`.
+2. Reinicie o kernel do notebook e use "Run All". O Python só lê o `config.py` uma vez por kernel.
+
+Na primeira vez que uma semente é usada, o notebook gera sozinho os dados dela, em poucos segundos: `splits/seed<N>_*`, `data/dataset_augmentation_v3_seed<N>.json` e `experiments/reports/split_augment_seed<N>.md`. Nas próximas vezes, esses arquivos são reaproveitados. Se quiser conferir tudo antes de treinar, rode o dry-run:
+
+```bash
+cd experiments && python -m tupi_exp.dryrun
+```
+
+Dentro de uma semente, os experimentos são comparáveis frase a frase. Entre sementes não são, porque a validação muda. Para comparar com o baseline, ele precisa ter sido treinado com a mesma semente, e hoje só existe o da seed 13. Para treiná-lo com outra, mude `seed` em `notebooks/sft.ipynb`.
+
+No `eval_exp02`, a `SEED` do `config.py` também precisa ser a do treino, porque o glossário depende dela. Se for outra, o notebook recusa a execução.
 
 ## Diferenças para os notebooks originais
 
-Os notebooks são cópias de `notebooks/sft.ipynb` e `notebooks/eval_sft.ipynb`, sem as saídas salvas. A lista abaixo mostra todas as linhas alteradas.
+Os notebooks foram criados como cópias de `notebooks/sft.ipynb` e `notebooks/eval_sft.ipynb`, sem as saídas salvas. A lista abaixo mostra todas as linhas alteradas.
 
 ### `exp01_hparams/sft_exp01.ipynb`
 
@@ -140,7 +159,11 @@ Os notebooks são cópias de `notebooks/sft.ipynb` e `notebooks/eval_sft.ipynb`,
 +    lora_alpha = hp.lora_alpha
 +    lora_dropout = hp.lora_dropout
 -            f"logs/peft_{r}_{src_lng[:2]}_{tgt_lng[:2]}/"
+-            f"fit_{formatted_time}_{train_ratio}_{input_file_name}"
 +            f"logs/{experiment.name}/peft_{r}_{src_lng[:2]}_{tgt_lng[:2]}/"
++            f"fit_{formatted_time}_{train_ratio}_{input_file_name}-SEED{train_seed}"
+-            f"fit_{formatted_time}_{train_ratio}_{input_file_name}"
++            f"fit_{formatted_time}_{train_ratio}_{input_file_name}-SEED{train_seed}"
 ```
 
 **Célula `75c796c5`**
@@ -176,7 +199,7 @@ Células sem alteração: `cc53fead`, `bef846ff`, `dc785f2d`, `7d76bd4e`, `4e276
 ```diff
 +
 +sys.path.append("D:\\Dissertacao\\slm_tupi\\experiments")
-+from tupi_exp.config import SUBCONJUNTO
++from tupi_exp.config import SUBCONJUNTO, seed_of_run
 ```
 
 **Célula `9dbd3152`**
@@ -184,7 +207,8 @@ Células sem alteração: `cc53fead`, `bef846ff`, `dc785f2d`, `7d76bd4e`, `4e276
 ```diff
 -run_dir = r"D:\Dissertacao\slm_tupi\notebooks\logs\peft_128_Tu_Po\fit_10_29_23_27_1.0_dataset_sintetico_aumentado"
 -lora_path = os.path.join(run_dir, "checkpoint-1382")
-+run_dir = r"logs\exp01_hparams\peft_64_Tu_Po\fit_..."
++run_dir = r"D:\Dissertacao\slm_tupi\experiments\exp01_hparams\logs\exp01_hparams\peft_64_Tu_Po\fit_10_31_23_03_1.0_dataset_sintetico_aumentado-SEED42"
++run_seed = seed_of_run(run_dir)  # from the -SEED<N> suffix of the run folder
 +lora_path = os.path.join(run_dir, "checkpoint-516")
 ```
 
@@ -198,7 +222,7 @@ Células sem alteração: `cc53fead`, `bef846ff`, `dc785f2d`, `7d76bd4e`, `4e276
 
 ```diff
 -    os.path.join(run_dir, "predictions.csv" if use_lora else "predictions_base.csv"),
-+    os.path.join(run_dir, "predictions_exp01_hparams.csv" if use_lora else "predictions_base.csv"),
++    os.path.join(run_dir, f"predictions_exp01_hparams-SEED{run_seed}.csv" if use_lora else f"predictions_base-SEED{run_seed}.csv"),
 ```
 
 Células sem alteração: nenhuma.
@@ -260,7 +284,11 @@ Células sem alteração: nenhuma.
 +    lora_alpha = hp.lora_alpha
 +    lora_dropout = hp.lora_dropout
 -            f"logs/peft_{r}_{src_lng[:2]}_{tgt_lng[:2]}/"
+-            f"fit_{formatted_time}_{train_ratio}_{input_file_name}"
 +            f"logs/{experiment.name}/peft_{r}_{src_lng[:2]}_{tgt_lng[:2]}/"
++            f"fit_{formatted_time}_{train_ratio}_{input_file_name}-SEED{train_seed}"
+-            f"fit_{formatted_time}_{train_ratio}_{input_file_name}"
++            f"fit_{formatted_time}_{train_ratio}_{input_file_name}-SEED{train_seed}"
 ```
 
 **Célula `75c796c5`**
@@ -304,7 +332,8 @@ Células sem alteração: `cc53fead`, `bef846ff`, `dc785f2d`, `7d76bd4e`, `4e276
 ```diff
 +
 +sys.path.append("D:\\Dissertacao\\slm_tupi\\experiments")
-+from tupi_exp.config import SUBCONJUNTO
++from tupi_exp.config import BASELINE_VAL_SHA256, SUBCONJUNTO, seed_of_run
++from tupi_exp.splits import ids_hash
 +from tupi_exp.lexicon import load_lexicon, render_prompt
 ```
 
@@ -314,12 +343,16 @@ Células sem alteração: `cc53fead`, `bef846ff`, `dc785f2d`, `7d76bd4e`, `4e276
 -run_dir = r"D:\Dissertacao\slm_tupi\notebooks\logs\peft_128_Tu_Po\fit_10_29_23_27_1.0_dataset_sintetico_aumentado"
 -lora_path = os.path.join(run_dir, "checkpoint-1382")
 +run_dir = r"logs\exp02_lexicon\peft_64_Tu_Po\fit_..."
++run_seed = seed_of_run(run_dir)  # from the -SEED<N> suffix of the run folder
 +lora_path = os.path.join(run_dir, "checkpoint-516")
 ```
 
 **Célula `f0e0d8aa`**
 
 ```diff
++# The glossary comes from the train split of the seed in config.py: the run must use that same seed (P4)
++assert ids_hash(df["id"]) == BASELINE_VAL_SHA256, "run_dir belongs to another seed: set SEED in config.py"
++
 +lexicon = load_lexicon()
 -    prompt = create_prompt(row, src_lng="Tupi", tgt_lng="Português", mode="inference", tokenizer=tokenizer)["full_prompt"]
 +    prompt = render_prompt(row, lexicon, src_lng="Tupi", tgt_lng="Português", mode="inference", tokenizer=tokenizer, example_id=row["id"])["full_prompt"]
@@ -330,7 +363,7 @@ Células sem alteração: `cc53fead`, `bef846ff`, `dc785f2d`, `7d76bd4e`, `4e276
 
 ```diff
 -    os.path.join(run_dir, "predictions.csv" if use_lora else "predictions_base.csv"),
-+    os.path.join(run_dir, "predictions_exp02_lexicon.csv" if use_lora else "predictions_base.csv"),
++    os.path.join(run_dir, f"predictions_exp02_lexicon-SEED{run_seed}.csv" if use_lora else f"predictions_base-SEED{run_seed}.csv"),
 ```
 
 Células sem alteração: nenhuma.
@@ -392,7 +425,11 @@ Células sem alteração: nenhuma.
 +    lora_alpha = hp.lora_alpha
 +    lora_dropout = hp.lora_dropout
 -            f"logs/peft_{r}_{src_lng[:2]}_{tgt_lng[:2]}/"
+-            f"fit_{formatted_time}_{train_ratio}_{input_file_name}"
 +            f"logs/{experiment.name}/peft_{r}_{src_lng[:2]}_{tgt_lng[:2]}/"
++            f"fit_{formatted_time}_{train_ratio}_{input_file_name}-SEED{train_seed}"
+-            f"fit_{formatted_time}_{train_ratio}_{input_file_name}"
++            f"fit_{formatted_time}_{train_ratio}_{input_file_name}-SEED{train_seed}"
 ```
 
 **Célula `75c796c5`**
@@ -437,7 +474,7 @@ Células sem alteração: `cc53fead`, `bef846ff`, `dc785f2d`, `7d76bd4e`, `4e276
 ```diff
 +
 +sys.path.append("D:\\Dissertacao\\slm_tupi\\experiments")
-+from tupi_exp.config import SUBCONJUNTO
++from tupi_exp.config import SUBCONJUNTO, seed_of_run
 ```
 
 **Célula `9dbd3152`**
@@ -446,6 +483,7 @@ Células sem alteração: `cc53fead`, `bef846ff`, `dc785f2d`, `7d76bd4e`, `4e276
 -run_dir = r"D:\Dissertacao\slm_tupi\notebooks\logs\peft_128_Tu_Po\fit_10_29_23_27_1.0_dataset_sintetico_aumentado"
 -lora_path = os.path.join(run_dir, "checkpoint-1382")
 +run_dir = r"logs\exp03_split_aug\peft_64_Tu_Po\fit_..."
++run_seed = seed_of_run(run_dir)  # from the -SEED<N> suffix of the run folder
 +lora_path = os.path.join(run_dir, "checkpoint-528")
 ```
 
@@ -459,7 +497,7 @@ Células sem alteração: `cc53fead`, `bef846ff`, `dc785f2d`, `7d76bd4e`, `4e276
 
 ```diff
 -    os.path.join(run_dir, "predictions.csv" if use_lora else "predictions_base.csv"),
-+    os.path.join(run_dir, "predictions_exp03_split_aug.csv" if use_lora else "predictions_base.csv"),
++    os.path.join(run_dir, f"predictions_exp03_split_aug-SEED{run_seed}.csv" if use_lora else f"predictions_base-SEED{run_seed}.csv"),
 ```
 
 Células sem alteração: nenhuma.

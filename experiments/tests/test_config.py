@@ -10,11 +10,14 @@ from tupi_exp.config import (
     BASELINE,
     EXPERIMENTS,
     HP_V2,
+    SEED,
     TARGET_MODULES,
+    Experiment,
     check_lora_model,
     get_experiment,
     get_profile,
     qwen2_lora_params,
+    seed_of_run,
     spec_steps,
     trainer_steps,
 )
@@ -77,11 +80,20 @@ def test_hp_v2_changes_only_the_listed_fields():
         (r"num_train_epochs=(\d+),", BASELINE.num_train_epochs),
         (r"eval_steps=(\d+)", BASELINE.eval_steps),
         (r"logging_steps = (\d+)", BASELINE.logging_steps),
-        (r"seed=(\d+)\n", BASELINE.seed),
     ],
 )
 def test_baseline_profile_follows_the_notebook(pattern, value):
     assert float(re.search(pattern, notebook_source()).group(1)) == float(value)
+
+
+def test_the_config_seed_drives_the_training():
+    assert HP_V2.seed == SEED
+
+
+def test_seed_of_run_reads_the_folder_suffix():
+    assert seed_of_run(r"logs\exp01_hparams\peft_64_Tu_Po\fit_10_31_23_03_1.0_dataset_sintetico_aumentado-SEED42") == 42
+    assert seed_of_run("logs/exp01_hparams/peft_64_Tu_Po/fit_x-SEED7/") == 7
+    assert seed_of_run("logs/exp01_hparams/peft_64_Tu_Po/fit_...") == SEED
 
 
 def test_steps_for_the_current_and_the_spec_train_sizes():
@@ -100,6 +112,13 @@ def test_named_lookups():
     assert get_profile("hp_v2") is HP_V2
     assert get_experiment("exp01_hparams").profile is HP_V2
     assert {exp.profile for exp in EXPERIMENTS.values()} == {HP_V2}
+
+
+def test_missing_data_of_a_seed_is_explained(monkeypatch):
+    missing = Experiment("missing", os.path.join(ROOT, "data", "no_such_file.json"), "atual", 128, HP_V2)
+    monkeypatch.setitem(EXPERIMENTS, "missing", missing)
+    with pytest.raises(FileNotFoundError, match="split_augment"):
+        get_experiment("missing")
 
 
 def tiny_lora_model(r, lora_alpha):

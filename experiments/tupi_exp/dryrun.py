@@ -9,7 +9,16 @@ import math
 import statistics
 from dataclasses import asdict
 
-from tupi_exp.config import BASE_MODEL, BASELINE_VAL_SHA256, EXPERIMENTS, get_experiment, qwen2_lora_params, spec_steps, trainer_steps
+from tupi_exp.config import (
+    BASE_MODEL,
+    BASELINE_RUNS_SHA256,
+    EXPERIMENTS,
+    SPLIT_SEED,
+    get_experiment,
+    qwen2_lora_params,
+    spec_steps,
+    trainer_steps,
+)
 from tupi_exp.lexicon import check_no_leak, load_lexicon, render_prompt, select_entries
 from tupi_exp.normalize import tupi_key
 from tupi_exp.splits import ids_hash, load_split, reproduce_split
@@ -110,15 +119,19 @@ def run_experiment(name, tokenizer, model_config):
 
     # Same validation everywhere (P6)
     val_hash = ids_hash(val_ids)
-    assert val_hash == BASELINE_VAL_SHA256, f"validation differs from the baseline: {val_hash}"
+    baseline_hash = BASELINE_RUNS_SHA256.get(SPLIT_SEED)
+    assert baseline_hash in (None, val_hash), f"validation differs from the baseline: {val_hash}"
     assert ids_hash(reproduce_split()[1]) == val_hash, "saved split differs from the code"
-    print(f"Validação: {len(val_rows)} exemplos | hash {val_hash} (igual ao baseline)")
+    print(f"Semente: {SPLIT_SEED} | validação: {len(val_rows)} exemplos | hash {val_hash}")
+    if baseline_hash is None:
+        print(f"AVISO: ainda não há execução de baseline com a seed {SPLIT_SEED} para comparar")
 
     # No leakage (P4)
     train_set = {row["id"] for row in train_rows}
     assert set(base_train_ids) <= train_set, "a train id of the baseline is missing"
     val_keys = {tupi_key(row["input"]) for row in val_rows}
     assert not val_keys & {tupi_key(row["input"]) for row in train_rows}, "validation sentence in train"
+    assert not {row.get("id_origem") for row in train_rows} & set(val_ids), "train row derived from a validation sentence"
     fontes = collections.Counter(row["fonte"] for row in train_rows)
     print(f"Treino: {len(train_rows)} exemplos {dict(fontes)} | interseção com validação: 0")
 
@@ -182,8 +195,8 @@ def main():
     args = parser.parse_args()
 
     tokenizer, model_config = load_tokenizer(), load_model_config()
-    for name in args.experiment or sorted(EXPERIMENTS):
-        run_experiment(name, tokenizer, model_config)
+    results = [run_experiment(name, tokenizer, model_config) for name in args.experiment or sorted(EXPERIMENTS)]
+    assert len({result["val_hash"] for result in results}) == 1, "experiments with different validation sets"
     print("\nDry-run concluído: todas as verificações passaram.")
 
 

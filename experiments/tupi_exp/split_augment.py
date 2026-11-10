@@ -1,6 +1,6 @@
 """Partition of long historical sentences, on the train split only (G4).
 
-Writes data/dataset_augmentation_v3.json, splits/ and experiments/reports/split_augment.md.
+Writes data/dataset_augmentation_v3_seed<N>.json, splits/ and experiments/reports/split_augment_seed<N>.md.
 Run from experiments/: python -m tupi_exp.split_augment [--contiguous-windows]
 """
 import argparse
@@ -10,7 +10,7 @@ import re
 import statistics
 
 from tupi_exp import REPORTS_DIR
-from tupi_exp.config import BASELINE_VAL_SHA256, SPLIT_SEED, V2_PATH, V3_PATH
+from tupi_exp.config import BASELINE_RUNS_SHA256, SPLIT_SEED, V2_PATH, v3_path
 from tupi_exp.normalize import search_tokens, tupi_key
 from tupi_exp.splits import ids_hash, reproduce_split, save_split
 
@@ -117,11 +117,11 @@ def build_v3(rows, train_ids, val_ids, *, percentile=DEFAULT_PERCENTILE, contigu
     return rows + new_rows, stats, examples
 
 
-def render_report(stats, examples, n_train, val_hash, contiguous_windows):
+def render_report(stats, examples, n_train, val_hash, contiguous_windows, seed, output_name):
     lines = [
         "# Partição de frases históricas longas (`exp03_split_aug`)",
         "",
-        f"Saída: `data/dataset_augmentation_v3.json`. Janelas contíguas: {'ligadas' if contiguous_windows else 'desligadas'}.",
+        f"Saída: `data/{output_name}`. Semente: {seed}. Janelas contíguas: {'ligadas' if contiguous_windows else 'desligadas'}.",
         "",
         f"\"Longa\" significa mais de {stats['limiar_palavras']:.0f} palavras em Tupi: percentil {stats['percentil']} das {stats['historicos_treino']} frases históricas do treino.",
         "",
@@ -151,6 +151,29 @@ def render_report(stats, examples, n_train, val_hash, contiguous_windows):
     return "\n".join(lines)
 
 
+def generate(seed, *, percentile=DEFAULT_PERCENTILE, contiguous_windows=False):
+    """Writes the split, the v3 and the report of a seed. Returns (statistics, validation ids, their hash)."""
+    train_ids, val_ids = reproduce_split(V2_PATH, seed)
+    val_hash = ids_hash(val_ids)
+    assert BASELINE_RUNS_SHA256.get(seed) in (None, val_hash), f"validation differs from the baseline: {val_hash}"
+    save_split(train_ids, val_ids, seed)
+
+    with open(V2_PATH, encoding="utf-8") as f:
+        rows = json.load(f)
+    v3_rows, stats, examples = build_v3(
+        rows, train_ids, val_ids, percentile=percentile, contiguous_windows=contiguous_windows
+    )
+    output_path = v3_path(seed)
+    with open(output_path, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(v3_rows, f, ensure_ascii=False, indent=4)
+
+    os.makedirs(REPORTS_DIR, exist_ok=True)
+    report = render_report(stats, examples, len(train_ids), val_hash, contiguous_windows, seed, os.path.basename(output_path))
+    with open(os.path.join(REPORTS_DIR, f"split_augment_seed{seed}.md"), "w", encoding="utf-8", newline="\n") as f:
+        f.write(report)
+    return stats, val_ids, val_hash
+
+
 def main():
     parser = argparse.ArgumentParser(description="Partition long historical sentences of the train split")
     parser.add_argument("--percentile", type=int, default=DEFAULT_PERCENTILE)
@@ -158,25 +181,7 @@ def main():
     parser.add_argument("--seed", type=int, default=SPLIT_SEED, help="Split seed")
     args = parser.parse_args()
 
-    train_ids, val_ids = reproduce_split(V2_PATH, args.seed)
-    val_hash = ids_hash(val_ids)
-    if args.seed == SPLIT_SEED:
-        assert val_hash == BASELINE_VAL_SHA256, f"validation differs from the baseline: {val_hash}"
-    save_split(train_ids, val_ids, args.seed)
-
-    with open(V2_PATH, encoding="utf-8") as f:
-        rows = json.load(f)
-    v3_rows, stats, examples = build_v3(
-        rows, train_ids, val_ids, percentile=args.percentile, contiguous_windows=args.contiguous_windows
-    )
-    with open(V3_PATH, "w", encoding="utf-8", newline="\n") as f:
-        json.dump(v3_rows, f, ensure_ascii=False, indent=4)
-
-    os.makedirs(REPORTS_DIR, exist_ok=True)
-    report = render_report(stats, examples, len(train_ids), val_hash, args.contiguous_windows)
-    with open(os.path.join(REPORTS_DIR, "split_augment.md"), "w", encoding="utf-8", newline="\n") as f:
-        f.write(report)
-
+    stats, val_ids, val_hash = generate(args.seed, percentile=args.percentile, contiguous_windows=args.contiguous_windows)
     for name, value in stats.items():
         print(f"{name}: {value}")
     print(f"validação: {len(val_ids)} ids, hash {val_hash}")
